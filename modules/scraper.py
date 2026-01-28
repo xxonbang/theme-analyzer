@@ -11,7 +11,8 @@ from config.settings import (
     KOSPI_API_URL,
     KOSDAQ_API_URL,
     STOCK_DETAIL_URL,
-    MAX_STOCKS_PER_MARKET,
+    MAX_KOSPI_STOCKS,
+    MAX_KOSDAQ_STOCKS,
     VIEWPORT_WIDTH,
     VIEWPORT_HEIGHT,
     DEVICE_SCALE_FACTOR,
@@ -21,7 +22,7 @@ from config.settings import (
 from modules.utils import get_today_capture_dir
 
 
-async def fetch_stock_list_from_api(page: Page, api_url: str, market: str) -> list[dict]:
+async def fetch_stock_list_from_api(page: Page, api_url: str, market: str, max_stocks: int) -> list[dict]:
     """신버전 API에서 거래량 상위 종목 리스트 추출"""
     print(f"[{market}] API 호출: {api_url[:80]}...")
 
@@ -29,7 +30,7 @@ async def fetch_stock_list_from_api(page: Page, api_url: str, market: str) -> li
     data = await response.json()
 
     stocks = []
-    for item in data[:MAX_STOCKS_PER_MARKET]:
+    for item in data[:max_stocks]:
         stocks.append({
             "code": item.get("itemcode"),
             "name": item.get("itemname"),
@@ -40,21 +41,21 @@ async def fetch_stock_list_from_api(page: Page, api_url: str, market: str) -> li
     return stocks
 
 
-async def collect_top100_stocks() -> list[dict]:
-    """코스피 + 코스닥 상위 100개 종목 수집 (API 방식)"""
+async def collect_all_stocks() -> list[dict]:
+    """코스피 50개 + 코스닥 70개 = 총 120개 종목 수집 (API 방식)"""
     print("\n=== Phase 1: 종목 리스트 수집 (신버전 API) ===\n")
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
         page = await browser.new_page()
 
-        kospi = await fetch_stock_list_from_api(page, KOSPI_API_URL, "코스피")
-        kosdaq = await fetch_stock_list_from_api(page, KOSDAQ_API_URL, "코스닥")
+        kospi = await fetch_stock_list_from_api(page, KOSPI_API_URL, "코스피", MAX_KOSPI_STOCKS)
+        kosdaq = await fetch_stock_list_from_api(page, KOSDAQ_API_URL, "코스닥", MAX_KOSDAQ_STOCKS)
 
         await browser.close()
 
     all_stocks = kospi + kosdaq
-    print(f"\n총 {len(all_stocks)}개 종목 수집 완료")
+    print(f"\n총 {len(all_stocks)}개 종목 수집 완료 (코스피 {len(kospi)}개 + 코스닥 {len(kosdaq)}개)")
     return all_stocks
 
 
@@ -135,10 +136,16 @@ async def capture_all_screenshots(stocks: list[dict]) -> list[dict]:
 async def run_scraper(stocks: list[dict] = None) -> list[dict]:
     """스크래퍼 메인 실행"""
     if stocks is None:
-        stocks = await collect_top100_stocks()
+        stocks = await collect_all_stocks()
 
     results = await capture_all_screenshots(stocks)
     return results
+
+
+# 하위 호환성을 위한 별칭
+async def collect_top100_stocks() -> list[dict]:
+    """collect_all_stocks의 별칭 (하위 호환성)"""
+    return await collect_all_stocks()
 
 
 if __name__ == "__main__":

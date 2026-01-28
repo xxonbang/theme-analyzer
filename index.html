@@ -868,11 +868,11 @@
     <main>
         <section class="hero">
             <h1>AI Vision <span>Stock Signal</span> Analyzer</h1>
-            <p>Gemini 2.5 Flash Vision API를 활용하여 국내 주식 거래량 상위 100개 종목을 자동으로 분석합니다.</p>
+            <p>Gemini 2.5 Flash Vision API를 활용하여 국내 주식 거래량 상위 120개 종목을 자동으로 분석합니다.</p>
             <div class="hero-badges">
                 <span class="badge">🤖 Gemini 2.5 Flash</span>
                 <span class="badge">📸 Playwright</span>
-                <span class="badge">🇰🇷 KOSPI + KOSDAQ</span>
+                <span class="badge">🇰🇷 KOSPI 50 + KOSDAQ 70</span>
                 <span class="badge">⚡ 배치 분석</span>
             </div>
         </section>
@@ -899,7 +899,7 @@
                 <div class="feature-card">
                     <div class="feature-icon blue">📊</div>
                     <h3>실시간 데이터 수집</h3>
-                    <p>네이버 증권 API에서 거래량 상위 100개 종목을 실시간으로 수집합니다.</p>
+                    <p>네이버 증권 API에서 거래량 상위 120개 종목을 실시간으로 수집합니다.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon cyan">📸</div>
@@ -909,7 +909,7 @@
                 <div class="feature-card">
                     <div class="feature-icon mint">🤖</div>
                     <h3>AI 배치 분석</h3>
-                    <p>100개 이미지를 한 번에 분석하여 API 효율을 극대화합니다.</p>
+                    <p>120개 이미지를 한 번에 분석하여 API 효율을 극대화합니다.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon amber">📈</div>
@@ -925,7 +925,7 @@
                 <div class="step">
                     <div class="step-number">1</div>
                     <h4>종목 수집</h4>
-                    <p>API로 거래량 상위 100개 종목 획득</p>
+                    <p>API로 거래량 상위 120개 종목 획득</p>
                 </div>
                 <div class="step">
                     <div class="step-number">2</div>
@@ -935,7 +935,7 @@
                 <div class="step">
                     <div class="step-number">3</div>
                     <h4>AI 분석</h4>
-                    <p>100개 이미지 배치 분석</p>
+                    <p>120개 이미지 배치 분석</p>
                 </div>
                 <div class="step">
                     <div class="step-number">4</div>
@@ -989,9 +989,9 @@
         }
 
         function categorizeStocks(results) {
-            // First 50 are KOSPI, next 50 are KOSDAQ (based on collection order)
+            // First 50 are KOSPI, next 70 are KOSDAQ (based on collection order)
             const kospi = results.slice(0, 50);
-            const kosdaq = results.slice(50, 100);
+            const kosdaq = results.slice(50, 120);
             return { kospi, kosdaq };
         }
 

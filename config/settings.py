@@ -21,11 +21,13 @@ GEMINI_API_KEYS = [k for k in GEMINI_API_KEYS if k]  # None 제거
 
 # 타겟 URL (신버전 stock.naver.com)
 KOSPI_API_URL = "https://stock.naver.com/api/domestic/market/stock/default?tradeType=KRX&marketType=KOSPI&orderType=quantTop&startIdx=0&pageSize=50"
-KOSDAQ_API_URL = "https://stock.naver.com/api/domestic/market/stock/default?tradeType=KRX&marketType=KOSDAQ&orderType=quantTop&startIdx=0&pageSize=50"
+KOSDAQ_API_URL = "https://stock.naver.com/api/domestic/market/stock/default?tradeType=KRX&marketType=KOSDAQ&orderType=quantTop&startIdx=0&pageSize=70"
 STOCK_DETAIL_URL = "https://stock.naver.com/domestic/stock/{code}"
 
 # 스크래핑 설정
-MAX_STOCKS_PER_MARKET = 50
+MAX_KOSPI_STOCKS = 50
+MAX_KOSDAQ_STOCKS = 70
+MAX_STOCKS_PER_MARKET = 50  # 하위 호환성 유지
 VIEWPORT_WIDTH = 1920
 VIEWPORT_HEIGHT = 1080
 DEVICE_SCALE_FACTOR = 2
