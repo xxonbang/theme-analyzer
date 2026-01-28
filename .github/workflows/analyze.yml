@@ -19,6 +19,9 @@ concurrency:
   group: stock-analysis
   cancel-in-progress: false
 
+permissions:
+  contents: write
+
 jobs:
   check-market:
     runs-on: ubuntu-latest
