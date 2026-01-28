@@ -9,36 +9,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            /* 2026 Modern Dark Theme - Navy Base */
-            --bg-primary: #0f172a;
-            --bg-secondary: #1e293b;
-            --bg-card: #334155;
-            --bg-card-hover: #3f4f66;
+            /* 2026 Light Theme - Cloud Dancer Inspired */
+            --bg-primary: #f8f9fa;
+            --bg-secondary: #ffffff;
+            --bg-card: #ffffff;
+            --bg-card-hover: #f1f3f4;
+            --bg-accent: #e8f4fd;
 
-            /* Text Colors - Soft whites for readability */
-            --text-primary: #f1f5f9;
-            --text-secondary: #94a3b8;
-            --text-muted: #64748b;
+            /* Text Colors - High Contrast for Readability */
+            --text-primary: #1a1a2e;
+            --text-secondary: #4a5568;
+            --text-muted: #718096;
 
-            /* Accent Colors - Modern & Harmonious */
-            --accent-primary: #3b82f6;
-            --accent-primary-hover: #2563eb;
-            --accent-secondary: #06b6d4;
-            --accent-mint: #2dd4bf;
+            /* Accent Colors - Vibrant but Balanced */
+            --accent-primary: #2563eb;
+            --accent-primary-light: #3b82f6;
+            --accent-secondary: #0891b2;
+            --accent-mint: #0d9488;
 
-            /* Signal Colors */
-            --signal-strong-buy: #10b981;
-            --signal-buy: #22c55e;
-            --signal-neutral: #f59e0b;
-            --signal-sell: #f97316;
-            --signal-strong-sell: #ef4444;
+            /* Signal Colors - Clear & Distinct */
+            --signal-strong-buy: #059669;
+            --signal-buy: #10b981;
+            --signal-neutral: #d97706;
+            --signal-sell: #ea580c;
+            --signal-strong-sell: #dc2626;
 
             /* Borders & Shadows */
-            --border-color: rgba(148, 163, 184, 0.1);
-            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
-            --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
-            --shadow-lg: 0 10px 40px rgba(0, 0, 0, 0.5);
-            --shadow-glow: 0 0 30px rgba(59, 130, 246, 0.15);
+            --border-color: #e2e8f0;
+            --border-light: #f1f5f9;
+            --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+            --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+            --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.1);
         }
 
         * {
@@ -51,8 +52,9 @@
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
             background: var(--bg-primary);
             color: var(--text-primary);
-            line-height: 1.6;
+            line-height: 1.7;
             min-height: 100vh;
+            font-size: 15px;
         }
 
         /* Navigation */
@@ -61,7 +63,7 @@
             top: 0;
             left: 0;
             right: 0;
-            background: rgba(15, 23, 42, 0.9);
+            background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(12px);
             border-bottom: 1px solid var(--border-color);
             z-index: 100;
@@ -69,7 +71,7 @@
         }
 
         .nav-content {
-            max-width: 1400px;
+            max-width: 1200px;
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
@@ -78,7 +80,7 @@
         }
 
         .logo {
-            font-size: 1.25rem;
+            font-size: 1.2rem;
             font-weight: 700;
             color: var(--text-primary);
             display: flex;
@@ -87,24 +89,26 @@
         }
 
         .logo-icon {
-            width: 32px;
-            height: 32px;
+            width: 36px;
+            height: 36px;
             background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
-            border-radius: 8px;
+            border-radius: 10px;
             display: flex;
             align-items: center;
             justify-content: center;
+            color: white;
+            font-size: 1.1rem;
         }
 
         .nav-links {
             display: flex;
-            gap: 8px;
+            gap: 4px;
         }
 
         .nav-links a {
             color: var(--text-secondary);
             text-decoration: none;
-            padding: 8px 16px;
+            padding: 10px 18px;
             border-radius: 8px;
             font-size: 0.9rem;
             font-weight: 500;
@@ -112,13 +116,13 @@
         }
 
         .nav-links a:hover, .nav-links a.active {
-            color: var(--text-primary);
-            background: var(--bg-secondary);
+            color: var(--accent-primary);
+            background: var(--bg-accent);
         }
 
         /* Main Content */
         main {
-            max-width: 1400px;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 100px 24px 60px;
         }
@@ -126,30 +130,36 @@
         /* Hero Section */
         .hero {
             text-align: center;
-            padding: 60px 0 80px;
+            padding: 50px 0 60px;
         }
 
         .hero h1 {
-            font-size: 3rem;
+            font-size: 2.5rem;
             font-weight: 700;
             margin-bottom: 16px;
-            background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-secondary) 50%, var(--accent-mint) 100%);
+            color: var(--text-primary);
+            letter-spacing: -0.5px;
+        }
+
+        .hero h1 span {
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
 
         .hero p {
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             color: var(--text-secondary);
-            max-width: 600px;
-            margin: 0 auto 32px;
+            max-width: 550px;
+            margin: 0 auto 28px;
+            line-height: 1.8;
         }
 
         .hero-badges {
             display: flex;
             justify-content: center;
-            gap: 12px;
+            gap: 10px;
             flex-wrap: wrap;
         }
 
@@ -157,38 +167,37 @@
             background: var(--bg-secondary);
             border: 1px solid var(--border-color);
             padding: 8px 16px;
-            border-radius: 20px;
+            border-radius: 24px;
             font-size: 0.85rem;
             color: var(--text-secondary);
+            font-weight: 500;
         }
 
         /* Section Titles */
         .section-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
             margin-bottom: 24px;
         }
 
         .section-title {
-            font-size: 1.5rem;
-            font-weight: 600;
+            font-size: 1.4rem;
+            font-weight: 700;
             color: var(--text-primary);
+            margin-bottom: 6px;
         }
 
         .section-subtitle {
             color: var(--text-muted);
-            font-size: 0.9rem;
+            font-size: 0.95rem;
         }
 
         /* Analysis Results Section */
         .results-section {
-            margin-bottom: 60px;
+            margin-bottom: 50px;
         }
 
         .results-meta {
             display: flex;
-            gap: 24px;
+            gap: 16px;
             margin-bottom: 24px;
             flex-wrap: wrap;
         }
@@ -197,35 +206,38 @@
             background: var(--bg-secondary);
             border: 1px solid var(--border-color);
             border-radius: 12px;
-            padding: 16px 24px;
+            padding: 16px 20px;
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 14px;
+            box-shadow: var(--shadow-sm);
         }
 
         .meta-icon {
-            width: 40px;
-            height: 40px;
+            width: 44px;
+            height: 44px;
             border-radius: 10px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.2rem;
+            font-size: 1.3rem;
         }
 
-        .meta-icon.date { background: rgba(59, 130, 246, 0.15); }
-        .meta-icon.count { background: rgba(6, 182, 212, 0.15); }
+        .meta-icon.date { background: #dbeafe; }
+        .meta-icon.count { background: #d1fae5; }
 
         .meta-label {
-            font-size: 0.8rem;
+            font-size: 0.75rem;
             color: var(--text-muted);
             text-transform: uppercase;
             letter-spacing: 0.5px;
+            font-weight: 600;
+            margin-bottom: 2px;
         }
 
         .meta-value {
             font-size: 1.1rem;
-            font-weight: 600;
+            font-weight: 700;
             color: var(--text-primary);
         }
 
@@ -234,7 +246,7 @@
             display: grid;
             grid-template-columns: repeat(5, 1fr);
             gap: 12px;
-            margin-bottom: 32px;
+            margin-bottom: 28px;
         }
 
         @media (max-width: 768px) {
@@ -247,9 +259,10 @@
             background: var(--bg-secondary);
             border: 1px solid var(--border-color);
             border-radius: 12px;
-            padding: 20px;
+            padding: 20px 16px;
             text-align: center;
             transition: all 0.2s;
+            box-shadow: var(--shadow-sm);
         }
 
         .signal-card:hover {
@@ -266,21 +279,22 @@
         .signal-label {
             font-size: 0.85rem;
             color: var(--text-secondary);
+            font-weight: 500;
         }
 
-        .signal-card.strong-buy { border-top: 3px solid var(--signal-strong-buy); }
+        .signal-card.strong-buy { border-left: 4px solid var(--signal-strong-buy); }
         .signal-card.strong-buy .signal-count { color: var(--signal-strong-buy); }
 
-        .signal-card.buy { border-top: 3px solid var(--signal-buy); }
+        .signal-card.buy { border-left: 4px solid var(--signal-buy); }
         .signal-card.buy .signal-count { color: var(--signal-buy); }
 
-        .signal-card.neutral { border-top: 3px solid var(--signal-neutral); }
+        .signal-card.neutral { border-left: 4px solid var(--signal-neutral); }
         .signal-card.neutral .signal-count { color: var(--signal-neutral); }
 
-        .signal-card.sell { border-top: 3px solid var(--signal-sell); }
+        .signal-card.sell { border-left: 4px solid var(--signal-sell); }
         .signal-card.sell .signal-count { color: var(--signal-sell); }
 
-        .signal-card.strong-sell { border-top: 3px solid var(--signal-strong-sell); }
+        .signal-card.strong-sell { border-left: 4px solid var(--signal-strong-sell); }
         .signal-card.strong-sell .signal-count { color: var(--signal-strong-sell); }
 
         /* Results Table */
@@ -289,6 +303,7 @@
             border: 1px solid var(--border-color);
             border-radius: 16px;
             overflow: hidden;
+            box-shadow: var(--shadow-sm);
         }
 
         .results-table {
@@ -297,11 +312,11 @@
         }
 
         .results-table th {
-            background: var(--bg-card);
-            padding: 16px 20px;
+            background: var(--bg-primary);
+            padding: 14px 20px;
             text-align: left;
             font-size: 0.8rem;
-            font-weight: 600;
+            font-weight: 700;
             color: var(--text-muted);
             text-transform: uppercase;
             letter-spacing: 0.5px;
@@ -310,8 +325,8 @@
 
         .results-table td {
             padding: 16px 20px;
-            border-bottom: 1px solid var(--border-color);
-            vertical-align: top;
+            border-bottom: 1px solid var(--border-light);
+            vertical-align: middle;
         }
 
         .results-table tr:last-child td {
@@ -319,75 +334,70 @@
         }
 
         .results-table tr:hover {
-            background: var(--bg-card);
+            background: var(--bg-primary);
         }
 
         .stock-name {
             font-weight: 600;
             color: var(--text-primary);
+            font-size: 0.95rem;
         }
 
         .stock-code {
-            font-size: 0.85rem;
+            font-size: 0.8rem;
             color: var(--text-muted);
-            font-family: monospace;
-        }
-
-        .stock-market {
-            font-size: 0.75rem;
-            color: var(--text-muted);
-            background: var(--bg-card);
-            padding: 2px 8px;
-            border-radius: 4px;
-            margin-left: 8px;
+            font-family: 'SF Mono', Monaco, monospace;
+            margin-top: 2px;
         }
 
         .signal-badge {
             display: inline-block;
             padding: 6px 14px;
             border-radius: 20px;
-            font-size: 0.85rem;
+            font-size: 0.8rem;
             font-weight: 600;
         }
 
-        .signal-badge.적극매수 { background: rgba(16, 185, 129, 0.15); color: var(--signal-strong-buy); }
-        .signal-badge.매수 { background: rgba(34, 197, 94, 0.15); color: var(--signal-buy); }
-        .signal-badge.중립 { background: rgba(245, 158, 11, 0.15); color: var(--signal-neutral); }
-        .signal-badge.매도 { background: rgba(249, 115, 22, 0.15); color: var(--signal-sell); }
-        .signal-badge.적극매도 { background: rgba(239, 68, 68, 0.15); color: var(--signal-strong-sell); }
+        .signal-badge.적극매수 { background: #d1fae5; color: var(--signal-strong-buy); }
+        .signal-badge.매수 { background: #d1fae5; color: var(--signal-buy); }
+        .signal-badge.중립 { background: #fef3c7; color: var(--signal-neutral); }
+        .signal-badge.매도 { background: #ffedd5; color: var(--signal-sell); }
+        .signal-badge.적극매도 { background: #fee2e2; color: var(--signal-strong-sell); }
 
         .analysis-reason {
             font-size: 0.9rem;
             color: var(--text-secondary);
-            line-height: 1.5;
-            max-width: 400px;
+            line-height: 1.6;
+            max-width: 380px;
         }
 
         .time-info {
             font-size: 0.8rem;
             color: var(--text-muted);
+            line-height: 1.6;
         }
 
         /* Features Grid */
         .features-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
-            margin-bottom: 60px;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 16px;
+            margin-bottom: 50px;
         }
 
         .feature-card {
             background: var(--bg-secondary);
             border: 1px solid var(--border-color);
             border-radius: 16px;
-            padding: 28px;
+            padding: 26px;
             transition: all 0.3s;
+            box-shadow: var(--shadow-sm);
         }
 
         .feature-card:hover {
             border-color: var(--accent-primary);
-            box-shadow: var(--shadow-glow);
-            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+            transform: translateY(-2px);
         }
 
         .feature-icon {
@@ -397,18 +407,18 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.5rem;
+            font-size: 1.4rem;
             margin-bottom: 16px;
         }
 
-        .feature-icon.blue { background: rgba(59, 130, 246, 0.15); }
-        .feature-icon.cyan { background: rgba(6, 182, 212, 0.15); }
-        .feature-icon.mint { background: rgba(45, 212, 191, 0.15); }
-        .feature-icon.amber { background: rgba(245, 158, 11, 0.15); }
+        .feature-icon.blue { background: #dbeafe; }
+        .feature-icon.cyan { background: #cffafe; }
+        .feature-icon.mint { background: #ccfbf1; }
+        .feature-icon.amber { background: #fef3c7; }
 
         .feature-card h3 {
-            font-size: 1.1rem;
-            font-weight: 600;
+            font-size: 1.05rem;
+            font-weight: 700;
             margin-bottom: 8px;
             color: var(--text-primary);
         }
@@ -416,6 +426,7 @@
         .feature-card p {
             font-size: 0.9rem;
             color: var(--text-secondary);
+            line-height: 1.6;
         }
 
         /* Workflow */
@@ -423,8 +434,9 @@
             background: var(--bg-secondary);
             border: 1px solid var(--border-color);
             border-radius: 16px;
-            padding: 40px;
-            margin-bottom: 60px;
+            padding: 36px;
+            margin-bottom: 50px;
+            box-shadow: var(--shadow-sm);
         }
 
         .workflow-steps {
@@ -432,25 +444,24 @@
             justify-content: space-between;
             align-items: flex-start;
             gap: 16px;
-            margin-top: 32px;
+            margin-top: 28px;
             flex-wrap: wrap;
         }
 
         .step {
             flex: 1;
-            min-width: 180px;
+            min-width: 160px;
             text-align: center;
             position: relative;
         }
 
         .step:not(:last-child)::after {
-            content: '';
+            content: '→';
             position: absolute;
-            top: 24px;
-            right: -8px;
-            width: 16px;
-            height: 2px;
-            background: var(--border-color);
+            top: 20px;
+            right: -12px;
+            color: var(--border-color);
+            font-size: 1.2rem;
         }
 
         @media (max-width: 768px) {
@@ -467,29 +478,38 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            margin: 0 auto 16px;
+            margin: 0 auto 14px;
             font-weight: 700;
             font-size: 1.1rem;
+            color: white;
         }
 
         .step h4 {
-            font-size: 1rem;
-            font-weight: 600;
-            margin-bottom: 8px;
+            font-size: 0.95rem;
+            font-weight: 700;
+            margin-bottom: 6px;
+            color: var(--text-primary);
         }
 
         .step p {
             font-size: 0.85rem;
             color: var(--text-muted);
+            line-height: 1.5;
         }
 
         /* Footer */
         footer {
             border-top: 1px solid var(--border-color);
-            padding: 40px 24px;
+            padding: 36px 24px;
             text-align: center;
             color: var(--text-muted);
             font-size: 0.9rem;
+            background: var(--bg-secondary);
+        }
+
+        footer p:last-child {
+            margin-top: 8px;
+            font-size: 0.8rem;
         }
 
         /* Loading State */
@@ -516,9 +536,9 @@
         /* Empty State */
         .empty-state {
             text-align: center;
-            padding: 80px 20px;
+            padding: 70px 20px;
             background: var(--bg-secondary);
-            border: 1px dashed var(--border-color);
+            border: 2px dashed var(--border-color);
             border-radius: 16px;
         }
 
@@ -528,7 +548,7 @@
         }
 
         .empty-state h3 {
-            font-size: 1.2rem;
+            font-size: 1.15rem;
             margin-bottom: 8px;
             color: var(--text-primary);
         }
@@ -540,7 +560,7 @@
         /* Responsive */
         @media (max-width: 640px) {
             .hero h1 {
-                font-size: 2rem;
+                font-size: 1.8rem;
             }
 
             .results-table-wrapper {
@@ -548,7 +568,7 @@
             }
 
             .results-table {
-                min-width: 700px;
+                min-width: 650px;
             }
         }
     </style>
@@ -570,22 +590,20 @@
 
     <main>
         <section class="hero">
-            <h1>AI Vision Stock Signal Analyzer</h1>
+            <h1>AI Vision <span>Stock Signal</span> Analyzer</h1>
             <p>Gemini 2.5 Flash Vision API를 활용하여 국내 주식 거래량 상위 100개 종목을 자동으로 분석합니다.</p>
             <div class="hero-badges">
                 <span class="badge">🤖 Gemini 2.5 Flash</span>
                 <span class="badge">📸 Playwright</span>
                 <span class="badge">🇰🇷 KOSPI + KOSDAQ</span>
-                <span class="badge">⚡ GitHub Actions</span>
+                <span class="badge">⚡ 배치 분석</span>
             </div>
         </section>
 
         <section id="results" class="results-section">
             <div class="section-header">
-                <div>
-                    <h2 class="section-title">최신 분석 결과</h2>
-                    <p class="section-subtitle">거래량 상위 종목 AI 시그널 분석</p>
-                </div>
+                <h2 class="section-title">최신 분석 결과</h2>
+                <p class="section-subtitle">거래량 상위 종목 AI 시그널 분석</p>
             </div>
 
             <div id="results-container">
@@ -604,22 +622,22 @@
                 <div class="feature-card">
                     <div class="feature-icon blue">📊</div>
                     <h3>실시간 데이터 수집</h3>
-                    <p>네이버 증권 API에서 거래량 상위 100개 종목(코스피 50 + 코스닥 50)을 실시간으로 수집합니다.</p>
+                    <p>네이버 증권 API에서 거래량 상위 100개 종목을 실시간으로 수집합니다.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon cyan">📸</div>
                     <h3>고해상도 스크린샷</h3>
-                    <p>Playwright 헤드리스 브라우저로 각 종목의 상세 페이지를 고해상도로 캡처합니다.</p>
+                    <p>Playwright로 각 종목의 상세 페이지를 고해상도로 캡처합니다.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon mint">🤖</div>
-                    <h3>AI 비전 분석</h3>
-                    <p>Gemini 2.5 Flash Vision API가 차트 패턴, 이동평균선, 거래량 등을 종합 분석합니다.</p>
+                    <h3>AI 배치 분석</h3>
+                    <p>100개 이미지를 한 번에 분석하여 API 효율을 극대화합니다.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon amber">📈</div>
                     <h3>5단계 시그널</h3>
-                    <p>적극매수, 매수, 중립, 매도, 적극매도 5단계 시그널과 상세 분석 근거를 제공합니다.</p>
+                    <p>적극매수부터 적극매도까지 5단계 시그널과 분석 근거를 제공합니다.</p>
                 </div>
             </div>
         </section>
@@ -630,40 +648,37 @@
                 <div class="step">
                     <div class="step-number">1</div>
                     <h4>종목 수집</h4>
-                    <p>API로 거래량 상위 100개 종목 리스트 획득</p>
+                    <p>API로 거래량 상위 100개 종목 획득</p>
                 </div>
                 <div class="step">
                     <div class="step-number">2</div>
                     <h4>스크린샷</h4>
-                    <p>각 종목 상세 페이지 풀스크린 캡처</p>
+                    <p>각 종목 페이지 풀스크린 캡처</p>
                 </div>
                 <div class="step">
                     <div class="step-number">3</div>
                     <h4>AI 분석</h4>
-                    <p>Gemini Vision으로 차트 및 지표 분석</p>
+                    <p>100개 이미지 배치 분석</p>
                 </div>
                 <div class="step">
                     <div class="step-number">4</div>
                     <h4>리포트</h4>
-                    <p>JSON/Markdown 형식으로 결과 저장</p>
+                    <p>결과 저장 및 웹 표시</p>
                 </div>
             </div>
         </section>
-
     </main>
 
     <footer>
         <p>AI Vision Stock Signal Analyzer (AVSSA) | Powered by Gemini 2.5 Flash Vision API</p>
-        <p style="margin-top: 8px; font-size: 0.8rem;">본 서비스는 투자 참고용이며, 투자 결정에 대한 책임은 투자자 본인에게 있습니다.</p>
+        <p>본 서비스는 투자 참고용이며, 투자 결정에 대한 책임은 투자자 본인에게 있습니다.</p>
     </footer>
 
     <script>
-        // 분석 결과 로드
         async function loadResults() {
             const container = document.getElementById('results-container');
 
             try {
-                // GitHub Pages에서 results.json 파일 로드 시도
                 const response = await fetch('./results/latest.json');
 
                 if (!response.ok) {
@@ -673,7 +688,6 @@
                 const data = await response.json();
                 renderResults(data);
             } catch (error) {
-                // 결과가 없을 경우 빈 상태 표시
                 container.innerHTML = `
                     <div class="empty-state">
                         <div class="empty-state-icon">📊</div>
@@ -687,7 +701,6 @@
         function renderResults(data) {
             const container = document.getElementById('results-container');
 
-            // 시그널 카운트 계산
             const signalCounts = {
                 '적극매수': 0,
                 '매수': 0,
@@ -758,7 +771,7 @@
                                 <tr>
                                     <td>
                                         <div class="stock-name">${r.name}</div>
-                                        <span class="stock-code">${r.code}</span>
+                                        <div class="stock-code">${r.code}</div>
                                     </td>
                                     <td>
                                         <span class="signal-badge ${r.signal}">${r.signal}</span>
@@ -780,7 +793,6 @@
             `;
         }
 
-        // 페이지 로드 시 결과 로드
         document.addEventListener('DOMContentLoaded', loadResults);
     </script>
 </body>
