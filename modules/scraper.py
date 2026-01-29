@@ -69,23 +69,23 @@ async def click_more_buttons(page: Page):
         stock_info_link = page.locator('a:has-text("종목 정보 더보기")')
         if await stock_info_link.count() > 0:
             await stock_info_link.first.click()
-            await page.wait_for_timeout(1000)
+            await page.wait_for_timeout(500)
             print("    [클릭] 종목 정보 더보기")
-    except Exception as e:
-        print(f"    [SKIP] 종목 정보 더보기: {e}")
+    except Exception:
+        pass  # 조용히 스킵
 
     # 매매동향 더보기 클릭 (a 태그)
     try:
         trading_link = page.locator('a:has-text("매매동향 더보기")')
         if await trading_link.count() > 0:
             await trading_link.first.click()
-            await page.wait_for_timeout(1000)
+            await page.wait_for_timeout(500)
             print("    [클릭] 매매동향 더보기")
-    except Exception as e:
-        print(f"    [SKIP] 매매동향 더보기: {e}")
+    except Exception:
+        pass  # 조용히 스킵
 
 
-async def capture_stock_screenshot(page: Page, stock: dict, capture_dir: Path, max_retries: int = 3) -> dict:
+async def capture_stock_screenshot(page: Page, stock: dict, capture_dir: Path, max_retries: int = 2) -> dict:
     """개별 종목 페이지 스크린샷 캡처 (태블릿 버전, 더보기 확장, 매매동향까지 포함)"""
     from PIL import Image
     import io
@@ -96,15 +96,16 @@ async def capture_stock_screenshot(page: Page, stock: dict, capture_dir: Path, m
 
     for attempt in range(max_retries):
         try:
-            await page.goto(url, wait_until="networkidle", timeout=30000)
-            await page.wait_for_timeout(2000)
+            # domcontentloaded로 변경 (networkidle보다 빠름)
+            await page.goto(url, wait_until="domcontentloaded", timeout=45000)
+            await page.wait_for_timeout(1500)
 
-            # 1. 페이지 전체 스크롤하여 모든 콘텐츠 로딩
+            # 1. 페이지 스크롤하여 콘텐츠 로딩 (간소화)
             await page.evaluate("""
                 async () => {
                     await new Promise(resolve => {
                         let total = 0;
-                        const distance = 500;
+                        const distance = 800;
                         const timer = setInterval(() => {
                             window.scrollBy(0, distance);
                             total += distance;
@@ -112,19 +113,19 @@ async def capture_stock_screenshot(page: Page, stock: dict, capture_dir: Path, m
                                 clearInterval(timer);
                                 resolve();
                             }
-                        }, 100);
+                        }, 80);
                     });
                 }
             """)
-            await page.wait_for_timeout(1000)
+            await page.wait_for_timeout(800)
 
             # 2. 스크롤을 맨 위로 복귀
             await page.evaluate("window.scrollTo(0, 0)")
-            await page.wait_for_timeout(500)
+            await page.wait_for_timeout(300)
 
             # 3. 더보기 링크들 클릭 (종목 정보, 매매동향)
             await click_more_buttons(page)
-            await page.wait_for_timeout(1500)
+            await page.wait_for_timeout(1000)
 
             # 4. 매매동향 더보기 링크 위치 찾기 (캡처 범위 결정)
             capture_height = await page.evaluate("""
@@ -194,10 +195,10 @@ async def capture_stock_screenshot(page: Page, stock: dict, capture_dir: Path, m
 
         except Exception as e:
             if attempt < max_retries - 1:
-                print(f"  [RETRY {attempt + 1}/{max_retries}] {name} ({code}): {e}")
-                await asyncio.sleep(2)
+                print(f"  [RETRY {attempt + 1}/{max_retries}] {name} ({code})")
+                await asyncio.sleep(1)
                 continue
-            print(f"  [FAIL] {name} ({code}): {e}")
+            print(f"  [FAIL] {name} ({code})")
             return {**stock, "success": False, "error": str(e)}
 
     return {**stock, "success": False, "error": "Max retries exceeded"}
