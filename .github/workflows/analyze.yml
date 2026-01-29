@@ -190,6 +190,16 @@ jobs:
             echo "has_credentials=true" >> $GITHUB_OUTPUT
           fi
 
+      # KIS 토큰 캐시 복원 (1일 1회 발급 제한 대응)
+      - name: Restore KIS token cache
+        if: steps.check_kis.outputs.has_credentials == 'true'
+        uses: actions/cache@v4
+        with:
+          path: .kis_token_cache.json
+          key: kis-token-${{ github.run_id }}
+          restore-keys: |
+            kis-token-
+
       - name: Run KIS data collection
         if: steps.check_kis.outputs.has_credentials == 'true'
         id: kis_collect
