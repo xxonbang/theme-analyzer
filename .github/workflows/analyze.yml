@@ -11,17 +11,17 @@ on:
       force_run:
         description: '휴장일에도 강제 실행'
         required: false
-        default: 'false'
+        default: false
         type: boolean
       skip_vision:
         description: 'Vision AI 분석 건너뛰기'
         required: false
-        default: 'false'
+        default: false
         type: boolean
       skip_kis:
         description: 'KIS API 분석 건너뛰기'
         required: false
-        default: 'false'
+        default: false
         type: boolean
 
 # 동시 실행 방지
@@ -100,7 +100,7 @@ jobs:
       needs.check-market.outputs.is_market_open == 'true' &&
       github.event.inputs.skip_vision != 'true'
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     outputs:
       success: ${{ steps.analysis.outputs.analysis_success }}
 
@@ -158,7 +158,7 @@ jobs:
       needs.check-market.outputs.is_market_open == 'true' &&
       github.event.inputs.skip_kis != 'true'
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     outputs:
       success: ${{ steps.kis_analysis.outputs.kis_success }}
 
@@ -219,28 +219,39 @@ jobs:
           from modules.kis_data_transformer import KISDataTransformer
           from modules.ai_engine import analyze_kis_data_batch
 
-          # KIS 데이터 로드
-          kis_data_path = Path('results/kis/latest.json')
-          if not kis_data_path.exists():
+          # KIS 원본 데이터 로드
+          kis_raw_path = Path('results/kis/latest.json')
+          if not kis_raw_path.exists():
               print('KIS 데이터 파일이 없습니다.')
               exit(1)
 
-          with open(kis_data_path, 'r', encoding='utf-8') as f:
-              kis_data = json.load(f)
+          print(f'KIS 원본 데이터 로드: {kis_raw_path}')
+          with open(kis_raw_path, 'r', encoding='utf-8') as f:
+              raw_data = json.load(f)
 
-          # 데이터 변환
-          transformer = KISDataTransformer(kis_data)
-          stocks = transformer.transform_all()
-          print(f'변환된 종목 수: {len(stocks)}')
+          # 데이터 변환 (Gemini 분석용 포맷)
+          print('Gemini 분석용 포맷으로 변환 중...')
+          transformer = KISDataTransformer()
+          gemini_data = transformer.transform_for_gemini(raw_data)
+
+          # 변환된 데이터 저장 (프론트엔드용)
+          gemini_path = Path('results/kis/latest.json')
+          with open(gemini_path, 'w', encoding='utf-8') as f:
+              json.dump(gemini_data, f, ensure_ascii=False, indent=2)
+          print(f'변환 데이터 저장: {gemini_path}')
+
+          stock_count = len(gemini_data.get('stocks', {}))
+          print(f'변환된 종목 수: {stock_count}')
 
           # Gemini 분석 (배치)
-          analysis_results = analyze_kis_data_batch(stocks, batch_size=10)
+          print('\\nGemini AI 분석 시작...')
+          analysis_results = analyze_kis_data_batch(gemini_data, batch_size=10)
           print(f'분석 완료: {len(analysis_results)}개 종목')
 
-          # 결과 저장
+          # 분석 결과 저장 (프론트엔드 타입과 일치)
           output_data = {
-              'analyzed_at': datetime.now().isoformat(),
-              'total_stocks': len(analysis_results),
+              'analysis_time': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+              'total_analyzed': len(analysis_results),
               'results': analysis_results,
           }
 

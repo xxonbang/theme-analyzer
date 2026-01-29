@@ -28,7 +28,7 @@ export async function fetchHistoryIndex(): Promise<HistoryIndex> {
 
 // KIS API 데이터 fetch 함수들
 export async function fetchKISData(): Promise<KISGeminiData> {
-  const response = await fetch(`${BASE_URL}/results/kis/top50_gemini.json`);
+  const response = await fetch(`${BASE_URL}/results/kis/latest.json`);
   if (!response.ok) {
     throw new Error('Failed to fetch KIS data');
   }
@@ -36,7 +36,7 @@ export async function fetchKISData(): Promise<KISGeminiData> {
 }
 
 export async function fetchKISAnalysis(): Promise<KISAnalysisData> {
-  const response = await fetch(`${BASE_URL}/results/kis/analysis_result.json`);
+  const response = await fetch(`${BASE_URL}/results/kis/analysis.json`);
   if (!response.ok) {
     throw new Error('Failed to fetch KIS analysis');
   }
