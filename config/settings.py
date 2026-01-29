@@ -24,16 +24,16 @@ KOSPI_API_URL = "https://stock.naver.com/api/domestic/market/stock/default?trade
 KOSDAQ_API_URL = "https://stock.naver.com/api/domestic/market/stock/default?tradeType=KRX&marketType=KOSDAQ&orderType=quantTop&startIdx=0&pageSize=70"
 STOCK_DETAIL_URL = "https://m.stock.naver.com/domestic/stock/{code}/total"
 
-# 스크래핑 설정 (모바일 뷰포트)
+# 스크래핑 설정 (태블릿 뷰포트 - iPad Pro 11")
 MAX_KOSPI_STOCKS = 50
 MAX_KOSDAQ_STOCKS = 70
 MAX_STOCKS_PER_MARKET = 50  # 하위 호환성 유지
-VIEWPORT_WIDTH = 430   # iPhone 14 Pro Max 너비
-VIEWPORT_HEIGHT = 932  # iPhone 14 Pro Max 높이
-DEVICE_SCALE_FACTOR = 3
+VIEWPORT_WIDTH = 834   # iPad Pro 11" 너비
+VIEWPORT_HEIGHT = 1194 # iPad Pro 11" 높이
+DEVICE_SCALE_FACTOR = 2
 
-# User-Agent (모바일)
-USER_AGENT = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1"
+# User-Agent (iPad)
+USER_AGENT = "Mozilla/5.0 (iPad; CPU OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1"
 
 # 캡처/출력 경로
 CAPTURES_DIR = ROOT_DIR / "captures"

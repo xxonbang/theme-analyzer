@@ -63,41 +63,33 @@ async def collect_all_stocks() -> list[dict]:
 
 
 async def click_more_buttons(page: Page):
-    """'더보기' 버튼들을 클릭하여 추가 정보 표시"""
-    # 종목 정보 더보기 버튼 클릭
+    """'더보기' 링크들을 클릭하여 추가 정보 표시"""
+    # 종목 정보 더보기 클릭 (a 태그)
     try:
-        stock_info_btn = page.locator('button:has-text("종목 정보 더보기")')
-        if await stock_info_btn.count() > 0:
-            await stock_info_btn.first.click()
-            await page.wait_for_timeout(500)
-    except Exception:
-        pass
+        stock_info_link = page.locator('a:has-text("종목 정보 더보기")')
+        if await stock_info_link.count() > 0:
+            await stock_info_link.first.click()
+            await page.wait_for_timeout(1000)
+            print("    [클릭] 종목 정보 더보기")
+    except Exception as e:
+        print(f"    [SKIP] 종목 정보 더보기: {e}")
 
-    # 매매동향 더보기 버튼 클릭
+    # 매매동향 더보기 클릭 (a 태그)
     try:
-        trading_btn = page.locator('button:has-text("매매동향 더보기")')
-        if await trading_btn.count() > 0:
-            await trading_btn.first.click()
-            await page.wait_for_timeout(500)
-    except Exception:
-        pass
-
-    # 일반적인 "더보기" 버튼들 모두 클릭
-    try:
-        more_buttons = page.locator('button:has-text("더보기")')
-        count = await more_buttons.count()
-        for i in range(min(count, 5)):  # 최대 5개까지만
-            try:
-                await more_buttons.nth(i).click()
-                await page.wait_for_timeout(300)
-            except Exception:
-                continue
-    except Exception:
-        pass
+        trading_link = page.locator('a:has-text("매매동향 더보기")')
+        if await trading_link.count() > 0:
+            await trading_link.first.click()
+            await page.wait_for_timeout(1000)
+            print("    [클릭] 매매동향 더보기")
+    except Exception as e:
+        print(f"    [SKIP] 매매동향 더보기: {e}")
 
 
 async def capture_stock_screenshot(page: Page, stock: dict, capture_dir: Path, max_retries: int = 3) -> dict:
-    """개별 종목 페이지 스크린샷 캡처 (모바일 버전, 더보기 확장)"""
+    """개별 종목 페이지 스크린샷 캡처 (태블릿 버전, 더보기 확장, 매매동향까지 포함)"""
+    from PIL import Image
+    import io
+
     code = stock["code"]
     name = stock["name"]
     url = STOCK_DETAIL_URL.format(code=code)
@@ -107,21 +99,17 @@ async def capture_stock_screenshot(page: Page, stock: dict, capture_dir: Path, m
             await page.goto(url, wait_until="networkidle", timeout=30000)
             await page.wait_for_timeout(2000)
 
-            # 더보기 버튼들 클릭 (종목 정보, 매매동향 등)
-            await click_more_buttons(page)
-            await page.wait_for_timeout(1000)
-
-            # 전체 페이지 스크롤 (콘텐츠 로딩 유도)
+            # 1. 페이지 전체 스크롤하여 모든 콘텐츠 로딩
             await page.evaluate("""
                 async () => {
                     await new Promise(resolve => {
                         let total = 0;
+                        const distance = 500;
                         const timer = setInterval(() => {
-                            window.scrollBy(0, 300);
-                            total += 300;
+                            window.scrollBy(0, distance);
+                            total += distance;
                             if (total >= document.body.scrollHeight) {
                                 clearInterval(timer);
-                                window.scrollTo(0, 0);
                                 resolve();
                             }
                         }, 100);
@@ -130,14 +118,78 @@ async def capture_stock_screenshot(page: Page, stock: dict, capture_dir: Path, m
             """)
             await page.wait_for_timeout(1000)
 
-            # 스크린샷 저장
+            # 2. 스크롤을 맨 위로 복귀
+            await page.evaluate("window.scrollTo(0, 0)")
+            await page.wait_for_timeout(500)
+
+            # 3. 더보기 링크들 클릭 (종목 정보, 매매동향)
+            await click_more_buttons(page)
+            await page.wait_for_timeout(1500)
+
+            # 4. 매매동향 더보기 링크 위치 찾기 (캡처 범위 결정)
+            capture_height = await page.evaluate("""
+                () => {
+                    // "매매동향 더보기" 링크 찾기
+                    const allLinks = Array.from(document.querySelectorAll('a'));
+                    const tradingMoreLink = allLinks.find(a =>
+                        a.textContent && a.textContent.includes('매매동향 더보기')
+                    );
+
+                    if (tradingMoreLink) {
+                        const rect = tradingMoreLink.getBoundingClientRect();
+                        // 매매동향 더보기 링크 + 50px 여유
+                        return Math.floor(rect.bottom + window.scrollY + 50);
+                    }
+
+                    // 못 찾으면 전체 높이의 35%
+                    return Math.floor(document.body.scrollHeight * 0.35);
+                }
+            """)
+
+            # 최소/최대 높이 제한
+            capture_height = max(2000, min(capture_height, 4000))
+
+            # 5. sticky 헤더 숨기기 (스크롤 시 나타나는 종목명/가격 헤더)
+            await page.evaluate("""
+                () => {
+                    // sticky 헤더 숨기기
+                    const stickyHeaders = document.querySelectorAll('[class*="MainHeader_stockName"], [class*="MainHeader_inner"]');
+                    stickyHeaders.forEach(el => {
+                        el.style.display = 'none';
+                    });
+
+                    // 혹시 다른 sticky/fixed 요소도 숨기기
+                    document.querySelectorAll('[class*="sticky"], [class*="Sticky"], [class*="fixed"], [class*="Fixed"]').forEach(el => {
+                        const rect = el.getBoundingClientRect();
+                        if (rect.top >= 0 && rect.top < 100 && rect.height < 100) {
+                            el.style.visibility = 'hidden';
+                        }
+                    });
+                }
+            """)
+            await page.wait_for_timeout(300)
+
+            # 6. 전체 페이지 스크린샷 (바이트로)
+            screenshot_bytes = await page.screenshot(full_page=True)
+
+            # 6. PIL로 이미지 크롭 (매매동향까지만)
+            img = Image.open(io.BytesIO(screenshot_bytes))
+            img_width, img_height = img.size
+
+            # 실제 캡처 높이 (device_scale_factor 고려)
+            actual_capture_height = min(capture_height * DEVICE_SCALE_FACTOR, img_height)
+
+            # 이미지 크롭
+            cropped_img = img.crop((0, 0, img_width, actual_capture_height))
+
+            # 저장
             filepath = capture_dir / f"{code}.png"
-            await page.screenshot(path=str(filepath), full_page=True)
+            cropped_img.save(str(filepath))
 
             # 캡처 시각 기록 (KST)
             capture_time = datetime.now(KST).strftime("%Y-%m-%d %H:%M:%S")
 
-            print(f"  [OK] {name} ({code})")
+            print(f"  [OK] {name} ({code}) - {capture_height}px")
             return {**stock, "success": True, "screenshot": str(filepath), "capture_time": capture_time}
 
         except Exception as e:
