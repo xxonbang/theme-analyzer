@@ -369,8 +369,8 @@ export function CombinedAnalysis() {
     );
   }
 
-  const hasVisionData = visionData && visionData.results.length > 0;
-  const hasKISData = kisData && Object.keys(kisData.stocks).length > 0;
+  const hasVisionData = visionData && visionData.results && visionData.results.length > 0;
+  const hasKISData = kisData?.stocks && Object.keys(kisData.stocks).length > 0;
 
   if (!hasVisionData && !hasKISData) {
     return (

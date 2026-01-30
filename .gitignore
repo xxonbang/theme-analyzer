@@ -26,7 +26,6 @@ output/
 
 # Frontend
 frontend/node_modules/
-dist/
 
 # KIS API Token Cache (민감정보)
 .kis_token_cache.json
