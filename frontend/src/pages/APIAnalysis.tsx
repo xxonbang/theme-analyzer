@@ -5,7 +5,7 @@ import type { KISStockData, KISAnalysisResult, MarketType, SignalType, SignalCou
 import { LoadingSpinner, EmptyState, Button } from '@/components/common';
 import { SignalSummary, SignalBadge } from '@/components/signal';
 import { MarketTabs } from '@/components/stock';
-import { useUIStore } from '@/store/uiStore';
+// useUIStore 구독 제거 - activeTab 변경 시 불필요한 리렌더링 방지
 
 // 숫자 포맷
 function formatNumber(num: number | null | undefined): string {
@@ -230,15 +230,9 @@ function ResultsMeta({ collectedAt, totalStocks, analyzedCount }: {
 }
 
 export function APIAnalysis() {
-  const { activeTab } = useUIStore();
   const [marketFilter, setMarketFilter] = useState<MarketType>('all');
   const [signalFilter, setSignalFilter] = useState<SignalType | null>(null);
   const [expandedCards, setExpandedCards] = useState<Set<string>>(new Set());
-
-  // 탭 변경 시 확장된 카드 초기화
-  useEffect(() => {
-    setExpandedCards(new Set());
-  }, [activeTab]);
 
   // 필터 변경 시 확장된 카드 초기화
   useEffect(() => {

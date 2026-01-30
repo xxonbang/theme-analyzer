@@ -1,11 +1,12 @@
-import { useState, useMemo, useEffect, memo } from 'react';
+import { useState, useMemo, memo } from 'react';
+import { List } from 'react-window';
 import { useQuery } from '@tanstack/react-query';
 import { fetchLatestData, fetchKISData, fetchKISAnalysis } from '@/services/api';
 import type { StockResult, KISStockData, KISAnalysisResult, MarketType, SignalType } from '@/services/types';
 import { LoadingSpinner, EmptyState } from '@/components/common';
 import { SignalBadge } from '@/components/signal';
 import { MarketTabs } from '@/components/stock';
-import { useUIStore } from '@/store/uiStore';
+// useUIStore 구독 제거 - activeTab 변경 시 불필요한 리렌더링 방지
 import { cn } from '@/lib/utils';
 
 // 일치 상태 타입
@@ -104,10 +105,10 @@ const CombinedStockCard = memo(function CombinedStockCard({ stock }: { stock: Co
 
   return (
     <div className={cn(
-      'bg-bg-secondary border rounded-xl p-3 md:p-4 transition-all',
+      'bg-bg-secondary border rounded-xl p-3 md:p-4',
       stock.matchStatus === 'match' ? 'border-emerald-300 bg-emerald-50/30' :
       stock.matchStatus === 'mismatch' ? 'border-red-300 bg-red-50/30' :
-      'border-border hover:border-accent-primary'
+      'border-border'
     )}>
       {/* 헤더 */}
       <div className="flex justify-between items-start mb-2 md:mb-3">
@@ -237,18 +238,35 @@ function TipText({ children }: { children: React.ReactNode }) {
 // 시그널 타입 리스트
 const SIGNAL_TYPES: SignalType[] = ['적극매수', '매수', '중립', '매도', '적극매도'];
 
+// 가상화된 종목 리스트 - 화면에 보이는 항목만 렌더링
+const ITEM_HEIGHT = 280; // 카드 높이 + 간격
+const LIST_HEIGHT = 800; // 리스트 컨테이너 높이
+
+function VirtualizedStockList({ stocks }: { stocks: CombinedStock[] }) {
+  return (
+    <List
+      rowComponent={({ index, style }) => {
+        const stock = stocks[index];
+        return (
+          <div style={{ ...style, paddingBottom: 16 }}>
+            <CombinedStockCard stock={stock} />
+          </div>
+        );
+      }}
+      rowProps={{}}
+      rowCount={stocks.length}
+      rowHeight={ITEM_HEIGHT}
+      style={{ height: LIST_HEIGHT }}
+      className="scrollbar-thin"
+    />
+  );
+}
+
 export function CombinedAnalysis() {
-  const { activeTab } = useUIStore();
   const [marketFilter, setMarketFilter] = useState<MarketType>('all');
   // 멀티셀렉트: 빈 Set = 전체 선택
   const [matchFilters, setMatchFilters] = useState<Set<MatchStatus>>(new Set());
   const [signalFilters, setSignalFilters] = useState<Set<SignalType>>(new Set());
-
-  // 탭 변경 시 필터 초기화
-  useEffect(() => {
-    setMatchFilters(new Set());
-    setSignalFilters(new Set());
-  }, [activeTab]);
 
   // 필터 토글 함수
   const toggleMatchFilter = (status: MatchStatus) => {
@@ -598,13 +616,9 @@ export function CombinedAnalysis() {
         onChange={setMarketFilter}
       />
 
-      {/* 종목 그리드 */}
+      {/* 종목 리스트 (가상화) */}
       {filteredStocks.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {filteredStocks.map(stock => (
-            <CombinedStockCard key={stock.code} stock={stock} />
-          ))}
-        </div>
+        <VirtualizedStockList stocks={filteredStocks} />
       ) : (
         <EmptyState
           icon="🔍"

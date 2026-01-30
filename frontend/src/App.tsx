@@ -1,9 +1,13 @@
-import { useEffect } from 'react';
+import { useEffect, useState, lazy, Suspense } from 'react';
 import { QueryClient, QueryClientProvider, useQueryClient } from '@tanstack/react-query';
 import { Navigation } from '@/components/common';
 import { Hero, AnalysisTabs, Footer } from '@/components/layout';
 import { HistoryPanel } from '@/components/history';
-import { VisionAnalysis, APIAnalysis, CombinedAnalysis } from '@/pages';
+import { VisionAnalysis, APIAnalysis } from '@/pages';
+import { LoadingSpinner } from '@/components/common';
+
+// CombinedAnalysis는 lazy loading - 처음 접근 시에만 로드
+const CombinedAnalysis = lazy(() => import('@/pages/CombinedAnalysis').then(m => ({ default: m.CombinedAnalysis })));
 import { useUIStore } from '@/store/uiStore';
 import { fetchLatestData, fetchKISData, fetchKISAnalysis, fetchHistoryIndex } from '@/services/api';
 
@@ -136,20 +140,40 @@ function WorkflowSection() {
 function MainContent() {
   const { activeTab } = useUIStore();
 
-  // CSS 기반 탭 전환: 모든 탭을 마운트 상태로 유지하고 display로 숨김
-  // → 탭 전환 시 리마운트 없이 즉시 전환
+  // 지연 마운트: 탭을 한 번이라도 방문했는지 추적
+  // 방문한 탭만 렌더링하고, 이후에는 CSS로 숨김 처리
+  const [mountedTabs, setMountedTabs] = useState<Set<string>>(() => new Set(['vision']));
+
+  useEffect(() => {
+    if (!mountedTabs.has(activeTab)) {
+      setMountedTabs(prev => new Set([...prev, activeTab]));
+    }
+  }, [activeTab, mountedTabs]);
+
   return (
     <>
       <AnalysisTabs />
+
+      {/* Vision AI - 항상 마운트 */}
       <div style={{ display: activeTab === 'vision' ? 'block' : 'none' }}>
         <VisionAnalysis />
       </div>
-      <div style={{ display: activeTab === 'api' ? 'block' : 'none' }}>
-        <APIAnalysis />
-      </div>
-      <div style={{ display: activeTab === 'combined' ? 'block' : 'none' }}>
-        <CombinedAnalysis />
-      </div>
+
+      {/* API Analysis - 방문 시에만 마운트 */}
+      {mountedTabs.has('api') && (
+        <div style={{ display: activeTab === 'api' ? 'block' : 'none' }}>
+          <APIAnalysis />
+        </div>
+      )}
+
+      {/* Combined Analysis - 방문 시에만 마운트 (lazy loading) */}
+      {mountedTabs.has('combined') && (
+        <div style={{ display: activeTab === 'combined' ? 'block' : 'none' }}>
+          <Suspense fallback={<LoadingSpinner message="분석 종합 로딩 중..." />}>
+            <CombinedAnalysis />
+          </Suspense>
+        </div>
+      )}
     </>
   );
 }
