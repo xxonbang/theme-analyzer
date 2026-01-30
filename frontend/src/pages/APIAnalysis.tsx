@@ -88,7 +88,7 @@ function StockCard({
               href={`https://m.stock.naver.com/domestic/stock/${stock.code}/total`}
               target="_blank"
               rel="noopener noreferrer"
-              className="font-bold text-sm md:text-base text-text-primary hover:text-accent-primary transition-colors truncate"
+              className="font-bold text-base md:text-lg text-text-primary hover:text-accent-primary transition-colors truncate"
             >
               {stock.name}
             </a>

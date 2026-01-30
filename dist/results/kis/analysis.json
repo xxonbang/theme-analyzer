@@ -1,0 +1,2007 @@
+{
+  "analysis_time": "2026-01-30 14:26:27",
+  "model": "gemini-2.5-flash-lite",
+  "total_analyzed": 100,
+  "results": [
+    {
+      "code": "100790",
+      "name": "미래에셋벤처투자",
+      "market": "KOSPI",
+      "current_price": 19200,
+      "change_rate": 28.95,
+      "signal": "매수",
+      "reason": "최근 5일 기관 순매수가 긍정적인 흐름을 보이며, 52주 고점 돌파 시도가 관찰됩니다. 단기 급등 후 조정 가능성도 있으나, 전반적인 상승 추세와 거래량 증가는 긍정적입니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "급증",
+        "foreign_flow": "매도우위",
+        "institution_flow": "매수우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.7,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "069540",
+      "name": "빛과전자",
+      "market": "KOSPI",
+      "current_price": 1680,
+      "change_rate": 16.75,
+      "signal": "중립",
+      "reason": "최근 외국인 순매도세가 지속되고 있으나, 기관 순매수가 유입되며 소폭 상승세를 보이고 있습니다. PER이 마이너스인 점을 감안하면 밸류에이션보다는 모멘텀을 고려해야 합니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "급증",
+        "foreign_flow": "매도우위",
+        "institution_flow": "매수우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "높음",
+      "confidence": 0.5,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "054920",
+      "name": "한컴위드",
+      "market": "KOSPI",
+      "current_price": 6330,
+      "change_rate": 9.33,
+      "signal": "중립",
+      "reason": "최근 5일간 외국인과 기관 모두 순매도세를 보이고 있으며, 개인의 순매수세로 반등하고 있습니다. PER이 마이너스인 점과 뚜렷한 수급 개선이 없어 관망이 필요합니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매도우위",
+        "institution_flow": "매도우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "중간",
+      "confidence": 0.5,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "474170",
+      "name": "루미르",
+      "market": "KOSDAQ",
+      "current_price": 15160,
+      "change_rate": 10.66,
+      "signal": "적극매수",
+      "reason": "최근 5일간 외국인과 기관의 꾸준한 순매수세가 관찰되며, 52주 신고가 경신을 시도하는 강한 상승 추세를 보이고 있습니다. 거래량 또한 증가하며 긍정적인 모멘텀을 보여주고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "003530",
+      "name": "한화투자증권",
+      "market": "KOSPI",
+      "current_price": 6610,
+      "change_rate": 8.54,
+      "signal": "적극매수",
+      "reason": "기관의 5일 순매수세가 강하게 유입되고 있으며, 외국인 순매수 전환 또한 긍정적입니다. 52주 신고가를 돌파하며 추세적인 상승이 예상됩니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "저평가"
+      },
+      "risk_level": "낮음",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "001440",
+      "name": "대한전선",
+      "market": "KOSPI",
+      "current_price": 28300,
+      "change_rate": 4.81,
+      "signal": "매수",
+      "reason": "최근 5일간 외국인과 기관의 순매도가 지속되었으나, 개인의 순매수세로 가격이 상승하고 있습니다. 52주 고점 부근에서 거래량이 증가하며 돌파 시도가 예상됩니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매도우위",
+        "institution_flow": "매도우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.7,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "469750",
+      "name": "아이비젼웍스",
+      "market": "KOSDAQ",
+      "current_price": 1392,
+      "change_rate": 4.11,
+      "signal": "중립",
+      "reason": "외국인의 5일 순매수세가 긍정적이나, 기관의 순매도 전환과 개인의 순매수세가 혼조세를 보이고 있습니다. 52주 고점 대비 하락한 위치이므로 관망이 필요합니다.",
+      "key_factors": {
+        "price_trend": "횡보",
+        "volume_signal": "보통",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매도우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "중간",
+      "confidence": 0.5,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "001200",
+      "name": "유진투자증권",
+      "market": "KOSPI",
+      "current_price": 4310,
+      "change_rate": 11.66,
+      "signal": "적극매수",
+      "reason": "외국인의 5일 순매수세가 매우 강하며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 기관 순매수 또한 긍정적인 신호입니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "급증",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "저평가"
+      },
+      "risk_level": "낮음",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "462860",
+      "name": "더즌",
+      "market": "KOSDAQ",
+      "current_price": 5300,
+      "change_rate": 10.3,
+      "signal": "매수",
+      "reason": "외국인의 5일 순매수세가 긍정적이며, 52주 고점 돌파를 시도하는 상승 추세를 보이고 있습니다. 기관의 순매도세는 부담이 될 수 있으나, 최근 거래량 증가가 이를 상쇄할 수 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매도우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.7,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "036540",
+      "name": "SFA반도체",
+      "market": "KOSPI",
+      "current_price": 6860,
+      "change_rate": 8.89,
+      "signal": "매수",
+      "reason": "기관의 5일 순매수세가 매우 강하며, 외국인 순매수 전환 또한 긍정적입니다. 52주 고점 돌파를 시도하며 추세적인 상승이 예상됩니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "적정"
+      },
+      "risk_level": "낮음",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "389680",
+      "name": "유디엠텍",
+      "market": "KOSDAQ",
+      "current_price": 886,
+      "change_rate": -8.75,
+      "signal": "매도",
+      "reason": "최근 5일간 외국인 순매도가 지속되고 있으며, 기관의 순매수세에도 불구하고 개인의 순매도로 가격 하락세가 이어지고 있습니다. 52주 고점 대비 하락한 위치에서 하락 추세가 지속되고 있습니다.",
+      "key_factors": {
+        "price_trend": "하락",
+        "volume_signal": "보통",
+        "foreign_flow": "매도우위",
+        "institution_flow": "매수우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.6,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "474610",
+      "name": "RF시스템즈",
+      "market": "KOSDAQ",
+      "current_price": 7200,
+      "change_rate": 17.84,
+      "signal": "적극매수",
+      "reason": "최근 5일간 외국인 순매수세가 돋보이며, 52주 고점 돌파를 시도하는 강한 상승 모멘텀을 보여주고 있습니다. 거래량 또한 급증하며 긍정적인 신호를 보내고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "급증",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매도우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "중간",
+      "confidence": 0.7,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "348340",
+      "name": "뉴로메카",
+      "market": "KOSDAQ",
+      "current_price": 95000,
+      "change_rate": -0.73,
+      "signal": "중립",
+      "reason": "기관의 순매수세가 유입되었으나, 외국인의 순매도세가 이를 상쇄하며 횡보세를 보이고 있습니다. 52주 고점 대비 하락한 위치에서 뚜렷한 추세 없이 등락이 반복되고 있습니다.",
+      "key_factors": {
+        "price_trend": "횡보",
+        "volume_signal": "보통",
+        "foreign_flow": "매도우위",
+        "institution_flow": "매수우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "중간",
+      "confidence": 0.5,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "101400",
+      "name": "엔시트론",
+      "market": "KOSPI",
+      "current_price": 511,
+      "change_rate": 3.23,
+      "signal": "중립",
+      "reason": "최근 5일간 외국인과 기관 모두 순매도세를 보이고 있으며, 개인의 순매수세로 소폭 반등하고 있습니다. 52주 고점 대비 하락한 위치에서 뚜렷한 추세 없이 등락을 반복하고 있습니다.",
+      "key_factors": {
+        "price_trend": "횡보",
+        "volume_signal": "보통",
+        "foreign_flow": "매도우위",
+        "institution_flow": "매도우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.5,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "152550",
+      "name": "한국ANKOR유전",
+      "market": "KOSPI",
+      "current_price": 212,
+      "change_rate": 3.92,
+      "signal": "중립",
+      "reason": "외국인의 5일 순매수세가 긍정적이나, 52주 고점 대비 하락한 위치에 있으며 뚜렷한 추세를 형성하지 못하고 있습니다. 밸류에이션 정보가 없어 추가적인 분석이 필요합니다.",
+      "key_factors": {
+        "price_trend": "횡보",
+        "volume_signal": "증가",
+        "foreign_flow": "매수우위",
+        "institution_flow": "중립",
+        "valuation": "정보없음"
+      },
+      "risk_level": "높음",
+      "confidence": 0.4,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "006910",
+      "name": "보성파워텍",
+      "market": "KOSPI",
+      "current_price": 8130,
+      "change_rate": 3.44,
+      "signal": "매수",
+      "reason": "최근 5일 외국인 순매수세가 긍정적이며, 52주 고점 대비 하락한 위치에서 반등 시도가 관찰됩니다. 기관의 순매도세는 부담이지만, 거래량 증가와 함께 상승 추세 전환 가능성이 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매도우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.7,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "393890",
+      "name": "더블유씨피",
+      "market": "KOSDAQ",
+      "current_price": 10320,
+      "change_rate": 14.54,
+      "signal": "적극매수",
+      "reason": "최근 5일간 외국인 순매수세가 강하게 유입되고 있으며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 기관 순매수 전환 또한 긍정적인 신호입니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "적정"
+      },
+      "risk_level": "낮음",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "478340",
+      "name": "나라스페이스테크놀로지",
+      "market": "KOSDAQ",
+      "current_price": 58500,
+      "change_rate": 19.14,
+      "signal": "적극매수",
+      "reason": "최근 5일 외국인과 기관의 순매수가 돋보이며, 52주 고점 돌파를 시도하는 매우 강한 상승 추세를 보이고 있습니다. 거래량 증가와 함께 긍정적인 모멘텀이 강하게 나타나고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "급증",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "006800",
+      "name": "미래에셋증권",
+      "market": "KOSPI",
+      "current_price": 40850,
+      "change_rate": 17.39,
+      "signal": "적극매수",
+      "reason": "최근 5일간 외국인 순매수가 크게 증가했으며, 기관 순매수세 또한 긍정적입니다. 52주 신고가를 돌파하며 강력한 상승 추세를 보이고 있으며, 거래량 또한 급증하고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "급증",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "042700",
+      "name": "한미반도체",
+      "market": "KOSPI",
+      "current_price": 203500,
+      "change_rate": 11.81,
+      "signal": "적극매수",
+      "reason": "최근 5일 외국인과 기관의 순매수세가 지속적으로 유입되며 52주 신고가를 돌파하는 강한 상승 추세를 보이고 있습니다. 반도체 업황 개선에 대한 기대감도 긍정적입니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "024060",
+      "name": "흥구석유",
+      "market": "KOSPI",
+      "current_price": 14130,
+      "change_rate": 8.86,
+      "signal": "매수",
+      "reason": "외국인의 5일 순매수세가 긍정적이며, 52주 고점 돌파를 시도하는 상승 추세를 보이고 있습니다. 거래량 또한 급증하며 긍정적인 모멘텀이 나타나고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "급증",
+        "foreign_flow": "매수우위",
+        "institution_flow": "중립",
+        "valuation": "고평가"
+      },
+      "risk_level": "중간",
+      "confidence": 0.7,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "317240",
+      "name": "TS트릴리온",
+      "market": "KOSDAQ",
+      "current_price": 481,
+      "change_rate": -3.02,
+      "signal": "매도",
+      "reason": "최근 5일 외국인 순매수세가 긍정적이나, 52주 고점 대비 하락한 위치에서 하락 추세가 이어지고 있습니다. 개인의 순매도세가 뚜렷하여 추가 하락 가능성이 있습니다.",
+      "key_factors": {
+        "price_trend": "하락",
+        "volume_signal": "보통",
+        "foreign_flow": "매수우위",
+        "institution_flow": "중립",
+        "valuation": "적정"
+      },
+      "risk_level": "높음",
+      "confidence": 0.6,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "008290",
+      "name": "원풍물산",
+      "market": "KOSPI",
+      "current_price": 457,
+      "change_rate": 3.86,
+      "signal": "중립",
+      "reason": "외국인의 5일 순매도세가 지속되고 있으며, 개인의 순매수로 소폭 반등하고 있습니다. 52주 고점 부근에서 거래량이 급증하며 돌파 시도가 관찰되나, 명확한 추세는 아닙니다.",
+      "key_factors": {
+        "price_trend": "횡보",
+        "volume_signal": "급증",
+        "foreign_flow": "매도우위",
+        "institution_flow": "중립",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.5,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "368770",
+      "name": "파이버프로",
+      "market": "KOSDAQ",
+      "current_price": 17460,
+      "change_rate": 9.06,
+      "signal": "매수",
+      "reason": "최근 5일간 외국인과 기관의 순매수세가 엇갈리지만, 52주 고점 돌파를 시도하는 강한 상승 추세를 보이고 있습니다. 개인의 순매수세 또한 긍정적입니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.7,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "032820",
+      "name": "우리기술",
+      "market": "KOSPI",
+      "current_price": 9010,
+      "change_rate": 3.09,
+      "signal": "매수",
+      "reason": "최근 5일간 기관의 순매수세가 매우 강하게 유입되고 있으며, 외국인 순매수 전환 또한 긍정적입니다. 52주 고점 돌파를 시도하는 추세가 관찰됩니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "중간",
+      "confidence": 0.7,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "034020",
+      "name": "두산에너빌리티",
+      "market": "KOSPI",
+      "current_price": 94000,
+      "change_rate": 2.17,
+      "signal": "매수",
+      "reason": "최근 5일간 외국인과 기관의 동반 순매수세가 긍정적이며, 52주 고점 부근에서 거래량 증가와 함께 상승 추세가 관찰됩니다. 원자력 및 신재생 에너지 관련 기대감이 주가에 반영되는 것으로 보입니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "중간",
+      "confidence": 0.7,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "264850",
+      "name": "이랜시스",
+      "market": "KOSPI",
+      "current_price": 9000,
+      "change_rate": 11.39,
+      "signal": "적극매수",
+      "reason": "최근 5일간 외국인 순매수세가 강하게 유입되고 있으며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 개인의 순매도세가 있지만, 외인/기관 수급이 이를 상쇄하고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매수우위",
+        "institution_flow": "중립",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "086520",
+      "name": "에코프로",
+      "market": "KOSPI",
+      "current_price": 172000,
+      "change_rate": 2.02,
+      "signal": "매수",
+      "reason": "최근 5일 외국인과 기관의 동반 순매수세가 매우 강하게 유입되며 52주 고점 돌파를 시도하고 있습니다. 2차전지 섹터 전반의 긍정적 분위기와 함께 상승 모멘텀이 유지되고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "보통",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "중간",
+      "confidence": 0.7,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "086960",
+      "name": "MDS테크",
+      "market": "KOSPI",
+      "current_price": 1555,
+      "change_rate": 1.37,
+      "signal": "매수",
+      "reason": "외국인의 5일 순매수세가 돋보이며, 52주 고점 대비 하락한 위치에서 반등 시도가 관찰됩니다. 개인의 순매수세 또한 긍정적인 신호이며, 상승 추세 전환 가능성이 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "보통",
+        "foreign_flow": "매수우위",
+        "institution_flow": "중립",
+        "valuation": "적정"
+      },
+      "risk_level": "낮음",
+      "confidence": 0.7,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "316140",
+      "name": "우리금융지주",
+      "market": "KOSDAQ",
+      "current_price": 30500,
+      "change_rate": 0.99,
+      "signal": "매수",
+      "reason": "최근 5일 외국인의 순매수세가 매우 강하며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 개인의 순매도세에도 불구하고 외인/기관 수급이 이를 상쇄하고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "보통",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매도우위",
+        "valuation": "저평가"
+      },
+      "risk_level": "낮음",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "383310",
+      "name": "에코프로에이치엔",
+      "market": "KOSDAQ",
+      "current_price": 44050,
+      "change_rate": 20.85,
+      "signal": "적극매수",
+      "reason": "기관의 5일 순매수세가 매우 강하며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 최근 강한 상승 모멘텀이 나타나고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매도우위",
+        "institution_flow": "매수우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "454910",
+      "name": "두산로보틱스",
+      "market": "KOSDAQ",
+      "current_price": 119800,
+      "change_rate": -0.5,
+      "signal": "중립",
+      "reason": "최근 5일간 외국인 순매수세가 돋보이나, 기관 순매수세가 둔화되며 횡보세를 보이고 있습니다. 52주 고점 대비 하락한 위치에서 뚜렷한 추세 없이 등락이 반복되고 있습니다.",
+      "key_factors": {
+        "price_trend": "횡보",
+        "volume_signal": "보통",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "중간",
+      "confidence": 0.5,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "331380",
+      "name": "포커스에이아이",
+      "market": "KOSDAQ",
+      "current_price": 3575,
+      "change_rate": 25.66,
+      "signal": "적극매수",
+      "reason": "최근 5일 외국인 순매수세가 강하게 유입되고 있으며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 거래량 또한 급증하며 긍정적인 모멘텀이 강하게 나타나고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "급증",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매도우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "340930",
+      "name": "유일에너테크",
+      "market": "KOSDAQ",
+      "current_price": 1550,
+      "change_rate": 15.5,
+      "signal": "적극매수",
+      "reason": "최근 5일간 외국인 순매수세가 돋보이며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 개인의 순매수세 또한 긍정적인 신호이며, 상승 모멘텀이 강합니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "급증",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매도우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "010170",
+      "name": "대한광통신",
+      "market": "KOSPI",
+      "current_price": 3840,
+      "change_rate": 15.49,
+      "signal": "적극매수",
+      "reason": "최근 5일 외국인 순매수세가 매우 강하게 유입되고 있으며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 개인의 순매도세에도 불구하고 외인/기관 수급이 이를 상쇄하고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매도우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "072770",
+      "name": "멤레이비티",
+      "market": "KOSPI",
+      "current_price": 990,
+      "change_rate": 23.13,
+      "signal": "적극매수",
+      "reason": "외국인의 5일 순매수세가 매우 강하며, 52주 신고가를 돌파하는 강력한 상승 추세를 보이고 있습니다. 거래량 또한 급증하며 긍정적인 모멘텀이 강하게 나타나고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "급증",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "319400",
+      "name": "현대무벡스",
+      "market": "KOSDAQ",
+      "current_price": 32800,
+      "change_rate": 2.98,
+      "signal": "매수",
+      "reason": "최근 5일 외국인 순매도세가 컸으나, 기관 순매수가 유입되며 52주 고점 부근에서 상승 추세가 유지되고 있습니다. 물류 자동화 및 스마트팩토리 관련 기대감이 긍정적으로 작용하고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "보통",
+        "foreign_flow": "매도우위",
+        "institution_flow": "매수우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.7,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "048410",
+      "name": "현대바이오",
+      "market": "KOSPI",
+      "current_price": 10100,
+      "change_rate": 8.6,
+      "signal": "적극매수",
+      "reason": "기관의 5일 순매수세가 매우 강하며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 개인의 순매도세에도 불구하고 외인/기관 수급이 이를 상쇄하고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "보통",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "018880",
+      "name": "한온시스템",
+      "market": "KOSPI",
+      "current_price": 3330,
+      "change_rate": -1.91,
+      "signal": "매도",
+      "reason": "최근 5일간 외국인 순매수세가 돋보이나, 기관 순매도세가 강하며 52주 고점 대비 하락한 위치에서 하락 추세가 이어지고 있습니다. 자동차 부품 산업의 전망이 불확실한 점은 부담입니다.",
+      "key_factors": {
+        "price_trend": "하락",
+        "volume_signal": "증가",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매도우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.6,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "457190",
+      "name": "이수스페셜티케미컬",
+      "market": "KOSDAQ",
+      "current_price": 104400,
+      "change_rate": -1.79,
+      "signal": "중립",
+      "reason": "최근 5일 외국인 순매수세가 긍정적이나, 기관 순매도세와 개인 순매도세로 횡보세를 보이고 있습니다. 52주 고점 대비 하락한 위치에서 뚜렷한 추세 없이 등락이 반복되고 있습니다.",
+      "key_factors": {
+        "price_trend": "횡보",
+        "volume_signal": "보통",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매도우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "중간",
+      "confidence": 0.5,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "307950",
+      "name": "현대오토에버",
+      "market": "KOSDAQ",
+      "current_price": 484000,
+      "change_rate": 9.75,
+      "signal": "적극매수",
+      "reason": "최근 5일간 외국인과 기관의 순매수세가 돋보이며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 전반적인 시장의 관심이 높아지고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "급증",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "462350",
+      "name": "이노스페이스",
+      "market": "KOSDAQ",
+      "current_price": 22900,
+      "change_rate": 13.37,
+      "signal": "적극매수",
+      "reason": "최근 5일간 외국인과 기관의 순매수세가 엇갈리지만, 52주 고점 돌파를 시도하는 강한 상승 추세를 보이고 있습니다. 개인의 순매수세 또한 긍정적입니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "452260",
+      "name": "한화갤러리아",
+      "market": "KOSDAQ",
+      "current_price": 1869,
+      "change_rate": 1.3,
+      "signal": "중립",
+      "reason": "최근 5일 외국인 순매수가 돋보이나, 기관 순매도세와 개인 순매수세가 혼조세를 보이고 있습니다. 52주 고점 대비 하락한 위치에서 뚜렷한 추세 없이 등락이 반복되고 있습니다.",
+      "key_factors": {
+        "price_trend": "횡보",
+        "volume_signal": "보통",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매도우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.5,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "319660",
+      "name": "피에스케이",
+      "market": "KOSDAQ",
+      "current_price": 54600,
+      "change_rate": 1.68,
+      "signal": "매수",
+      "reason": "기관의 5일 순매수세가 매우 강하며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 외국인 순매수 전환 또한 긍정적인 신호입니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "보통",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "적정"
+      },
+      "risk_level": "낮음",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "067000",
+      "name": "조이시티",
+      "market": "KOSPI",
+      "current_price": 2725,
+      "change_rate": 16.45,
+      "signal": "적극매수",
+      "reason": "최근 5일 외국인과 기관의 순매수세가 돋보이며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 개인의 순매도세에도 불구하고 외인/기관 수급이 이를 상쇄하고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "459550",
+      "name": "알트",
+      "market": "KOSDAQ",
+      "current_price": 4600,
+      "change_rate": -6.22,
+      "signal": "매도",
+      "reason": "최근 5일 외국인 순매도가 지속되고 있으며, 기관 순매도 또한 뚜렷합니다. 52주 고점 대비 하락한 위치에서 하락 추세가 지속되고 있으며, 개인의 순매수세로는 상승 전환이 어렵습니다.",
+      "key_factors": {
+        "price_trend": "하락",
+        "volume_signal": "보통",
+        "foreign_flow": "매도우위",
+        "institution_flow": "매도우위",
+        "valuation": "적정"
+      },
+      "risk_level": "높음",
+      "confidence": 0.6,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "083640",
+      "name": "인콘",
+      "market": "KOSPI",
+      "current_price": 315,
+      "change_rate": 13.31,
+      "signal": "매수",
+      "reason": "최근 5일 외국인 순매수세가 돋보이며, 52주 고점 돌파를 시도하는 상승 추세를 보이고 있습니다. 개인의 순매수세 또한 긍정적인 신호이며, 상승 모멘텀이 강합니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "급증",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매도우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "336570",
+      "name": "원텍",
+      "market": "KOSDAQ",
+      "current_price": 9390,
+      "change_rate": 4.57,
+      "signal": "매수",
+      "reason": "최근 5일 외국인 순매도세가 컸으나, 기관 순매수세가 돋보이며 52주 고점 돌파를 시도하는 상승 추세를 보이고 있습니다. 개인의 순매수세 또한 긍정적인 신호입니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매도우위",
+        "institution_flow": "매수우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.7,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "005880",
+      "name": "대한해운",
+      "market": "KOSPI",
+      "current_price": 2015,
+      "change_rate": 2.96,
+      "signal": "적극매수",
+      "reason": "최근 5일 외국인 순매수세가 매우 강하며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 기관 순매수세 또한 긍정적인 신호입니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "보통",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "저평가"
+      },
+      "risk_level": "낮음",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "001290",
+      "name": "상상인증권",
+      "market": "KOSPI",
+      "current_price": 780,
+      "change_rate": 18.72,
+      "signal": "적극매수",
+      "reason": "외국인의 5일 순매수세가 돋보이며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 거래량 또한 급증하며 긍정적인 모멘텀이 강하게 나타나고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "급증",
+        "foreign_flow": "매수우위",
+        "institution_flow": "중립",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "052770",
+      "name": "아이톡시",
+      "market": "KOSPI",
+      "current_price": 1100,
+      "change_rate": 13.52,
+      "signal": "매수",
+      "reason": "외국인의 5일 순매수세가 긍정적이며, 52주 고점 돌파를 시도하는 상승 추세를 보이고 있습니다. 거래량 증가와 함께 긍정적인 모멘텀이 나타나고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "급증",
+        "foreign_flow": "매도우위",
+        "institution_flow": "중립",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.7,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "222420",
+      "name": "쎄노텍",
+      "market": "KOSPI",
+      "current_price": 1743,
+      "change_rate": 21.04,
+      "signal": "적극매수",
+      "reason": "외국인의 5일 순매수세가 돋보이며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 개인의 순매수세 또한 긍정적인 신호이며, 상승 모멘텀이 강합니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매수우위",
+        "institution_flow": "중립",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "396300",
+      "name": "세아메카닉스",
+      "market": "KOSDAQ",
+      "current_price": 4010,
+      "change_rate": 5.53,
+      "signal": "매수",
+      "reason": "최근 5일 외국인 순매도세가 컸으나, 52주 고점 대비 하락한 위치에서 반등 시도가 관찰됩니다. 개인의 순매수세가 긍정적이며, 상승 추세 전환 가능성이 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "보통",
+        "foreign_flow": "매도우위",
+        "institution_flow": "중립",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.7,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "232680",
+      "name": "라온로보틱스",
+      "market": "KOSPI",
+      "current_price": 18860,
+      "change_rate": 15.0,
+      "signal": "적극매수",
+      "reason": "최근 5일 외국인 순매수세가 돋보이며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 개인의 순매수세 또한 긍정적인 신호이며, 상승 모멘텀이 강합니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매도우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "373200",
+      "name": "엑스플러스",
+      "market": "KOSDAQ",
+      "current_price": 630,
+      "change_rate": 2.27,
+      "signal": "중립",
+      "reason": "최근 5일 외국인 순매도세가 지속되고 있으며, 개인의 순매수세로 소폭 반등하고 있습니다. 52주 고점 대비 하락한 위치에서 뚜렷한 추세를 형성하지 못하고 있습니다.",
+      "key_factors": {
+        "price_trend": "횡보",
+        "volume_signal": "보통",
+        "foreign_flow": "매도우위",
+        "institution_flow": "중립",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.5,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "466100",
+      "name": "클로봇",
+      "market": "KOSDAQ",
+      "current_price": 73500,
+      "change_rate": 0.0,
+      "signal": "중립",
+      "reason": "최근 5일간 외국인과 기관의 순매수세가 돋보이며, 52주 고점 대비 하락한 위치에서 횡보세를 보이고 있습니다. 뚜렷한 추세 없이 등락이 반복되고 있어 관망이 필요합니다.",
+      "key_factors": {
+        "price_trend": "횡보",
+        "volume_signal": "보통",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "중간",
+      "confidence": 0.5,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "353200",
+      "name": "대덕전자",
+      "market": "KOSDAQ",
+      "current_price": 52500,
+      "change_rate": -3.67,
+      "signal": "매도",
+      "reason": "최근 5일간 외국인 순매도가 지속되고 있으며, 기관 순매도 또한 뚜렷합니다. 52주 고점 대비 하락한 위치에서 하락 추세가 지속되고 있으며, 개인의 순매수세로는 상승 전환이 어렵습니다.",
+      "key_factors": {
+        "price_trend": "하락",
+        "volume_signal": "보통",
+        "foreign_flow": "매도우위",
+        "institution_flow": "매도우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "높음",
+      "confidence": 0.6,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "038500",
+      "name": "삼표시멘트",
+      "market": "KOSPI",
+      "current_price": 6600,
+      "change_rate": -2.37,
+      "signal": "매도",
+      "reason": "최근 5일간 외국인 순매수세가 긍정적이나, 기관 순매도세와 개인의 순매수세로 횡보세를 보이고 있습니다. 52주 고점 대비 하락한 위치에서 뚜렷한 추세 없이 등락이 반복되고 있습니다.",
+      "key_factors": {
+        "price_trend": "횡보",
+        "volume_signal": "증가",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매도우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.5,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "001510",
+      "name": "SK증권",
+      "market": "KOSPI",
+      "current_price": 894,
+      "change_rate": 29.94,
+      "signal": "적극매수",
+      "reason": "외국인의 5일 순매수세가 매우 강하며, 52주 신고가를 돌파하는 강력한 상승 추세를 보이고 있습니다. 개인의 순매도세에도 불구하고 외인/기관 수급이 이를 상쇄하고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "급증",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "적정"
+      },
+      "risk_level": "낮음",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "008600",
+      "name": "윌비스",
+      "market": "KOSPI",
+      "current_price": 365,
+      "change_rate": -3.44,
+      "signal": "매도",
+      "reason": "최근 5일 외국인 순매도가 매우 강하게 지속되고 있으며, 52주 고점 대비 하락한 위치에서 하락 추세가 이어지고 있습니다. 개인의 순매수세로는 상승 전환이 어렵습니다.",
+      "key_factors": {
+        "price_trend": "하락",
+        "volume_signal": "보통",
+        "foreign_flow": "매도우위",
+        "institution_flow": "중립",
+        "valuation": "저평가"
+      },
+      "risk_level": "높음",
+      "confidence": 0.6,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "456010",
+      "name": "아이씨티케이",
+      "market": "KOSDAQ",
+      "current_price": 17890,
+      "change_rate": 8.16,
+      "signal": "매수",
+      "reason": "최근 5일 외국인 순매수세가 돋보이며, 52주 고점 돌파를 시도하는 강한 상승 추세를 보이고 있습니다. 개인의 순매수세 또한 긍정적인 신호이며, 상승 모멘텀이 강합니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매수우위",
+        "institution_flow": "중립",
+        "valuation": "고평가"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "049630",
+      "name": "재영솔루텍",
+      "market": "KOSPI",
+      "current_price": 4930,
+      "change_rate": -2.76,
+      "signal": "매도",
+      "reason": "최근 5일 외국인 순매도가 매우 강하게 지속되고 있으며, 52주 고점 대비 하락한 위치에서 하락 추세가 지속되고 있습니다. 개인의 순매수세로는 상승 전환이 어렵습니다.",
+      "key_factors": {
+        "price_trend": "하락",
+        "volume_signal": "보통",
+        "foreign_flow": "매도우위",
+        "institution_flow": "매수우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "높음",
+      "confidence": 0.6,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "027360",
+      "name": "아주IB투자",
+      "market": "KOSPI",
+      "current_price": 4510,
+      "change_rate": 29.97,
+      "signal": "적극매수",
+      "reason": "외국인의 5일 순매수세가 매우 강하며, 52주 신고가를 돌파하는 강력한 상승 추세를 보이고 있습니다. 거래량 또한 급증하며 긍정적인 모멘텀이 강하게 나타나고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "급증",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매도우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "064260",
+      "name": "다날",
+      "market": "KOSPI",
+      "current_price": 9310,
+      "change_rate": 3.67,
+      "signal": "매수",
+      "reason": "최근 5일 외국인 순매도세가 컸으나, 기관 순매수세가 돋보이며 52주 고점 돌파를 시도하는 상승 추세를 보이고 있습니다. 개인의 순매수세 또한 긍정적인 신호입니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "보통",
+        "foreign_flow": "매도우위",
+        "institution_flow": "매도우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "중간",
+      "confidence": 0.7,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "293580",
+      "name": "나우IB",
+      "market": "KOSPI",
+      "current_price": 1777,
+      "change_rate": 4.41,
+      "signal": "매수",
+      "reason": "외국인의 5일 순매수세가 돋보이며, 52주 고점 돌파를 시도하는 상승 추세를 보이고 있습니다. 개인의 순매수세 또한 긍정적인 신호이며, 상승 모멘텀이 강합니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "보통",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매도우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.7,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "195990",
+      "name": "에이비프로바이오",
+      "market": "KOSPI",
+      "current_price": 202,
+      "change_rate": 8.02,
+      "signal": "매수",
+      "reason": "외국인의 5일 순매수세가 돋보이며, 52주 고점 돌파를 시도하는 상승 추세를 보이고 있습니다. 개인의 순매수세 또한 긍정적인 신호이며, 상승 모멘텀이 강합니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매수우위",
+        "institution_flow": "중립",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.7,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "417200",
+      "name": "LS머트리얼즈",
+      "market": "KOSDAQ",
+      "current_price": 16600,
+      "change_rate": 10.67,
+      "signal": "적극매수",
+      "reason": "최근 5일 외국인 순매수세가 돋보이며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 개인의 순매수세 또한 긍정적인 신호이며, 상승 모멘텀이 강합니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매도우위",
+        "institution_flow": "매수우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "450080",
+      "name": "에코프로머티",
+      "market": "KOSDAQ",
+      "current_price": 73300,
+      "change_rate": -1.74,
+      "signal": "중립",
+      "reason": "최근 5일 외국인 순매수세가 긍정적이나, 기관 순매도세와 개인 순매수세가 혼조세를 보이고 있습니다. 52주 고점 대비 하락한 위치에서 뚜렷한 추세 없이 등락이 반복되고 있습니다.",
+      "key_factors": {
+        "price_trend": "횡보",
+        "volume_signal": "보통",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "중간",
+      "confidence": 0.5,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "347700",
+      "name": "스피어",
+      "market": "KOSDAQ",
+      "current_price": 25800,
+      "change_rate": 14.92,
+      "signal": "적극매수",
+      "reason": "최근 5일 외국인 순매수세가 매우 강하며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 개인의 순매도세에도 불구하고 외인/기관 수급이 이를 상쇄하고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매도우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "076610",
+      "name": "해성옵틱스",
+      "market": "KOSPI",
+      "current_price": 1559,
+      "change_rate": -6.59,
+      "signal": "매도",
+      "reason": "최근 5일 외국인 순매도가 매우 강하게 지속되고 있으며, 52주 고점 대비 하락한 위치에서 하락 추세가 이어지고 있습니다. 개인의 순매수세로는 상승 전환이 어렵습니다.",
+      "key_factors": {
+        "price_trend": "하락",
+        "volume_signal": "보통",
+        "foreign_flow": "매도우위",
+        "institution_flow": "중립",
+        "valuation": "적정"
+      },
+      "risk_level": "높음",
+      "confidence": 0.6,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "024910",
+      "name": "경창산업",
+      "market": "KOSPI",
+      "current_price": 2385,
+      "change_rate": 13.03,
+      "signal": "적극매수",
+      "reason": "외국인의 5일 순매수세가 돋보이며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 거래량 또한 급증하며 긍정적인 모멘텀이 강하게 나타나고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "급증",
+        "foreign_flow": "매수우위",
+        "institution_flow": "중립",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "489790",
+      "name": "한화비전",
+      "market": "KOSDAQ",
+      "current_price": 55400,
+      "change_rate": -0.54,
+      "signal": "중립",
+      "reason": "최근 5일 외국인 순매도세가 컸으나, 기관 순매수세가 돋보이며 52주 고점 돌파를 시도하는 상승 추세를 보이고 있습니다. 개인의 순매수세 또한 긍정적인 신호입니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "보통",
+        "foreign_flow": "매도우위",
+        "institution_flow": "매수우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.7,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "003620",
+      "name": "KG모빌리티",
+      "market": "KOSPI",
+      "current_price": 3920,
+      "change_rate": -1.51,
+      "signal": "매도",
+      "reason": "최근 5일 외국인 순매도가 매우 강하게 지속되고 있으며, 52주 고점 대비 하락한 위치에서 하락 추세가 이어지고 있습니다. 개인의 순매수세로는 상승 전환이 어렵습니다.",
+      "key_factors": {
+        "price_trend": "하락",
+        "volume_signal": "보통",
+        "foreign_flow": "매도우위",
+        "institution_flow": "매도우위",
+        "valuation": "적정"
+      },
+      "risk_level": "높음",
+      "confidence": 0.6,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "348370",
+      "name": "엔켐",
+      "market": "KOSDAQ",
+      "current_price": 89200,
+      "change_rate": 0.79,
+      "signal": "매수",
+      "reason": "기관의 5일 순매수세가 매우 강하며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 개인의 순매도세에도 불구하고 외인/기관 수급이 이를 상쇄하고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "보통",
+        "foreign_flow": "매도우위",
+        "institution_flow": "매수우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "491000",
+      "name": "리브스메드",
+      "market": "KOSDAQ",
+      "current_price": 82000,
+      "change_rate": 2.12,
+      "signal": "매수",
+      "reason": "최근 5일 외국인 순매수세가 돋보이며, 52주 고점 돌파를 시도하는 상승 추세를 보이고 있습니다. 개인의 순매수세 또한 긍정적인 신호이며, 상승 모멘텀이 강합니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "보통",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "중간",
+      "confidence": 0.7,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "038530",
+      "name": "케이바이오",
+      "market": "KOSPI",
+      "current_price": 265,
+      "change_rate": 1.53,
+      "signal": "중립",
+      "reason": "외국인의 5일 순매수세가 돋보이나, 52주 고점 대비 하락한 위치에서 횡보세를 보이고 있습니다. 뚜렷한 추세 없이 등락이 반복되고 있으며, 기관의 참여가 없어 관망이 필요합니다.",
+      "key_factors": {
+        "price_trend": "횡보",
+        "volume_signal": "증가",
+        "foreign_flow": "매수우위",
+        "institution_flow": "중립",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.5,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "403870",
+      "name": "HPSP",
+      "market": "KOSDAQ",
+      "current_price": 44350,
+      "change_rate": 0.8,
+      "signal": "적극매수",
+      "reason": "최근 5일 외국인과 기관의 순매수세가 매우 강하며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 반도체 업황 개선에 대한 기대감도 긍정적입니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "보통",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "003280",
+      "name": "흥아해운",
+      "market": "KOSPI",
+      "current_price": 1733,
+      "change_rate": 3.71,
+      "signal": "매수",
+      "reason": "최근 5일 외국인 순매수세가 돋보이며, 52주 고점 돌파를 시도하는 상승 추세를 보이고 있습니다. 개인의 순매수세 또한 긍정적인 신호이며, 상승 모멘텀이 강합니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매도우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.7,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "060720",
+      "name": "KH바텍",
+      "market": "KOSPI",
+      "current_price": 16610,
+      "change_rate": 14.55,
+      "signal": "적극매수",
+      "reason": "외국인의 5일 순매도세가 컸으나, 기관 순매수세가 돋보이며 52주 고점 돌파를 시도하는 상승 추세를 보이고 있습니다. 개인의 순매수세 또한 긍정적인 신호입니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "급증",
+        "foreign_flow": "매도우위",
+        "institution_flow": "매수우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "303030",
+      "name": "지니틱스",
+      "market": "KOSDAQ",
+      "current_price": 770,
+      "change_rate": -2.04,
+      "signal": "중립",
+      "reason": "외국인의 5일 순매수세가 긍정적이나, 52주 고점 대비 하락한 위치에서 횡보세를 보이고 있습니다. 뚜렷한 추세 없이 등락이 반복되고 있으며, 기관의 참여가 없어 관망이 필요합니다.",
+      "key_factors": {
+        "price_trend": "횡보",
+        "volume_signal": "보통",
+        "foreign_flow": "매수우위",
+        "institution_flow": "중립",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.5,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "323280",
+      "name": "태성",
+      "market": "KOSDAQ",
+      "current_price": 71600,
+      "change_rate": 0.56,
+      "signal": "적극매수",
+      "reason": "최근 5일 외국인과 기관의 순매수세가 매우 강하며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 개인의 순매도세에도 불구하고 외인/기관 수급이 이를 상쇄하고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "보통",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "316670",
+      "name": "KIWOOM 코스닥150",
+      "market": "KOSDAQ",
+      "current_price": 10430,
+      "change_rate": 2.76,
+      "signal": "중립",
+      "reason": "최근 5일 외국인 순매수세가 긍정적이나, 기관의 5일 순매도세가 매우 강합니다. 52주 고점 대비 하락한 위치에서 뚜렷한 추세 없이 등락이 반복되고 있어 관망이 필요합니다.",
+      "key_factors": {
+        "price_trend": "횡보",
+        "volume_signal": "증가",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매도우위",
+        "valuation": "정보없음"
+      },
+      "risk_level": "중간",
+      "confidence": 0.5,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "417840",
+      "name": "저스템",
+      "market": "KOSDAQ",
+      "current_price": 6310,
+      "change_rate": 3.78,
+      "signal": "매수",
+      "reason": "최근 5일 외국인 순매도세가 컸으나, 기관 순매수세가 돋보이며 52주 고점 돌파를 시도하는 상승 추세를 보이고 있습니다. 개인의 순매수세 또한 긍정적인 신호입니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "보통",
+        "foreign_flow": "매도우위",
+        "institution_flow": "매도우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.7,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "011930",
+      "name": "신성이엔지",
+      "market": "KOSPI",
+      "current_price": 1810,
+      "change_rate": 5.85,
+      "signal": "적극매수",
+      "reason": "외국인의 5일 순매수세가 매우 강하며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 개인의 순매도세에도 불구하고 외인/기관 수급이 이를 상쇄하고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "급증",
+        "foreign_flow": "매수우위",
+        "institution_flow": "중립",
+        "valuation": "적정"
+      },
+      "risk_level": "낮음",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "377300",
+      "name": "카카오페이",
+      "market": "KOSDAQ",
+      "current_price": 64800,
+      "change_rate": -0.92,
+      "signal": "매도",
+      "reason": "최근 5일 외국인 순매도가 매우 강하게 지속되고 있으며, 52주 고점 대비 하락한 위치에서 하락 추세가 이어지고 있습니다. 개인의 순매수세로는 상승 전환이 어렵습니다.",
+      "key_factors": {
+        "price_trend": "하락",
+        "volume_signal": "보통",
+        "foreign_flow": "매도우위",
+        "institution_flow": "매수우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "높음",
+      "confidence": 0.6,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "332570",
+      "name": "PS일렉트로닉스",
+      "market": "KOSDAQ",
+      "current_price": 7360,
+      "change_rate": -2.39,
+      "signal": "매도",
+      "reason": "최근 5일 외국인 순매도가 매우 강하게 지속되고 있으며, 52주 고점 대비 하락한 위치에서 하락 추세가 이어지고 있습니다. 개인의 순매수세로는 상승 전환이 어렵습니다.",
+      "key_factors": {
+        "price_trend": "하락",
+        "volume_signal": "보통",
+        "foreign_flow": "매도우위",
+        "institution_flow": "매수우위",
+        "valuation": "적정"
+      },
+      "risk_level": "높음",
+      "confidence": 0.6,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "299660",
+      "name": "셀리드",
+      "market": "KOSPI",
+      "current_price": 3435,
+      "change_rate": 0.15,
+      "signal": "중립",
+      "reason": "외국인의 5일 순매도세가 지속되고 있으며, 개인의 순매수세로 소폭 반등하고 있습니다. 52주 고점 대비 하락한 위치에서 뚜렷한 추세를 형성하지 못하고 있습니다.",
+      "key_factors": {
+        "price_trend": "횡보",
+        "volume_signal": "증가",
+        "foreign_flow": "매도우위",
+        "institution_flow": "중립",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.5,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "458650",
+      "name": "성우",
+      "market": "KOSDAQ",
+      "current_price": 13540,
+      "change_rate": 5.86,
+      "signal": "매수",
+      "reason": "최근 5일 외국인 순매수세가 돋보이며, 52주 고점 돌파를 시도하는 상승 추세를 보이고 있습니다. 개인의 순매수세 또한 긍정적인 신호이며, 상승 모멘텀이 강합니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매도우위",
+        "institution_flow": "매도우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.7,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "market": "KOSPI",
+      "current_price": 160700,
+      "change_rate": -1.05,
+      "signal": "매도",
+      "reason": "최근 5일 외국인과 기관의 순매도세가 매우 강하며, 52주 고점 대비 하락한 위치에서 하락 추세가 이어지고 있습니다. 개인의 순매수세로는 상승 전환이 어렵습니다.",
+      "key_factors": {
+        "price_trend": "하락",
+        "volume_signal": "보통",
+        "foreign_flow": "매도우위",
+        "institution_flow": "매도우위",
+        "valuation": "적정"
+      },
+      "risk_level": "낮음",
+      "confidence": 0.6,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "347850",
+      "name": "디앤디파마텍",
+      "market": "KOSDAQ",
+      "current_price": 100000,
+      "change_rate": 0.7,
+      "signal": "매수",
+      "reason": "기관의 5일 순매수세가 매우 강하며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 개인의 순매도세에도 불구하고 외인/기관 수급이 이를 상쇄하고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "보통",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "413630",
+      "name": "씨피시스템",
+      "market": "KOSDAQ",
+      "current_price": 4970,
+      "change_rate": 1.22,
+      "signal": "중립",
+      "reason": "외국인의 5일 순매도세가 지속되고 있으며, 개인의 순매수세로 소폭 반등하고 있습니다. 52주 고점 대비 하락한 위치에서 뚜렷한 추세를 형성하지 못하고 있습니다.",
+      "key_factors": {
+        "price_trend": "횡보",
+        "volume_signal": "증가",
+        "foreign_flow": "매도우위",
+        "institution_flow": "중립",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.5,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "490470",
+      "name": "세미파이브",
+      "market": "KOSDAQ",
+      "current_price": 30100,
+      "change_rate": 3.44,
+      "signal": "매수",
+      "reason": "최근 5일 외국인과 기관의 순매수세가 엇갈리지만, 52주 고점 돌파를 시도하는 강한 상승 추세를 보이고 있습니다. 개인의 순매수세 또한 긍정적인 신호입니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매도우위",
+        "institution_flow": "매도우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.7,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "464500",
+      "name": "아이언디바이스",
+      "market": "KOSDAQ",
+      "current_price": 4365,
+      "change_rate": 29.91,
+      "signal": "적극매수",
+      "reason": "외국인의 5일 순매수세가 돋보이며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 거래량 또한 급증하며 긍정적인 모멘텀이 강하게 나타나고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "급증",
+        "foreign_flow": "매도우위",
+        "institution_flow": "중립",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "354200",
+      "name": "엔젠바이오",
+      "market": "KOSDAQ",
+      "current_price": 2245,
+      "change_rate": 11.41,
+      "signal": "매수",
+      "reason": "외국인의 5일 순매수세가 돋보이며, 52주 고점 돌파를 시도하는 상승 추세를 보이고 있습니다. 개인의 순매수세 또한 긍정적인 신호이며, 상승 모멘텀이 강합니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "보통",
+        "foreign_flow": "매수우위",
+        "institution_flow": "중립",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.7,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "402340",
+      "name": "SK스퀘어",
+      "market": "KOSDAQ",
+      "current_price": 531000,
+      "change_rate": 5.36,
+      "signal": "매수",
+      "reason": "최근 5일 외국인과 기관의 순매수세가 돋보이며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 전반적인 시장의 관심이 높아지고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "보통",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "090710",
+      "name": "휴림로봇",
+      "market": "KOSPI",
+      "current_price": 15180,
+      "change_rate": -3.74,
+      "signal": "매도",
+      "reason": "최근 5일 외국인 순매도가 매우 강하게 지속되고 있으며, 52주 고점 대비 하락한 위치에서 하락 추세가 이어지고 있습니다. 개인의 순매수세로는 상승 전환이 어렵습니다.",
+      "key_factors": {
+        "price_trend": "하락",
+        "volume_signal": "보통",
+        "foreign_flow": "매도우위",
+        "institution_flow": "매수우위",
+        "valuation": "적정"
+      },
+      "risk_level": "높음",
+      "confidence": 0.6,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "321370",
+      "name": "센서뷰",
+      "market": "KOSDAQ",
+      "current_price": 3860,
+      "change_rate": 2.8,
+      "signal": "매수",
+      "reason": "최근 5일 외국인 순매수세가 돋보이며, 52주 고점 돌파를 시도하는 상승 추세를 보이고 있습니다. 개인의 순매수세 또한 긍정적인 신호이며, 상승 모멘텀이 강합니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "보통",
+        "foreign_flow": "매도우위",
+        "institution_flow": "매도우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "중간",
+      "confidence": 0.7,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "417010",
+      "name": "나노팀",
+      "market": "KOSDAQ",
+      "current_price": 11070,
+      "change_rate": 10.7,
+      "signal": "적극매수",
+      "reason": "최근 5일 외국인 순매수세가 돋보이며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 개인의 순매수세 또한 긍정적인 신호이며, 상승 모멘텀이 강합니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "급증",
+        "foreign_flow": "매도우위",
+        "institution_flow": "중립",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "215600",
+      "name": "신라젠",
+      "market": "KOSPI",
+      "current_price": 4975,
+      "change_rate": 29.9,
+      "signal": "적극매수",
+      "reason": "외국인의 5일 순매수세가 매우 강하며, 52주 신고가를 돌파하는 강력한 상승 추세를 보이고 있습니다. 거래량 또한 급증하며 긍정적인 모멘텀이 강하게 나타나고 있습니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매도우위",
+        "valuation": "고평가"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    },
+    {
+      "code": "274090",
+      "name": "켄코아에어로스페이스",
+      "market": "KOSPI",
+      "current_price": 29850,
+      "change_rate": 23.86,
+      "signal": "적극매수",
+      "reason": "외국인의 5일 순매수세가 돋보이며, 52주 고점 돌파를 시도하는 강력한 상승 추세를 보이고 있습니다. 개인의 순매수세 또한 긍정적인 신호이며, 상승 모멘텀이 강합니다.",
+      "key_factors": {
+        "price_trend": "상승",
+        "volume_signal": "증가",
+        "foreign_flow": "매수우위",
+        "institution_flow": "매수우위",
+        "valuation": "적정"
+      },
+      "risk_level": "중간",
+      "confidence": 0.8,
+      "analysis_time": "2026-01-30 14:26:27",
+      "data_source": "KIS_API"
+    }
+  ]
+}

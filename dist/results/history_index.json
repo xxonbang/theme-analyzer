@@ -1,0 +1,41 @@
+{
+  "updated_at": "2026-01-30 11:00:45",
+  "retention_days": 30,
+  "total_records": 3,
+  "history": [
+    {
+      "date": "2026-01-30",
+      "filename": "analysis_2026-01-30.json",
+      "total_stocks": 120,
+      "signals": {
+        "적극매수": 11,
+        "매수": 64,
+        "중립": 33,
+        "매도": 12
+      }
+    },
+    {
+      "date": "2026-01-29",
+      "filename": "analysis_2026-01-29.json",
+      "total_stocks": 120,
+      "signals": {
+        "적극매수": 23,
+        "매수": 69,
+        "중립": 20,
+        "매도": 8
+      }
+    },
+    {
+      "date": "2026-01-28",
+      "filename": "analysis_2026-01-28.json",
+      "total_stocks": 117,
+      "signals": {
+        "매도": 34,
+        "적극매수": 3,
+        "매수": 63,
+        "중립": 16,
+        "적극매도": 1
+      }
+    }
+  ]
+}

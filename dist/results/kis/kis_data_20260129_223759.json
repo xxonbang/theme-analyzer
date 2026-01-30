@@ -1,0 +1,4006 @@
+{
+  "meta": {
+    "collected_at": "2026-01-29T22:37:59.596965",
+    "collection_duration_seconds": 143.841933,
+    "total_unique_stocks": 30,
+    "exclude_etf": true
+  },
+  "rankings": {
+    "volume": {
+      "kospi": [
+        {
+          "rank": 1,
+          "code": "000040",
+          "name": "KR모터스",
+          "current_price": 447,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 2,
+          "code": "000890",
+          "name": "보해양조",
+          "current_price": 412,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 3,
+          "code": "001140",
+          "name": "국보",
+          "current_price": 0,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 4,
+          "code": "001470",
+          "name": "삼부토건",
+          "current_price": 347,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 5,
+          "code": "002360",
+          "name": "SH에너지화학",
+          "current_price": 366,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 6,
+          "code": "004060",
+          "name": "SG세계물산",
+          "current_price": 323,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 7,
+          "code": "004410",
+          "name": "서울식품",
+          "current_price": 144,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 8,
+          "code": "004870",
+          "name": "티웨이홀딩스",
+          "current_price": 484,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 9,
+          "code": "005030",
+          "name": "부산주공",
+          "current_price": 486,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 10,
+          "code": "005320",
+          "name": "온타이드",
+          "current_price": 412,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 11,
+          "code": "008290",
+          "name": "원풍물산",
+          "current_price": 457,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 12,
+          "code": "008600",
+          "name": "윌비스",
+          "current_price": 365,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 13,
+          "code": "009810",
+          "name": "플레이그램",
+          "current_price": 261,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 14,
+          "code": "010600",
+          "name": "웰바이오텍",
+          "current_price": 0,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 15,
+          "code": "011300",
+          "name": "성안머티리얼스",
+          "current_price": 396,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 16,
+          "code": "012160",
+          "name": "영흥",
+          "current_price": 470,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 17,
+          "code": "012340",
+          "name": "뉴인텍",
+          "current_price": 483,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 18,
+          "code": "015260",
+          "name": "에이엔피",
+          "current_price": 421,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 19,
+          "code": "016600",
+          "name": "큐캐피탈",
+          "current_price": 242,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 20,
+          "code": "019570",
+          "name": "플루토스",
+          "current_price": 265,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 21,
+          "code": "021880",
+          "name": "메이슨캐피탈",
+          "current_price": 246,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 22,
+          "code": "027040",
+          "name": "서울전자통신",
+          "current_price": 210,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 23,
+          "code": "032680",
+          "name": "소프트센",
+          "current_price": 262,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 24,
+          "code": "032800",
+          "name": "판타지오",
+          "current_price": 453,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 25,
+          "code": "035620",
+          "name": "바른손이앤에이",
+          "current_price": 335,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 26,
+          "code": "038530",
+          "name": "케이바이오",
+          "current_price": 265,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 27,
+          "code": "038880",
+          "name": "아이에이",
+          "current_price": 153,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 28,
+          "code": "042040",
+          "name": "케이피엠테크",
+          "current_price": 219,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 29,
+          "code": "042670",
+          "name": "HD현대인프라코어",
+          "current_price": 0,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        },
+        {
+          "rank": 30,
+          "code": "043090",
+          "name": "더테크놀로지",
+          "current_price": 380,
+          "change_rate": 0.0,
+          "change_price": 0,
+          "volume": 0,
+          "volume_rate": 0.0,
+          "trading_value": 0,
+          "market": "KOSPI",
+          "is_etf": false
+        }
+      ],
+      "kosdaq": [],
+      "collected_at": "2026-01-29T22:35:57.230642",
+      "category": "volume",
+      "exclude_etf": true
+    },
+    "fluctuation": {
+      "kospi_up": [],
+      "kospi_down": [],
+      "kosdaq_up": [],
+      "kosdaq_down": [],
+      "collected_at": "2026-01-29T22:36:38.818294",
+      "category": "fluctuation",
+      "exclude_etf": true
+    },
+    "unique_stock_codes": [
+      "032800",
+      "000890",
+      "012160",
+      "004410",
+      "032680",
+      "001140",
+      "042670",
+      "038530",
+      "011300",
+      "004060",
+      "004870",
+      "019570",
+      "010600",
+      "008290",
+      "016600",
+      "005030",
+      "027040",
+      "001470",
+      "002360",
+      "043090",
+      "038880",
+      "009810",
+      "035620",
+      "008600",
+      "012340",
+      "005320",
+      "000040",
+      "042040",
+      "015260",
+      "021880"
+    ],
+    "unique_stock_count": 30,
+    "collected_at": "2026-01-29T22:36:38.818316"
+  },
+  "stock_details": {
+    "032800": {
+      "stock_code": "032800",
+      "error": "invalid literal for int() with base 10: ''",
+      "collected_at": "2026-01-29T22:36:40.849205"
+    },
+    "000890": {
+      "stock_code": "000890",
+      "error": "invalid literal for int() with base 10: ''",
+      "collected_at": "2026-01-29T22:36:43.112416"
+    },
+    "012160": {
+      "stock_code": "012160",
+      "error": "invalid literal for int() with base 10: ''",
+      "collected_at": "2026-01-29T22:36:45.501347"
+    },
+    "004410": {
+      "stock_code": "004410",
+      "error": "invalid literal for int() with base 10: ''",
+      "collected_at": "2026-01-29T22:36:47.754516"
+    },
+    "032680": {
+      "stock_code": "032680",
+      "error": "invalid literal for int() with base 10: ''",
+      "collected_at": "2026-01-29T22:36:50.054509"
+    },
+    "001140": {
+      "stock_code": "001140",
+      "collected_at": "2026-01-29T22:36:50.254666",
+      "current_price": {
+        "stock_code": "001140",
+        "stock_name": "KOSPI",
+        "current_price": 0,
+        "change_price": 0,
+        "change_rate": 0.0,
+        "change_sign": "3",
+        "open_price": 0,
+        "high_price": 0,
+        "low_price": 0,
+        "prev_close": 0,
+        "volume": 0,
+        "trading_value": 0,
+        "high_52week": 0,
+        "low_52week": 0,
+        "per": 0.0,
+        "pbr": 0.0,
+        "eps": 0.0,
+        "bps": 0.0,
+        "market_cap": 0,
+        "shares_outstanding": 15856388,
+        "foreign_ratio": 0.0,
+        "volume_turnover": 0.0
+      },
+      "asking_price": {
+        "stock_code": "001140",
+        "ask_prices": [
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          }
+        ],
+        "bid_prices": [
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          }
+        ],
+        "total_ask_volume": 0,
+        "total_bid_volume": 0,
+        "expected_price": 0,
+        "expected_volume": 0,
+        "expected_change_rate": 0.0
+      },
+      "investor_trend": {
+        "stock_code": "001140",
+        "daily_investor_trend": [
+          {
+            "date": "20260126",
+            "close_price": 14,
+            "change_rate": 0.0,
+            "foreign_net": 100345,
+            "organ_net": 0,
+            "individual_net": -100345
+          },
+          {
+            "date": "20260123",
+            "close_price": 85,
+            "change_rate": 0.0,
+            "foreign_net": 25119,
+            "organ_net": 0,
+            "individual_net": -15179
+          },
+          {
+            "date": "20260122",
+            "close_price": 62,
+            "change_rate": 0.0,
+            "foreign_net": -15593,
+            "organ_net": 0,
+            "individual_net": 15593
+          },
+          {
+            "date": "20260121",
+            "close_price": 68,
+            "change_rate": 0.0,
+            "foreign_net": 7497,
+            "organ_net": 0,
+            "individual_net": 2903
+          },
+          {
+            "date": "20260120",
+            "close_price": 62,
+            "change_rate": 0.0,
+            "foreign_net": 8192,
+            "organ_net": 0,
+            "individual_net": -8192
+          },
+          {
+            "date": "20260119",
+            "close_price": 60,
+            "change_rate": 0.0,
+            "foreign_net": -7447,
+            "organ_net": 0,
+            "individual_net": 7447
+          },
+          {
+            "date": "20260116",
+            "close_price": 86,
+            "change_rate": 0.0,
+            "foreign_net": -4102,
+            "organ_net": -3907,
+            "individual_net": 2268822
+          },
+          {
+            "date": "20260115",
+            "close_price": 2110,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260114",
+            "close_price": 2110,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260113",
+            "close_price": 2110,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260112",
+            "close_price": 2110,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260109",
+            "close_price": 2110,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260108",
+            "close_price": 2110,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260107",
+            "close_price": 2110,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260106",
+            "close_price": 2110,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260105",
+            "close_price": 2110,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260102",
+            "close_price": 2110,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251230",
+            "close_price": 2110,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251229",
+            "close_price": 2110,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251226",
+            "close_price": 2110,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251224",
+            "close_price": 2110,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251223",
+            "close_price": 2110,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251222",
+            "close_price": 2110,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251219",
+            "close_price": 2110,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251218",
+            "close_price": 2110,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251217",
+            "close_price": 2110,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251216",
+            "close_price": 2110,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251215",
+            "close_price": 2110,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251212",
+            "close_price": 2110,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251211",
+            "close_price": 2110,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          }
+        ]
+      },
+      "member_trading": {
+        "stock_code": "001140",
+        "sell_members": [],
+        "buy_members": [],
+        "global_sell_total": 0,
+        "global_buy_total": 0,
+        "global_net": 0
+      },
+      "daily_price": {
+        "stock_code": "001140",
+        "daily_prices": [
+          {
+            "date": "20260126",
+            "close": 14,
+            "open": 61,
+            "high": 61,
+            "low": 14,
+            "volume": 17897808,
+            "trading_value": 0,
+            "change_rate": -83.53
+          },
+          {
+            "date": "20260123",
+            "close": 85,
+            "open": 50,
+            "high": 132,
+            "low": 50,
+            "volume": 19887644,
+            "trading_value": 0,
+            "change_rate": 37.1
+          },
+          {
+            "date": "20260122",
+            "close": 62,
+            "open": 56,
+            "high": 62,
+            "low": 47,
+            "volume": 5344975,
+            "trading_value": 0,
+            "change_rate": -8.82
+          },
+          {
+            "date": "20260121",
+            "close": 68,
+            "open": 67,
+            "high": 104,
+            "low": 67,
+            "volume": 13284886,
+            "trading_value": 0,
+            "change_rate": 9.68
+          },
+          {
+            "date": "20260120",
+            "close": 62,
+            "open": 56,
+            "high": 66,
+            "low": 52,
+            "volume": 5545934,
+            "trading_value": 0,
+            "change_rate": 3.33
+          },
+          {
+            "date": "20260119",
+            "close": 60,
+            "open": 74,
+            "high": 76,
+            "low": 60,
+            "volume": 4684129,
+            "trading_value": 0,
+            "change_rate": -30.23
+          },
+          {
+            "date": "20260116",
+            "close": 86,
+            "open": 52,
+            "high": 86,
+            "low": 52,
+            "volume": 15577968,
+            "trading_value": 0,
+            "change_rate": -95.92
+          },
+          {
+            "date": "20260115",
+            "close": 2110,
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260114",
+            "close": 2110,
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260113",
+            "close": 2110,
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260112",
+            "close": 2110,
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260109",
+            "close": 2110,
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260108",
+            "close": 2110,
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260107",
+            "close": 2110,
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260106",
+            "close": 2110,
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260105",
+            "close": 2110,
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260102",
+            "close": 2110,
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251230",
+            "close": 2110,
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251229",
+            "close": 2110,
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251226",
+            "close": 2110,
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251224",
+            "close": 2110,
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251223",
+            "close": 2110,
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251222",
+            "close": 2110,
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251219",
+            "close": 2110,
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251218",
+            "close": 2110,
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251217",
+            "close": 2110,
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251216",
+            "close": 2110,
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251215",
+            "close": 2110,
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251212",
+            "close": 2110,
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251211",
+            "close": 2110,
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          }
+        ]
+      },
+      "daily_chart": {
+        "stock_code": "001140",
+        "stock_name": "국보",
+        "period": "D",
+        "ohlcv": [
+          {
+            "date": "20260126",
+            "open": 61,
+            "high": 61,
+            "low": 14,
+            "close": 14,
+            "volume": 17897808,
+            "trading_value": 562475104,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260123",
+            "open": 50,
+            "high": 132,
+            "low": 50,
+            "close": 85,
+            "volume": 19887644,
+            "trading_value": 1847557035,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260122",
+            "open": 56,
+            "high": 62,
+            "low": 47,
+            "close": 62,
+            "volume": 5344975,
+            "trading_value": 289334005,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260121",
+            "open": 67,
+            "high": 104,
+            "low": 67,
+            "close": 68,
+            "volume": 13284886,
+            "trading_value": 1122460761,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260120",
+            "open": 56,
+            "high": 66,
+            "low": 52,
+            "close": 62,
+            "volume": 5545934,
+            "trading_value": 331468456,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260119",
+            "open": 74,
+            "high": 76,
+            "low": 60,
+            "close": 60,
+            "volume": 4684129,
+            "trading_value": 317047620,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260116",
+            "open": 52,
+            "high": 86,
+            "low": 52,
+            "close": 86,
+            "volume": 15577968,
+            "trading_value": 1076285125,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260115",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260114",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260113",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260112",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260109",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260108",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260107",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260106",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260105",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260102",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251230",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251229",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251226",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251224",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251223",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251222",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251219",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251218",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251217",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251216",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251215",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251212",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251211",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251210",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251209",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251208",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251205",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251204",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251203",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251202",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251201",
+            "open": 2110,
+            "high": 2110,
+            "low": 2110,
+            "close": 2110,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          }
+        ]
+      },
+      "financial_info": {
+        "stock_code": "001140",
+        "financial_data": [
+          {
+            "year": "202509",
+            "sales": 0,
+            "operating_profit": 0,
+            "net_income": 0,
+            "roe": 0.0,
+            "eps": 0.0,
+            "bps": 0.0,
+            "debt_ratio": 0.0
+          },
+          {
+            "year": "202412",
+            "sales": 0,
+            "operating_profit": 0,
+            "net_income": 0,
+            "roe": 0.0,
+            "eps": 0.0,
+            "bps": 0.0,
+            "debt_ratio": 0.0
+          },
+          {
+            "year": "202312",
+            "sales": 0,
+            "operating_profit": 0,
+            "net_income": 0,
+            "roe": 0.0,
+            "eps": 0.0,
+            "bps": 0.0,
+            "debt_ratio": 0.0
+          },
+          {
+            "year": "202212",
+            "sales": 0,
+            "operating_profit": 0,
+            "net_income": 0,
+            "roe": 0.0,
+            "eps": 0.0,
+            "bps": 0.0,
+            "debt_ratio": 0.0
+          },
+          {
+            "year": "202112",
+            "sales": 0,
+            "operating_profit": 0,
+            "net_income": 0,
+            "roe": 0.0,
+            "eps": 0.0,
+            "bps": 0.0,
+            "debt_ratio": 0.0
+          }
+        ]
+      },
+      "foreign_institution_summary": {
+        "stock_code": "001140",
+        "today": {
+          "date": "20260126",
+          "close_price": 14,
+          "change_rate": 0.0,
+          "foreign_net": 100345,
+          "organ_net": 0,
+          "individual_net": -100345
+        },
+        "summary_5d": {
+          "foreign_net": 125560,
+          "organ_net": 0,
+          "individual_net": -105220
+        },
+        "summary_20d": {
+          "foreign_net": 114011,
+          "organ_net": -3907,
+          "individual_net": 2171049
+        }
+      },
+      "program_trading": {
+        "stock_code": "001140",
+        "program_trading": []
+      },
+      "stock_name": "KOSPI"
+    },
+    "042670": {
+      "stock_code": "042670",
+      "collected_at": "2026-01-29T22:36:56.671178",
+      "current_price": {
+        "stock_code": "042670",
+        "stock_name": "KOSPI",
+        "current_price": 0,
+        "change_price": 0,
+        "change_rate": 0.0,
+        "change_sign": "3",
+        "open_price": 0,
+        "high_price": 0,
+        "low_price": 0,
+        "prev_close": 0,
+        "volume": 0,
+        "trading_value": 0,
+        "high_52week": 0,
+        "low_52week": 0,
+        "per": 0.0,
+        "pbr": 0.0,
+        "eps": 0.0,
+        "bps": 0.0,
+        "market_cap": 0,
+        "shares_outstanding": 188851238,
+        "foreign_ratio": 0.0,
+        "volume_turnover": 0.0
+      },
+      "asking_price": {
+        "stock_code": "042670",
+        "ask_prices": [
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          }
+        ],
+        "bid_prices": [
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          }
+        ],
+        "total_ask_volume": 0,
+        "total_bid_volume": 0,
+        "expected_price": 0,
+        "expected_volume": 0,
+        "expected_change_rate": 0.0
+      },
+      "investor_trend": {
+        "stock_code": "042670",
+        "daily_investor_trend": [
+          {
+            "date": "20260123",
+            "close_price": 13800,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260122",
+            "close_price": 13800,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260121",
+            "close_price": 13800,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260120",
+            "close_price": 13800,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260119",
+            "close_price": 13800,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260116",
+            "close_price": 13800,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260115",
+            "close_price": 13800,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260114",
+            "close_price": 13800,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260113",
+            "close_price": 13800,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260112",
+            "close_price": 13800,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260109",
+            "close_price": 13800,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260108",
+            "close_price": 13800,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260107",
+            "close_price": 13800,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260106",
+            "close_price": 13800,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260105",
+            "close_price": 13800,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260102",
+            "close_price": 13800,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251230",
+            "close_price": 13800,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251229",
+            "close_price": 13800,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251226",
+            "close_price": 13800,
+            "change_rate": 0.0,
+            "foreign_net": 1867057,
+            "organ_net": -3035307,
+            "individual_net": 1157854
+          },
+          {
+            "date": "20251224",
+            "close_price": 14090,
+            "change_rate": 0.0,
+            "foreign_net": 25853,
+            "organ_net": -103851,
+            "individual_net": 106422
+          },
+          {
+            "date": "20251223",
+            "close_price": 13880,
+            "change_rate": 0.0,
+            "foreign_net": 122986,
+            "organ_net": -928246,
+            "individual_net": 769027
+          },
+          {
+            "date": "20251222",
+            "close_price": 14260,
+            "change_rate": 0.0,
+            "foreign_net": -545640,
+            "organ_net": -613406,
+            "individual_net": 1172990
+          },
+          {
+            "date": "20251219",
+            "close_price": 15120,
+            "change_rate": 0.0,
+            "foreign_net": 139228,
+            "organ_net": -369184,
+            "individual_net": 230196
+          },
+          {
+            "date": "20251218",
+            "close_price": 15330,
+            "change_rate": 0.0,
+            "foreign_net": -96301,
+            "organ_net": -252669,
+            "individual_net": 362256
+          },
+          {
+            "date": "20251217",
+            "close_price": 16350,
+            "change_rate": 0.0,
+            "foreign_net": 22736,
+            "organ_net": 49428,
+            "individual_net": -73350
+          },
+          {
+            "date": "20251216",
+            "close_price": 16320,
+            "change_rate": 0.0,
+            "foreign_net": 17680,
+            "organ_net": 128855,
+            "individual_net": -152150
+          },
+          {
+            "date": "20251215",
+            "close_price": 17020,
+            "change_rate": 0.0,
+            "foreign_net": 201122,
+            "organ_net": 136914,
+            "individual_net": -337921
+          },
+          {
+            "date": "20251212",
+            "close_price": 16940,
+            "change_rate": 0.0,
+            "foreign_net": 234525,
+            "organ_net": 360495,
+            "individual_net": -595675
+          },
+          {
+            "date": "20251211",
+            "close_price": 16430,
+            "change_rate": 0.0,
+            "foreign_net": 913413,
+            "organ_net": 37379,
+            "individual_net": -946691
+          },
+          {
+            "date": "20251210",
+            "close_price": 15700,
+            "change_rate": 0.0,
+            "foreign_net": 156782,
+            "organ_net": 80146,
+            "individual_net": -242774
+          }
+        ]
+      },
+      "member_trading": {
+        "stock_code": "042670",
+        "sell_members": [],
+        "buy_members": [],
+        "global_sell_total": 0,
+        "global_buy_total": 0,
+        "global_net": 0
+      },
+      "daily_price": {
+        "stock_code": "042670",
+        "daily_prices": [
+          {
+            "date": "20260123",
+            "close": 13800,
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260122",
+            "close": 13800,
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260121",
+            "close": 13800,
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260120",
+            "close": 13800,
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260119",
+            "close": 13800,
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260116",
+            "close": 13800,
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260115",
+            "close": 13800,
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260114",
+            "close": 13800,
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260113",
+            "close": 13800,
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260112",
+            "close": 13800,
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260109",
+            "close": 13800,
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260108",
+            "close": 13800,
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260107",
+            "close": 13800,
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260106",
+            "close": 13800,
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260105",
+            "close": 13800,
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260102",
+            "close": 13800,
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251230",
+            "close": 13800,
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251229",
+            "close": 13800,
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251226",
+            "close": 13800,
+            "open": 14170,
+            "high": 14200,
+            "low": 13420,
+            "volume": 5894502,
+            "trading_value": 0,
+            "change_rate": -2.06
+          },
+          {
+            "date": "20251224",
+            "close": 14090,
+            "open": 14010,
+            "high": 14450,
+            "low": 13850,
+            "volume": 1423529,
+            "trading_value": 0,
+            "change_rate": 1.51
+          },
+          {
+            "date": "20251223",
+            "close": 13880,
+            "open": 14320,
+            "high": 14340,
+            "low": 13820,
+            "volume": 2212964,
+            "trading_value": 0,
+            "change_rate": -2.66
+          },
+          {
+            "date": "20251222",
+            "close": 14260,
+            "open": 15300,
+            "high": 15380,
+            "low": 14010,
+            "volume": 3382927,
+            "trading_value": 0,
+            "change_rate": -5.69
+          },
+          {
+            "date": "20251219",
+            "close": 15120,
+            "open": 15570,
+            "high": 15580,
+            "low": 14990,
+            "volume": 1283889,
+            "trading_value": 0,
+            "change_rate": -1.37
+          },
+          {
+            "date": "20251218",
+            "close": 15330,
+            "open": 16000,
+            "high": 16000,
+            "low": 15290,
+            "volume": 1298054,
+            "trading_value": 0,
+            "change_rate": -6.24
+          },
+          {
+            "date": "20251217",
+            "close": 16350,
+            "open": 16540,
+            "high": 16990,
+            "low": 16150,
+            "volume": 977602,
+            "trading_value": 0,
+            "change_rate": 0.18
+          },
+          {
+            "date": "20251216",
+            "close": 16320,
+            "open": 17110,
+            "high": 17120,
+            "low": 16210,
+            "volume": 1703772,
+            "trading_value": 0,
+            "change_rate": -4.11
+          },
+          {
+            "date": "20251215",
+            "close": 17020,
+            "open": 16520,
+            "high": 17290,
+            "low": 16460,
+            "volume": 1663975,
+            "trading_value": 0,
+            "change_rate": 0.47
+          },
+          {
+            "date": "20251212",
+            "close": 16940,
+            "open": 16720,
+            "high": 17060,
+            "low": 16520,
+            "volume": 1738393,
+            "trading_value": 0,
+            "change_rate": 3.1
+          },
+          {
+            "date": "20251211",
+            "close": 16430,
+            "open": 15850,
+            "high": 16910,
+            "low": 15810,
+            "volume": 3272591,
+            "trading_value": 0,
+            "change_rate": 4.65
+          },
+          {
+            "date": "20251210",
+            "close": 15700,
+            "open": 15100,
+            "high": 15850,
+            "low": 14970,
+            "volume": 1273400,
+            "trading_value": 0,
+            "change_rate": 4.11
+          }
+        ]
+      },
+      "daily_chart": {
+        "stock_code": "042670",
+        "stock_name": "HD현대인프라코어",
+        "period": "D",
+        "ohlcv": [
+          {
+            "date": "20260123",
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "close": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260122",
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "close": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260121",
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "close": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260120",
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "close": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260119",
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "close": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260116",
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "close": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260115",
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "close": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260114",
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "close": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260113",
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "close": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260112",
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "close": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260109",
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "close": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260108",
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "close": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260107",
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "close": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260106",
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "close": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260105",
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "close": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260102",
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "close": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251230",
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "close": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251229",
+            "open": 13800,
+            "high": 13800,
+            "low": 13800,
+            "close": 13800,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251226",
+            "open": 14170,
+            "high": 14200,
+            "low": 13420,
+            "close": 13800,
+            "volume": 5894502,
+            "trading_value": 80999565545,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251224",
+            "open": 14010,
+            "high": 14450,
+            "low": 13850,
+            "close": 14090,
+            "volume": 1423529,
+            "trading_value": 20132686530,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251223",
+            "open": 14320,
+            "high": 14340,
+            "low": 13820,
+            "close": 13880,
+            "volume": 2212964,
+            "trading_value": 30916367325,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251222",
+            "open": 15300,
+            "high": 15380,
+            "low": 14010,
+            "close": 14260,
+            "volume": 3382927,
+            "trading_value": 49204367365,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251219",
+            "open": 15570,
+            "high": 15580,
+            "low": 14990,
+            "close": 15120,
+            "volume": 1283889,
+            "trading_value": 19487739700,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251218",
+            "open": 16000,
+            "high": 16000,
+            "low": 15290,
+            "close": 15330,
+            "volume": 1298054,
+            "trading_value": 20116821415,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251217",
+            "open": 16540,
+            "high": 16990,
+            "low": 16150,
+            "close": 16350,
+            "volume": 977602,
+            "trading_value": 16148685445,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251216",
+            "open": 17110,
+            "high": 17120,
+            "low": 16210,
+            "close": 16320,
+            "volume": 1703772,
+            "trading_value": 28238071530,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251215",
+            "open": 16520,
+            "high": 17290,
+            "low": 16460,
+            "close": 17020,
+            "volume": 1663975,
+            "trading_value": 28373074055,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251212",
+            "open": 16720,
+            "high": 17060,
+            "low": 16520,
+            "close": 16940,
+            "volume": 1738393,
+            "trading_value": 29368621805,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251211",
+            "open": 15850,
+            "high": 16910,
+            "low": 15810,
+            "close": 16430,
+            "volume": 3272591,
+            "trading_value": 54220584935,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251210",
+            "open": 15100,
+            "high": 15850,
+            "low": 14970,
+            "close": 15700,
+            "volume": 1273400,
+            "trading_value": 19663307775,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251209",
+            "open": 14960,
+            "high": 15280,
+            "low": 14860,
+            "close": 15080,
+            "volume": 725192,
+            "trading_value": 10945728695,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251208",
+            "open": 14970,
+            "high": 15090,
+            "low": 14730,
+            "close": 14960,
+            "volume": 526368,
+            "trading_value": 7864031705,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251205",
+            "open": 14760,
+            "high": 14950,
+            "low": 14650,
+            "close": 14920,
+            "volume": 628343,
+            "trading_value": 9307261400,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251204",
+            "open": 14610,
+            "high": 14830,
+            "low": 14480,
+            "close": 14830,
+            "volume": 722467,
+            "trading_value": 10575444530,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251203",
+            "open": 14890,
+            "high": 14900,
+            "low": 14550,
+            "close": 14780,
+            "volume": 727522,
+            "trading_value": 10738382045,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251202",
+            "open": 14480,
+            "high": 14820,
+            "low": 14330,
+            "close": 14710,
+            "volume": 682701,
+            "trading_value": 9975226145,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251201",
+            "open": 14740,
+            "high": 14790,
+            "low": 14310,
+            "close": 14470,
+            "volume": 915229,
+            "trading_value": 13312176085,
+            "change_rate": 0.0
+          }
+        ]
+      },
+      "financial_info": {
+        "stock_code": "042670",
+        "financial_data": [
+          {
+            "year": "202509",
+            "sales": 0,
+            "operating_profit": 0,
+            "net_income": 0,
+            "roe": 0.0,
+            "eps": 0.0,
+            "bps": 0.0,
+            "debt_ratio": 0.0
+          },
+          {
+            "year": "202412",
+            "sales": 0,
+            "operating_profit": 0,
+            "net_income": 0,
+            "roe": 0.0,
+            "eps": 0.0,
+            "bps": 0.0,
+            "debt_ratio": 0.0
+          },
+          {
+            "year": "202312",
+            "sales": 0,
+            "operating_profit": 0,
+            "net_income": 0,
+            "roe": 0.0,
+            "eps": 0.0,
+            "bps": 0.0,
+            "debt_ratio": 0.0
+          },
+          {
+            "year": "202212",
+            "sales": 0,
+            "operating_profit": 0,
+            "net_income": 0,
+            "roe": 0.0,
+            "eps": 0.0,
+            "bps": 0.0,
+            "debt_ratio": 0.0
+          },
+          {
+            "year": "202112",
+            "sales": 0,
+            "operating_profit": 0,
+            "net_income": 0,
+            "roe": 0.0,
+            "eps": 0.0,
+            "bps": 0.0,
+            "debt_ratio": 0.0
+          }
+        ]
+      },
+      "foreign_institution_summary": {
+        "stock_code": "042670",
+        "today": {
+          "date": "20260123",
+          "close_price": 13800,
+          "change_rate": 0.0,
+          "foreign_net": 0,
+          "organ_net": 0,
+          "individual_net": 0
+        },
+        "summary_5d": {
+          "foreign_net": 0,
+          "organ_net": 0,
+          "individual_net": 0
+        },
+        "summary_20d": {
+          "foreign_net": 1892910,
+          "organ_net": -3139158,
+          "individual_net": 1264276
+        }
+      },
+      "program_trading": {
+        "stock_code": "042670",
+        "program_trading": []
+      },
+      "stock_name": "KOSPI"
+    },
+    "038530": {
+      "stock_code": "038530",
+      "error": "invalid literal for int() with base 10: ''",
+      "collected_at": "2026-01-29T22:37:05.188360"
+    },
+    "011300": {
+      "stock_code": "011300",
+      "error": "invalid literal for int() with base 10: ''",
+      "collected_at": "2026-01-29T22:37:07.469059"
+    },
+    "004060": {
+      "stock_code": "004060",
+      "error": "invalid literal for int() with base 10: ''",
+      "collected_at": "2026-01-29T22:37:09.734041"
+    },
+    "004870": {
+      "stock_code": "004870",
+      "error": "invalid literal for int() with base 10: ''",
+      "collected_at": "2026-01-29T22:37:11.968007"
+    },
+    "019570": {
+      "stock_code": "019570",
+      "error": "invalid literal for int() with base 10: ''",
+      "collected_at": "2026-01-29T22:37:14.248208"
+    },
+    "010600": {
+      "stock_code": "010600",
+      "collected_at": "2026-01-29T22:37:14.448449",
+      "current_price": {
+        "stock_code": "010600",
+        "stock_name": "KOSPI",
+        "current_price": 0,
+        "change_price": 0,
+        "change_rate": 0.0,
+        "change_sign": "3",
+        "open_price": 0,
+        "high_price": 0,
+        "low_price": 0,
+        "prev_close": 0,
+        "volume": 0,
+        "trading_value": 0,
+        "high_52week": 0,
+        "low_52week": 0,
+        "per": 0.0,
+        "pbr": 0.0,
+        "eps": 0.0,
+        "bps": 0.0,
+        "market_cap": 0,
+        "shares_outstanding": 90923407,
+        "foreign_ratio": 0.0,
+        "volume_turnover": 0.0
+      },
+      "asking_price": {
+        "stock_code": "010600",
+        "ask_prices": [
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          }
+        ],
+        "bid_prices": [
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          },
+          {
+            "price": 0,
+            "volume": 0
+          }
+        ],
+        "total_ask_volume": 0,
+        "total_bid_volume": 0,
+        "expected_price": 0,
+        "expected_volume": 0,
+        "expected_change_rate": 0.0
+      },
+      "investor_trend": {
+        "stock_code": "010600",
+        "daily_investor_trend": [
+          {
+            "date": "20260123",
+            "close_price": 11,
+            "change_rate": 0.0,
+            "foreign_net": -791142,
+            "organ_net": 0,
+            "individual_net": 834258
+          },
+          {
+            "date": "20260122",
+            "close_price": 15,
+            "change_rate": 0.0,
+            "foreign_net": 111658,
+            "organ_net": 0,
+            "individual_net": -111658
+          },
+          {
+            "date": "20260121",
+            "close_price": 19,
+            "change_rate": 0.0,
+            "foreign_net": 349626,
+            "organ_net": 0,
+            "individual_net": -402842
+          },
+          {
+            "date": "20260120",
+            "close_price": 30,
+            "change_rate": 0.0,
+            "foreign_net": -59002,
+            "organ_net": 0,
+            "individual_net": 93002
+          },
+          {
+            "date": "20260119",
+            "close_price": 14,
+            "change_rate": 0.0,
+            "foreign_net": 184611,
+            "organ_net": 2845,
+            "individual_net": -173090
+          },
+          {
+            "date": "20260116",
+            "close_price": 17,
+            "change_rate": 0.0,
+            "foreign_net": -344108,
+            "organ_net": -181203,
+            "individual_net": 543918
+          },
+          {
+            "date": "20260115",
+            "close_price": 24,
+            "change_rate": 0.0,
+            "foreign_net": -1074309,
+            "organ_net": -83094,
+            "individual_net": 1173170
+          },
+          {
+            "date": "20260114",
+            "close_price": 545,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260113",
+            "close_price": 545,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260112",
+            "close_price": 545,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260109",
+            "close_price": 545,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260108",
+            "close_price": 545,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260107",
+            "close_price": 545,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260106",
+            "close_price": 545,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260105",
+            "close_price": 545,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20260102",
+            "close_price": 545,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251230",
+            "close_price": 545,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251229",
+            "close_price": 545,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251226",
+            "close_price": 545,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251224",
+            "close_price": 545,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251223",
+            "close_price": 545,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251222",
+            "close_price": 545,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251219",
+            "close_price": 545,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251218",
+            "close_price": 545,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251217",
+            "close_price": 545,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251216",
+            "close_price": 545,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251215",
+            "close_price": 545,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251212",
+            "close_price": 545,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251211",
+            "close_price": 545,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          },
+          {
+            "date": "20251210",
+            "close_price": 545,
+            "change_rate": 0.0,
+            "foreign_net": 0,
+            "organ_net": 0,
+            "individual_net": 0
+          }
+        ]
+      },
+      "member_trading": {
+        "stock_code": "010600",
+        "sell_members": [],
+        "buy_members": [],
+        "global_sell_total": 0,
+        "global_buy_total": 0,
+        "global_net": 0
+      },
+      "daily_price": {
+        "stock_code": "010600",
+        "daily_prices": [
+          {
+            "date": "20260123",
+            "close": 11,
+            "open": 13,
+            "high": 15,
+            "low": 11,
+            "volume": 29822636,
+            "trading_value": 0,
+            "change_rate": -26.67
+          },
+          {
+            "date": "20260122",
+            "close": 15,
+            "open": 15,
+            "high": 19,
+            "low": 14,
+            "volume": 27689755,
+            "trading_value": 0,
+            "change_rate": -21.05
+          },
+          {
+            "date": "20260121",
+            "close": 19,
+            "open": 32,
+            "high": 32,
+            "low": 16,
+            "volume": 40447942,
+            "trading_value": 0,
+            "change_rate": -36.67
+          },
+          {
+            "date": "20260120",
+            "close": 30,
+            "open": 15,
+            "high": 34,
+            "low": 15,
+            "volume": 70478191,
+            "trading_value": 0,
+            "change_rate": 114.29
+          },
+          {
+            "date": "20260119",
+            "close": 14,
+            "open": 16,
+            "high": 16,
+            "low": 13,
+            "volume": 17312064,
+            "trading_value": 0,
+            "change_rate": -17.65
+          },
+          {
+            "date": "20260116",
+            "close": 17,
+            "open": 22,
+            "high": 22,
+            "low": 16,
+            "volume": 21417304,
+            "trading_value": 0,
+            "change_rate": -29.17
+          },
+          {
+            "date": "20260115",
+            "close": 24,
+            "open": 32,
+            "high": 32,
+            "low": 22,
+            "volume": 41866831,
+            "trading_value": 0,
+            "change_rate": -95.6
+          },
+          {
+            "date": "20260114",
+            "close": 545,
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260113",
+            "close": 545,
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260112",
+            "close": 545,
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260109",
+            "close": 545,
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260108",
+            "close": 545,
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260107",
+            "close": 545,
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260106",
+            "close": 545,
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260105",
+            "close": 545,
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260102",
+            "close": 545,
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251230",
+            "close": 545,
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251229",
+            "close": 545,
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251226",
+            "close": 545,
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251224",
+            "close": 545,
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251223",
+            "close": 545,
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251222",
+            "close": 545,
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251219",
+            "close": 545,
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251218",
+            "close": 545,
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251217",
+            "close": 545,
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251216",
+            "close": 545,
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251215",
+            "close": 545,
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251212",
+            "close": 545,
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251211",
+            "close": 545,
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251210",
+            "close": 545,
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          }
+        ]
+      },
+      "daily_chart": {
+        "stock_code": "010600",
+        "stock_name": "웰바이오텍",
+        "period": "D",
+        "ohlcv": [
+          {
+            "date": "20260123",
+            "open": 13,
+            "high": 15,
+            "low": 11,
+            "close": 11,
+            "volume": 29822636,
+            "trading_value": 318853076,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260122",
+            "open": 15,
+            "high": 19,
+            "low": 14,
+            "close": 15,
+            "volume": 27689755,
+            "trading_value": 424800405,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260121",
+            "open": 32,
+            "high": 32,
+            "low": 16,
+            "close": 19,
+            "volume": 40447942,
+            "trading_value": 905577210,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260120",
+            "open": 15,
+            "high": 34,
+            "low": 15,
+            "close": 30,
+            "volume": 70478191,
+            "trading_value": 2085759370,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260119",
+            "open": 16,
+            "high": 16,
+            "low": 13,
+            "close": 14,
+            "volume": 17312064,
+            "trading_value": 248647674,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260116",
+            "open": 22,
+            "high": 22,
+            "low": 16,
+            "close": 17,
+            "volume": 21417304,
+            "trading_value": 376023293,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260115",
+            "open": 32,
+            "high": 32,
+            "low": 22,
+            "close": 24,
+            "volume": 41866831,
+            "trading_value": 1057982900,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260114",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260113",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260112",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260109",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260108",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260107",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260106",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260105",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20260102",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251230",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251229",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251226",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251224",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251223",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251222",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251219",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251218",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251217",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251216",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251215",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251212",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251211",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251210",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251209",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251208",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251205",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251204",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251203",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251202",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          },
+          {
+            "date": "20251201",
+            "open": 545,
+            "high": 545,
+            "low": 545,
+            "close": 545,
+            "volume": 0,
+            "trading_value": 0,
+            "change_rate": 0.0
+          }
+        ]
+      },
+      "financial_info": {
+        "stock_code": "010600",
+        "financial_data": [
+          {
+            "year": "202509",
+            "sales": 0,
+            "operating_profit": 0,
+            "net_income": 0,
+            "roe": 0.0,
+            "eps": 0.0,
+            "bps": 0.0,
+            "debt_ratio": 0.0
+          },
+          {
+            "year": "202412",
+            "sales": 0,
+            "operating_profit": 0,
+            "net_income": 0,
+            "roe": 0.0,
+            "eps": 0.0,
+            "bps": 0.0,
+            "debt_ratio": 0.0
+          },
+          {
+            "year": "202312",
+            "sales": 0,
+            "operating_profit": 0,
+            "net_income": 0,
+            "roe": 0.0,
+            "eps": 0.0,
+            "bps": 0.0,
+            "debt_ratio": 0.0
+          },
+          {
+            "year": "202212",
+            "sales": 0,
+            "operating_profit": 0,
+            "net_income": 0,
+            "roe": 0.0,
+            "eps": 0.0,
+            "bps": 0.0,
+            "debt_ratio": 0.0
+          },
+          {
+            "year": "202112",
+            "sales": 0,
+            "operating_profit": 0,
+            "net_income": 0,
+            "roe": 0.0,
+            "eps": 0.0,
+            "bps": 0.0,
+            "debt_ratio": 0.0
+          }
+        ]
+      },
+      "foreign_institution_summary": {
+        "stock_code": "010600",
+        "today": {
+          "date": "20260123",
+          "close_price": 11,
+          "change_rate": 0.0,
+          "foreign_net": -791142,
+          "organ_net": 0,
+          "individual_net": 834258
+        },
+        "summary_5d": {
+          "foreign_net": -204249,
+          "organ_net": 2845,
+          "individual_net": 239670
+        },
+        "summary_20d": {
+          "foreign_net": -1622666,
+          "organ_net": -261452,
+          "individual_net": 1956758
+        }
+      },
+      "program_trading": {
+        "stock_code": "010600",
+        "program_trading": []
+      },
+      "stock_name": "KOSPI"
+    },
+    "008290": {
+      "stock_code": "008290",
+      "error": "invalid literal for int() with base 10: ''",
+      "collected_at": "2026-01-29T22:37:23.065876"
+    },
+    "016600": {
+      "stock_code": "016600",
+      "error": "invalid literal for int() with base 10: ''",
+      "collected_at": "2026-01-29T22:37:25.313007"
+    },
+    "005030": {
+      "stock_code": "005030",
+      "error": "invalid literal for int() with base 10: ''",
+      "collected_at": "2026-01-29T22:37:27.625993"
+    },
+    "027040": {
+      "stock_code": "027040",
+      "error": "invalid literal for int() with base 10: ''",
+      "collected_at": "2026-01-29T22:37:29.901454"
+    },
+    "001470": {
+      "stock_code": "001470",
+      "error": "invalid literal for int() with base 10: ''",
+      "collected_at": "2026-01-29T22:37:32.155565"
+    },
+    "002360": {
+      "stock_code": "002360",
+      "error": "invalid literal for int() with base 10: ''",
+      "collected_at": "2026-01-29T22:37:34.423274"
+    },
+    "043090": {
+      "stock_code": "043090",
+      "error": "invalid literal for int() with base 10: ''",
+      "collected_at": "2026-01-29T22:37:36.723414"
+    },
+    "038880": {
+      "stock_code": "038880",
+      "error": "invalid literal for int() with base 10: ''",
+      "collected_at": "2026-01-29T22:37:39.001543"
+    },
+    "009810": {
+      "stock_code": "009810",
+      "error": "invalid literal for int() with base 10: ''",
+      "collected_at": "2026-01-29T22:37:41.236368"
+    },
+    "035620": {
+      "stock_code": "035620",
+      "error": "invalid literal for int() with base 10: ''",
+      "collected_at": "2026-01-29T22:37:43.507322"
+    },
+    "008600": {
+      "stock_code": "008600",
+      "error": "invalid literal for int() with base 10: ''",
+      "collected_at": "2026-01-29T22:37:45.789890"
+    },
+    "012340": {
+      "stock_code": "012340",
+      "error": "invalid literal for int() with base 10: ''",
+      "collected_at": "2026-01-29T22:37:48.047444"
+    },
+    "005320": {
+      "stock_code": "005320",
+      "error": "invalid literal for int() with base 10: ''",
+      "collected_at": "2026-01-29T22:37:50.321659"
+    },
+    "000040": {
+      "stock_code": "000040",
+      "error": "invalid literal for int() with base 10: ''",
+      "collected_at": "2026-01-29T22:37:52.609562"
+    },
+    "042040": {
+      "stock_code": "042040",
+      "error": "invalid literal for int() with base 10: ''",
+      "collected_at": "2026-01-29T22:37:54.862001"
+    },
+    "015260": {
+      "stock_code": "015260",
+      "error": "invalid literal for int() with base 10: ''",
+      "collected_at": "2026-01-29T22:37:57.116739"
+    },
+    "021880": {
+      "stock_code": "021880",
+      "error": "invalid literal for int() with base 10: ''",
+      "collected_at": "2026-01-29T22:37:59.396802"
+    }
+  }
+}
