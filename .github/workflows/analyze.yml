@@ -98,7 +98,7 @@ jobs:
   vision-analysis:
     needs: check-market
     if: |
-      needs.check-market.outputs.is_market_open == 'true' &&
+      (needs.check-market.outputs.is_market_open == 'true' || github.event_name == 'workflow_dispatch') &&
       github.event.inputs.skip_vision != 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 40
@@ -156,7 +156,7 @@ jobs:
   kis-analysis:
     needs: check-market
     if: |
-      needs.check-market.outputs.is_market_open == 'true' &&
+      (needs.check-market.outputs.is_market_open == 'true' || github.event_name == 'workflow_dispatch') &&
       github.event.inputs.skip_kis != 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 30
@@ -326,7 +326,7 @@ jobs:
     needs: [check-market, vision-analysis, kis-analysis]
     if: |
       always() &&
-      needs.check-market.outputs.is_market_open == 'true' &&
+      (needs.check-market.outputs.is_market_open == 'true' || github.event_name == 'workflow_dispatch') &&
       (needs.vision-analysis.outputs.success == 'true' || needs.kis-analysis.outputs.success == 'true')
     runs-on: ubuntu-latest
 
@@ -467,7 +467,7 @@ jobs:
 
   notify-skip:
     needs: check-market
-    if: needs.check-market.outputs.is_market_open != 'true'
+    if: needs.check-market.outputs.is_market_open != 'true' && github.event_name != 'workflow_dispatch'
     runs-on: ubuntu-latest
 
     steps:
