@@ -24,6 +24,12 @@ from config.settings import (
     KIS_BASE_URL,
     ROOT_DIR,
 )
+from modules.supabase_client import (
+    get_kis_credentials_from_supabase,
+    get_kis_token_from_supabase,
+    save_kis_token_to_supabase,
+    get_supabase_manager,
+)
 
 
 class TokenExpiredError(Exception):
@@ -46,8 +52,8 @@ class KISClient:
     """
 
     def __init__(self):
-        self.app_key = KIS_APP_KEY
-        self.app_secret = KIS_APP_SECRET
+        # Supabase에서 KIS API 키 조회 시도, 없으면 환경변수 사용
+        self._load_credentials()
         self.account_no = KIS_ACCOUNT_NO
         self.base_url = KIS_BASE_URL
 
@@ -60,6 +66,20 @@ class KISClient:
         self._validate_credentials()
         self._load_cached_token()
 
+    def _load_credentials(self):
+        """KIS API 키 로드 (Supabase 우선, 환경변수 폴백)"""
+        supabase_creds = get_kis_credentials_from_supabase()
+
+        if supabase_creds:
+            self.app_key = supabase_creds['app_key']
+            self.app_secret = supabase_creds['app_secret']
+            print("[KIS] Supabase에서 API 키를 로드했습니다.")
+        else:
+            self.app_key = KIS_APP_KEY
+            self.app_secret = KIS_APP_SECRET
+            if KIS_APP_KEY:
+                print("[KIS] 환경변수에서 API 키를 로드했습니다.")
+
     def _validate_credentials(self):
         """API 키 유효성 검사"""
         if not self.app_key:
@@ -68,7 +88,47 @@ class KISClient:
             raise ValueError("KIS_APP_SECRET 환경변수가 설정되지 않았습니다.")
 
     def _load_cached_token(self) -> bool:
-        """캐시된 토큰 로드 (만료 여부와 관계없이 로드)"""
+        """캐시된 토큰 로드 (Supabase 우선, 로컬 파일 폴백)"""
+        # 1. Supabase에서 토큰 로드 시도
+        if self._load_token_from_supabase():
+            return True
+
+        # 2. 로컬 파일에서 토큰 로드
+        return self._load_token_from_file()
+
+    def _load_token_from_supabase(self) -> bool:
+        """Supabase에서 토큰 로드"""
+        manager = get_supabase_manager()
+        if not manager.is_available():
+            return False
+
+        token_data = get_kis_token_from_supabase()
+        if not token_data:
+            return False
+
+        try:
+            self._access_token = token_data.get('access_token')
+            self._token_expires_at = datetime.fromisoformat(token_data['expires_at'])
+            self._token_issued_at = datetime.fromisoformat(token_data['issued_at'])
+
+            # 토큰 상태 출력
+            remaining = self._token_expires_at - datetime.now()
+            if remaining.total_seconds() > 0:
+                hours = remaining.total_seconds() / 3600
+                print(f"[KIS] Supabase에서 토큰 로드 완료 (유효시간: {hours:.1f}시간 남음)")
+            else:
+                print(f"[KIS] Supabase에서 토큰 로드 (만료됨, API 호출 시 재발급 시도)")
+
+            # 로컬에도 캐시 (오프라인 폴백용)
+            self._save_token_to_file()
+            return True
+
+        except (KeyError, ValueError) as e:
+            print(f"[KIS] Supabase 토큰 파싱 실패: {e}")
+            return False
+
+    def _load_token_from_file(self) -> bool:
+        """로컬 파일에서 토큰 로드"""
         if not self._token_cache_path.exists():
             return False
 
@@ -88,18 +148,38 @@ class KISClient:
             remaining = self._token_expires_at - datetime.now()
             if remaining.total_seconds() > 0:
                 hours = remaining.total_seconds() / 3600
-                print(f"[KIS] 캐시된 토큰 로드 완료 (유효시간: {hours:.1f}시간 남음)")
+                print(f"[KIS] 로컬 캐시에서 토큰 로드 완료 (유효시간: {hours:.1f}시간 남음)")
             else:
-                print(f"[KIS] 캐시된 토큰 로드 (만료됨, API 호출 시 재발급 시도)")
+                print(f"[KIS] 로컬 캐시에서 토큰 로드 (만료됨, API 호출 시 재발급 시도)")
 
             return True
 
         except (json.JSONDecodeError, KeyError, ValueError) as e:
-            print(f"[KIS] 토큰 캐시 로드 실패: {e}")
+            print(f"[KIS] 로컬 토큰 캐시 로드 실패: {e}")
             return False
 
     def _save_token_cache(self):
-        """토큰 캐시 저장"""
+        """토큰 캐시 저장 (Supabase + 로컬 파일)"""
+        # 1. Supabase에 저장 (다른 환경과 공유)
+        self._save_token_to_supabase()
+
+        # 2. 로컬 파일에도 저장 (오프라인 폴백)
+        self._save_token_to_file()
+
+    def _save_token_to_supabase(self):
+        """Supabase에 토큰 저장"""
+        manager = get_supabase_manager()
+        if not manager.is_available():
+            return
+
+        save_kis_token_to_supabase(
+            self._access_token,
+            self._token_expires_at,
+            self._token_issued_at,
+        )
+
+    def _save_token_to_file(self):
+        """로컬 파일에 토큰 저장"""
         cache = {
             "token": {
                 'access_token': self._access_token,
