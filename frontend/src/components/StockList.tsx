@@ -15,6 +15,19 @@ interface StockListProps {
   compactMode?: boolean
 }
 
+// 컴팩트 모드 컬럼 헤더
+function CompactHeader() {
+  return (
+    <div className="grid grid-cols-[auto_1fr_auto_auto_auto] gap-2 px-2 py-1.5 text-[9px] sm:text-[10px] text-muted-foreground font-medium border-b border-border/50">
+      <span className="w-5 text-center">#</span>
+      <span>종목명</span>
+      <span className="text-right w-16 sm:w-20">현재가</span>
+      <span className="text-right w-12 sm:w-14">거래량</span>
+      <span className="text-right w-14 sm:w-16">등락률</span>
+    </div>
+  )
+}
+
 // 컴팩트 모드용 간단한 종목 행
 function CompactStockRow({ stock, type }: { stock: Stock; type: "rising" | "falling" }) {
   const isRising = type === "rising"
@@ -25,31 +38,39 @@ function CompactStockRow({ stock, type }: { stock: Stock; type: "rising" | "fall
       href={naverUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className="flex items-center justify-between py-2 px-2 hover:bg-muted/50 rounded-md transition-colors group"
+      className="grid grid-cols-[auto_1fr_auto_auto_auto] gap-2 items-center py-2 px-2 hover:bg-muted/50 rounded-md transition-colors group"
     >
-      {/* Left: Rank + Name */}
-      <div className="flex items-center gap-2 min-w-0 flex-1">
-        <span className={cn(
-          "w-5 h-5 flex items-center justify-center text-[10px] font-bold rounded-full shrink-0",
-          isRising ? "bg-red-500/10 text-red-600" : "bg-blue-500/10 text-blue-600"
-        )}>
-          {stock.rank}
-        </span>
+      {/* Rank */}
+      <span className={cn(
+        "w-5 h-5 flex items-center justify-center text-[10px] font-bold rounded-full shrink-0",
+        isRising ? "bg-red-500/10 text-red-600" : "bg-blue-500/10 text-blue-600"
+      )}>
+        {stock.rank}
+      </span>
+
+      {/* Name */}
+      <div className="flex items-center gap-1 min-w-0">
         <span className="font-medium text-xs truncate">{stock.name}</span>
         <ExternalLink className="w-3 h-3 opacity-0 group-hover:opacity-50 transition-opacity shrink-0" />
       </div>
 
-      {/* Right: Volume + Price + Change */}
-      <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
-        <span className="text-[10px] text-muted-foreground tabular-nums">{formatVolume(stock.volume)}</span>
-        <span className="text-xs font-medium tabular-nums">{formatPrice(stock.current_price)}<span className="text-[10px] text-muted-foreground">원</span></span>
-        <span className={cn(
-          "text-[10px] font-semibold px-1.5 py-0.5 rounded",
-          isRising ? "bg-red-500/10 text-red-600" : "bg-blue-500/10 text-blue-600"
-        )}>
-          {formatChangeRate(stock.change_rate)}
-        </span>
-      </div>
+      {/* Price */}
+      <span className="text-xs font-medium tabular-nums text-right w-16 sm:w-20">
+        {formatPrice(stock.current_price)}<span className="text-[9px] text-muted-foreground">원</span>
+      </span>
+
+      {/* Volume */}
+      <span className="text-[10px] text-muted-foreground tabular-nums text-right w-12 sm:w-14">
+        {formatVolume(stock.volume)}
+      </span>
+
+      {/* Change Rate */}
+      <span className={cn(
+        "text-[10px] font-semibold px-1.5 py-0.5 rounded text-right w-14 sm:w-16",
+        isRising ? "bg-red-500/10 text-red-600" : "bg-blue-500/10 text-blue-600"
+      )}>
+        {formatChangeRate(stock.change_rate)}
+      </span>
     </a>
   )
 }
@@ -59,12 +80,14 @@ function CompactMarketSection({
   market,
   stocks,
   type,
-  bgColor
+  bgColor,
+  showHeader = false
 }: {
   market: string
   stocks: Stock[]
   type: "rising" | "falling"
   bgColor: string
+  showHeader?: boolean
 }) {
   if (stocks.length === 0) {
     return (
@@ -86,6 +109,7 @@ function CompactMarketSection({
         <span className="font-semibold text-xs">{market}</span>
         <span className="text-[10px] text-muted-foreground">({stocks.length})</span>
       </div>
+      {showHeader && <CompactHeader />}
       <div className="divide-y divide-border/30">
         {stocks.map((stock) => (
           <CompactStockRow key={stock.code} stock={stock} type={type} />
@@ -117,18 +141,20 @@ export function StockList({ title, kospiStocks, kosdaqStocks, history, news, typ
             </Badge>
           </CardTitle>
         </CardHeader>
-        <CardContent className="p-2 sm:p-3 space-y-2">
+        <CardContent className="p-2 sm:p-3 space-y-3">
           <CompactMarketSection
             market="KOSPI"
             stocks={kospiStocks}
             type={type}
             bgColor="bg-blue-600"
+            showHeader={true}
           />
           <CompactMarketSection
             market="KOSDAQ"
             stocks={kosdaqStocks}
             type={type}
             bgColor="bg-green-600"
+            showHeader={true}
           />
         </CardContent>
       </Card>
