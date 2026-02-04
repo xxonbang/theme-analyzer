@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react"
-import { BarChart3, RefreshCw, LayoutGrid, List, Calendar, Clock } from "lucide-react"
+import { BarChart3, RefreshCw, LayoutGrid, List, Calendar, Clock, History } from "lucide-react"
 import { cn } from "@/lib/utils"
 
 interface HeaderProps {
@@ -8,15 +8,19 @@ interface HeaderProps {
   loading?: boolean
   compactMode?: boolean
   onToggleCompact?: () => void
+  onHistoryClick?: () => void
+  isViewingHistory?: boolean
 }
 
-export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCompact }: HeaderProps) {
+export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCompact, onHistoryClick, isViewingHistory }: HeaderProps) {
   const [showTooltip, setShowTooltip] = useState(false)
   const [tooltipFading, setTooltipFading] = useState(false)
   const [toggleRipple, setToggleRipple] = useState<{ x: number; y: number; show: boolean }>({ x: 0, y: 0, show: false })
   const [refreshRipple, setRefreshRipple] = useState<{ x: number; y: number; show: boolean }>({ x: 0, y: 0, show: false })
+  const [historyRipple, setHistoryRipple] = useState<{ x: number; y: number; show: boolean }>({ x: 0, y: 0, show: false })
   const [toggleFocusRing, setToggleFocusRing] = useState(false)
   const [refreshFocusRing, setRefreshFocusRing] = useState(false)
+  const [historyFocusRing, setHistoryFocusRing] = useState(false)
   const tooltipTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   // 툴팁 자동 숨김 (3초 후 fade-out)
@@ -93,6 +97,23 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
     setTimeout(() => setRefreshFocusRing(false), 400)
 
     onRefresh?.()
+  }
+
+  // History 버튼 클릭 효과
+  const handleHistoryClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+    const rect = e.currentTarget.getBoundingClientRect()
+    setHistoryRipple({
+      x: e.clientX - rect.left,
+      y: e.clientY - rect.top,
+      show: true,
+    })
+    setTimeout(() => setHistoryRipple(prev => ({ ...prev, show: false })), 500)
+
+    // 임시 focus ring
+    setHistoryFocusRing(true)
+    setTimeout(() => setHistoryFocusRing(false), 400)
+
+    onHistoryClick?.()
   }
 
   // 타임스탬프 파싱
@@ -215,6 +236,67 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
                 </div>
               )}
             </div>
+          )}
+
+          {/* History Button */}
+          {onHistoryClick && (
+            <button
+              onClick={handleHistoryClick}
+              className={cn(
+                "relative overflow-hidden group",
+                "flex items-center justify-center w-9 h-9 sm:w-10 sm:h-10",
+                "rounded-xl",
+                "bg-gradient-to-br from-secondary via-secondary to-secondary/80",
+                "border border-border/50",
+                "shadow-sm hover:shadow-md hover:shadow-primary/10",
+                "transition-all duration-300 ease-out",
+                "hover:scale-110 active:scale-95",
+                "hover:border-primary/30",
+                "focus:outline-none",
+                isViewingHistory && "ring-2 ring-amber-500/50 border-amber-500/30"
+              )}
+              title="히스토리"
+            >
+              {/* 임시 Focus Ring */}
+              <div
+                className={cn(
+                  "absolute inset-0 rounded-xl ring-2 ring-primary/40 ring-offset-2 ring-offset-background",
+                  "transition-opacity duration-300",
+                  historyFocusRing ? "opacity-100" : "opacity-0"
+                )}
+              />
+
+              {/* Glow effect on hover */}
+              <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-primary/20 via-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+
+              {/* Shimmer effect */}
+              <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-700 ease-out bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+
+              {/* Icon */}
+              <div className={cn(
+                "relative z-10 transition-all duration-300",
+                "group-hover:rotate-12 group-active:rotate-0"
+              )}>
+                <History className={cn(
+                  "w-4 h-4 sm:w-5 sm:h-5 transition-transform duration-300 group-hover:scale-110",
+                  isViewingHistory && "text-amber-500"
+                )} />
+              </div>
+
+              {/* Ripple effect */}
+              {historyRipple.show && (
+                <span
+                  className="absolute rounded-full bg-primary/30 animate-ripple"
+                  style={{
+                    left: historyRipple.x,
+                    top: historyRipple.y,
+                    width: '4px',
+                    height: '4px',
+                    transform: 'translate(-50%, -50%)',
+                  }}
+                />
+              )}
+            </button>
           )}
 
           {/* Compact Mode Toggle Button */}

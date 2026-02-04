@@ -102,7 +102,17 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           if [ -f frontend/public/data/latest.json ]; then
+            # Add latest.json
             git add frontend/public/data/latest.json
+
+            # Add history files if they exist
+            if [ -f frontend/public/data/history-index.json ]; then
+              git add frontend/public/data/history-index.json
+            fi
+            if [ -d frontend/public/data/history ]; then
+              git add frontend/public/data/history/*.json 2>/dev/null || true
+            fi
+
             if ! git diff --staged --quiet; then
               KST_TIME=$(TZ='Asia/Seoul' date +'%Y-%m-%d %H:%M')
               git commit -m "Update stock data - $KST_TIME KST"
