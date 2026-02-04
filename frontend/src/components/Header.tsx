@@ -12,17 +12,29 @@ interface HeaderProps {
 
 export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCompact }: HeaderProps) {
   const [showTooltip, setShowTooltip] = useState(false)
-  const [ripple, setRipple] = useState<{ x: number; y: number; show: boolean }>({ x: 0, y: 0, show: false })
+  const [toggleRipple, setToggleRipple] = useState<{ x: number; y: number; show: boolean }>({ x: 0, y: 0, show: false })
+  const [refreshRipple, setRefreshRipple] = useState<{ x: number; y: number; show: boolean }>({ x: 0, y: 0, show: false })
 
-  // Ripple 효과 핸들러
-  const handleRipple = (e: React.MouseEvent<HTMLButtonElement>) => {
+  // Toggle 버튼 Ripple 효과
+  const handleToggleRipple = (e: React.MouseEvent<HTMLButtonElement>) => {
     const rect = e.currentTarget.getBoundingClientRect()
-    setRipple({
+    setToggleRipple({
       x: e.clientX - rect.left,
       y: e.clientY - rect.top,
       show: true,
     })
-    setTimeout(() => setRipple(prev => ({ ...prev, show: false })), 500)
+    setTimeout(() => setToggleRipple(prev => ({ ...prev, show: false })), 500)
+  }
+
+  // Refresh 버튼 Ripple 효과
+  const handleRefreshRipple = (e: React.MouseEvent<HTMLButtonElement>) => {
+    const rect = e.currentTarget.getBoundingClientRect()
+    setRefreshRipple({
+      x: e.clientX - rect.left,
+      y: e.clientY - rect.top,
+      show: true,
+    })
+    setTimeout(() => setRefreshRipple(prev => ({ ...prev, show: false })), 500)
   }
 
   // 타임스탬프 파싱: "2026-02-03 23:04:50"
@@ -144,7 +156,7 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
           {onToggleCompact && (
             <button
               onClick={(e) => {
-                handleRipple(e)
+                handleToggleRipple(e)
                 onToggleCompact()
               }}
               className={cn(
@@ -180,12 +192,12 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
               </div>
 
               {/* Ripple effect */}
-              {ripple.show && (
+              {toggleRipple.show && (
                 <span
                   className="absolute rounded-full bg-primary/30 animate-ripple"
                   style={{
-                    left: ripple.x,
-                    top: ripple.y,
+                    left: toggleRipple.x,
+                    top: toggleRipple.y,
                     width: '4px',
                     height: '4px',
                     transform: 'translate(-50%, -50%)',
@@ -200,7 +212,7 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
             <button
               onClick={(e) => {
                 if (!loading) {
-                  handleRipple(e)
+                  handleRefreshRipple(e)
                   onRefresh()
                 }
               }}
@@ -256,12 +268,12 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
               </span>
 
               {/* Ripple effect */}
-              {ripple.show && !loading && (
+              {refreshRipple.show && !loading && (
                 <span
                   className="absolute rounded-full bg-primary/40 animate-ripple"
                   style={{
-                    left: ripple.x,
-                    top: ripple.y,
+                    left: refreshRipple.x,
+                    top: refreshRipple.y,
                     width: '4px',
                     height: '4px',
                     transform: 'translate(-50%, -50%)',
