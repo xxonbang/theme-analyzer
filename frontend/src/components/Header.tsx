@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { BarChart3, RefreshCw, LayoutGrid, List, Calendar, Clock } from "lucide-react"
+import { cn } from "@/lib/utils"
 
 interface HeaderProps {
   timestamp?: string
@@ -11,6 +12,18 @@ interface HeaderProps {
 
 export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCompact }: HeaderProps) {
   const [showTooltip, setShowTooltip] = useState(false)
+  const [ripple, setRipple] = useState<{ x: number; y: number; show: boolean }>({ x: 0, y: 0, show: false })
+
+  // Ripple 효과 핸들러
+  const handleRipple = (e: React.MouseEvent<HTMLButtonElement>) => {
+    const rect = e.currentTarget.getBoundingClientRect()
+    setRipple({
+      x: e.clientX - rect.left,
+      y: e.clientY - rect.top,
+      show: true,
+    })
+    setTimeout(() => setRipple(prev => ({ ...prev, show: false })), 500)
+  }
 
   // 타임스탬프 파싱: "2026-02-03 23:04:50"
   const parseTimestamp = (ts: string) => {
@@ -68,7 +81,7 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
     if (diffMins < 60) return `${diffMins}분 전`
     if (diffHours < 24) return `${diffHours}시간 전`
     if (diffDays < 7) return `${diffDays}일 전`
-    return null // 7일 이상은 절대 시간 표시
+    return null
   }
 
   const parsed = timestamp ? parseTimestamp(timestamp) : null
@@ -90,24 +103,19 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
 
         {/* Right Controls */}
         <div className="flex items-center gap-2 sm:gap-3">
-          {/* Timestamp Badge - Modern Pill Design */}
+          {/* Timestamp Badge */}
           {parsed && (
             <div
               className="relative"
               onMouseEnter={() => setShowTooltip(true)}
               onMouseLeave={() => setShowTooltip(false)}
             >
-              {/* Main Badge */}
               <div className="flex items-center gap-1.5 px-2.5 py-1.5 sm:px-3 sm:py-2 rounded-full bg-gradient-to-r from-muted/80 to-muted/50 border border-border/50 shadow-sm cursor-default">
-                {/* Live Indicator Dot */}
                 <span className="relative flex h-2 w-2">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
                 </span>
-
-                {/* Date & Time Display */}
                 <div className="flex items-center gap-1.5 sm:gap-2">
-                  {/* Date */}
                   <div className="flex items-center gap-1">
                     <Calendar className="w-3 h-3 text-muted-foreground hidden sm:block" />
                     <span className="text-[10px] sm:text-xs font-medium">
@@ -116,57 +124,171 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
                       <span className="text-muted-foreground ml-0.5">({parsed.weekday})</span>
                     </span>
                   </div>
-
-                  {/* Divider */}
                   <span className="w-px h-3 bg-border/70 hidden sm:block"></span>
-
-                  {/* Time */}
                   <div className="flex items-center gap-1">
                     <Clock className="w-3 h-3 text-muted-foreground hidden sm:block" />
                     <span className="text-[10px] sm:text-xs font-semibold tabular-nums">{parsed.fullTime}</span>
                   </div>
                 </div>
               </div>
-
-              {/* Tooltip - Relative Time */}
               {showTooltip && relativeTime && (
-                <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 px-2.5 py-1.5 bg-popover text-popover-foreground text-xs font-medium rounded-md shadow-lg border border-border whitespace-nowrap z-50">
+                <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 px-2.5 py-1.5 bg-popover text-popover-foreground text-xs font-medium rounded-md shadow-lg border border-border whitespace-nowrap z-50 animate-in fade-in-0 zoom-in-95 duration-200">
                   <span className="text-green-500">●</span> {relativeTime} 업데이트
-                  {/* Arrow */}
                   <div className="absolute -top-1 left-1/2 -translate-x-1/2 w-2 h-2 bg-popover border-l border-t border-border rotate-45"></div>
                 </div>
               )}
             </div>
           )}
 
-          {/* Compact Mode Toggle */}
+          {/* Compact Mode Toggle - Modern Animated Button */}
           {onToggleCompact && (
             <button
-              onClick={onToggleCompact}
-              className="flex items-center justify-center w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-secondary/80 hover:bg-secondary transition-all hover:scale-105 active:scale-95"
+              onClick={(e) => {
+                handleRipple(e)
+                onToggleCompact()
+              }}
+              className={cn(
+                "relative overflow-hidden group",
+                "flex items-center justify-center w-9 h-9 sm:w-10 sm:h-10",
+                "rounded-xl",
+                "bg-gradient-to-br from-secondary via-secondary to-secondary/80",
+                "border border-border/50",
+                "shadow-sm hover:shadow-md hover:shadow-primary/10",
+                "transition-all duration-300 ease-out",
+                "hover:scale-110 active:scale-95",
+                "hover:border-primary/30",
+                "focus:outline-none focus:ring-2 focus:ring-primary/30 focus:ring-offset-2 focus:ring-offset-background"
+              )}
               title={compactMode ? "상세 보기" : "간단 보기"}
             >
-              {compactMode ? (
-                <LayoutGrid className="w-4 h-4" />
-              ) : (
-                <List className="w-4 h-4" />
+              {/* Glow effect on hover */}
+              <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-primary/20 via-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+
+              {/* Shimmer effect */}
+              <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-700 ease-out bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+
+              {/* Icon with rotation animation */}
+              <div className={cn(
+                "relative z-10 transition-all duration-300",
+                "group-hover:rotate-12 group-active:rotate-0"
+              )}>
+                {compactMode ? (
+                  <LayoutGrid className="w-4 h-4 sm:w-5 sm:h-5 transition-transform duration-300 group-hover:scale-110" />
+                ) : (
+                  <List className="w-4 h-4 sm:w-5 sm:h-5 transition-transform duration-300 group-hover:scale-110" />
+                )}
+              </div>
+
+              {/* Ripple effect */}
+              {ripple.show && (
+                <span
+                  className="absolute rounded-full bg-primary/30 animate-ripple"
+                  style={{
+                    left: ripple.x,
+                    top: ripple.y,
+                    width: '4px',
+                    height: '4px',
+                    transform: 'translate(-50%, -50%)',
+                  }}
+                />
               )}
             </button>
           )}
 
-          {/* Refresh Button */}
+          {/* Refresh Button - Modern Animated Button */}
           {onRefresh && (
             <button
-              onClick={onRefresh}
+              onClick={(e) => {
+                if (!loading) {
+                  handleRipple(e)
+                  onRefresh()
+                }
+              }}
               disabled={loading}
-              className="flex items-center gap-1.5 px-3 py-1.5 sm:px-4 sm:py-2 text-xs sm:text-sm font-medium rounded-full bg-primary/10 text-primary hover:bg-primary/20 transition-all hover:scale-105 active:scale-95 disabled:opacity-50 disabled:hover:scale-100"
+              className={cn(
+                "relative overflow-hidden group",
+                "flex items-center gap-1.5 px-3 py-2 sm:px-4 sm:py-2.5",
+                "rounded-xl",
+                "font-medium text-xs sm:text-sm",
+                "bg-gradient-to-br from-primary/10 via-primary/5 to-primary/10",
+                "text-primary",
+                "border border-primary/20",
+                "shadow-sm",
+                "transition-all duration-300 ease-out",
+                "hover:shadow-lg hover:shadow-primary/20",
+                "hover:scale-105 hover:border-primary/40",
+                "hover:from-primary/20 hover:via-primary/10 hover:to-primary/20",
+                "active:scale-95",
+                "focus:outline-none focus:ring-2 focus:ring-primary/30 focus:ring-offset-2 focus:ring-offset-background",
+                "disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:scale-100 disabled:hover:shadow-sm"
+              )}
             >
-              <RefreshCw className={`w-3.5 h-3.5 ${loading ? "animate-spin" : ""}`} />
-              <span className="hidden sm:inline">새로고침</span>
+              {/* Animated glow border */}
+              <div className={cn(
+                "absolute inset-0 rounded-xl",
+                "bg-gradient-to-r from-primary/0 via-primary/30 to-primary/0",
+                "opacity-0 group-hover:opacity-100",
+                "transition-opacity duration-300",
+                !loading && "group-hover:animate-pulse"
+              )} />
+
+              {/* Shimmer sweep effect */}
+              <div className={cn(
+                "absolute inset-0 -translate-x-full transition-transform duration-700 ease-out",
+                "bg-gradient-to-r from-transparent via-white/20 to-transparent",
+                !loading && "group-hover:translate-x-full"
+              )} />
+
+              {/* Icon */}
+              <RefreshCw className={cn(
+                "relative z-10 w-3.5 h-3.5 sm:w-4 sm:h-4",
+                "transition-transform duration-500",
+                loading ? "animate-spin" : "group-hover:rotate-180"
+              )} />
+
+              {/* Text with subtle animation */}
+              <span className={cn(
+                "relative z-10 hidden sm:inline",
+                "transition-all duration-300",
+                "group-hover:tracking-wide"
+              )}>
+                {loading ? "갱신 중..." : "새로고침"}
+              </span>
+
+              {/* Ripple effect */}
+              {ripple.show && !loading && (
+                <span
+                  className="absolute rounded-full bg-primary/40 animate-ripple"
+                  style={{
+                    left: ripple.x,
+                    top: ripple.y,
+                    width: '4px',
+                    height: '4px',
+                    transform: 'translate(-50%, -50%)',
+                  }}
+                />
+              )}
             </button>
           )}
         </div>
       </div>
+
+      {/* Custom styles for ripple animation */}
+      <style>{`
+        @keyframes ripple {
+          0% {
+            transform: translate(-50%, -50%) scale(0);
+            opacity: 1;
+          }
+          100% {
+            transform: translate(-50%, -50%) scale(40);
+            opacity: 0;
+          }
+        }
+        .animate-ripple {
+          animation: ripple 0.5s ease-out forwards;
+        }
+      `}</style>
     </header>
   )
 }
