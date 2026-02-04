@@ -244,7 +244,7 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
               onClick={handleHistoryClick}
               className={cn(
                 "relative overflow-hidden group",
-                "flex items-center justify-center w-7 h-7 sm:w-8 sm:h-8",
+                "flex items-center justify-center w-8 h-8 sm:w-9 sm:h-9",
                 "rounded-lg",
                 "bg-gradient-to-br from-secondary via-secondary to-secondary/80",
                 "border border-border/50",
@@ -278,7 +278,7 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
                 "group-hover:rotate-12 group-active:rotate-0"
               )}>
                 <History className={cn(
-                  "w-3 h-3 sm:w-3.5 sm:h-3.5 transition-transform duration-300 group-hover:scale-110",
+                  "w-3.5 h-3.5 sm:w-4 sm:h-4 transition-transform duration-300 group-hover:scale-110",
                   isViewingHistory && "text-primary"
                 )} />
               </div>
@@ -305,7 +305,7 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
               onClick={handleToggleClick}
               className={cn(
                 "relative overflow-hidden group",
-                "flex items-center justify-center w-7 h-7 sm:w-8 sm:h-8",
+                "flex items-center justify-center w-8 h-8 sm:w-9 sm:h-9",
                 "rounded-lg",
                 "bg-gradient-to-br from-secondary via-secondary to-secondary/80",
                 "border border-border/50",
@@ -338,9 +338,9 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
                 "group-hover:rotate-12 group-active:rotate-0"
               )}>
                 {compactMode ? (
-                  <LayoutGrid className="w-3 h-3 sm:w-3.5 sm:h-3.5 transition-transform duration-300 group-hover:scale-110" />
+                  <LayoutGrid className="w-3.5 h-3.5 sm:w-4 sm:h-4 transition-transform duration-300 group-hover:scale-110" />
                 ) : (
-                  <List className="w-3 h-3 sm:w-3.5 sm:h-3.5 transition-transform duration-300 group-hover:scale-110" />
+                  <List className="w-3.5 h-3.5 sm:w-4 sm:h-4 transition-transform duration-300 group-hover:scale-110" />
                 )}
               </div>
 
@@ -367,9 +367,9 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
               disabled={loading}
               className={cn(
                 "relative overflow-hidden group",
-                "flex items-center gap-1 px-2 py-1.5 sm:px-2.5 sm:py-1.5",
+                "flex items-center gap-1 px-2.5 py-1.5 sm:px-3.5 sm:py-2",
                 "rounded-lg",
-                "font-medium text-[10px] sm:text-xs",
+                "font-medium text-[11px] sm:text-xs",
                 "bg-gradient-to-br from-primary/10 via-primary/5 to-primary/10",
                 "text-primary",
                 "border border-primary/20",
@@ -410,7 +410,7 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
 
               {/* Icon */}
               <RefreshCw className={cn(
-                "relative z-10 w-2.5 h-2.5 sm:w-3 sm:h-3",
+                "relative z-10 w-3 h-3 sm:w-3.5 sm:h-3.5",
                 "transition-transform duration-500",
                 loading ? "animate-spin" : "group-hover:rotate-180"
               )} />
