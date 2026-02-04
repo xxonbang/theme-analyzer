@@ -97,36 +97,35 @@ function App() {
 
       {/* 히스토리 보기 중 배너 */}
       {isViewingHistory && selectedEntry && (
-        <div className="sticky top-14 sm:top-16 z-40 bg-amber-500/10 border-b border-amber-500/20 backdrop-blur-sm">
+        <div className="sticky top-14 sm:top-16 z-40 bg-muted/80 border-b border-border backdrop-blur-sm">
           <div className="container px-3 sm:px-4 py-2 sm:py-3 flex items-center justify-between">
             <div className="flex items-center gap-2 sm:gap-3">
-              <div className="flex items-center gap-1.5 text-amber-600 dark:text-amber-400">
+              <div className="flex items-center gap-1.5 text-muted-foreground">
                 <Calendar className="w-4 h-4" />
                 <span className="text-xs sm:text-sm font-medium">
                   {selectedEntry.date.replace(/-/g, ".")} ({getWeekday(selectedEntry.date)})
                 </span>
               </div>
-              <div className="flex items-center gap-1.5 text-amber-600 dark:text-amber-400">
+              <div className="flex items-center gap-1.5 text-muted-foreground">
                 <Clock className="w-4 h-4" />
                 <span className="text-xs sm:text-sm font-medium">{selectedEntry.time}</span>
               </div>
-              <span className="text-xs text-amber-600/70 dark:text-amber-400/70 hidden sm:inline">
-                과거 데이터를 보고 있습니다
+              <span className="text-xs text-muted-foreground/70 hidden sm:inline">
+                과거 데이터
               </span>
             </div>
             <button
               onClick={handleBackToLive}
               className={cn(
-                "flex items-center gap-1.5 px-3 py-1.5 rounded-lg",
+                "flex items-center gap-1.5 px-3 py-1.5 rounded-md",
                 "text-xs sm:text-sm font-medium",
-                "bg-amber-500/20 hover:bg-amber-500/30",
-                "text-amber-700 dark:text-amber-300",
-                "border border-amber-500/30",
-                "transition-colors duration-200"
+                "bg-primary/10 hover:bg-primary/20",
+                "text-primary",
+                "transition-colors duration-150"
               )}
             >
               <ArrowLeft className="w-3.5 h-3.5" />
-              <span className="hidden sm:inline">실시간으로 돌아가기</span>
+              <span className="hidden sm:inline">최신으로 돌아가기</span>
               <span className="sm:hidden">돌아가기</span>
             </button>
           </div>

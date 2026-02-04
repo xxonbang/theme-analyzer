@@ -253,7 +253,7 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
                 "hover:scale-110 active:scale-95",
                 "hover:border-primary/30",
                 "focus:outline-none",
-                isViewingHistory && "ring-2 ring-amber-500/50 border-amber-500/30"
+                isViewingHistory && "ring-2 ring-primary/50 border-primary/30 bg-primary/5"
               )}
               title="히스토리"
             >
@@ -279,7 +279,7 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
               )}>
                 <History className={cn(
                   "w-4 h-4 sm:w-5 sm:h-5 transition-transform duration-300 group-hover:scale-110",
-                  isViewingHistory && "text-amber-500"
+                  isViewingHistory && "text-primary"
                 )} />
               </div>
 
