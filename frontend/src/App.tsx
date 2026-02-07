@@ -208,7 +208,7 @@ function App() {
   // 종합 탭 타이틀 (교집합 조건 반영)
   const compositeTitle = useMemo(() => {
     if (compositeMode === "all") return "거래대금 + 거래량"
-    if (compositeMode === "trading_volume") return "거래대금 ∩ 거래량"
+    if (compositeMode === "trading_volume") return "거래대금 + 거래량"
     if (compositeMode === "trading_fluc") return "거래대금"
     return "거래량"
   }, [compositeMode])
