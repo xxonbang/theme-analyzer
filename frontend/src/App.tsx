@@ -18,7 +18,7 @@ const FLUCTUATION_MODE_KEY = "stock-dashboard-fluctuation-mode"
 const COMPOSITE_MODE_KEY = "stock-dashboard-composite-mode"
 
 function App() {
-  const { data: currentData, loading, error, refetch } = useStockData()
+  const { data: currentData, loading, error, refreshFromAPI } = useStockData()
   const {
     groupedHistory,
     selectedData: historyData,
@@ -55,7 +55,7 @@ function App() {
   const [compositeMode, setCompositeMode] = useState<CompositeMode>(() => {
     const saved = localStorage.getItem(COMPOSITE_MODE_KEY)
     if (saved === "all" || saved === "trading_volume" || saved === "trading_fluc" || saved === "volume_fluc") return saved
-    return "all"
+    return "trading_fluc"
   })
 
   // 컴팩트 모드 변경 시 로컬 스토리지에 저장
@@ -253,7 +253,7 @@ function App() {
     <div className="min-h-screen bg-background">
       <Header
         timestamp={displayData?.timestamp}
-        onRefresh={refetch}
+        onRefresh={refreshFromAPI}
         loading={loading}
         compactMode={compactMode}
         onToggleCompact={toggleCompactMode}

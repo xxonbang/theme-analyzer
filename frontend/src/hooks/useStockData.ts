@@ -2,12 +2,14 @@ import { useState, useEffect, useCallback } from "react"
 import type { StockData } from "@/types/stock"
 
 const DATA_URL = import.meta.env.BASE_URL + "data/latest.json"
+const API_URL = import.meta.env.VITE_API_URL || ""
 
 interface UseStockDataReturn {
   data: StockData | null
   loading: boolean
   error: string | null
   refetch: () => Promise<void>
+  refreshFromAPI: () => Promise<void>
 }
 
 export function useStockData(): UseStockDataReturn {
@@ -37,11 +39,47 @@ export function useStockData(): UseStockDataReturn {
     }
   }, [])
 
+  const refreshFromAPI = useCallback(async () => {
+    setLoading(true)
+    setError(null)
+
+    try {
+      const controller = new AbortController()
+      const timeoutId = setTimeout(() => controller.abort(), 90000)
+
+      const response = await fetch(API_URL + "/api/refresh", {
+        signal: controller.signal,
+      })
+      clearTimeout(timeoutId)
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`)
+      }
+      const jsonData = await response.json()
+
+      if (jsonData.error) {
+        throw new Error(jsonData.error)
+      }
+
+      setData(jsonData)
+    } catch (err) {
+      console.error("Failed to refresh from API:", err)
+      const message = err instanceof DOMException && err.name === "AbortError"
+        ? "서버 응답 시간이 초과되었습니다. 잠시 후 다시 시도해주세요."
+        : "실시간 데이터 수집에 실패했습니다. 기존 데이터를 다시 불러옵니다."
+      setError(message)
+      // 폴백: 기존 latest.json 다시 로드
+      await fetchData()
+    } finally {
+      setLoading(false)
+    }
+  }, [fetchData])
+
   useEffect(() => {
     fetchData()
   }, [fetchData])
 
-  return { data, loading, error, refetch: fetchData }
+  return { data, loading, error, refetch: fetchData, refreshFromAPI }
 }
 
 function getMockData(): StockData {
