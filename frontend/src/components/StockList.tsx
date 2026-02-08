@@ -26,7 +26,7 @@ function CompactHeader({ showTradingValue, hasInvestorData, investorEstimated }:
         <span className="w-5 text-center shrink-0">#</span>
         <span>종목명</span>
       </div>
-      <div className="flex items-center shrink-0 ml-auto pr-2">
+      <div className="flex items-center shrink-0 ml-auto">
         <span className="text-right w-16 sm:w-20">현재가</span>
         {showTradingValue && <span className="text-right w-14 sm:w-16">거래대금</span>}
         <span className="text-right w-12 sm:w-14">거래량</span>
@@ -68,7 +68,7 @@ function CompactStockRow({ stock, type, showTradingValue, investorInfo, hasInves
       </div>
 
       {/* Scrollable right: Data columns */}
-      <div className="flex items-center shrink-0 ml-auto pr-2">
+      <div className="flex items-center shrink-0 ml-auto">
         <span className="text-xs font-medium tabular-nums text-right w-16 sm:w-20">
           {formatPrice(stock.current_price)}<span className="text-[9px] text-muted-foreground">원</span>
         </span>
