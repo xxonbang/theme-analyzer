@@ -86,4 +86,5 @@ export interface StockData {
   history: Record<string, StockHistory>
   news: Record<string, StockNews>
   investor_data?: Record<string, InvestorInfo>
+  investor_estimated?: boolean
 }

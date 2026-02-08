@@ -127,6 +127,7 @@ def export_for_frontend(
     fluctuation_data: Dict = None,
     fluctuation_direct_data: Dict = None,
     investor_data: Dict = None,
+    investor_estimated: bool = False,
 ) -> str:
     """프론트엔드용 JSON 데이터 내보내기
 
@@ -168,6 +169,7 @@ def export_for_frontend(
         "history": history_data,
         "news": news_data,
         "investor_data": investor_data if investor_data else None,
+        "investor_estimated": investor_estimated if investor_data else None,
     }
 
     # None 값 필드 제거

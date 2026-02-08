@@ -152,12 +152,13 @@ def refresh():
     # === Phase D: 히스토리 + 투자자 데이터 병렬 실행 ===
     history_data = {}
     investor_data = {}
+    investor_estimated = False
 
     def fetch_history():
         return history_api.get_multiple_stocks_history(all_stocks, days=3)
 
     def fetch_investor():
-        return rank_api.get_investor_data(all_stocks)
+        return rank_api.get_investor_data_auto(all_stocks)
 
     with ThreadPoolExecutor(max_workers=2) as executor:
         future_history = executor.submit(fetch_history)
@@ -169,7 +170,7 @@ def refresh():
             errors.append(f"등락률 조회 실패: {e}")
 
         try:
-            investor_data = future_investor.result()
+            investor_data, investor_estimated = future_investor.result()
         except Exception as e:
             errors.append(f"수급 데이터 수집 실패: {e}")
 
@@ -192,6 +193,7 @@ def refresh():
         "history": history_data,
         "news": {},
         "investor_data": investor_data if investor_data else None,
+        "investor_estimated": investor_estimated if investor_data else None,
     }
 
     # None 값 필드 제거

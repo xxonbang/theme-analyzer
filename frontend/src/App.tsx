@@ -337,6 +337,7 @@ function App() {
                     compactMode={compactMode}
                     showTradingValue={true}
                     investorData={displayData.investor_data}
+                    investorEstimated={displayData?.investor_estimated}
                   />
                   <StockList
                     title={`${compositeTitle} + 하락률 TOP`}
@@ -348,6 +349,7 @@ function App() {
                     compactMode={compactMode}
                     showTradingValue={true}
                     investorData={displayData.investor_data}
+                    investorEstimated={displayData?.investor_estimated}
                   />
                 </>
               ) : (
@@ -363,6 +365,7 @@ function App() {
                     compactMode={compactMode}
                     showTradingValue={true}
                     investorData={displayData.investor_data}
+                    investorEstimated={displayData?.investor_estimated}
                   />
                   <StockList
                     title={`${compositeTitle} + 하락률 TOP10`}
@@ -374,6 +377,7 @@ function App() {
                     compactMode={compactMode}
                     showTradingValue={true}
                     investorData={displayData.investor_data}
+                    investorEstimated={displayData?.investor_estimated}
                   />
                 </>
               )}
@@ -391,6 +395,7 @@ function App() {
               compactMode={compactMode}
               showTradingValue={true}
               investorData={displayData.investor_data}
+              investorEstimated={displayData?.investor_estimated}
             />
           )}
 
@@ -405,6 +410,7 @@ function App() {
               compactMode={compactMode}
               showTradingValue={true}
               investorData={displayData.investor_data}
+              investorEstimated={displayData?.investor_estimated}
             />
           )}
 
@@ -420,6 +426,7 @@ function App() {
                 compactMode={compactMode}
                 showTradingValue={true}
                 investorData={displayData.investor_data}
+                investorEstimated={displayData?.investor_estimated}
               />
               <StockList
                 title="등락률 하락 TOP20"
@@ -431,6 +438,7 @@ function App() {
                 compactMode={compactMode}
                 showTradingValue={true}
                 investorData={displayData.investor_data}
+                investorEstimated={displayData?.investor_estimated}
               />
             </>
           )}

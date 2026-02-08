@@ -179,11 +179,13 @@ def main(test_mode: bool = False, skip_news: bool = False, skip_investor: bool =
 
     # 9. 수급(투자자) 데이터 수집
     investor_data = {}
+    investor_estimated = False
     if not skip_investor:
         print("\n[9/12] 수급(투자자) 데이터 수집 중...")
         try:
-            investor_data = rank_api.get_investor_data(all_stocks)
-            print(f"  ✓ {len(investor_data)}개 종목 수급 데이터 수집 완료")
+            investor_data, investor_estimated = rank_api.get_investor_data_auto(all_stocks)
+            label = "추정" if investor_estimated else "확정"
+            print(f"  ✓ {len(investor_data)}개 종목 수급 데이터 수집 완료 ({label})")
         except Exception as e:
             print(f"  ⚠ 수급 데이터 수집 실패 (빈 데이터로 계속): {e}")
             investor_data = {}
@@ -215,6 +217,7 @@ def main(test_mode: bool = False, skip_news: bool = False, skip_investor: bool =
             fluctuation_data=fluctuation_data,
             fluctuation_direct_data=fluctuation_direct_data,
             investor_data=investor_data,
+            investor_estimated=investor_estimated,
         )
         print(f"  ✓ 데이터 내보내기 완료: {export_path}")
     except Exception as e:

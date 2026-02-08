@@ -11,9 +11,10 @@ interface StockCardProps {
   news?: StockNews
   type: "rising" | "falling" | "neutral"
   investorInfo?: InvestorInfo
+  investorEstimated?: boolean
 }
 
-export function StockCard({ stock, history, news, type, investorInfo }: StockCardProps) {
+export function StockCard({ stock, history, news, type, investorInfo, investorEstimated }: StockCardProps) {
   const [isNewsExpanded, setIsNewsExpanded] = useState(false)
   const effectiveType = type === "neutral" ? (stock.change_rate >= 0 ? "rising" : "falling") : type
   const isRising = effectiveType === "rising"
@@ -76,11 +77,16 @@ export function StockCard({ stock, history, news, type, investorInfo }: StockCar
             {investorInfo && (
               <>
                 <span className="text-muted-foreground">
-                  외국인 <span className={cn("font-medium", getNetBuyColor(investorInfo.foreign_net))}>{formatNetBuy(investorInfo.foreign_net)}</span>
+                  외국인{investorEstimated && <span className="text-[8px] text-amber-500 ml-0.5">추정</span>} <span className={cn("font-medium", getNetBuyColor(investorInfo.foreign_net))}>{formatNetBuy(investorInfo.foreign_net)}</span>
                 </span>
                 <span className="text-muted-foreground">
-                  기관 <span className={cn("font-medium", getNetBuyColor(investorInfo.institution_net))}>{formatNetBuy(investorInfo.institution_net)}</span>
+                  기관{investorEstimated && <span className="text-[8px] text-amber-500 ml-0.5">추정</span>} <span className={cn("font-medium", getNetBuyColor(investorInfo.institution_net))}>{formatNetBuy(investorInfo.institution_net)}</span>
                 </span>
+                {investorInfo.individual_net != null && (
+                  <span className="text-muted-foreground">
+                    개인 <span className={cn("font-medium", getNetBuyColor(investorInfo.individual_net))}>{formatNetBuy(investorInfo.individual_net)}</span>
+                  </span>
+                )}
               </>
             )}
 

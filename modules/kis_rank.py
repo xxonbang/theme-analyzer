@@ -4,10 +4,11 @@
 - 거래대금 순위
 - 등락률 순위 (상승/하락)
 """
-from typing import Dict, Any, List
+from typing import Dict, Any, List, Tuple
 from datetime import datetime
 
 from modules.kis_client import KISClient
+from modules.market_hours import is_market_hours
 
 
 def safe_int(value, default: int = 0) -> int:
@@ -720,6 +721,83 @@ class KISRankAPI:
             time.sleep(0.05)
 
         return result
+
+    def get_investor_data_estimate(self, stocks: List[Dict]) -> Dict[str, Dict]:
+        """장중 외인/기관 추정 수급 데이터 수집
+
+        KIS API HHPTJ04160200을 종목별로 호출하여
+        외국인/기관 추정 순매수 데이터를 수집 (개인 데이터 없음)
+
+        Args:
+            stocks: 종목 리스트 [{"code": "...", "name": "...", ...}, ...]
+
+        Returns:
+            {종목코드: {"name", "foreign_net", "institution_net", "individual_net": None}, ...}
+        """
+        import time
+
+        result = {}
+        total = len(stocks)
+
+        for idx, stock in enumerate(stocks):
+            code = stock.get("code", "")
+            name = stock.get("name", "")
+
+            if not code:
+                continue
+
+            try:
+                response = self.client.get_investor_trend_estimate(code)
+
+                if response.get("rt_cd") != "0":
+                    continue
+
+                output2 = response.get("output2", [])
+                if not output2:
+                    continue
+
+                # bsop_hour_gb가 가장 큰(최신) 행 추출
+                latest = max(output2, key=lambda x: x.get("bsop_hour_gb", ""))
+
+                result[code] = {
+                    "name": name,
+                    "foreign_net": safe_int(latest.get("frgn_fake_ntby_qty", 0)),
+                    "institution_net": safe_int(latest.get("orgn_fake_ntby_qty", 0)),
+                    "individual_net": None,
+                }
+
+            except Exception as e:
+                print(f"  ⚠ {name}({code}) 추정 수급 조회 실패: {e}")
+                continue
+
+            # 진행 상황 출력
+            if (idx + 1) % 10 == 0 or idx + 1 == total:
+                print(f"  진행: {idx + 1}/{total}")
+
+            # API 호출 간격 (Rate limit 방지)
+            time.sleep(0.05)
+
+        return result
+
+    def get_investor_data_auto(self, stocks: List[Dict]) -> Tuple[Dict[str, Dict], bool]:
+        """장중/장외 자동 전환 수급 데이터 수집
+
+        장중(09:00~15:30)이면 추정 API, 장외면 확정 API 호출
+
+        Args:
+            stocks: 종목 리스트
+
+        Returns:
+            (data_dict, is_estimated) 튜플
+        """
+        if is_market_hours():
+            print("[수급] 장중 → 추정 데이터(HHPTJ04160200) 사용")
+            data = self.get_investor_data_estimate(stocks)
+            return data, True
+        else:
+            print("[수급] 장외 → 확정 데이터(FHKST01010900) 사용")
+            data = self.get_investor_data(stocks)
+            return data, False
 
     def get_all_top30(
         self,

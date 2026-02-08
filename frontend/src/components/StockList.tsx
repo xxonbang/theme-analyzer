@@ -15,31 +15,47 @@ interface StockListProps {
   compactMode?: boolean
   showTradingValue?: boolean
   investorData?: Record<string, InvestorInfo>
+  investorEstimated?: boolean
+}
+
+// 그리드 cols 계산 (모바일: 수급 컬럼 숨김, 데스크톱: 표시)
+function getGridCols(showTradingValue?: boolean, hasInvestorData?: boolean): string {
+  if (showTradingValue && hasInvestorData) {
+    // mobile 6열: #, name, price, tradingValue, volume, changeRate
+    // desktop 9열: + foreign, institution, individual
+    return "grid grid-cols-[auto_1fr_auto_auto_auto_auto] sm:grid-cols-[auto_1fr_auto_auto_auto_auto_auto_auto_auto]"
+  }
+  if (showTradingValue) {
+    return "grid grid-cols-[auto_1fr_auto_auto_auto_auto]"
+  }
+  if (hasInvestorData) {
+    return "grid grid-cols-[auto_1fr_auto_auto_auto] sm:grid-cols-[auto_1fr_auto_auto_auto_auto_auto_auto]"
+  }
+  return "grid grid-cols-[auto_1fr_auto_auto_auto]"
 }
 
 // 컴팩트 모드 컬럼 헤더
-function CompactHeader({ showTradingValue, hasInvestorData }: { showTradingValue?: boolean; hasInvestorData?: boolean }) {
+function CompactHeader({ showTradingValue, hasInvestorData, investorEstimated }: { showTradingValue?: boolean; hasInvestorData?: boolean; investorEstimated?: boolean }) {
   return (
     <div className={cn(
       "gap-2 px-2 py-1.5 text-[9px] sm:text-[10px] text-muted-foreground font-medium border-b border-border/50",
-      showTradingValue
-        ? "grid grid-cols-[auto_1fr_auto_auto_auto_auto]"
-        : "grid grid-cols-[auto_1fr_auto_auto_auto]"
+      getGridCols(showTradingValue, hasInvestorData),
     )}>
       <span className="w-5 text-center">#</span>
       <span className="text-left">종목명</span>
       <span className="text-right w-16 sm:w-20">현재가</span>
       {showTradingValue && <span className="text-right w-12 sm:w-16">거래대금</span>}
       <span className="text-right w-12 sm:w-14">거래량</span>
-      {hasInvestorData && <span className="text-right w-12 sm:w-14 hidden sm:block">외국인</span>}
-      {hasInvestorData && <span className="text-right w-12 sm:w-14 hidden sm:block">기관</span>}
+      {hasInvestorData && <span className="text-right w-12 sm:w-14 hidden sm:block">외국인{investorEstimated && <span className="text-[8px] text-amber-500 ml-0.5">추정</span>}</span>}
+      {hasInvestorData && <span className="text-right w-12 sm:w-14 hidden sm:block">기관{investorEstimated && <span className="text-[8px] text-amber-500 ml-0.5">추정</span>}</span>}
+      {hasInvestorData && <span className="text-right w-12 sm:w-14 hidden sm:block">{investorEstimated ? "" : "개인"}</span>}
       <span className="text-center w-14 sm:w-16">등락률</span>
     </div>
   )
 }
 
 // 컴팩트 모드용 간단한 종목 행
-function CompactStockRow({ stock, type, showTradingValue, investorInfo }: { stock: Stock; type: "rising" | "falling" | "neutral"; showTradingValue?: boolean; investorInfo?: InvestorInfo }) {
+function CompactStockRow({ stock, type, showTradingValue, investorInfo, hasInvestorData }: { stock: Stock; type: "rising" | "falling" | "neutral"; showTradingValue?: boolean; investorInfo?: InvestorInfo; hasInvestorData?: boolean }) {
   const effectiveRising = type === "neutral" ? stock.change_rate >= 0 : type === "rising"
   const naverUrl = `https://m.stock.naver.com/domestic/stock/${stock.code}/total`
 
@@ -50,9 +66,7 @@ function CompactStockRow({ stock, type, showTradingValue, investorInfo }: { stoc
       rel="noopener noreferrer"
       className={cn(
         "gap-2 items-center py-2 px-2 hover:bg-muted/50 rounded-md transition-colors group",
-        showTradingValue
-          ? "grid grid-cols-[auto_1fr_auto_auto_auto_auto]"
-          : "grid grid-cols-[auto_1fr_auto_auto_auto]"
+        getGridCols(showTradingValue, hasInvestorData),
       )}
     >
       {/* Rank */}
@@ -89,16 +103,23 @@ function CompactStockRow({ stock, type, showTradingValue, investorInfo }: { stoc
       </span>
 
       {/* Foreign Net Buy */}
-      {investorInfo && (
-        <span className={cn("text-[10px] tabular-nums text-right w-12 sm:w-14 hidden sm:block", getNetBuyColor(investorInfo.foreign_net))}>
-          {formatNetBuy(investorInfo.foreign_net)}
+      {hasInvestorData && (
+        <span className={cn("text-[10px] tabular-nums text-right w-12 sm:w-14 hidden sm:block", investorInfo ? getNetBuyColor(investorInfo.foreign_net) : "text-muted-foreground")}>
+          {investorInfo ? formatNetBuy(investorInfo.foreign_net) : "-"}
         </span>
       )}
 
       {/* Institution Net Buy */}
-      {investorInfo && (
-        <span className={cn("text-[10px] tabular-nums text-right w-12 sm:w-14 hidden sm:block", getNetBuyColor(investorInfo.institution_net))}>
-          {formatNetBuy(investorInfo.institution_net)}
+      {hasInvestorData && (
+        <span className={cn("text-[10px] tabular-nums text-right w-12 sm:w-14 hidden sm:block", investorInfo ? getNetBuyColor(investorInfo.institution_net) : "text-muted-foreground")}>
+          {investorInfo ? formatNetBuy(investorInfo.institution_net) : "-"}
+        </span>
+      )}
+
+      {/* Individual Net Buy */}
+      {hasInvestorData && (
+        <span className={cn("text-[10px] tabular-nums text-right w-12 sm:w-14 hidden sm:block", investorInfo?.individual_net != null ? getNetBuyColor(investorInfo.individual_net) : "text-muted-foreground")}>
+          {investorInfo?.individual_net != null ? formatNetBuy(investorInfo.individual_net) : "-"}
         </span>
       )}
 
@@ -122,6 +143,7 @@ function CompactMarketSection({
   showHeader = false,
   showTradingValue,
   investorData,
+  investorEstimated,
 }: {
   market: string
   stocks: Stock[]
@@ -130,6 +152,7 @@ function CompactMarketSection({
   showHeader?: boolean
   showTradingValue?: boolean
   investorData?: Record<string, InvestorInfo>
+  investorEstimated?: boolean
 }) {
   if (stocks.length === 0) {
     return (
@@ -151,17 +174,17 @@ function CompactMarketSection({
         <span className="font-semibold text-xs">{market}</span>
         <span className="text-[10px] text-muted-foreground">({stocks.length})</span>
       </div>
-      {showHeader && <CompactHeader showTradingValue={showTradingValue} hasInvestorData={!!investorData && Object.keys(investorData).length > 0} />}
+      {showHeader && <CompactHeader showTradingValue={showTradingValue} hasInvestorData={!!investorData && Object.keys(investorData).length > 0} investorEstimated={investorEstimated} />}
       <div className="divide-y divide-border/30">
         {stocks.map((stock) => (
-          <CompactStockRow key={stock.code} stock={stock} type={type} showTradingValue={showTradingValue} investorInfo={investorData?.[stock.code]} />
+          <CompactStockRow key={stock.code} stock={stock} type={type} showTradingValue={showTradingValue} investorInfo={investorData?.[stock.code]} hasInvestorData={!!investorData && Object.keys(investorData).length > 0} />
         ))}
       </div>
     </div>
   )
 }
 
-export function StockList({ title, kospiStocks, kosdaqStocks, history, news, type, compactMode, showTradingValue, investorData }: StockListProps) {
+export function StockList({ title, kospiStocks, kosdaqStocks, history, news, type, compactMode, showTradingValue, investorData, investorEstimated }: StockListProps) {
   const isNeutral = type === "neutral"
   const isRising = type === "rising"
   const Icon = isNeutral ? BarChart3 : isRising ? TrendingUp : TrendingDown
@@ -195,6 +218,7 @@ export function StockList({ title, kospiStocks, kosdaqStocks, history, news, typ
             showHeader={true}
             showTradingValue={showTradingValue}
             investorData={investorData}
+            investorEstimated={investorEstimated}
           />
           <CompactMarketSection
             market="KOSDAQ"
@@ -204,6 +228,7 @@ export function StockList({ title, kospiStocks, kosdaqStocks, history, news, typ
             showHeader={true}
             showTradingValue={showTradingValue}
             investorData={investorData}
+            investorEstimated={investorEstimated}
           />
         </CardContent>
       </Card>
@@ -240,6 +265,7 @@ export function StockList({ title, kospiStocks, kosdaqStocks, history, news, typ
                   news={news[stock.code]}
                   type={type}
                   investorInfo={investorData?.[stock.code]}
+                  investorEstimated={investorEstimated}
                 />
               ))}
             </div>
@@ -265,6 +291,7 @@ export function StockList({ title, kospiStocks, kosdaqStocks, history, news, typ
                   news={news[stock.code]}
                   type={type}
                   investorInfo={investorData?.[stock.code]}
+                  investorEstimated={investorEstimated}
                 />
               ))}
             </div>

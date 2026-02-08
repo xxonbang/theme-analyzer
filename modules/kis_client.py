@@ -486,6 +486,13 @@ class KISClient:
         }
         return self.request("GET", path, tr_id, params=params)
 
+    def get_investor_trend_estimate(self, stock_code: str) -> Dict[str, Any]:
+        """종목별 외인기관 추정가집계 (장중 전용)"""
+        path = "/uapi/domestic-stock/v1/quotations/investor-trend-estimate"
+        tr_id = "HHPTJ04160200"
+        params = {"MKSC_SHRN_ISCD": stock_code}
+        return self.request("GET", path, tr_id, params=params)
+
     def get_stock_member(self, stock_code: str) -> Dict[str, Any]:
         """주식현재가 회원사 조회"""
         path = "/uapi/domestic-stock/v1/quotations/inquire-member"
