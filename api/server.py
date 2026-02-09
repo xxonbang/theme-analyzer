@@ -15,6 +15,7 @@ ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if ROOT_DIR not in sys.path:
     sys.path.insert(0, ROOT_DIR)
 
+from config.settings import KIS_BASE_URL
 from modules.kis_client import KISClient
 from modules.kis_rank import KISRankAPI
 from modules.stock_filter import StockFilter
@@ -53,9 +54,28 @@ def health():
     return {"status": "ok", "timestamp": datetime.now(KST).strftime("%Y-%m-%d %H:%M:%S")}
 
 
+def _check_kis_connectivity() -> "str | None":
+    """KIS API 연결 테스트 (5초 타임아웃). 실패 시 에러 메시지 반환."""
+    import requests as req
+    try:
+        resp = req.get(
+            f"{KIS_BASE_URL}/uapi/domestic-stock/v1/quotations/inquire-price",
+            timeout=5,
+        )
+        # 401/403도 응답이 오면 연결 가능
+        return None
+    except Exception as e:
+        return f"KIS API 서버에 연결할 수 없습니다: {e}"
+
+
 def _refresh_sync():
     """실시간 데이터 수집 로직 (동기)"""
     errors = []
+
+    # === Phase 0: KIS API 연결 테스트 (빠른 실패) ===
+    conn_error = _check_kis_connectivity()
+    if conn_error:
+        return {"error": conn_error}
 
     # === Phase A: KIS Client 초기화 (순차 필수) ===
     try:
