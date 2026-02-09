@@ -271,10 +271,10 @@ def main(test_mode: bool = False, skip_news: bool = False, skip_investor: bool =
         history_data,
     )
 
-    # 뉴스 메시지
-    news_messages = []
-    if news_data:
-        news_messages = telegram.format_news_message(news_data, "📰 종목별 실시간 뉴스")
+    # AI 테마 분석 메시지
+    theme_messages = []
+    if theme_analysis:
+        theme_messages = telegram.format_theme_analysis(theme_analysis)
 
     if test_mode:
         print("\n" + "=" * 60)
@@ -292,14 +292,15 @@ def main(test_mode: bool = False, skip_news: bool = False, skip_investor: bool =
         print("=" * 60)
         print(falling_message.replace("<b>", "").replace("</b>", ""))
 
-        if news_messages:
-            for i, msg in enumerate(news_messages, 1):
+        if theme_messages:
+            for i, msg in enumerate(theme_messages, 1):
                 print("\n" + "=" * 60)
-                print(f"📰 뉴스 메시지 ({i}/{len(news_messages)}):")
+                print(f"✨ AI 테마 분석 ({i}/{len(theme_messages)}):")
                 print("=" * 60)
-                # HTML 태그 제거하여 출력
                 clean_msg = msg.replace("<b>", "").replace("</b>", "")
                 clean_msg = clean_msg.replace('<a href="', "[").replace('">', "] ").replace("</a>", "")
+                clean_msg = clean_msg.replace("<i>", "").replace("</i>", "")
+                clean_msg = clean_msg.replace("<code>", "").replace("</code>", "")
                 print(clean_msg)
 
         print("\n" + "=" * 60)
@@ -328,14 +329,14 @@ def main(test_mode: bool = False, skip_news: bool = False, skip_investor: bool =
         else:
             print("  ✗ 하락 종목 메시지 발송 실패")
 
-        # 4. 뉴스 메시지
-        if news_messages:
-            print(f"  뉴스 메시지 발송 중... ({len(news_messages)}개)")
-            for i, msg in enumerate(news_messages, 1):
+        # 4. AI 테마 분석 메시지
+        if theme_messages:
+            print(f"  AI 테마 분석 발송 중... ({len(theme_messages)}개)")
+            for i, msg in enumerate(theme_messages, 1):
                 if telegram.send_message(msg):
-                    print(f"  ✓ 뉴스 메시지 {i}/{len(news_messages)} 발송 완료")
+                    print(f"  ✓ AI 테마 분석 {i}/{len(theme_messages)} 발송 완료")
                 else:
-                    print(f"  ✗ 뉴스 메시지 {i}/{len(news_messages)} 발송 실패")
+                    print(f"  ✗ AI 테마 분석 {i}/{len(theme_messages)} 발송 실패")
 
         # 5. END 바리케이트
         print("  END 바리케이트 발송 중...")

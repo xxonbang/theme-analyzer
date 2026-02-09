@@ -339,6 +339,74 @@ class TelegramSender:
 
         return messages
 
+    def format_theme_analysis(self, theme_analysis: Dict[str, Any]) -> List[str]:
+        """AI 테마 분석 메시지 포맷
+
+        Returns:
+            메시지 리스트 (4096자 제한 분할)
+        """
+        if not theme_analysis or not theme_analysis.get("themes"):
+            return []
+
+        messages = []
+        current_lines = [
+            "✨ <b>AI 테마 분석</b>",
+            f"<i>{theme_analysis.get('analysis_date', '')} 분석</i>",
+            "",
+            theme_analysis.get("market_summary", ""),
+            "",
+        ]
+
+        for i, theme in enumerate(theme_analysis.get("themes", []), 1):
+            theme_lines = [
+                f"━━━━━━━━━━━━━━━",
+                f"<b>테마 {i}. {theme.get('theme_name', '')}</b>",
+                f"{theme.get('theme_description', '')}",
+                "",
+            ]
+
+            # 대장주
+            for stock in theme.get("leader_stocks", []):
+                name = stock.get("name", "")
+                code = stock.get("code", "")
+                reason = stock.get("reason", "")
+                url = self._get_naver_finance_url(code)
+
+                theme_lines.append(f"  🏆 <a href=\"{url}\">{name}</a> <code>{code}</code>")
+                theme_lines.append(f"     {reason}")
+
+                # 뉴스 근거
+                for evidence in stock.get("news_evidence", [])[:2]:
+                    title_text = evidence.get("title", "")
+                    if len(title_text) > 40:
+                        title_text = title_text[:37] + "..."
+                    escaped = self._escape_html(title_text)
+                    news_url = evidence.get("url", "")
+                    if news_url:
+                        theme_lines.append(f"     • <a href=\"{news_url}\">{escaped}</a>")
+                    else:
+                        theme_lines.append(f"     • {escaped}")
+
+                theme_lines.append("")
+
+            # 메시지 길이 체크
+            test_message = "\n".join(current_lines + theme_lines)
+            if len(test_message) > 3800:
+                current_lines.append(f"⏰ {self._get_timestamp()}")
+                messages.append("\n".join(current_lines))
+                current_lines = [
+                    "✨ <b>AI 테마 분석</b> (계속)",
+                    "",
+                ]
+
+            current_lines.extend(theme_lines)
+
+        if len(current_lines) > 2:
+            current_lines.append(f"⏰ {self._get_timestamp()}")
+            messages.append("\n".join(current_lines))
+
+        return messages
+
     def send_news(
         self,
         news_data: Dict[str, Dict[str, Any]],
