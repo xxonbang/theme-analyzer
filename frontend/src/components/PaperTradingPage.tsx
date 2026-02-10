@@ -67,12 +67,14 @@ export function PaperTradingPage() {
   return (
     <div className="space-y-4 sm:space-y-6">
       {/* 헤더 */}
-      <div className="flex items-center gap-2">
-        <LineChart className="w-5 h-5 text-primary" />
-        <h2 className="font-bold text-base sm:text-lg">AI 대장주 모의투자</h2>
-        <span className="text-[10px] sm:text-xs text-muted-foreground">
-          (Gemini 선정 대장주 1주씩 매수 → 장마감 종가 매도)
-        </span>
+      <div>
+        <div className="flex items-center gap-2">
+          <LineChart className="w-5 h-5 text-primary shrink-0" />
+          <h2 className="font-bold text-base sm:text-lg">AI 대장주 모의투자</h2>
+        </div>
+        <p className="text-[10px] sm:text-xs text-muted-foreground mt-1 ml-7">
+          Gemini 선정 대장주 1주씩 매수 → 장마감 종가 매도
+        </p>
       </div>
 
       {error && (
