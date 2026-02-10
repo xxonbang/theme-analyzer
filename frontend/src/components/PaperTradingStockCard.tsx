@@ -1,4 +1,4 @@
-import { ExternalLink, X, RotateCcw } from "lucide-react"
+import { ExternalLink, X, Plus } from "lucide-react"
 import { cn } from "@/lib/utils"
 import type { PaperTradingStock } from "@/types/stock"
 
@@ -80,7 +80,7 @@ export function PaperTradingStockCard({ stock, isExcluded, onToggle, morningTime
             title={isExcluded ? "포함" : "제외"}
           >
             {isExcluded ? (
-              <RotateCcw className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
+              <Plus className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
             ) : (
               <X className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
             )}
