@@ -174,6 +174,41 @@ def get_stock_prices(client: KISClient, code: str) -> Optional[dict]:
         return None
 
 
+def find_high_price_time(client: KISClient, code: str, high_price: int) -> Optional[str]:
+    """분봉 데이터에서 최고가 달성 시간 찾기"""
+    path = "/uapi/domestic-stock/v1/quotations/inquire-time-itemchartprice"
+    tr_id = "FHKST03010200"
+    cursor = "153000"
+
+    for _ in range(15):
+        params = {
+            "FID_ETC_CLS_CODE": "",
+            "FID_COND_MRKT_DIV_CODE": "J",
+            "FID_INPUT_ISCD": code,
+            "FID_INPUT_HOUR_1": cursor,
+            "FID_PW_DATA_INCU_YN": "N",
+        }
+        try:
+            result = client.request("GET", path, tr_id, params=params)
+            items = result.get("output2", [])
+            if not items:
+                break
+            for item in items:
+                candle_high = int(item.get("stck_hgpr", "0"))
+                if candle_high >= high_price:
+                    t = item.get("stck_cntg_hour", "")
+                    if t:
+                        return f"{t[:2]}:{t[2:4]}"
+            cursor = items[-1].get("stck_cntg_hour", "")
+            if not cursor or cursor <= "090000":
+                break
+            time.sleep(0.1)
+        except Exception:
+            break
+
+    return None
+
+
 def collect_paper_trading_data(
     stocks_override: Optional[list[str]] = None,
     test_mode: bool = False,
@@ -256,6 +291,9 @@ def collect_paper_trading_data(
         close_price = prices["close_price"]
         high_price = prices["high_price"]
 
+        # 최고가 달성 시간 조회
+        high_time = find_high_price_time(client, code, high_price)
+
         # 종가 기준 수익률
         profit_amount = close_price - buy_price
         profit_rate = round((profit_amount / buy_price) * 100, 2) if buy_price > 0 else 0
@@ -273,6 +311,7 @@ def collect_paper_trading_data(
             "profit_rate": profit_rate,
             "profit_amount": profit_amount,
             "high_price": high_price,
+            "high_time": high_time,
             "high_profit_rate": high_profit_rate,
             "high_profit_amount": high_profit_amount,
         })

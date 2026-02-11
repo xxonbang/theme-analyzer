@@ -98,7 +98,7 @@ export function PaperTradingStockCard({ stock, date, isExcluded, onToggle, morni
       <div className="mt-2 flex items-center gap-3 text-[11px] sm:text-xs text-muted-foreground">
         <span>매수{buyTime && <span className="text-muted-foreground/70">({buyTime})</span>} <span className="font-medium text-foreground">{stock.buy_price.toLocaleString()}</span></span>
         <span className="text-border">→</span>
-        <span>{mode === "high" ? "최고가" : "종가"} <span className="font-medium text-foreground">{displaySellPrice.toLocaleString()}</span></span>
+        <span>{mode === "high" ? "최고가" : "종가"}{mode === "high" && stock.high_time && <span className="text-muted-foreground/70">({stock.high_time})</span>} <span className="font-medium text-foreground">{displaySellPrice.toLocaleString()}</span></span>
       </div>
     </div>
   )

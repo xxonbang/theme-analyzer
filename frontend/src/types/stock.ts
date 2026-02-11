@@ -129,6 +129,7 @@ export interface PaperTradingStock {
   profit_rate: number
   profit_amount: number
   high_price?: number
+  high_time?: string
   high_profit_rate?: number
   high_profit_amount?: number
 }
