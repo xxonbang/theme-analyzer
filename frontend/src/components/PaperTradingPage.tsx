@@ -169,7 +169,7 @@ export function PaperTradingPage() {
                   <span className="text-[10px] sm:text-xs text-muted-foreground">
                     {activeStocksForDay.length}/{data.stocks.length}종목
                   </span>
-                  {snapshots && snapshots.length > 1 && (
+                  {snapshots && snapshots.length > 1 ? (
                     <select
                       value={currentSnapIdx}
                       onChange={(e) => selectBuyTimestamp(date, Number(e.target.value))}
@@ -184,6 +184,15 @@ export function PaperTradingPage() {
                         )
                       })}
                     </select>
+                  ) : (
+                    (() => {
+                      const t = data.morning_timestamp?.split(" ")[1]?.slice(0, 5)
+                      return t ? (
+                        <span className="text-[10px] sm:text-xs bg-muted/50 border border-border rounded px-1.5 py-0.5 text-foreground">
+                          매수 {t}
+                        </span>
+                      ) : null
+                    })()
                   )}
                 </div>
                 <div className="flex items-center gap-2">
