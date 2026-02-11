@@ -6,8 +6,10 @@ import { StockList } from "@/components/StockList"
 import { TabBar } from "@/components/TabBar"
 import { HistoryModal } from "@/components/HistoryModal"
 import { PaperTradingPage } from "@/components/PaperTradingPage"
+import { AuthPage } from "@/components/AuthPage"
 import { useStockData } from "@/hooks/useStockData"
 import { useHistoryData } from "@/hooks/useHistoryData"
+import { useAuth } from "@/hooks/useAuth"
 import { Loader2, ArrowLeft, Calendar, Clock, ChevronUp } from "lucide-react"
 import { cn } from "@/lib/utils"
 import type { HistoryEntry } from "@/types/history"
@@ -22,6 +24,7 @@ const FLUCTUATION_MODE_KEY = "stock-dashboard-fluctuation-mode"
 const COMPOSITE_MODE_KEY = "stock-dashboard-composite-mode"
 
 function App() {
+  const { user, loading: authLoading } = useAuth()
   const [currentPage, setCurrentPage] = useState<PageType>("home")
   const { data: currentData, loading, error, refreshFromAPI, refreshElapsed } = useStockData()
   const {
@@ -248,6 +251,19 @@ function App() {
   // 실시간 데이터로 돌아가기
   const handleBackToLive = () => {
     clearSelection()
+  }
+
+  // Auth guard
+  if (authLoading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-background">
+        <Loader2 className="w-8 h-8 animate-spin text-primary" />
+      </div>
+    )
+  }
+
+  if (!user) {
+    return <AuthPage />
   }
 
   if (loading && !currentData) {

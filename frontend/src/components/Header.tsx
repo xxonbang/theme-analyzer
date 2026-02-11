@@ -1,6 +1,8 @@
 import { useState, useEffect, useRef } from "react"
-import { BarChart3, RefreshCw, LayoutGrid, List, Calendar, History, LineChart, Home } from "lucide-react"
+import { RefreshCw, LayoutGrid, List, Calendar, History, LineChart, Home, LogOut } from "lucide-react"
 import { cn } from "@/lib/utils"
+import { useAuth } from "@/hooks/useAuth"
+import { EyeChartLogo } from "@/components/EyeChartLogo"
 
 type PageType = "home" | "paper-trading"
 
@@ -18,6 +20,7 @@ interface HeaderProps {
 }
 
 export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCompact, onHistoryClick, isViewingHistory, refreshElapsed, currentPage = "home", onPageChange }: HeaderProps) {
+  const { signOut } = useAuth()
   const [showTooltip, setShowTooltip] = useState(false)
   const [tooltipFading, setTooltipFading] = useState(false)
   const [toggleRipple, setToggleRipple] = useState<{ x: number; y: number; show: boolean }>({ x: 0, y: 0, show: false })
@@ -205,7 +208,7 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
         {/* Logo & Title */}
         <div className="flex items-center gap-2 sm:gap-3">
           <div className="flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded-lg bg-gradient-to-br from-primary to-primary/80 text-primary-foreground shadow-sm">
-            <BarChart3 className="w-4 h-4 sm:w-5 sm:h-5" />
+            <EyeChartLogo className="w-5 h-5 sm:w-6 sm:h-6" />
           </div>
           <div>
             <h1 className="font-bold text-sm sm:text-lg tracking-tight">
@@ -532,6 +535,28 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
               )}
             </span>
           )}
+
+          {/* Logout Button */}
+          <button
+            onClick={() => signOut()}
+            className={cn(
+              "relative overflow-hidden group",
+              "flex items-center justify-center w-8 h-8 sm:w-9 sm:h-9",
+              "rounded-lg",
+              "bg-gradient-to-br from-destructive/10 via-destructive/5 to-destructive/10",
+              "text-destructive",
+              "border border-destructive/20",
+              "shadow-sm",
+              "transition-all duration-300 ease-out",
+              "hover:shadow-md hover:shadow-destructive/10",
+              "hover:scale-110 hover:border-destructive/40",
+              "active:scale-95",
+              "focus:outline-none"
+            )}
+            title="로그아웃"
+          >
+            <LogOut className="relative z-10 w-3.5 h-3.5 sm:w-4 sm:h-4" />
+          </button>
         </div>
       </div>
 
