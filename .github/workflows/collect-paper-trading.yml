@@ -1,9 +1,7 @@
 name: Collect Paper Trading Data
 
 on:
-  schedule:
-    # KST 15:40 (UTC 06:40) - 장 마감 후 종가 수집 (월-금)
-    - cron: '40 6 * * 1-5'
+  # schedule 제거 - cron-job.org에서 workflow_dispatch로 정시 트리거
   workflow_dispatch: {}
 
 concurrency:
