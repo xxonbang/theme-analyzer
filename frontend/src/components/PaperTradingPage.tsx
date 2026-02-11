@@ -15,6 +15,8 @@ export function PaperTradingPage() {
     error,
     selectedDates,
     dailyData,
+    adjustedDailyData,
+    selectedSnapshotIndex,
     summary,
     fetchIndex,
     toggleDate,
@@ -24,6 +26,7 @@ export function PaperTradingPage() {
     isStockExcluded,
     excludedStocks,
     resetExcluded,
+    selectBuyTimestamp,
   } = usePaperTradingData()
 
   const [collapsedDates, setCollapsedDates] = useState<Set<string>>(new Set())
@@ -56,10 +59,10 @@ export function PaperTradingPage() {
     )
   }
 
-  // 선택된 날짜의 데이터를 날짜순으로 정렬
+  // 선택된 날짜의 데이터를 날짜순으로 정렬 (adjustedDailyData로 렌더링)
   const selectedDailyData: { date: string; data: PaperTradingData }[] = []
   for (const date of Array.from(selectedDates).sort((a, b) => b.localeCompare(a))) {
-    const data = dailyData.get(date)
+    const data = adjustedDailyData.get(date)
     if (data) {
       selectedDailyData.push({ date, data })
     }
@@ -121,7 +124,7 @@ export function PaperTradingPage() {
           <PaperTradingDateSelector
             entries={index}
             selectedDates={selectedDates}
-            dailyData={dailyData}
+            dailyData={adjustedDailyData}
             isStockExcluded={isStockExcluded}
             onToggleDate={toggleDate}
             onToggleAll={toggleAllDates}
@@ -133,14 +136,17 @@ export function PaperTradingPage() {
       {/* 일별 종목 카드 */}
       {selectedDailyData.map(({ date, data }) => {
         const collapsed = collapsedDates.has(date)
-        const activeStocks = data.stocks.filter(s => !isStockExcluded(date, s.code))
-        const dayInvested = activeStocks.reduce((sum, s) => sum + s.buy_price, 0)
+        const activeStocksForDay = data.stocks.filter(s => !isStockExcluded(date, s.code))
+        const dayInvested = activeStocksForDay.reduce((sum, s) => sum + s.buy_price, 0)
         const dayValue = activeTab === "high"
-          ? activeStocks.reduce((sum, s) => sum + (s.high_price ?? s.close_price), 0)
-          : activeStocks.reduce((sum, s) => sum + s.close_price, 0)
+          ? activeStocksForDay.reduce((sum, s) => sum + (s.high_price ?? s.close_price), 0)
+          : activeStocksForDay.reduce((sum, s) => sum + s.close_price, 0)
         const dayProfitRate = dayInvested > 0
           ? Math.round(((dayValue - dayInvested) / dayInvested) * 10000) / 100
           : 0
+        const rawData = dailyData.get(date)
+        const snapshots = rawData?.price_snapshots
+        const currentSnapIdx = selectedSnapshotIndex.get(date) ?? 0
         return (
           <Card key={date} className="overflow-hidden shadow-sm">
             <CardContent className="p-3 sm:p-4 space-y-3">
@@ -161,8 +167,24 @@ export function PaperTradingPage() {
                     </span>
                   </button>
                   <span className="text-[10px] sm:text-xs text-muted-foreground">
-                    {activeStocks.length}/{data.stocks.length}종목
+                    {activeStocksForDay.length}/{data.stocks.length}종목
                   </span>
+                  {snapshots && snapshots.length > 1 && (
+                    <select
+                      value={currentSnapIdx}
+                      onChange={(e) => selectBuyTimestamp(date, Number(e.target.value))}
+                      className="text-[10px] sm:text-xs bg-muted/50 border border-border rounded px-1.5 py-0.5 text-foreground"
+                    >
+                      {snapshots.map((snap, idx) => {
+                        const time = snap.timestamp.split(" ")[1]?.slice(0, 5) ?? snap.timestamp
+                        return (
+                          <option key={idx} value={idx}>
+                            매수 {time}
+                          </option>
+                        )
+                      })}
+                    </select>
+                  )}
                 </div>
                 <div className="flex items-center gap-2">
                   {!collapsed && (

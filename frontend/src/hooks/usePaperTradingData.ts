@@ -16,6 +16,8 @@ interface UsePaperTradingDataReturn {
   selectedDates: Set<string>
   excludedStocks: Set<string>
   dailyData: Map<string, PaperTradingData>
+  adjustedDailyData: Map<string, PaperTradingData>
+  selectedSnapshotIndex: Map<string, number>
   allStocks: PaperTradingStock[]
   activeStocks: PaperTradingStock[]
   summary: {
@@ -42,6 +44,7 @@ interface UsePaperTradingDataReturn {
   toggleAllStocks: (date: string, codes: string[]) => void
   isStockExcluded: (date: string, code: string) => boolean
   resetExcluded: () => void
+  selectBuyTimestamp: (date: string, index: number) => void
 }
 
 export function usePaperTradingData(): UsePaperTradingDataReturn {
@@ -51,6 +54,7 @@ export function usePaperTradingData(): UsePaperTradingDataReturn {
   const [selectedDates, setSelectedDates] = useState<Set<string>>(new Set())
   const [excludedStocks, setExcludedStocks] = useState<Set<string>>(new Set())
   const [dailyData, setDailyData] = useState<Map<string, PaperTradingData>>(new Map())
+  const [selectedSnapshotIndex, setSelectedSnapshotIndex] = useState<Map<string, number>>(new Map())
 
   const fetchIndex = useCallback(async () => {
     setLoading(true)
@@ -155,23 +159,108 @@ export function usePaperTradingData(): UsePaperTradingDataReturn {
     setExcludedStocks(new Set())
   }, [])
 
+  const selectBuyTimestamp = useCallback((date: string, index: number) => {
+    setSelectedSnapshotIndex(prev => {
+      const next = new Map(prev)
+      next.set(date, index)
+      return next
+    })
+  }, [])
+
+  // 스냅샷 선택에 따라 재계산된 일별 데이터
+  const adjustedDailyData = useMemo(() => {
+    const adjusted = new Map<string, PaperTradingData>()
+    for (const [date, data] of dailyData) {
+      const snapIdx = selectedSnapshotIndex.get(date) ?? 0
+      const snapshots = data.price_snapshots
+      if (!snapshots || snapshots.length <= 1 || snapIdx === 0) {
+        adjusted.set(date, data)
+        continue
+      }
+      const snapshot = snapshots[snapIdx]
+      if (!snapshot) {
+        adjusted.set(date, data)
+        continue
+      }
+      // 선택된 스냅샷 가격으로 재계산
+      const newStocks: PaperTradingStock[] = data.stocks.map(stock => {
+        const newBuyPrice = snapshot.prices[stock.code]
+        if (newBuyPrice == null) return stock
+        const profitAmount = stock.close_price - newBuyPrice
+        const profitRate = newBuyPrice > 0
+          ? Math.round((profitAmount / newBuyPrice) * 10000) / 100
+          : 0
+        const highPrice = stock.high_price ?? stock.close_price
+        const highProfitAmount = highPrice - newBuyPrice
+        const highProfitRate = newBuyPrice > 0
+          ? Math.round((highProfitAmount / newBuyPrice) * 10000) / 100
+          : 0
+        return {
+          ...stock,
+          buy_price: newBuyPrice,
+          profit_rate: profitRate,
+          profit_amount: profitAmount,
+          high_profit_rate: highProfitRate,
+          high_profit_amount: highProfitAmount,
+        }
+      })
+      // 요약 재계산
+      const profitStocks = newStocks.filter(s => s.profit_rate > 0).length
+      const lossStocks = newStocks.filter(s => s.profit_rate < 0).length
+      const totalInvested = newStocks.reduce((sum, s) => sum + s.buy_price, 0)
+      const totalValue = newStocks.reduce((sum, s) => sum + s.close_price, 0)
+      const totalProfit = totalValue - totalInvested
+      const totalProfitRate = totalInvested > 0
+        ? Math.round((totalProfit / totalInvested) * 10000) / 100
+        : 0
+      const highTotalValue = newStocks.reduce((sum, s) => sum + (s.high_price ?? s.close_price), 0)
+      const highTotalProfit = highTotalValue - totalInvested
+      const highTotalProfitRate = totalInvested > 0
+        ? Math.round((highTotalProfit / totalInvested) * 10000) / 100
+        : 0
+      const highProfitStocks = newStocks.filter(s => (s.high_profit_rate ?? s.profit_rate) > 0).length
+      const highLossStocks = newStocks.filter(s => (s.high_profit_rate ?? s.profit_rate) < 0).length
+
+      adjusted.set(date, {
+        ...data,
+        morning_timestamp: snapshot.timestamp,
+        stocks: newStocks,
+        summary: {
+          ...data.summary,
+          profit_stocks: profitStocks,
+          loss_stocks: lossStocks,
+          total_invested: totalInvested,
+          total_value: totalValue,
+          total_profit: totalProfit,
+          total_profit_rate: totalProfitRate,
+          high_total_value: highTotalValue,
+          high_total_profit: highTotalProfit,
+          high_total_profit_rate: highTotalProfitRate,
+          high_profit_stocks: highProfitStocks,
+          high_loss_stocks: highLossStocks,
+        },
+      })
+    }
+    return adjusted
+  }, [dailyData, selectedSnapshotIndex])
+
   // 선택된 날짜의 모든 종목
   const allStocks = useMemo(() => {
     const stocks: PaperTradingStock[] = []
     for (const date of selectedDates) {
-      const data = dailyData.get(date)
+      const data = adjustedDailyData.get(date)
       if (data) {
         stocks.push(...data.stocks)
       }
     }
     return stocks
-  }, [selectedDates, dailyData])
+  }, [selectedDates, adjustedDailyData])
 
   // 제외되지 않은 활성 종목 (날짜별 제외 반영)
   const activeStocks = useMemo(() => {
     const stocks: PaperTradingStock[] = []
     for (const date of selectedDates) {
-      const data = dailyData.get(date)
+      const data = adjustedDailyData.get(date)
       if (data) {
         for (const s of data.stocks) {
           if (!excludedStocks.has(stockKey(date, s.code))) {
@@ -181,7 +270,7 @@ export function usePaperTradingData(): UsePaperTradingDataReturn {
       }
     }
     return stocks
-  }, [selectedDates, dailyData, excludedStocks])
+  }, [selectedDates, adjustedDailyData, excludedStocks])
 
   // 종합 수익률 계산
   const summary = useMemo(() => {
@@ -233,6 +322,8 @@ export function usePaperTradingData(): UsePaperTradingDataReturn {
     selectedDates,
     excludedStocks,
     dailyData,
+    adjustedDailyData,
+    selectedSnapshotIndex,
     allStocks,
     activeStocks,
     summary,
@@ -243,5 +334,6 @@ export function usePaperTradingData(): UsePaperTradingDataReturn {
     toggleAllStocks,
     isStockExcluded,
     resetExcluded,
+    selectBuyTimestamp,
   }
 }

@@ -116,6 +116,10 @@ export interface StockData {
 }
 
 // 모의투자 관련 타입
+export interface PriceSnapshot {
+  timestamp: string
+  prices: Record<string, number>
+}
 export interface PaperTradingStock {
   code: string
   name: string
@@ -150,6 +154,7 @@ export interface PaperTradingData {
   trade_date: string
   morning_timestamp: string
   collected_at: string
+  price_snapshots?: PriceSnapshot[]
   stocks: PaperTradingStock[]
   summary: PaperTradingSummary
 }

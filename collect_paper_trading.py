@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import json
 import argparse
+import subprocess
 import time
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -38,6 +39,68 @@ def load_latest_json() -> dict:
 
     with open(LATEST_PATH, "r", encoding="utf-8") as f:
         return json.load(f)
+
+
+def get_all_latest_snapshots(today_str: str) -> list[dict]:
+    """git 히스토리에서 오늘 모든 latest.json 버전 추출 (시간순 정렬)"""
+    relative_path = "frontend/public/data/latest.json"
+
+    try:
+        # 오늘 커밋 해시 조회
+        result = subprocess.run(
+            [
+                "git", "log", "--format=%H",
+                f"--since={today_str} 00:00:00 +0900",
+                "--", relative_path,
+            ],
+            capture_output=True, text=True, timeout=30,
+        )
+        if result.returncode != 0 or not result.stdout.strip():
+            print("[스냅샷] git 히스토리 없음 (fallback: 현재 파일)")
+            return []
+
+        hashes = result.stdout.strip().split("\n")
+        print(f"[스냅샷] 오늘 latest.json 커밋 {len(hashes)}개 발견")
+
+        snapshots = []
+        for commit_hash in hashes:
+            try:
+                show_result = subprocess.run(
+                    ["git", "show", f"{commit_hash}:{relative_path}"],
+                    capture_output=True, text=True, timeout=30,
+                )
+                if show_result.returncode != 0:
+                    continue
+                data = json.loads(show_result.stdout)
+                timestamp = data.get("timestamp", "")
+                if timestamp:
+                    snapshots.append({
+                        "timestamp": timestamp,
+                        "data": data,
+                    })
+            except (json.JSONDecodeError, subprocess.TimeoutExpired):
+                continue
+
+        # 시간순 정렬 (oldest first)
+        snapshots.sort(key=lambda s: s["timestamp"])
+
+        # 중복 timestamp 제거
+        seen = set()
+        unique = []
+        for s in snapshots:
+            if s["timestamp"] not in seen:
+                seen.add(s["timestamp"])
+                unique.append(s)
+
+        print(f"[스냅샷] 유효 스냅샷 {len(unique)}개 (시간순)")
+        for s in unique:
+            print(f"  - {s['timestamp']}")
+
+        return unique
+
+    except (subprocess.TimeoutExpired, FileNotFoundError):
+        print("[스냅샷] git 명령 실행 실패 (fallback: 현재 파일)")
+        return []
 
 
 def extract_leader_stocks(data: dict) -> list[dict]:
@@ -116,8 +179,20 @@ def collect_paper_trading_data(
     test_mode: bool = False,
 ) -> Optional[dict]:
     """모의투자 데이터 수집"""
-    data = load_latest_json()
-    morning_timestamp = data.get("timestamp", "")
+    now = datetime.now()
+    today_str = now.strftime("%Y-%m-%d")
+
+    # git 히스토리에서 오늘 모든 스냅샷 수집
+    snapshots = get_all_latest_snapshots(today_str)
+
+    if snapshots:
+        # 첫 번째(가장 이른) 스냅샷을 기본 매수가로 사용
+        data = snapshots[0]["data"]
+        morning_timestamp = snapshots[0]["timestamp"]
+    else:
+        # fallback: 현재 latest.json
+        data = load_latest_json()
+        morning_timestamp = data.get("timestamp", "")
 
     # 대장주 추출
     if stocks_override:
@@ -136,6 +211,24 @@ def collect_paper_trading_data(
     print(f"\n[모의투자] 대장주 {len(leader_stocks)}종목 수집 시작")
     print(f"  오전 데이터: {morning_timestamp}")
 
+    # price_snapshots 구성: 각 스냅샷에서 대장주 가격 추출
+    leader_codes = [s["code"] for s in leader_stocks]
+    price_snapshots = []
+    for snap in snapshots:
+        snap_prices = {}
+        for code in leader_codes:
+            price = find_morning_price(snap["data"], code)
+            if price is not None:
+                snap_prices[code] = price
+        if snap_prices:
+            price_snapshots.append({
+                "timestamp": snap["timestamp"],
+                "prices": snap_prices,
+            })
+
+    if price_snapshots:
+        print(f"\n[스냅샷] 대장주 가격 스냅샷 {len(price_snapshots)}개 생성")
+
     # KIS 클라이언트 초기화
     client = KISClient()
 
@@ -145,7 +238,7 @@ def collect_paper_trading_data(
         name = stock["name"]
         theme = stock["theme"]
 
-        # 오전 매수가
+        # 오전 매수가 (첫 번째 스냅샷 기준)
         buy_price = find_morning_price(data, code)
         if buy_price is None:
             print(f"  [{i+1}/{len(leader_stocks)}] {name}({code}) - 오전 가격 없음, 건너뜀")
@@ -206,7 +299,6 @@ def collect_paper_trading_data(
     high_total_profit = high_total_value - total_invested
     high_total_profit_rate = round((high_total_profit / total_invested) * 100, 2) if total_invested > 0 else 0
 
-    now = datetime.now()
     trade_date = now.strftime("%Y-%m-%d")
     collected_at = now.strftime("%Y-%m-%d %H:%M:%S")
 
@@ -214,6 +306,7 @@ def collect_paper_trading_data(
         "trade_date": trade_date,
         "morning_timestamp": morning_timestamp,
         "collected_at": collected_at,
+        **({"price_snapshots": price_snapshots} if price_snapshots else {}),
         "stocks": results,
         "summary": {
             "total_stocks": len(results),
