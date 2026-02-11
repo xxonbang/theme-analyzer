@@ -207,8 +207,8 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
       <div className="container flex h-14 sm:h-16 items-center justify-between px-3 sm:px-4">
         {/* Logo & Title */}
         <div className="flex items-center gap-2 sm:gap-3">
-          <div className="flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded-lg bg-gradient-to-br from-primary to-primary/80 text-primary-foreground shadow-sm">
-            <EyeChartLogo className="w-5 h-5 sm:w-6 sm:h-6" />
+          <div className="flex items-center justify-center w-7 h-7 sm:w-10 sm:h-10 rounded-lg bg-gradient-to-br from-primary to-primary/80 text-primary-foreground shadow-sm">
+            <EyeChartLogo className="w-4 h-4 sm:w-6 sm:h-6" />
           </div>
           <div>
             <h1 className="font-bold text-sm sm:text-lg tracking-tight">
@@ -220,7 +220,7 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
         </div>
 
         {/* Right Controls */}
-        <div className="flex items-center gap-1.5 sm:gap-3">
+        <div className="flex items-center gap-1 sm:gap-3">
           {/* Timestamp Badge - 클릭 가능 */}
           {parsed && (
             <div className="relative">
@@ -271,7 +271,7 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
               onClick={handlePageClick}
               className={cn(
                 "relative overflow-hidden group",
-                "flex items-center justify-center w-8 h-8 sm:w-9 sm:h-9",
+                "flex items-center justify-center w-7 h-7 sm:w-9 sm:h-9",
                 "rounded-lg",
                 "bg-gradient-to-br from-secondary via-secondary to-secondary/80",
                 "border border-border/50",
@@ -306,11 +306,11 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
               )}>
                 {currentPage === "home" ? (
                   <LineChart className={cn(
-                    "w-3.5 h-3.5 sm:w-4 sm:h-4 transition-transform duration-300 group-hover:scale-110",
+                    "w-3 h-3 sm:w-4 sm:h-4 transition-transform duration-300 group-hover:scale-110",
                   )} />
                 ) : (
                   <Home className={cn(
-                    "w-3.5 h-3.5 sm:w-4 sm:h-4 transition-transform duration-300 group-hover:scale-110",
+                    "w-3 h-3 sm:w-4 sm:h-4 transition-transform duration-300 group-hover:scale-110",
                     "text-primary"
                   )} />
                 )}
@@ -338,7 +338,7 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
               onClick={handleHistoryClick}
               className={cn(
                 "relative overflow-hidden group",
-                "flex items-center justify-center w-8 h-8 sm:w-9 sm:h-9",
+                "flex items-center justify-center w-7 h-7 sm:w-9 sm:h-9",
                 "rounded-lg",
                 "bg-gradient-to-br from-secondary via-secondary to-secondary/80",
                 "border border-border/50",
@@ -372,7 +372,7 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
                 "group-hover:rotate-12 group-active:rotate-0"
               )}>
                 <History className={cn(
-                  "w-3.5 h-3.5 sm:w-4 sm:h-4 transition-transform duration-300 group-hover:scale-110",
+                  "w-3 h-3 sm:w-4 sm:h-4 transition-transform duration-300 group-hover:scale-110",
                   isViewingHistory && "text-primary"
                 )} />
               </div>
@@ -399,7 +399,7 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
               onClick={handleToggleClick}
               className={cn(
                 "relative overflow-hidden group",
-                "flex items-center justify-center w-8 h-8 sm:w-9 sm:h-9",
+                "flex items-center justify-center w-7 h-7 sm:w-9 sm:h-9",
                 "rounded-lg",
                 "bg-gradient-to-br from-secondary via-secondary to-secondary/80",
                 "border border-border/50",
@@ -461,7 +461,7 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
               disabled={loading}
               className={cn(
                 "relative overflow-hidden group",
-                "flex items-center justify-center w-8 h-8 sm:w-9 sm:h-9",
+                "flex items-center justify-center w-7 h-7 sm:w-9 sm:h-9",
                 "rounded-lg",
                 "bg-gradient-to-br from-primary/10 via-primary/5 to-primary/10",
                 "text-primary",
@@ -498,7 +498,7 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
 
               {/* Icon */}
               <RefreshCw className={cn(
-                "relative z-10 w-3.5 h-3.5 sm:w-4 sm:h-4",
+                "relative z-10 w-3 h-3 sm:w-4 sm:h-4",
                 "transition-transform duration-500",
                 loading ? "animate-spin" : "group-hover:rotate-180"
               )} />
@@ -541,7 +541,7 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
             onClick={() => signOut()}
             className={cn(
               "relative overflow-hidden group",
-              "flex items-center justify-center w-8 h-8 sm:w-9 sm:h-9",
+              "flex items-center justify-center w-7 h-7 sm:w-9 sm:h-9",
               "rounded-lg",
               "bg-gradient-to-br from-destructive/10 via-destructive/5 to-destructive/10",
               "text-destructive",
@@ -555,7 +555,7 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
             )}
             title="로그아웃"
           >
-            <LogOut className="relative z-10 w-3.5 h-3.5 sm:w-4 sm:h-4" />
+            <LogOut className="relative z-10 w-3 h-3 sm:w-4 sm:h-4" />
           </button>
         </div>
       </div>
