@@ -12,7 +12,26 @@ interface AuthContextType {
   signOut: () => Promise<void>
 }
 
+const SYSTEM_NAME = "Theme_Analysis"
+
 const AuthContext = createContext<AuthContextType | null>(null)
+
+function recordUserHistory(user: User) {
+  supabase
+    .from("user_history")
+    .upsert(
+      {
+        user_id: user.id,
+        email: user.email ?? "",
+        system_name: SYSTEM_NAME,
+        accessed_at: new Date().toISOString(),
+      },
+      { onConflict: "user_id,system_name" },
+    )
+    .then(({ error }) => {
+      if (error) console.error("Failed to record user history:", error.message)
+    })
+}
 
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<User | null>(null)
@@ -24,13 +43,17 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     supabase.auth.getSession().then(({ data: { session } }) => {
       setSession(session)
       setUser(session?.user ?? null)
+      if (session?.user) recordUserHistory(session.user)
       setLoading(false)
     })
 
     // 인증 상태 변경 구독
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
       setSession(session)
       setUser(session?.user ?? null)
+      if (event === "SIGNED_IN" && session?.user) {
+        recordUserHistory(session.user)
+      }
     })
 
     return () => subscription.unsubscribe()
