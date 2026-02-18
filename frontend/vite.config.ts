@@ -10,7 +10,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/top10_stocks_sender/",
+  base: "/Theme_Analyzer/",
   build: {
     outDir: "dist",
   },
