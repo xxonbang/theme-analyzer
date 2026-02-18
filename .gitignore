@@ -17,6 +17,10 @@ output/
 # Build output
 dist/
 
+# Documentation (md files)
+*.md
+docs/
+
 # Claude
 .claude/
 
