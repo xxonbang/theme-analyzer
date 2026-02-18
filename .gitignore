@@ -21,6 +21,9 @@ dist/
 *.md
 docs/
 
+# Demo files
+frontend/public/demo-criteria.html
+
 # Claude
 .claude/
 
