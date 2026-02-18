@@ -138,7 +138,7 @@ function ThemeCard({ theme, index, criteriaData, isAdmin }: { theme: MarketTheme
 }
 
 export function AIThemeAnalysis({ themeAnalysis, criteriaData, isAdmin }: AIThemeAnalysisProps) {
-  const [collapsed, setCollapsed] = useState(true)
+  const [collapsed, setCollapsed] = useState(false)
 
   if (!themeAnalysis?.themes?.length) {
     return null
