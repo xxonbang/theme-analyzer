@@ -2,7 +2,7 @@
 종목별 최근 N일간 등락률 계산 모듈
 """
 from typing import Dict, List, Any, Optional
-from datetime import datetime
+from datetime import datetime, timedelta
 
 from modules.kis_client import KISClient
 
@@ -46,6 +46,24 @@ class StockHistoryAPI:
                 return {"code": stock_code, "changes": [], "total_change_rate": 0}
 
             output2 = result.get("output2", [])
+
+            # KIS API는 1회 최대 100건 반환 → MA120 계산에 120건 이상 필요
+            if len(output2) >= 100:
+                oldest_date = output2[-1].get("stck_bsop_date", "")
+                if oldest_date:
+                    try:
+                        oldest_dt = datetime.strptime(oldest_date, "%Y%m%d")
+                        new_end = (oldest_dt - timedelta(days=1)).strftime("%Y%m%d")
+                        new_start = (oldest_dt - timedelta(days=180)).strftime("%Y%m%d")
+                        result2 = self.client.get_stock_daily_price(
+                            stock_code, start_date=new_start, end_date=new_end
+                        )
+                        if result2.get("rt_cd") == "0":
+                            extra = result2.get("output2", [])
+                            if extra:
+                                output2 = output2 + extra
+                    except Exception:
+                        pass  # 추가 조회 실패 시 기존 100건만 사용
 
             if len(output2) < days + 1:
                 # 데이터가 부족한 경우

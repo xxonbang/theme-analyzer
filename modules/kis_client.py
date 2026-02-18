@@ -523,13 +523,17 @@ class KISClient:
         stock_code: str,
         period: str = "D",
         adj_price: bool = True,
+        start_date: str = None,
+        end_date: str = None,
     ) -> Dict[str, Any]:
         """국내주식기간별시세 조회 (일봉/주봉/월봉)"""
         path = "/uapi/domestic-stock/v1/quotations/inquire-daily-itemchartprice"
         tr_id = "FHKST03010100"
 
-        end_date = datetime.now().strftime("%Y%m%d")
-        start_date = (datetime.now() - timedelta(days=300)).strftime("%Y%m%d")
+        if end_date is None:
+            end_date = datetime.now().strftime("%Y%m%d")
+        if start_date is None:
+            start_date = (datetime.now() - timedelta(days=300)).strftime("%Y%m%d")
 
         params = {
             "FID_COND_MRKT_DIV_CODE": "J",
