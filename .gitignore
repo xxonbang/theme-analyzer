@@ -17,9 +17,9 @@ output/
 # Build output
 dist/
 
-# Documentation (md files)
+# Documentation (md files in root)
 *.md
-docs/
+!docs/**/*.md
 
 # Demo files
 frontend/public/demo-criteria.html
