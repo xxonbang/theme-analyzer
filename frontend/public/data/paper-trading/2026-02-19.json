@@ -1,0 +1,143 @@
+{
+  "trade_date": "2026-02-19",
+  "morning_timestamp": "2026-02-19 00:05:14",
+  "collected_at": "2026-02-19 06:44:15",
+  "price_snapshots": [
+    {
+      "timestamp": "2026-02-19 00:05:14",
+      "prices": {
+        "001510": 1215,
+        "006800": 61600,
+        "017670": 86500,
+        "475150": 28650,
+        "047810": 176700,
+        "478340": 55600
+      }
+    },
+    {
+      "timestamp": "2026-02-19 09:22:02",
+      "prices": {
+        "001510": 1579,
+        "006800": 68800,
+        "017670": 81700,
+        "475150": 27750,
+        "047810": 175800,
+        "478340": 55300
+      }
+    },
+    {
+      "timestamp": "2026-02-19 09:46:57",
+      "prices": {
+        "001510": 1579,
+        "006800": 71300,
+        "017670": 81800,
+        "475150": 27650,
+        "478340": 55600
+      }
+    },
+    {
+      "timestamp": "2026-02-19 15:17:37",
+      "prices": {
+        "001510": 1579,
+        "006800": 70800,
+        "017670": 82100,
+        "475150": 28400,
+        "478340": 55500
+      }
+    }
+  ],
+  "stocks": [
+    {
+      "code": "001510",
+      "name": "SK증권",
+      "theme": "증권/금융",
+      "buy_price": 1215,
+      "close_price": 1579,
+      "profit_rate": 29.96,
+      "profit_amount": 364,
+      "high_price": 1579,
+      "high_time": "15:30",
+      "high_profit_rate": 29.96,
+      "high_profit_amount": 364
+    },
+    {
+      "code": "006800",
+      "name": "미래에셋증권",
+      "theme": "증권/금융",
+      "buy_price": 61600,
+      "close_price": 70500,
+      "profit_rate": 14.45,
+      "profit_amount": 8900,
+      "high_price": 72700,
+      "high_time": "09:44",
+      "high_profit_rate": 18.02,
+      "high_profit_amount": 11100
+    },
+    {
+      "code": "017670",
+      "name": "SK텔레콤",
+      "theme": "SK그룹 관련주",
+      "buy_price": 86500,
+      "close_price": 81500,
+      "profit_rate": -5.78,
+      "profit_amount": -5000,
+      "high_price": 84800,
+      "high_time": "09:00",
+      "high_profit_rate": -1.97,
+      "high_profit_amount": -1700
+    },
+    {
+      "code": "475150",
+      "name": "SK이터닉스",
+      "theme": "SK그룹 관련주",
+      "buy_price": 28650,
+      "close_price": 28400,
+      "profit_rate": -0.87,
+      "profit_amount": -250,
+      "high_price": 29400,
+      "high_time": "10:24",
+      "high_profit_rate": 2.62,
+      "high_profit_amount": 750
+    },
+    {
+      "code": "047810",
+      "name": "한국항공우주",
+      "theme": "방위산업/우주항공",
+      "buy_price": 176700,
+      "close_price": 175400,
+      "profit_rate": -0.74,
+      "profit_amount": -1300,
+      "high_price": 179300,
+      "high_time": "09:00",
+      "high_profit_rate": 1.47,
+      "high_profit_amount": 2600
+    },
+    {
+      "code": "478340",
+      "name": "나라스페이스테크놀로지",
+      "theme": "방위산업/우주항공",
+      "buy_price": 55600,
+      "close_price": 55400,
+      "profit_rate": -0.36,
+      "profit_amount": -200,
+      "high_price": 57600,
+      "high_time": "09:04",
+      "high_profit_rate": 3.6,
+      "high_profit_amount": 2000
+    }
+  ],
+  "summary": {
+    "total_stocks": 6,
+    "profit_stocks": 2,
+    "loss_stocks": 4,
+    "total_invested": 410265,
+    "total_value": 412779,
+    "total_profit": 2514,
+    "total_profit_rate": 0.61,
+    "high_total_value": 425379,
+    "high_total_profit": 15114,
+    "high_total_profit_rate": 3.68,
+    "high_profit_stocks": 5,
+    "high_loss_stocks": 1
+  }
+}
