@@ -66,12 +66,18 @@ def check_high_breakout(
         if current_price >= six_month_high:
             result["met"] = True
             result["reason"] = f"6개월 최고가 {six_month_high:,}원 돌파 (현재가 {current_price:,}원)"
+        else:
+            gap_pct = (six_month_high - current_price) / six_month_high * 100
+            result["reason"] = f"6개월 최고가 {six_month_high:,}원 대비 현재가 {current_price:,}원 ({gap_pct:.1f}% 미달)"
 
     # 52주 신고가
     if w52_hgpr and current_price >= w52_hgpr:
         result["met"] = True
         result["is_52w_high"] = True
         result["reason"] = f"52주 신고가 경신 (기존 {w52_hgpr:,}원 → 현재 {current_price:,}원)"
+
+    if not result["met"] and not result["reason"]:
+        result["reason"] = "가격 데이터 부족"
 
     return result
 
@@ -127,6 +133,8 @@ def check_momentum_history(daily_prices: List[Dict]) -> Dict[str, Any]:
 
     if reasons:
         result["reason"] = " | ".join(reasons)
+    else:
+        result["reason"] = "과거 상한가/끼 이력 없음"
 
     return result
 
@@ -174,6 +182,11 @@ def check_resistance_breakout(
     if reasons:
         result["met"] = True
         result["reason"] = " | ".join(reasons)
+    else:
+        if not prev_close:
+            result["reason"] = "전일 종가 데이터 없음"
+        else:
+            result["reason"] = "돌파 대상 저항선 없음"
 
     return result
 
@@ -261,6 +274,8 @@ def check_supply_demand(
 
     if parts:
         result["reason"] = " | ".join(parts)
+    else:
+        result["reason"] = "수급 데이터 없음"
 
     return result
 
@@ -282,6 +297,8 @@ def check_program_trading(
         result["reason"] = f"프로그램 순매수 +{pgtr:,}주"
     elif pgtr < 0:
         result["reason"] = f"프로그램 순매도 {pgtr:,}주"
+    else:
+        result["reason"] = "프로그램 매매 데이터 없음"
 
     return result
 
@@ -300,6 +317,8 @@ def check_top30_trading_value(
     if stock_code in trading_value_top30_codes:
         result["met"] = True
         result["reason"] = "당일 거래대금 TOP30 포함"
+    else:
+        result["reason"] = "당일 거래대금 TOP30 미포함"
 
     return result
 
