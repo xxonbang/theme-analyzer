@@ -156,12 +156,12 @@ function CompactStockRow({ stock, type, showTradingValue, investorInfo, hasInves
             const c = criteria![key as keyof StockCriteria]
             if (typeof c === "boolean") return null
             return (
-              <div key={key} className="flex items-start gap-1.5">
-                <span className={cn("w-2 h-2 rounded-full shrink-0 mt-0.5", dot)} />
-                <div className="min-w-0">
+              <div key={key}>
+                <div className="flex items-center gap-1.5">
+                  <span className={cn("w-2 h-2 rounded-full shrink-0", dot)} />
                   <span className="text-[10px] font-semibold">{label}</span>
-                  <p className="text-[9px] sm:text-[10px] text-muted-foreground leading-relaxed">{c?.reason || "근거 없음"}</p>
                 </div>
+                <p className="text-[9px] sm:text-[10px] text-muted-foreground leading-relaxed pl-3.5">{c?.reason || "근거 없음"}</p>
               </div>
             )
           })}
