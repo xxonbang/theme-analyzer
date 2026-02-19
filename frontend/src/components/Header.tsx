@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react"
 import { RefreshCw, LayoutGrid, List, Calendar, History, LineChart, Home, LogOut } from "lucide-react"
-import { cn } from "@/lib/utils"
+import { cn, getWeekday } from "@/lib/utils"
 import { useAuth } from "@/hooks/useAuth"
 import { EyeChartLogo } from "@/components/EyeChartLogo"
 
@@ -158,17 +158,11 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
       day,
       hour,
       minute,
-      weekday: getWeekday(year, month, day),
+      weekday: getWeekday(`${year}-${month}-${day}`),
       fullDate: `${year}.${month}.${day}`,
       fullTime: `${hour}:${minute}`,
       shortDate: `${month}.${day}`,
     }
-  }
-
-  const getWeekday = (year: string, month: string, day: string) => {
-    const weekdays = ["일", "월", "화", "수", "목", "금", "토"]
-    const date = new Date(parseInt(year), parseInt(month) - 1, parseInt(day))
-    return weekdays[date.getDay()]
   }
 
   const getRelativeTime = (ts: string) => {

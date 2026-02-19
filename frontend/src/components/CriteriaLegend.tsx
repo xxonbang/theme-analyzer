@@ -1,22 +1,12 @@
-const CRITERIA_LEGEND = [
-  { color: "bg-red-500", label: "전고점 돌파" },
-  { color: "bg-blue-500", label: "외국인/기관 수급" },
-  { color: "bg-violet-500", label: "프로그램 매매" },
-  { color: "bg-orange-500", label: "끼 보유" },
-  { color: "bg-yellow-400", label: "저항선 돌파" },
-  { color: "bg-teal-500", label: "정배열" },
-  { color: "bg-fuchsia-500", label: "거래대금 TOP30" },
-  { color: "bg-emerald-500", label: "시가총액" },
-  { color: "bg-red-600", label: "공매도 경고" },
-] as const
+import { CRITERIA_CONFIG } from "@/lib/criteria"
 
 export function CriteriaLegend() {
   return (
     <div className="flex flex-wrap items-center gap-x-3 gap-y-1 px-3 py-2 bg-muted/40 rounded-lg text-[10px] sm:text-xs text-muted-foreground">
       <span className="font-medium text-foreground/70">선정 기준:</span>
-      {CRITERIA_LEGEND.map(({ color, label }) => (
+      {CRITERIA_CONFIG.map(({ dot, label }) => (
         <span key={label} className="flex items-center gap-1">
-          <span className={`w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full ${color}`} />
+          <span className={`w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full ${dot}`} />
           {label}
         </span>
       ))}

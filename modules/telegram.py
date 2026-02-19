@@ -60,11 +60,8 @@ class TelegramSender:
             return str(volume)
 
     def _format_price(self, price: int) -> str:
-        """가격 포맷 (만원 단위)"""
-        if price >= 10000:
-            return f"{price:,}"
-        else:
-            return f"{price:,}"
+        """가격 포맷 (쉼표 구분)"""
+        return f"{price:,}"
 
     def _get_change_emoji(self, rate: float) -> str:
         """등락률에 따른 이모지"""
@@ -278,69 +275,6 @@ class TelegramSender:
             .replace(">", "&gt;")
         )
 
-    def format_news_message(
-        self,
-        news_data: Dict[str, Dict[str, Any]],
-        title: str = "📰 종목별 뉴스",
-    ) -> List[str]:
-        """뉴스 메시지 포맷 (제목에 링크 포함)"""
-        messages = []
-        current_lines = [
-            f"{title}",
-            "",
-        ]
-
-        for code, data in news_data.items():
-            name = data.get("name", code)
-            news_list = data.get("news", [])
-
-            if not news_list:
-                continue
-
-            stock_lines = [f"📌 <b>{name}</b>"]
-
-            for news in news_list:
-                news_title = news.get("title", "")
-                pub_date = news.get("pubDate", "")
-                link = news.get("link", "")
-
-                # 제목 길이 제한
-                if len(news_title) > 45:
-                    news_title = news_title[:42] + "..."
-
-                # HTML 이스케이프 후 링크 적용
-                escaped_title = self._escape_html(news_title)
-
-                # 제목에 링크 걸기
-                if link:
-                    stock_lines.append(f"  • <a href=\"{link}\">{escaped_title}</a>")
-                else:
-                    stock_lines.append(f"  • {escaped_title}")
-
-                stock_lines.append(f"    <i>{pub_date}</i>")
-
-            stock_lines.append("")
-
-            # 메시지 길이 체크 (텔레그램 제한: 4096자)
-            test_message = "\n".join(current_lines + stock_lines)
-            if len(test_message) > 3800:
-                # 타임스탬프 추가 후 저장
-                current_lines.append(f"⏰ {self._get_timestamp()}")
-                messages.append("\n".join(current_lines))
-                current_lines = [
-                    f"{title} (계속)",
-                    "",
-                ]
-
-            current_lines.extend(stock_lines)
-
-        # 마지막 메시지 추가
-        if len(current_lines) > 2:
-            current_lines.append(f"⏰ {self._get_timestamp()}")
-            messages.append("\n".join(current_lines))
-
-        return messages
-
     def format_theme_analysis(self, theme_analysis: Dict[str, Any]) -> List[str]:
         """AI 테마 분석 메시지 포맷
 
@@ -409,17 +343,3 @@ class TelegramSender:
 
         return messages
 
-    def send_news(
-        self,
-        news_data: Dict[str, Dict[str, Any]],
-        title: str = "📰 종목별 뉴스",
-    ) -> bool:
-        """뉴스 메시지 발송"""
-        messages = self.format_news_message(news_data, title)
-
-        success = True
-        for message in messages:
-            if not self.send_message(message):
-                success = False
-
-        return success

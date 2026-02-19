@@ -30,13 +30,7 @@ ROUND_LEVELS = [
 ]
 
 
-def _safe_int(value) -> Optional[int]:
-    if value is None or value == "":
-        return None
-    try:
-        return int(value)
-    except (ValueError, TypeError):
-        return None
+from modules.utils import safe_int_or_none as _safe_int
 
 
 # ────────────────────────────────────────────────────────────
@@ -407,7 +401,7 @@ def evaluate_stock_criteria(
 
     w52_hgpr = fundamental.get("w52_hgpr") if fundamental else None
     pgtr = fundamental.get("pgtr_ntby_qty") if fundamental else None
-    market_cap = fundamental.get("hts_avls") if fundamental else None
+    market_cap = fundamental.get("market_cap") if fundamental else None
 
     if trading_value_top30_codes is None:
         trading_value_top30_codes = set()

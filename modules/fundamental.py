@@ -5,15 +5,7 @@ from typing import Dict, List, Any, Optional
 from modules.kis_client import KISClient
 
 
-def safe_float(value) -> Optional[float]:
-    """문자열/숫자를 float로 안전하게 변환"""
-    if value is None or value == "":
-        return None
-    try:
-        v = float(value)
-        return v if v != 0 else None
-    except (ValueError, TypeError):
-        return None
+from modules.utils import safe_float_or_none as safe_float
 
 
 class FundamentalCollector:

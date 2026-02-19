@@ -225,40 +225,6 @@ class SupabaseCredentialManager:
             print(f"[Supabase] KIS 토큰 저장 실패: {e}")
             return False
 
-    def update_credential(
-        self,
-        service_name: str,
-        credential_type: str,
-        credential_value: str,
-    ) -> bool:
-        """API 키 업데이트
-
-        Args:
-            service_name: 서비스 이름 (예: 'kis')
-            credential_type: 키 유형 (예: 'app_key', 'app_secret')
-            credential_value: 새 키 값
-
-        Returns:
-            성공 여부
-        """
-        client = self._get_client()
-        if not client:
-            return False
-
-        try:
-            response = client.table('api_credentials').update({
-                'credential_value': credential_value,
-                'updated_at': datetime.now().isoformat(),
-            }).eq('service_name', service_name).eq(
-                'credential_type', credential_type
-            ).execute()
-
-            return bool(response.data)
-
-        except Exception as e:
-            print(f"[Supabase] 키 업데이트 실패: {e}")
-            return False
-
 
 # 싱글톤 인스턴스
 _manager: Optional[SupabaseCredentialManager] = None
@@ -282,12 +248,6 @@ def get_kis_token_from_supabase() -> Optional[Dict[str, Any]]:
     """Supabase에서 KIS access_token 조회 (편의 함수)"""
     manager = get_supabase_manager()
     return manager.get_kis_token()
-
-
-def get_kis_valid_token_from_supabase() -> Optional[Dict[str, Any]]:
-    """Supabase에서 만료되지 않은 KIS access_token 조회 (편의 함수)"""
-    manager = get_supabase_manager()
-    return manager.get_kis_valid_token()
 
 
 def save_kis_token_to_supabase(

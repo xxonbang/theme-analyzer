@@ -23,10 +23,11 @@ export function formatChangeRate(rate: number): string {
   return `${sign}${rate.toFixed(2)}%`
 }
 
-export function getChangeColor(rate: number): string {
-  if (rate > 0) return "text-red-500"
-  if (rate < 0) return "text-blue-500"
-  return "text-muted-foreground"
+export function getWeekday(dateStr: string): string {
+  const weekdays = ["일", "월", "화", "수", "목", "금", "토"]
+  const [year, month, day] = dateStr.split("-")
+  const date = new Date(parseInt(year), parseInt(month) - 1, parseInt(day))
+  return weekdays[date.getDay()]
 }
 
 export function formatTradingValue(value: number): string {

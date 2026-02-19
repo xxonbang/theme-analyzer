@@ -7,12 +7,11 @@ import json
 import re
 import time
 import requests
-from datetime import datetime, timezone, timedelta
+from datetime import datetime
 from typing import Dict, List, Any, Optional
 
 from config.settings import GEMINI_API_KEY_1, GEMINI_API_KEY_2, GEMINI_API_KEY_3
-
-KST = timezone(timedelta(hours=9))
+from modules.utils import KST
 
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
 

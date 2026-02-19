@@ -4,7 +4,7 @@ Refresh 버튼 클릭 시 최신 주식 데이터를 실시간으로 수집하�
 """
 import os
 import sys
-from datetime import datetime, timezone, timedelta
+from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
 
 from fastapi import FastAPI
@@ -22,9 +22,8 @@ from modules.stock_filter import StockFilter
 from modules.stock_history import StockHistoryAPI
 from modules.exchange_rate import ExchangeRateAPI
 from modules.data_exporter import _strip_meta
+from modules.utils import KST
 from main import collect_all_stocks
-
-KST = timezone(timedelta(hours=9))
 
 app = FastAPI(title="Stock TOP10 API", version="1.0.0")
 

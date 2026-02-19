@@ -11,24 +11,7 @@ from modules.kis_client import KISClient
 from modules.market_hours import is_market_hours
 
 
-def safe_int(value, default: int = 0) -> int:
-    """빈 문자열이나 None을 안전하게 정수로 변환"""
-    if value is None or value == "":
-        return default
-    try:
-        return int(value)
-    except (ValueError, TypeError):
-        return default
-
-
-def safe_float(value, default: float = 0.0) -> float:
-    """빈 문자열이나 None을 안전하게 실수로 변환"""
-    if value is None or value == "":
-        return default
-    try:
-        return float(value)
-    except (ValueError, TypeError):
-        return default
+from modules.utils import safe_int, safe_float
 
 
 class KISRankAPI:
@@ -813,45 +796,6 @@ class KISRankAPI:
             print("[수급] 장외 → 확정 데이터(FHKST01010900) 사용")
             data = self.get_investor_data(stocks)
             return data, False
-
-    def get_all_top30(
-        self,
-        exclude_etf: bool = True,
-    ) -> Dict[str, Any]:
-        """거래량 + 등락률 Top30 종합 조회
-
-        Args:
-            exclude_etf: ETF/ETN 제외 여부 (기본값: True)
-
-        Returns:
-            종합 Top30 데이터
-        """
-        print(f"[KIS] 거래량 Top30 조회 중... (ETF 제외: {exclude_etf})")
-        volume_data = self.get_top30_by_volume(exclude_etf=exclude_etf)
-
-        print(f"[KIS] 등락률 Top30 조회 중... (ETF 제외: {exclude_etf})")
-        fluctuation_data = self.get_top30_by_fluctuation(exclude_etf=exclude_etf)
-
-        # 중복 제거된 전체 종목 코드 리스트
-        all_codes = set()
-        for stocks in [
-            volume_data.get("kospi", []),
-            volume_data.get("kosdaq", []),
-            fluctuation_data.get("kospi_up", []),
-            fluctuation_data.get("kospi_down", []),
-            fluctuation_data.get("kosdaq_up", []),
-            fluctuation_data.get("kosdaq_down", []),
-        ]:
-            for stock in stocks:
-                all_codes.add(stock["code"])
-
-        return {
-            "volume": volume_data,
-            "fluctuation": fluctuation_data,
-            "unique_stock_codes": list(all_codes),
-            "unique_stock_count": len(all_codes),
-            "collected_at": datetime.now().isoformat(),
-        }
 
 
 def test_rank_api():

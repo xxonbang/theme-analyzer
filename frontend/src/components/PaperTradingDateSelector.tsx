@@ -1,5 +1,5 @@
 import { CheckSquare, Square, CheckCheck, TrendingUp, TrendingDown, Minus } from "lucide-react"
-import { cn } from "@/lib/utils"
+import { cn, getWeekday } from "@/lib/utils"
 import type { PaperTradingIndexEntry, PaperTradingData, PaperTradingMode } from "@/types/stock"
 
 interface PaperTradingDateSelectorProps {
@@ -10,13 +10,6 @@ interface PaperTradingDateSelectorProps {
   onToggleDate: (date: string) => void
   onToggleAll: () => void
   mode: PaperTradingMode
-}
-
-function getWeekday(dateStr: string) {
-  const weekdays = ["일", "월", "화", "수", "목", "금", "토"]
-  const [year, month, day] = dateStr.split("-")
-  const date = new Date(parseInt(year), parseInt(month) - 1, parseInt(day))
-  return weekdays[date.getDay()]
 }
 
 export function PaperTradingDateSelector({

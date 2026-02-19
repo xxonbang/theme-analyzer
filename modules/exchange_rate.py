@@ -4,11 +4,10 @@
 - 주요 통화(USD, JPY, EUR, CNY) 환율 제공
 """
 import requests
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta
 from typing import Dict, List, Any, Optional
 
-# 한국 시간대 (UTC+9)
-KST = timezone(timedelta(hours=9))
+from modules.utils import KST
 
 # 주요 통화 코드
 MAJOR_CURRENCIES = ["USD", "JPY(100)", "EUR", "CNY"]
@@ -74,8 +73,6 @@ class ExchangeRateAPI:
                     deal_bas_r = self._parse_number(item.get("deal_bas_r", "0"))
                     ttb = self._parse_number(item.get("ttb", "0"))
                     tts = self._parse_number(item.get("tts", "0"))
-                    bkpr = self._parse_number(item.get("bkpr", "0"))
-                    kftc_deal_bas_r = self._parse_number(item.get("kftc_deal_bas_r", "0"))
 
                     rates.append({
                         "currency": cur_unit.replace("(100)", ""),  # JPY(100) -> JPY
@@ -144,12 +141,6 @@ class ExchangeRateAPI:
             lines.append(f"{emoji} {currency}{unit}: {value:,.2f}원")
 
         return "\n".join(lines)
-
-
-def get_exchange_rates() -> Dict[str, Any]:
-    """환율 정보 조회 (편의 함수)"""
-    api = ExchangeRateAPI()
-    return api.get_exchange_rates()
 
 
 if __name__ == "__main__":

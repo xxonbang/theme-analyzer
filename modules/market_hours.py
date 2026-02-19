@@ -3,9 +3,9 @@ KST 기준 장중 여부 판별 유틸리티
 - 평일 09:00~15:30 KST → True
 - 주말, 공휴일 → False
 """
-from datetime import datetime, timezone, timedelta
+from datetime import datetime
 
-KST = timezone(timedelta(hours=9))
+from modules.utils import KST
 
 # 2026년 KRX 휴장일 (매년 갱신 필요)
 KRX_HOLIDAYS_2026 = {

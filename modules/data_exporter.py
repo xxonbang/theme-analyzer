@@ -3,12 +3,11 @@
 """
 import json
 import os
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Dict, List, Any
 
-# 한국 시간대 (UTC+9)
-KST = timezone(timedelta(hours=9))
+from modules.utils import KST
 
 # 프로젝트 루트 경로
 ROOT_DIR = Path(__file__).parent.parent

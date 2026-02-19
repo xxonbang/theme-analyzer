@@ -13,7 +13,7 @@ import { useStockData } from "@/hooks/useStockData"
 import { useHistoryData } from "@/hooks/useHistoryData"
 import { useAuth } from "@/hooks/useAuth"
 import { Loader2, ArrowLeft, Calendar, Clock, ChevronUp } from "lucide-react"
-import { cn } from "@/lib/utils"
+import { cn, getWeekday } from "@/lib/utils"
 import type { HistoryEntry } from "@/types/history"
 import type { TabType, FluctuationMode, CompositeMode, Stock } from "@/types/stock"
 
@@ -309,13 +309,6 @@ function App() {
   }
 
   // 요일 계산
-  const getWeekday = (dateStr: string) => {
-    const weekdays = ["일", "월", "화", "수", "목", "금", "토"]
-    const [year, month, day] = dateStr.split("-")
-    const date = new Date(parseInt(year), parseInt(month) - 1, parseInt(day))
-    return weekdays[date.getDay()]
-  }
-
   return (
     <div className="min-h-screen bg-background">
       <Header

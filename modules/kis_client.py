@@ -23,7 +23,6 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 from config.settings import (
     KIS_APP_KEY,
     KIS_APP_SECRET,
-    KIS_ACCOUNT_NO,
     KIS_BASE_URL,
     ROOT_DIR,
 )
@@ -57,7 +56,6 @@ class KISClient:
     def __init__(self):
         # Supabase에서 KIS API 키 조회 시도, 없으면 환경변수 사용
         self._load_credentials()
-        self.account_no = KIS_ACCOUNT_NO
         self.base_url = KIS_BASE_URL
 
         # 토큰 캐시 파일 경로
@@ -481,16 +479,6 @@ class KISClient:
         }
         return self.request("GET", path, tr_id, params=params)
 
-    def get_stock_asking_price(self, stock_code: str) -> Dict[str, Any]:
-        """주식현재가 호가/예상체결 조회"""
-        path = "/uapi/domestic-stock/v1/quotations/inquire-asking-price-exp-ccn"
-        tr_id = "FHKST01010200"
-        params = {
-            "FID_COND_MRKT_DIV_CODE": "J",
-            "FID_INPUT_ISCD": stock_code,
-        }
-        return self.request("GET", path, tr_id, params=params)
-
     def get_stock_investor(self, stock_code: str) -> Dict[str, Any]:
         """주식현재가 투자자 조회 (최근 30일)"""
         path = "/uapi/domestic-stock/v1/quotations/inquire-investor"
@@ -506,16 +494,6 @@ class KISClient:
         path = "/uapi/domestic-stock/v1/quotations/investor-trend-estimate"
         tr_id = "HHPTJ04160200"
         params = {"MKSC_SHRN_ISCD": stock_code}
-        return self.request("GET", path, tr_id, params=params)
-
-    def get_stock_member(self, stock_code: str) -> Dict[str, Any]:
-        """주식현재가 회원사 조회"""
-        path = "/uapi/domestic-stock/v1/quotations/inquire-member"
-        tr_id = "FHKST01010600"
-        params = {
-            "FID_COND_MRKT_DIV_CODE": "J",
-            "FID_INPUT_ISCD": stock_code,
-        }
         return self.request("GET", path, tr_id, params=params)
 
     def get_stock_daily_price(
@@ -542,17 +520,6 @@ class KISClient:
             "FID_INPUT_DATE_2": end_date,
             "FID_PERIOD_DIV_CODE": period,
             "FID_ORG_ADJ_PRC": "0" if adj_price else "1",
-        }
-        return self.request("GET", path, tr_id, params=params)
-
-    def get_stock_daily_ccld(self, stock_code: str) -> Dict[str, Any]:
-        """주식현재가 당일시간대별체결 조회"""
-        path = "/uapi/domestic-stock/v1/quotations/inquire-time-itemconclusion"
-        tr_id = "FHPST01060000"
-        params = {
-            "FID_COND_MRKT_DIV_CODE": "J",
-            "FID_INPUT_ISCD": stock_code,
-            "FID_INPUT_HOUR_1": "",
         }
         return self.request("GET", path, tr_id, params=params)
 
@@ -613,22 +580,6 @@ class KISClient:
             "FID_INPUT_ISCD": stock_code,
             "FID_INPUT_DATE_1": start_date,
             "FID_INPUT_DATE_2": end_date,
-        }
-        return self.request("GET", path, tr_id, params=params)
-
-    def get_profit_ratio(self, stock_code: str, div_cls_code: str = "1") -> Dict[str, Any]:
-        """주식 수익성비율 조회 (매출순이익률, 매출총이익률 등)
-
-        Args:
-            stock_code: 종목코드
-            div_cls_code: 분류 구분 (0: 년, 1: 분기)
-        """
-        path = "/uapi/domestic-stock/v1/finance/profit-ratio"
-        tr_id = "FHKST66430400"
-        params = {
-            "fid_cond_mrkt_div_code": "J",
-            "fid_input_iscd": stock_code,
-            "FID_DIV_CLS_CODE": div_cls_code,
         }
         return self.request("GET", path, tr_id, params=params)
 

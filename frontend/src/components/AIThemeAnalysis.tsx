@@ -1,26 +1,14 @@
 import { useState } from "react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Sparkles, ChevronDown, ChevronUp, ExternalLink, X } from "lucide-react"
+import { Sparkles, ChevronDown, ChevronUp, ExternalLink } from "lucide-react"
 import { cn } from "@/lib/utils"
+import { CRITERIA_CONFIG } from "@/lib/criteria"
+import { CriteriaPopup } from "@/components/CriteriaPopup"
 import type { ThemeAnalysis, MarketTheme, StockCriteria } from "@/types/stock"
-
-/** 대장주 칩용 기준 도트 색상 (우선순위 순, 다른 컴포넌트와 동일 체계) */
-const LEADER_CRITERIA = [
-  { key: "high_breakout", dot: "bg-red-500", label: "전고점 돌파" },
-  { key: "supply_demand", dot: "bg-blue-500", label: "외국인/기관 수급" },
-  { key: "program_trading", dot: "bg-violet-500", label: "프로그램 매매" },
-  { key: "momentum_history", dot: "bg-orange-500", label: "끼 보유" },
-  { key: "resistance_breakout", dot: "bg-yellow-400", label: "저항선 돌파" },
-  { key: "ma_alignment", dot: "bg-teal-500", label: "정배열" },
-  { key: "top30_trading_value", dot: "bg-fuchsia-500", label: "거래대금 TOP30" },
-  { key: "market_cap", dot: "bg-emerald-500", label: "시가총액" },
-  { key: "short_selling", dot: "bg-red-600", label: "공매도 경고" },
-] as const
 
 interface AIThemeAnalysisProps {
   themeAnalysis: ThemeAnalysis
-  showRefresh?: boolean
   criteriaData?: Record<string, StockCriteria>
   isAdmin?: boolean
 }
@@ -53,13 +41,9 @@ function ThemeCard({ theme, index, criteriaData, isAdmin }: { theme: MarketTheme
         {theme.leader_stocks.map((stock) => {
           const criteria = showCriteria ? criteriaData[stock.code] : undefined
           const allMet = criteria?.all_met
-          const metDots = criteria ? LEADER_CRITERIA.filter(({ key }) => {
+          const metDots = criteria ? CRITERIA_CONFIG.filter(({ key }) => {
             const c = criteria[key as keyof StockCriteria]
             return typeof c !== "boolean" && c?.met
-          }) : []
-          const unmetDots = criteria ? LEADER_CRITERIA.filter(({ key }) => {
-            const c = criteria[key as keyof StockCriteria]
-            return typeof c !== "boolean" && !c?.met && !c?.warning
           }) : []
           const hasDots = metDots.length > 0
 
@@ -96,58 +80,7 @@ function ThemeCard({ theme, index, criteriaData, isAdmin }: { theme: MarketTheme
               </a>
               {/* Criteria popup */}
               {popupStockCode === stock.code && criteria && (
-                <div className="absolute left-0 top-full mt-1 z-50 w-64 sm:w-72 bg-popover text-popover-foreground rounded-lg shadow-lg border border-border p-2.5 max-h-80 overflow-y-auto">
-                  <div className="flex items-center justify-between mb-1.5">
-                    <span className="text-xs font-semibold">{stock.name} 기준 평가</span>
-                    <button
-                      onClick={() => setPopupStockCode(null)}
-                      className="text-muted-foreground hover:text-foreground"
-                    >
-                      <X className="w-3.5 h-3.5" />
-                    </button>
-                  </div>
-                  {metDots.length > 0 && (
-                    <div className="space-y-1.5">
-                      {metDots.map(({ key, dot, label }) => {
-                        const c = criteria[key as keyof StockCriteria]
-                        if (typeof c === "boolean") return null
-                        return (
-                          <div key={key}>
-                            <div className="flex items-center gap-1.5">
-                              <span className={cn("w-2 h-2 rounded-full shrink-0", dot)} />
-                              <span className="text-[10px] font-semibold">{label}</span>
-                            </div>
-                            <p className="text-[9px] sm:text-[10px] text-muted-foreground leading-relaxed pl-3.5">{c?.reason || "근거 없음"}</p>
-                          </div>
-                        )
-                      })}
-                    </div>
-                  )}
-                  {unmetDots.length > 0 && (
-                    <>
-                      <div className="flex items-center gap-1.5 mt-2.5 mb-1.5">
-                        <div className="flex-1 border-t border-border/50" />
-                        <span className="text-[9px] text-muted-foreground/60 shrink-0">미충족</span>
-                        <div className="flex-1 border-t border-border/50" />
-                      </div>
-                      <div className="space-y-1.5 opacity-60">
-                        {unmetDots.map(({ key, label }) => {
-                          const c = criteria[key as keyof StockCriteria]
-                          if (typeof c === "boolean") return null
-                          return (
-                            <div key={key}>
-                              <div className="flex items-center gap-1.5">
-                                <span className="w-2 h-2 rounded-full shrink-0 bg-gray-300 dark:bg-gray-600" />
-                                <span className="text-[10px] font-medium text-muted-foreground">{label}</span>
-                              </div>
-                              <p className="text-[9px] sm:text-[10px] text-muted-foreground/70 leading-relaxed pl-3.5">{c?.reason || ""}</p>
-                            </div>
-                          )
-                        })}
-                      </div>
-                    </>
-                  )}
-                </div>
+                <CriteriaPopup stockName={stock.name} criteria={criteria} onClose={() => setPopupStockCode(null)} />
               )}
             </span>
           )
