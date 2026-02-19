@@ -298,39 +298,42 @@ def main(test_mode: bool = False, skip_news: bool = False, skip_investor: bool =
     else:
         print("\n[8-1/13] 펀더멘탈 데이터 수집 건너뜀 (--skip-ai)")
 
-    # 8-2. 공매도 비중 수집
+    # 8-2. 공매도 비중 수집 (펀더멘탈 수집 대상 종목만)
     short_selling_data = {}
-    print("\n[8-2/13] 공매도 비중 수집 중...")
-    try:
-        today = datetime.now().strftime("%Y%m%d")
-        for idx, stock in enumerate(all_stocks):
-            code = stock.get("code", "")
-            if not code:
-                continue
-            try:
-                resp = client.get_daily_short_sale(code, today, today)
-                if resp.get("rt_cd") == "0":
-                    output1 = resp.get("output1", [])
-                    if output1:
-                        ratio_str = output1[0].get("ssts_vol_rlim", "0")
-                        volume_str = output1[0].get("ssts_cntg_qty", "0")
-                        try:
-                            ratio = float(ratio_str)
-                            volume = int(volume_str)
-                            if ratio > 0:
-                                short_selling_data[code] = {
-                                    "ratio": ratio,
-                                    "volume": volume,
-                                }
-                        except (ValueError, TypeError):
-                            pass
-            except Exception:
-                pass
-            if (idx + 1) % 50 == 0 or idx + 1 == len(all_stocks):
-                print(f"  진행: {idx + 1}/{len(all_stocks)}")
-        print(f"  ✓ {len(short_selling_data)}개 종목 공매도 데이터 수집 완료")
-    except Exception as e:
-        print(f"  ⚠ 공매도 수집 실패: {e}")
+    short_target_codes = set(fundamental_data.keys()) if fundamental_data else set()
+    if short_target_codes:
+        print(f"\n[8-2/13] 공매도 비중 수집 중... ({len(short_target_codes)}개 종목)")
+        try:
+            today = datetime.now().strftime("%Y%m%d")
+            target_list = [s for s in all_stocks if s.get("code", "") in short_target_codes]
+            for idx, stock in enumerate(target_list):
+                code = stock.get("code", "")
+                try:
+                    resp = client.get_daily_short_sale(code, today, today)
+                    if resp.get("rt_cd") == "0":
+                        output1 = resp.get("output1", [])
+                        if output1:
+                            ratio_str = output1[0].get("ssts_vol_rlim", "0")
+                            volume_str = output1[0].get("ssts_cntg_qty", "0")
+                            try:
+                                ratio = float(ratio_str)
+                                volume = int(volume_str)
+                                if ratio > 0:
+                                    short_selling_data[code] = {
+                                        "ratio": ratio,
+                                        "volume": volume,
+                                    }
+                            except (ValueError, TypeError):
+                                pass
+                except Exception:
+                    pass
+                if (idx + 1) % 50 == 0 or idx + 1 == len(target_list):
+                    print(f"  진행: {idx + 1}/{len(target_list)}")
+            print(f"  ✓ {len(short_selling_data)}개 종목 공매도 데이터 수집 완료")
+        except Exception as e:
+            print(f"  ⚠ 공매도 수집 실패: {e}")
+    else:
+        print("\n[8-2/13] 공매도 비중 수집 건너뜀 (펀더멘탈 대상 없음)")
 
     # 9. 수급(투자자) 데이터 수집
     investor_data = {}

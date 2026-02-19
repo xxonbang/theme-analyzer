@@ -24,7 +24,7 @@ permissions:
 jobs:
   send-report:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
 
     steps:
       - name: Checkout
