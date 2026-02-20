@@ -1,53 +1,11 @@
 {
-  "updated_at": "2026-02-19 23:27:14",
+  "updated_at": "2026-02-20 09:19:56",
   "entries": [
     {
-      "filename": "2026-02-19_2327.json",
-      "date": "2026-02-19",
-      "time": "23:27",
-      "path": "data/history/2026-02-19_2327.json"
-    },
-    {
-      "filename": "2026-02-19_2307.json",
-      "date": "2026-02-19",
-      "time": "23:07",
-      "path": "data/history/2026-02-19_2307.json"
-    },
-    {
-      "filename": "2026-02-19_0005.json",
-      "date": "2026-02-19",
-      "time": "00:05",
-      "path": "data/history/2026-02-19_0005.json"
-    },
-    {
-      "filename": "2026-02-19_0002.json",
-      "date": "2026-02-19",
-      "time": "00:02",
-      "path": "data/history/2026-02-19_0002.json"
-    },
-    {
-      "filename": "2026-02-18_2355.json",
-      "date": "2026-02-18",
-      "time": "23:55",
-      "path": "data/history/2026-02-18_2355.json"
-    },
-    {
-      "filename": "2026-02-18_2353.json",
-      "date": "2026-02-18",
-      "time": "23:53",
-      "path": "data/history/2026-02-18_2353.json"
-    },
-    {
-      "filename": "2026-02-18_2352.json",
-      "date": "2026-02-18",
-      "time": "23:52",
-      "path": "data/history/2026-02-18_2352.json"
-    },
-    {
-      "filename": "2026-02-18_2342.json",
-      "date": "2026-02-18",
-      "time": "23:42",
-      "path": "data/history/2026-02-18_2342.json"
+      "filename": "2026-02-20_0919.json",
+      "date": "2026-02-20",
+      "time": "09:19",
+      "path": "data/history/2026-02-20_0919.json"
     },
     {
       "filename": "2026-02-18_2200.json",
@@ -96,30 +54,6 @@
       "date": "2026-02-13",
       "time": "09:13",
       "path": "data/history/2026-02-13_0913.json"
-    },
-    {
-      "filename": "2026-02-12_2359.json",
-      "date": "2026-02-12",
-      "time": "23:59",
-      "path": "data/history/2026-02-12_2359.json"
-    },
-    {
-      "filename": "2026-02-12_2349.json",
-      "date": "2026-02-12",
-      "time": "23:49",
-      "path": "data/history/2026-02-12_2349.json"
-    },
-    {
-      "filename": "2026-02-12_2339.json",
-      "date": "2026-02-12",
-      "time": "23:39",
-      "path": "data/history/2026-02-12_2339.json"
-    },
-    {
-      "filename": "2026-02-12_2336.json",
-      "date": "2026-02-12",
-      "time": "23:36",
-      "path": "data/history/2026-02-12_2336.json"
     },
     {
       "filename": "2026-02-12_2201.json",
