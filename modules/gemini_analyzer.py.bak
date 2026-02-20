@@ -206,8 +206,9 @@ def _build_prompt(stock_context: str) -> str:
 6. **프로그램 매매**: 프로그램 순매수 종목 우선, 대규모 프로그램 매매가 유입된 종목 주목
 
 ### 밸류에이션 평가 기준
-각 대장주에 대해 아래 지표를 활용하되, **동일 업종/섹터 평균 대비 상대적으로** 평가하세요:
-- PER/PBR: 절대 수치만으로 판단하지 말고, Google Search로 동종업계 평균 PER을 확인하여 비교
+각 대장주에 대해 아래 지표를 활용하여 고평가/적정/저평가를 판단하세요:
+- PER < 10: 저평가 가능성, PER > 30: 고평가 가능성
+- PBR < 1: 자산 대비 저평가 가능성
 - ROE > 15%: 자본 효율성 우수
 - PEG < 1: 성장성 대비 저평가
 - RSI > 70: 과매수 구간, RSI < 30: 과매도 구간
@@ -217,7 +218,6 @@ def _build_prompt(stock_context: str) -> str:
 - 종목 코드는 위 데이터에서 제공된 코드를 정확히 사용하세요.
 - 각 대장주에 대한 뉴스 근거를 2~4개 제시하세요 (뉴스 제목과 URL).
 - 시장 전체 상황을 1~2문장으로 요약하세요.
-- reason에서 언급한 뉴스 내용은 반드시 news_evidence에도 포함되어야 합니다. reason과 news_evidence 간 내용이 일치해야 합니다.
 
 ### 출력 형식
 반드시 아래 JSON 형식으로만 응답하세요 (다른 텍스트 없이 JSON만):
@@ -227,13 +227,13 @@ def _build_prompt(stock_context: str) -> str:
   "themes": [
     {{
       "theme_name": "테마명",
-      "theme_description": "이 테마가 오늘 부각된 구체적 배경과 촉매 (정책 발표, 실적 시즌, 글로벌 이벤트 등)",
+      "theme_description": "테마 설명",
       "leader_stocks": [
         {{
           "name": "종목명",
           "code": "종목코드",
-          "reason": "대장주 선정 이유 — 반드시 제공된 데이터의 구체적 수치를 인용 (예: 거래대금 1,200억원 코스닥 1위, 외국인 +52만주, RSI 65). 뉴스 근거도 함께 포함.",
-          "valuation": "밸류에이션 평가 — 동종업계 PER 대비 상대 평가 포함 (예: 업종 평균 PER 15배 대비 현재 8배로 저평가)",
+          "reason": "대장주 선정 이유 (시장 주도력, 테마 대표성, 수급 강도 등 근거 포함)",
+          "valuation": "밸류에이션 평가 (PER/PBR/ROE 등 수치 기반 고평가/적정/저평가 판단)",
           "news_evidence": [
             {{"title": "뉴스 제목", "url": "뉴스 URL"}}
           ]
@@ -271,7 +271,7 @@ def _call_gemini(prompt: str, api_key: str) -> Optional[Dict]:
         "contents": [{"parts": [{"text": prompt}]}],
         "tools": [{"google_search": {}}],
         "generationConfig": {
-            "temperature": 0.5,
+            "temperature": 0.7,
         },
     }
 
