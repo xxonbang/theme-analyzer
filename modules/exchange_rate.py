@@ -4,9 +4,12 @@
 - 주요 통화(USD, JPY, EUR, CNY) 환율 제공
 """
 import time
+import urllib3
 import requests
 from datetime import datetime, timedelta
 from typing import Dict, List, Any, Optional
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 from modules.utils import KST
 
@@ -53,7 +56,9 @@ class ExchangeRateAPI:
 
         try:
             # Session 사용 (WAF 쿠키 검증 통과를 위해 필수)
+            # verify=False: GitHub Actions에서 koreaexim SSL 인증서 검증 실패 대응
             session = requests.Session()
+            session.verify = False
             session.headers.update({
                 "User-Agent": "Mozilla/5.0 (compatible; ExchangeRateBot/1.0)"
             })
