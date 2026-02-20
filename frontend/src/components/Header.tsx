@@ -201,18 +201,18 @@ export function Header({ timestamp, onRefresh, loading, compactMode, onToggleCom
     <header className="sticky top-0 z-50 w-full border-b bg-card/95 backdrop-blur supports-[backdrop-filter]:bg-card/80 shadow-sm">
       <div className="container flex h-14 sm:h-16 items-center justify-between px-3 sm:px-4">
         {/* Logo & Title */}
-        <div className="flex items-center gap-2 sm:gap-3">
+        <button
+          onClick={() => { if (currentPage !== "home") onPageChange?.("home") }}
+          className="flex items-center gap-2 sm:gap-3 cursor-pointer hover:opacity-80 transition-opacity"
+        >
           <div className="flex items-center justify-center w-7 h-7 sm:w-10 sm:h-10 rounded-lg bg-gradient-to-br from-primary to-primary/80 text-primary-foreground shadow-sm">
             <EyeChartLogo className="w-4 h-4 sm:w-6 sm:h-6" />
           </div>
-          <div>
-            <h1 className="font-bold text-sm sm:text-lg tracking-tight">
-              <span className="sm:hidden">ThemeAnalyzer</span>
-              <span className="hidden sm:inline">ThemeAnalyzer</span>
-            </h1>
+          <div className="text-left">
+            <h1 className="font-bold text-sm sm:text-lg tracking-tight">ThemeAnalyzer</h1>
             <p className="text-[10px] sm:text-xs text-muted-foreground hidden sm:block">오늘의 테마 분석</p>
           </div>
-        </div>
+        </button>
 
         {/* Right Controls */}
         <div className="flex items-center gap-1 sm:gap-3">
