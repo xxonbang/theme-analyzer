@@ -62,7 +62,7 @@ export function KosdaqIndexAlert({ data }: KosdaqIndexAlertProps) {
       {showDetail && (
         <div className="mt-2 pt-2 border-t border-current/10 flex flex-wrap gap-x-3 gap-y-1 text-[10px] sm:text-xs tabular-nums">
           <span className="font-medium">현재 {data.current.toFixed(2)}</span>
-          {maValues.map(({ label, value }) => (
+          {maValues.filter(({ value }) => value > 0).map(({ label, value }) => (
             <span key={label} className="opacity-80">
               {label} {value.toFixed(2)}
             </span>

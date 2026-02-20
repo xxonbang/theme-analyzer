@@ -46,6 +46,10 @@ function ThemeCard({ theme, index, criteriaData, isAdmin, stockMarketMap, stockT
           .map((stock) => {
           const criteria = showCriteria ? criteriaData[stock.code] : undefined
           const allMet = criteria?.all_met
+          const shortWarning = criteria?.short_selling?.met
+          const overheatWarning = criteria?.overheating?.met
+          const overheatLevel = criteria?.overheating?.level
+          const reverseWarning = criteria?.reverse_alignment?.met
           const market = stockMarketMap?.[stock.code]
           const metDots = criteria ? CRITERIA_CONFIG.filter(({ key }) => {
             const c = criteria[key as keyof StockCriteria]
@@ -62,11 +66,29 @@ function ThemeCard({ theme, index, criteriaData, isAdmin, stockMarketMap, stockT
                 "transition-all duration-150",
                 allMet
                   ? "bg-yellow-400/15 hover:bg-yellow-400/25 text-yellow-700 ring-1 ring-yellow-400/60 animate-[shimmer_3s_ease-in-out_infinite]"
-                  : market === "kosdaq"
-                    ? "bg-rose-500/10 hover:bg-rose-500/20 text-rose-600"
-                    : "bg-blue-500/10 hover:bg-blue-500/20 text-blue-600"
+                  : shortWarning
+                    ? "bg-red-500/10 hover:bg-red-500/20 text-red-700 ring-1 ring-red-500/60 animate-[red-shimmer_2s_ease-in-out_infinite]"
+                    : overheatWarning
+                      ? cn(
+                          "bg-orange-500/10 hover:bg-orange-500/20 text-orange-700 ring-1 ring-orange-500/60",
+                          overheatLevel === "위험" ? "animate-[orange-shimmer_1.5s_ease-in-out_infinite]"
+                            : overheatLevel === "경고" ? "animate-[orange-shimmer_2s_ease-in-out_infinite]"
+                            : "animate-[orange-shimmer_3s_ease-in-out_infinite]"
+                        )
+                      : reverseWarning
+                        ? "bg-indigo-500/10 hover:bg-indigo-500/20 text-indigo-700 ring-1 ring-indigo-500/60 animate-[blue-shimmer_2s_ease-in-out_infinite]"
+                        : market === "kosdaq"
+                          ? "bg-rose-500/10 hover:bg-rose-500/20 text-rose-600"
+                          : "bg-blue-500/10 hover:bg-blue-500/20 text-blue-600"
               )}
             >
+              {/* 경고 알림 뱃지 (all_met + 경고 동시 발생 시) */}
+              {allMet && (shortWarning || overheatWarning || reverseWarning) && (
+                <span className={cn(
+                  "absolute -top-1 -right-1 w-2 h-2 rounded-full border border-white animate-pulse",
+                  shortWarning ? "bg-red-500" : overheatWarning ? "bg-orange-500" : "bg-indigo-500"
+                )} />
+              )}
               {stockTradingRankMap?.[stock.code] != null && (
                 <span className="inline-flex items-center justify-center w-4 h-4 sm:w-5 sm:h-5 rounded-full bg-foreground/10 text-[9px] sm:text-[10px] font-bold leading-none shrink-0">
                   {stockTradingRankMap[stock.code]}

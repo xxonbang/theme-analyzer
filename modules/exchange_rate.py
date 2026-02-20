@@ -56,13 +56,17 @@ class ExchangeRateAPI:
             data = response.json()
 
             if not data:
-                # 데이터가 없으면 전일 조회 시도
-                yesterday = (datetime.strptime(search_date, "%Y%m%d") - timedelta(days=1)).strftime("%Y%m%d")
-                params["searchdate"] = yesterday
-                response = requests.get(self.api_url, params=params, timeout=10)
-                response.raise_for_status()
-                data = response.json()
-                search_date = yesterday
+                # 데이터가 없으면 최대 7일 전까지 조회 시도 (주말/공휴일 대응)
+                base_date = datetime.strptime(search_date, "%Y%m%d")
+                for days_back in range(1, 8):
+                    prev_date = (base_date - timedelta(days=days_back)).strftime("%Y%m%d")
+                    params["searchdate"] = prev_date
+                    response = requests.get(self.api_url, params=params, timeout=10)
+                    response.raise_for_status()
+                    data = response.json()
+                    if data:
+                        search_date = prev_date
+                        break
 
             # 주요 통화만 필터링
             rates = []

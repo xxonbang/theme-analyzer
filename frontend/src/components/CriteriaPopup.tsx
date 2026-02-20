@@ -14,7 +14,11 @@ interface CriteriaPopupProps {
 export function CriteriaPopup({ stockName, criteria, onClose }: CriteriaPopupProps) {
   const metItems = CRITERIA_CONFIG.filter(({ key }) => {
     const c = criteria[key as keyof StockCriteria]
-    return typeof c !== "boolean" && c?.met
+    return typeof c !== "boolean" && c?.met && !c?.warning
+  })
+  const warningItems = CRITERIA_CONFIG.filter(({ key }) => {
+    const c = criteria[key as keyof StockCriteria]
+    return typeof c !== "boolean" && c?.met && c?.warning
   })
   const unmetItems = CRITERIA_CONFIG.filter(({ key }) => {
     const c = criteria[key as keyof StockCriteria]
@@ -79,6 +83,33 @@ export function CriteriaPopup({ stockName, criteria, onClose }: CriteriaPopupPro
               )
             })}
           </div>
+        )}
+
+        {/* 경고 섹션 */}
+        {warningItems.length > 0 && (
+          <>
+            <div className="flex items-center gap-1.5 mt-3 mb-2">
+              <div className="flex-1 border-t border-red-300" />
+              <span className="text-[9px] text-red-500 font-medium shrink-0">경고</span>
+              <div className="flex-1 border-t border-red-300" />
+            </div>
+            <div className="space-y-2">
+              {warningItems.map(({ key, dot, label }) => {
+                const c = criteria[key as keyof StockCriteria]
+                if (typeof c === "boolean") return null
+                const levelSuffix = c?.level ? ` (${c.level})` : ""
+                return (
+                  <div key={key}>
+                    <div className="flex items-center gap-1.5">
+                      <span className={cn("w-2 h-2 rounded-full shrink-0", dot)} />
+                      <span className="text-[10px] font-semibold text-red-600">{label}{levelSuffix}</span>
+                    </div>
+                    <p className="text-[9px] sm:text-[10px] text-red-500/80 leading-relaxed pl-3.5">{c?.reason || "근거 없음"}</p>
+                  </div>
+                )
+              })}
+            </div>
+          </>
         )}
 
         {/* 미충족 기준 */}

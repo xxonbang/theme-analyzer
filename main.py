@@ -158,24 +158,29 @@ def main(test_mode: bool = False, skip_news: bool = False, skip_investor: bool =
     try:
         print("\n[2-1/13] 코스닥 지수 이동평균선 분석 중...")
         idx_resp = client.get_index_daily_price("2001")  # 코스닥 종합
-        if idx_resp.get("rt_cd") == "0":
+        rt_cd = idx_resp.get("rt_cd")
+        if rt_cd == "0":
             output2 = idx_resp.get("output2", [])
             closes = []
             for item in output2:
                 try:
-                    closes.append(float(item.get("bstp_nmix_prpr", 0)))
+                    val = float(item.get("bstp_nmix_prpr", 0))
+                    if val > 0:
+                        closes.append(val)
                 except (ValueError, TypeError):
                     continue
 
-            if len(closes) >= 120:
+            if len(closes) >= 60:
                 current = closes[0]
                 ma5 = sum(closes[:5]) / 5
                 ma10 = sum(closes[:10]) / 10
                 ma20 = sum(closes[:20]) / 20
                 ma60 = sum(closes[:60]) / 60
-                ma120 = sum(closes[:120]) / 120
+                ma120 = sum(closes[:120]) / 120 if len(closes) >= 120 else 0
 
-                values = [current, ma5, ma10, ma20, ma60, ma120]
+                values = [current, ma5, ma10, ma20, ma60]
+                if ma120 > 0:
+                    values.append(ma120)
                 is_aligned = all(values[i] > values[i+1] for i in range(len(values)-1))
                 is_reversed = all(values[i] < values[i+1] for i in range(len(values)-1))
 
@@ -186,12 +191,15 @@ def main(test_mode: bool = False, skip_news: bool = False, skip_investor: bool =
                     "ma10": round(ma10, 2),
                     "ma20": round(ma20, 2),
                     "ma60": round(ma60, 2),
-                    "ma120": round(ma120, 2),
+                    "ma120": round(ma120, 2) if ma120 > 0 else 0,
                     "status": status,
                 }
-                print(f"  ✓ 코스닥 지수: {current:.2f} ({status})")
+                print(f"  ✓ 코스닥 지수: {current:.2f} ({status}) [{len(closes)}일분 데이터]")
             else:
-                print(f"  ⚠ 코스닥 지수 데이터 부족 ({len(closes)}일분)")
+                print(f"  ⚠ 코스닥 지수 데이터 부족 ({len(closes)}일분, output2={len(output2)}건)")
+        else:
+            msg = idx_resp.get("msg1", "알 수 없음")
+            print(f"  ⚠ 코스닥 지수 API 응답 오류 (rt_cd={rt_cd}, msg={msg})")
     except Exception as e:
         print(f"  ⚠ 코스닥 지수 분석 실패: {e}")
 

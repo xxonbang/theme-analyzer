@@ -91,6 +91,26 @@ body {
   }
 }
 
+/* Orange shimmer animation for overheating warning */
+@keyframes orange-shimmer {
+  0%, 100% {
+    box-shadow: 0 0 6px 1px rgba(234, 88, 12, 0.25);
+  }
+  50% {
+    box-shadow: 0 0 20px 4px rgba(234, 88, 12, 0.5);
+  }
+}
+
+/* Indigo shimmer animation for reverse alignment warning */
+@keyframes blue-shimmer {
+  0%, 100% {
+    box-shadow: 0 0 6px 1px rgba(99, 102, 241, 0.25);
+  }
+  50% {
+    box-shadow: 0 0 20px 4px rgba(99, 102, 241, 0.5);
+  }
+}
+
 /* Container responsive */
 .container {
   width: 100%;

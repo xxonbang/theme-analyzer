@@ -376,6 +376,93 @@ def check_short_selling(
 
 
 # ────────────────────────────────────────────────────────────
+# 9. 과열 경고 (오렌지색)
+# ────────────────────────────────────────────────────────────
+
+def check_overheating(
+    current_price: int,
+    change_rate: float,
+    volume_rate: float,
+    rsi: Optional[float] = None,
+    ma_values: Optional[Dict[str, int]] = None,
+) -> Dict[str, Any]:
+    """과열 신호 판정 (5가지 기준)"""
+    result = {"met": False, "warning": True, "level": None, "reason": None}
+
+    if not current_price:
+        return result
+
+    signals = []
+    if ma_values is None:
+        ma_values = {}
+
+    if rsi is not None and rsi >= 70:
+        signals.append(f"RSI {rsi:.1f} (과매수)")
+
+    ma20 = ma_values.get("MA20")
+    if ma20 and current_price > ma20 * 1.15:
+        gap = (current_price - ma20) / ma20 * 100
+        signals.append(f"MA20 대비 +{gap:.1f}% 괴리")
+
+    ma60 = ma_values.get("MA60")
+    if ma60 and current_price > ma60 * 1.30:
+        gap = (current_price - ma60) / ma60 * 100
+        signals.append(f"MA60 대비 +{gap:.1f}% 괴리")
+
+    if change_rate >= 15:
+        signals.append(f"당일 +{change_rate:.1f}% 급등")
+
+    if volume_rate >= 500:
+        signals.append(f"거래량 {volume_rate:.0f}% 폭증")
+
+    count = len(signals)
+    if count >= 1:
+        result["met"] = True
+        if count >= 4:
+            result["level"] = "위험"
+        elif count >= 3:
+            result["level"] = "경고"
+        else:
+            result["level"] = "주의"
+        result["reason"] = f"과열 {result['level']} ({count}개 신호: {', '.join(signals)})"
+
+    return result
+
+
+# ────────────────────────────────────────────────────────────
+# 10. 역배열 경고 (인디고색)
+# ────────────────────────────────────────────────────────────
+
+def check_reverse_alignment(
+    current_price: int,
+    ma_values: Optional[Dict[str, int]] = None,
+) -> Dict[str, Any]:
+    """이동평균선 역배열 판정 (MA5 < MA10 < MA20 < MA60)"""
+    result = {"met": False, "warning": True, "reason": None}
+
+    if not current_price or not ma_values:
+        return result
+
+    periods = [5, 10, 20, 60]
+    vals = []
+    for p in periods:
+        v = ma_values.get(f"MA{p}")
+        if v is None:
+            return result
+        vals.append(v)
+
+    # 역배열 쌍: MA5 < MA10, MA10 < MA20, MA20 < MA60
+    reverse_pairs = sum(1 for i in range(len(vals) - 1) if vals[i] < vals[i + 1])
+
+    if reverse_pairs >= 3:
+        parts = [f"MA{p}({ma_values[f'MA{p}']:,})" for p in periods]
+        result["met"] = True
+        result["reason"] = f"역배열 ({' < '.join(parts)})"
+
+    return result
+
+
+# ────────────────────────────────────────────────────────────
 # 통합 평가
 # ────────────────────────────────────────────────────────────
 
@@ -414,16 +501,25 @@ def evaluate_stock_criteria(
     short_ratio = short_selling_info.get("ratio") if short_selling_info else None
     short_volume = short_selling_info.get("volume") if short_selling_info else None
 
+    ma_result = check_ma_alignment(current_price, daily_prices)
+    ma_values = ma_result.get("ma_values", {})
+
+    change_rate = stock.get("change_rate", 0) or 0
+    volume_rate = stock.get("volume_rate", 0) or 0
+    rsi = fundamental.get("rsi") if fundamental else None
+
     criteria = {
         "high_breakout": check_high_breakout(current_price, daily_prices, w52_hgpr),
         "momentum_history": check_momentum_history(daily_prices),
         "resistance_breakout": check_resistance_breakout(current_price, prev_close),
-        "ma_alignment": check_ma_alignment(current_price, daily_prices),
+        "ma_alignment": ma_result,
         "supply_demand": check_supply_demand(investor_info),
         "program_trading": check_program_trading(pgtr),
         "top30_trading_value": check_top30_trading_value(stock.get("code", ""), trading_value_top30_codes),
         "market_cap": check_market_cap(market_cap),
         "short_selling": check_short_selling(short_ratio, short_volume),
+        "overheating": check_overheating(current_price, change_rate, volume_rate, rsi, ma_values),
+        "reverse_alignment": check_reverse_alignment(current_price, ma_values),
     }
 
     # all_met 계산: warning 기준(short_selling)은 제외

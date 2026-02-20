@@ -28,6 +28,9 @@ export function StockCard({ stock, history, news, type, investorInfo, investorEs
   const hasNews = news && news.news && news.news.length > 0
   const allMet = criteria?.all_met ?? false
   const shortWarning = isAdmin && criteria?.short_selling?.met
+  const overheatWarning = isAdmin && criteria?.overheating?.met
+  const overheatLevel = criteria?.overheating?.level
+  const reverseWarning = isAdmin && criteria?.reverse_alignment?.met
   const showCriteria = isAdmin && criteria
 
   const handleDotClick = (e: React.MouseEvent) => {
@@ -38,11 +41,30 @@ export function StockCard({ stock, history, news, type, investorInfo, investorEs
 
   return (
     <Card className={cn(
-      "group hover:shadow-lg transition-all duration-200 hover:border-primary/30 bg-card",
-      shortWarning
-        ? "ring-2 ring-red-500/70 shadow-[0_0_12px_rgba(239,68,68,0.3)] animate-[red-shimmer_2s_ease-in-out_infinite]"
-        : allMet && isAdmin && "ring-2 ring-yellow-400/70 shadow-[0_0_12px_rgba(234,179,8,0.3)] animate-[shimmer_3s_ease-in-out_infinite]"
+      "group hover:shadow-lg transition-all duration-200 hover:border-primary/30 bg-card relative",
+      allMet && isAdmin
+        ? "ring-2 ring-yellow-400/70 shadow-[0_0_12px_rgba(234,179,8,0.3)] animate-[shimmer_3s_ease-in-out_infinite]"
+        : shortWarning
+          ? "ring-2 ring-red-500/70 shadow-[0_0_12px_rgba(239,68,68,0.3)] animate-[red-shimmer_2s_ease-in-out_infinite]"
+          : overheatWarning
+            ? cn(
+                "ring-2 ring-orange-500/70 shadow-[0_0_12px_rgba(234,88,12,0.3)]",
+                overheatLevel === "위험" ? "animate-[orange-shimmer_1.5s_ease-in-out_infinite]"
+                  : overheatLevel === "경고" ? "animate-[orange-shimmer_2s_ease-in-out_infinite]"
+                  : "animate-[orange-shimmer_3s_ease-in-out_infinite]"
+              )
+            : reverseWarning
+              ? "ring-2 ring-indigo-500/70 shadow-[0_0_12px_rgba(99,102,241,0.3)] animate-[blue-shimmer_2s_ease-in-out_infinite]"
+              : ""
     )}>
+      {/* 경고 알림 뱃지 (all_met + 경고 동시 발생 시) */}
+      {allMet && isAdmin && (shortWarning || overheatWarning || reverseWarning) && (
+        <div className="absolute -top-1.5 -right-1.5 z-10 flex gap-0.5">
+          {shortWarning && <span className="w-3 h-3 rounded-full bg-red-500 border-2 border-white animate-pulse" title="공매도 경고" />}
+          {overheatWarning && <span className="w-3 h-3 rounded-full bg-orange-500 border-2 border-white animate-pulse" title="과열 경고" />}
+          {reverseWarning && <span className="w-3 h-3 rounded-full bg-indigo-500 border-2 border-white animate-pulse" title="역배열 경고" />}
+        </div>
+      )}
       <CardContent className="p-3 sm:p-4">
         {/* Header: Rank + Name + Price */}
         <div className="flex items-start justify-between gap-2">

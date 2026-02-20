@@ -97,6 +97,7 @@ export interface CriterionResult {
   met: boolean
   reason?: string | null
   warning?: boolean
+  level?: string | null
   is_52w_high?: boolean
   had_limit_up?: boolean
   had_15pct_rise?: boolean
@@ -113,6 +114,8 @@ export interface StockCriteria {
   top30_trading_value: CriterionResult
   market_cap: CriterionResult
   short_selling: CriterionResult
+  overheating: CriterionResult
+  reverse_alignment: CriterionResult
   all_met: boolean
 }
 
