@@ -338,6 +338,18 @@ def load_theme_history(history_dir: Path, days: int = 7) -> List[Dict[str, Any]]
     return result
 
 
+def _fix_leader_priorities(forecast: Dict[str, Any]) -> None:
+    """대장주 priority를 순서대로 1, 2, 3으로 강제 재할당
+
+    Gemini가 모두 1로 반환하는 경우가 빈번하므로 후처리로 보정한다.
+    """
+    for category in ("today", "short_term", "long_term"):
+        for theme in forecast.get(category, []):
+            stocks = theme.get("leader_stocks", [])
+            for idx, stock in enumerate(stocks):
+                stock["priority"] = idx + 1
+
+
 def generate_forecast(latest_data: Dict[str, Any], theme_history: List[Dict[str, Any]]) -> Optional[Dict]:
     """유망 테마 예측 실행
 
@@ -368,7 +380,7 @@ def generate_forecast(latest_data: Dict[str, Any], theme_history: List[Dict[str,
                 result = _call_gemini(prompt, api_key)
                 if result:
                     now = datetime.now(KST)
-                    return {
+                    forecast = {
                         "forecast_date": now.strftime("%Y년 %m월 %d일"),
                         "generated_at": now.strftime("%Y-%m-%d %H:%M:%S"),
                         "market_context": result.get("market_context", ""),
@@ -377,6 +389,8 @@ def generate_forecast(latest_data: Dict[str, Any], theme_history: List[Dict[str,
                         "short_term": result.get("short_term", []),
                         "long_term": result.get("long_term", []),
                     }
+                    _fix_leader_priorities(forecast)
+                    return forecast
                 print("  ⚠ Gemini 응답이 비어있습니다")
             except requests.exceptions.HTTPError as e:
                 status = e.response.status_code if e.response is not None else 0
