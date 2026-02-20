@@ -79,7 +79,7 @@ function CompactStockRow({ stock, type, showTradingValue, investorInfo, hasInves
           {(shortWarning || overheatWarning || reverseWarning) && (
             <span className={cn(
               "absolute -top-1 -right-1 w-2 h-2 rounded-full border border-white animate-pulse",
-              shortWarning ? "bg-red-500" : overheatWarning ? "bg-orange-500" : "bg-indigo-500"
+              shortWarning ? "bg-red-500" : overheatWarning ? "bg-amber-500" : "bg-indigo-500"
             )} />
           )}
         </span>

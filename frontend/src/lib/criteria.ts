@@ -9,6 +9,6 @@ export const CRITERIA_CONFIG = [
   { key: "top30_trading_value", dot: "bg-fuchsia-500", badge: "bg-fuchsia-100 text-fuchsia-700", label: "거래대금 TOP30", shortLabel: "TOP30" },
   { key: "market_cap", dot: "bg-emerald-500", badge: "bg-emerald-100 text-emerald-700", label: "시가총액", shortLabel: "시총" },
   { key: "short_selling", dot: "bg-red-600", badge: "bg-red-100 text-red-800", label: "공매도 경고", shortLabel: "공매도" },
-  { key: "overheating", dot: "bg-orange-600", badge: "bg-orange-100 text-orange-800", label: "과열 경고", shortLabel: "과열" },
+  { key: "overheating", dot: "bg-amber-500", badge: "bg-amber-100 text-amber-800", label: "과열 경고", shortLabel: "과열" },
   { key: "reverse_alignment", dot: "bg-indigo-500", badge: "bg-indigo-100 text-indigo-700", label: "역배열 경고", shortLabel: "역배열" },
 ] as const

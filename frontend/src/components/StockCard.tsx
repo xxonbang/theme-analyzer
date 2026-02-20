@@ -49,7 +49,7 @@ export function StockCard({ stock, history, news, type, investorInfo, investorEs
       {isAdmin && (shortWarning || overheatWarning || reverseWarning) && (
         <div className="absolute -top-1.5 -right-1.5 z-10 flex gap-0.5">
           {shortWarning && <span className="w-3 h-3 rounded-full bg-red-500 border-2 border-white animate-pulse" title="공매도 경고" />}
-          {overheatWarning && <span className="w-3 h-3 rounded-full bg-orange-500 border-2 border-white animate-pulse" title="과열 경고" />}
+          {overheatWarning && <span className="w-3 h-3 rounded-full bg-amber-500 border-2 border-white animate-pulse" title="과열 경고" />}
           {reverseWarning && <span className="w-3 h-3 rounded-full bg-indigo-500 border-2 border-white animate-pulse" title="역배열 경고" />}
         </div>
       )}
