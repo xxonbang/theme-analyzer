@@ -23,6 +23,9 @@ function LeaderStockChip({ stock, criteria, showCriteria }: { stock: ForecastSto
     return typeof c !== "boolean" && c?.met
   }) : []
   const allMet = criteria?.all_met
+  const shortWarning = showCriteria && criteria?.short_selling?.met
+  const overheatWarning = showCriteria && criteria?.overheating?.met
+  const reverseWarning = showCriteria && criteria?.reverse_alignment?.met
 
   return (
     <span
@@ -31,12 +34,19 @@ function LeaderStockChip({ stock, criteria, showCriteria }: { stock: ForecastSto
         "text-xs sm:text-sm font-medium",
         "transition-all duration-150",
         allMet
-          ? "bg-yellow-400/15 hover:bg-yellow-400/25 text-yellow-700 ring-1 ring-yellow-400/60"
+          ? "bg-yellow-400/15 hover:bg-yellow-400/25 text-yellow-700 ring-1 ring-yellow-400/60 animate-[shimmer_3s_ease-in-out_infinite]"
           : stock.data_verified
             ? "bg-blue-500/10 hover:bg-blue-500/20 text-blue-600"
             : "bg-slate-500/10 hover:bg-slate-500/15 text-slate-500"
       )}
     >
+      {/* 경고 알림 뱃지 */}
+      {(shortWarning || overheatWarning || reverseWarning) && (
+        <span className={cn(
+          "absolute -top-1 -right-1 w-2 h-2 rounded-full border border-white animate-pulse",
+          shortWarning ? "bg-red-500" : overheatWarning ? "bg-amber-500" : "bg-indigo-500"
+        )} />
+      )}
       <span className="inline-flex items-center justify-center w-4 h-4 sm:w-5 sm:h-5 rounded-full bg-foreground/10 text-[9px] sm:text-[10px] font-bold leading-none shrink-0">
         {stock.priority}
       </span>
