@@ -114,6 +114,7 @@ def main():
         sentiment_data=sentiment_data,
         momentum_scores=momentum_scores,
         rotation_data=rotation_data,
+        intraday=intraday_mode,
     )
 
     if not forecast:

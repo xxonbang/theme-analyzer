@@ -86,17 +86,22 @@ def _extract_text_from_response(data: Dict) -> str:
     return "".join(part.get("text", "") for part in parts)
 
 
-def _call_gemini_phase1(prompt: str, api_key: str) -> Optional[str]:
-    """Phase 1: Google Search grounding + 자유 추론 (JSON 없이 텍스트 출력)"""
+def _call_gemini_phase1(prompt: str, api_key: str, use_search: bool = True) -> Optional[str]:
+    """Phase 1: 자유 추론 (JSON 없이 텍스트 출력)
+
+    Args:
+        use_search: Google Search grounding 사용 여부 (기본 True)
+    """
     url = f"{GEMINI_API_URL}?key={api_key}"
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
-        "tools": [{"google_search": {}}],
         "generationConfig": {
             "temperature": 0.5,
             "thinkingConfig": {"thinkingBudget": -1},
         },
     }
+    if use_search:
+        payload["tools"] = [{"google_search": {}}]
 
     resp = requests.post(url, json=payload, timeout=180)
     resp.raise_for_status()
@@ -250,16 +255,17 @@ def _build_phase2_prompt(reasoning: str) -> str:
 ```"""
 
 
-def _self_consistency_vote(prompt: str, api_key: str, n_samples: int = 3) -> Optional[str]:
+def _self_consistency_vote(prompt: str, api_key: str, n_samples: int = 3, use_search: bool = False) -> Optional[str]:
     """Phase 1을 n_samples회 호출 → 2회 이상 등장 테마만 채택하여 합의 텍스트 생성
 
     투표 통과 테마가 없으면 첫 번째 응답 그대로 반환.
+    use_search: 투표 호출에서 Google Search 사용 여부 (기본 False — 이미 검색된 결과를 입력받으므로)
     """
     responses = []
     for i in range(n_samples):
         try:
             print(f"    Self-Consistency 호출 {i + 1}/{n_samples}...")
-            text = _call_gemini_phase1(prompt, api_key)
+            text = _call_gemini_phase1(prompt, api_key, use_search=use_search)
             if text:
                 responses.append(text)
             if i < n_samples - 1:
@@ -649,6 +655,7 @@ def generate_forecast(
     sentiment_data: Optional[Dict] = None,
     momentum_scores: Optional[List[Dict]] = None,
     rotation_data: Optional[List[Dict]] = None,
+    intraday: bool = False,
 ) -> Optional[Dict]:
     """유망 테마 예측 실행
 
@@ -659,6 +666,7 @@ def generate_forecast(
         sentiment_data: 시장 심리 지표
         momentum_scores: 테마 모멘텀 점수
         rotation_data: 섹터 로테이션 데이터
+        intraday: 장중 재예측 모드 (경량 파이프라인: Phase1 1회 + Phase2 1회 = 2회)
 
     Returns:
         예측 결과 dict 또는 실패 시 None
@@ -679,27 +687,35 @@ def generate_forecast(
         print("  ⚠ 예측 컨텍스트가 비어있습니다")
         return None
 
-    # Multi-Agent 모드 시도 → 실패 시 2-Phase + Voting fallback
-    result = None
-    try:
-        from modules.forecast_agents import run_multi_agent_forecast
-        print("  Multi-Agent 모드 시작...")
-        result = run_multi_agent_forecast(context, api_keys)
-        if result:
-            print("  ✓ Multi-Agent 예측 완료")
-    except ImportError:
-        print("  ⏭ Multi-Agent 모듈 미설치, 2-Phase + Voting 모드로 진행")
-    except Exception as e:
-        print(f"  ⚠ Multi-Agent 실패: {e}, 2-Phase + Voting fallback")
+    # 장중 재예측: 경량 파이프라인 (Phase1 검색 1회 + Phase2 JSON 1회 = 2회)
+    if intraday:
+        print("  장중 경량 모드: Phase1(검색) + Phase2(JSON)...")
+        result = _run_intraday_lightweight(context, api_keys)
+        if not result:
+            print("  ⚠ 경량 모드 실패, 단일 호출 fallback")
+            result = _run_single_call_fallback(context, api_keys)
+    else:
+        # Multi-Agent 모드 시도 → 실패 시 2-Phase + Voting fallback
+        result = None
+        try:
+            from modules.forecast_agents import run_multi_agent_forecast
+            print("  Multi-Agent 모드 시작...")
+            result = run_multi_agent_forecast(context, api_keys)
+            if result:
+                print("  ✓ Multi-Agent 예측 완료")
+        except ImportError:
+            print("  ⏭ Multi-Agent 모듈 미설치, 2-Phase + Voting 모드로 진행")
+        except Exception as e:
+            print(f"  ⚠ Multi-Agent 실패: {e}, 2-Phase + Voting fallback")
 
-    # Fallback: 2-Phase + Self-Consistency Voting
-    if not result:
-        result = _run_two_phase_voting(context, api_keys)
+        # Fallback: 2-Phase + Self-Consistency Voting
+        if not result:
+            result = _run_two_phase_voting(context, api_keys)
 
-    if not result:
-        # 최후 fallback: 기존 단일 호출
-        print("  ⚠ 2-Phase 실패, 기존 단일 호출 fallback")
-        result = _run_single_call_fallback(context, api_keys)
+        if not result:
+            # 최후 fallback: 기존 단일 호출
+            print("  ⚠ 2-Phase 실패, 기존 단일 호출 fallback")
+            result = _run_single_call_fallback(context, api_keys)
 
     if not result:
         print("  ✗ 모든 Gemini API 키로 예측 실패")
@@ -719,6 +735,38 @@ def generate_forecast(
     return forecast
 
 
+def _run_intraday_lightweight(context: str, api_keys: List[str]) -> Optional[Dict]:
+    """장중 재예측 경량 파이프라인: Phase1(검색 1회) + Phase2(JSON 1회) = 2회"""
+    phase1_prompt = _build_phase1_prompt(context)
+
+    for key_idx, api_key in enumerate(api_keys):
+        try:
+            print(f"  Phase 1: 검색 + 추론 (키 {key_idx + 1}/{len(api_keys)})...")
+            reasoning = _call_gemini_phase1(phase1_prompt, api_key, use_search=True)
+            if not reasoning:
+                print(f"  ⚠ Phase 1 실패, 다음 키로 전환")
+                continue
+
+            print(f"  Phase 2: JSON 구조화...")
+            result = _call_gemini_phase2(reasoning, api_key)
+            if result:
+                return result
+
+            print(f"  ⚠ Phase 2 실패, 다음 키로 전환")
+        except requests.exceptions.HTTPError as e:
+            status = e.response.status_code if e.response is not None else 0
+            if status in (429, 503):
+                print(f"  ⚠ API 제한 ({status}), 다음 키로 전환")
+                continue
+            print(f"  ✗ Gemini API 오류 ({status}): {e}")
+            return None
+        except Exception as e:
+            print(f"  ⚠ 경량 파이프라인 오류: {e}")
+            continue
+
+    return None
+
+
 def _run_two_phase_voting(context: str, api_keys: List[str]) -> Optional[Dict]:
     """2-Phase + Self-Consistency Voting 실행"""
     phase1_prompt = _build_phase1_prompt(context)
@@ -727,7 +775,7 @@ def _run_two_phase_voting(context: str, api_keys: List[str]) -> Optional[Dict]:
         try:
             # Phase 1: Self-Consistency Voting (3회)
             print(f"  Phase 1: Self-Consistency Voting (키 {key_idx + 1}/{len(api_keys)})...")
-            reasoning = _self_consistency_vote(phase1_prompt, api_key, n_samples=3)
+            reasoning = _self_consistency_vote(phase1_prompt, api_key, n_samples=3, use_search=True)
             if not reasoning:
                 print(f"  ⚠ Phase 1 실패, 다음 키로 전환")
                 continue

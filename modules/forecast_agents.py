@@ -1,7 +1,7 @@
 """Multi-Agent 예측 모듈
 
 3개 에이전트(뉴스/감성, 시장데이터, 종합) + 2-Phase JSON 구조화.
-예측당 총 6회 API 호출 (1 + 1 + 3 voting + 1 JSON).
+예측당 총 6회 API 호출 (1 검색 + 1 + 3 voting 검색없음 + 1 JSON).
 """
 import time
 import requests
@@ -148,9 +148,9 @@ def run_multi_agent_forecast(context: str, api_keys: List[str]) -> Optional[Dict
 
     1. agent_news_sentiment (1회, Google Search)
     2. agent_market_data (1회, 검색 없음)
-    3. agent_synthesize (3회 voting, Google Search)
+    3. agent_synthesize (3회 voting, 검색 없음 — Agent 1 결과 재활용)
     4. _call_gemini_phase2 (1회, JSON 구조화)
-    총 6회 API 호출
+    총 6회 API 호출 (Google Search는 Agent 1에서만 1회)
     """
     if not api_keys:
         return None
