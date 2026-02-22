@@ -384,6 +384,7 @@ def build_forecast_context(
     sentiment_data: Optional[Dict] = None,
     momentum_scores: Optional[List[Dict]] = None,
     rotation_data: Optional[List[Dict]] = None,
+    global_news: Optional[List[Dict]] = None,
 ) -> str:
     """Gemini 입력용 예측 컨텍스트 구성
 
@@ -394,6 +395,7 @@ def build_forecast_context(
         sentiment_data: 시장 심리 지표 (VIX 공포지수)
         momentum_scores: 테마 모멘텀 분석 결과
         rotation_data: 섹터 로테이션 분석 결과
+        global_news: Finnhub 글로벌 시장 뉴스
     """
     lines = []
 
@@ -463,6 +465,15 @@ def build_forecast_context(
                 f"- {r['theme_name']}: {r['phase']} ({r['signal']}) "
                 f"활동 {r['days_active']}일, 거래대금 {r['volume_trend']}"
             )
+
+    # 글로벌 시장 뉴스 (Finnhub)
+    if global_news:
+        lines.append("\n## 글로벌 시장 뉴스 (최신)")
+        for n in global_news:
+            lines.append(f"- [{n.get('source', '')}] {n.get('headline', '')} ({n.get('time', '')})")
+            summary = n.get("summary", "")
+            if summary:
+                lines.append(f"  {summary}")
 
     # 4. 전일 거래대금 TOP10 + 수급
     tv_kospi = latest_data.get("trading_value", {}).get("kospi", [])[:10]
@@ -710,6 +721,7 @@ def generate_forecast(
     sentiment_data: Optional[Dict] = None,
     momentum_scores: Optional[List[Dict]] = None,
     rotation_data: Optional[List[Dict]] = None,
+    global_news: Optional[List[Dict]] = None,
     intraday: bool = False,
 ) -> Optional[Dict]:
     """유망 테마 예측 실행
@@ -721,6 +733,7 @@ def generate_forecast(
         sentiment_data: 시장 심리 지표
         momentum_scores: 테마 모멘텀 점수
         rotation_data: 섹터 로테이션 데이터
+        global_news: 글로벌 시장 뉴스
         intraday: 장중 재예측 모드 (경량 파이프라인: Phase1 1회 + Phase2 1회 = 2회)
 
     Returns:
@@ -737,6 +750,7 @@ def generate_forecast(
         sentiment_data=sentiment_data,
         momentum_scores=momentum_scores,
         rotation_data=rotation_data,
+        global_news=global_news,
     )
     if not context.strip():
         print("  ⚠ 예측 컨텍스트가 비어있습니다")

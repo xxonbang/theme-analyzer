@@ -1,4 +1,5 @@
-"""미국 시장 데이터 + 심리지표 + 테마 모멘텀 모듈"""
+"""미국 시장 데이터 + 심리지표 + 경제 캘린더 + 테마 모멘텀 모듈"""
+import os
 import re
 from typing import Dict, List, Optional
 
@@ -27,6 +28,10 @@ def fetch_us_market_data() -> Optional[Dict]:
             "금융(XLF)": "XLF",
             "기술(XLK)": "XLK",
             "헬스케어(XLV)": "XLV",
+            "WTI유가": "CL=F",
+            "금": "GC=F",
+            "미국10Y국채금리": "^TNX",
+            "달러인덱스": "DX-Y.NYB",
         }
 
         result = {}
@@ -83,6 +88,51 @@ def fetch_vix_index() -> Optional[Dict]:
         return {"score": round(current, 2), "rating": rating}
     except Exception as e:
         print(f"  ⚠ VIX 지수 수집 실패: {e}")
+        return None
+
+
+def fetch_global_market_news() -> Optional[List[Dict]]:
+    """Finnhub Market News — 최신 글로벌 시장 뉴스 20건 수집
+
+    Returns:
+        [{"headline", "summary", "source", "datetime", "url"}]
+        실패 시 None
+    """
+    api_key = os.getenv("FINNHUB_API_KEY")
+    if not api_key:
+        print("  ⚠ FINNHUB_API_KEY 미설정")
+        return None
+
+    try:
+        import requests
+        from datetime import datetime
+
+        resp = requests.get(
+            "https://finnhub.io/api/v1/news",
+            params={"category": "general", "token": api_key},
+            timeout=10,
+        )
+        resp.raise_for_status()
+        news = resp.json()
+
+        if not news:
+            return None
+
+        # 최신 20건만, 필요한 필드만 추출
+        result = []
+        for item in news[:20]:
+            ts = item.get("datetime", 0)
+            time_str = datetime.utcfromtimestamp(ts).strftime("%m/%d %H:%M") if ts else "N/A"
+            result.append({
+                "headline": item.get("headline", ""),
+                "summary": item.get("summary", "")[:200],
+                "source": item.get("source", ""),
+                "time": time_str,
+            })
+
+        return result if result else None
+    except Exception as e:
+        print(f"  ⚠ Finnhub 글로벌 뉴스 수집 실패: {e}")
         return None
 
 

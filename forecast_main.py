@@ -23,6 +23,7 @@ from modules.theme_forecast import (
 from modules.us_market_data import (
     fetch_us_market_data,
     fetch_vix_index,
+    fetch_global_market_news,
     calculate_theme_momentum,
 )
 
@@ -73,6 +74,14 @@ def main():
     else:
         print("  ⚠ VIX 지수 수집 실패 (계속 진행)")
 
+    global_news = fetch_global_market_news()
+    if global_news:
+        print(f"  ✓ 글로벌 뉴스 수집 완료 ({len(global_news)}건)")
+        for n in global_news[:3]:
+            print(f"    - [{n.get('source')}] {n.get('headline', '')[:60]}")
+    else:
+        print("  ⚠ 글로벌 뉴스 수집 실패 (계속 진행)")
+
     # Step 3: 테마 히스토리 + 모멘텀 분석
     print("\n[3/6] 테마 히스토리 + 모멘텀 분석...")
     history_dir = DATA_DIR / "history"
@@ -114,6 +123,7 @@ def main():
         sentiment_data=sentiment_data,
         momentum_scores=momentum_scores,
         rotation_data=rotation_data,
+        global_news=global_news,
         intraday=intraday_mode,
     )
 

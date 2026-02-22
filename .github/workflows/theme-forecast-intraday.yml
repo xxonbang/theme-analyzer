@@ -43,6 +43,7 @@ jobs:
           GEMINI_API_KEY_05: ${{ secrets.GEMINI_API_KEY_05 }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
         run: python forecast_main.py --intraday
 
       - name: Commit forecast data
