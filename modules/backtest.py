@@ -8,6 +8,7 @@ from datetime import datetime, timedelta
 from typing import Dict, List, Optional
 
 from modules.utils import KST
+from modules.market_hours import KRX_HOLIDAYS_2026
 
 
 def get_active_predictions(client) -> List[Dict]:
@@ -36,8 +37,10 @@ def fetch_stock_returns(codes: List[str], start: str, end: str) -> Dict:
         return {}
 
     returns = {}
+    missing_codes = []
     # 코스피(.KS) 먼저 시도, 실패 시 코스닥(.KQ) 시도
     for code in codes:
+        found = False
         for suffix in [".KS", ".KQ"]:
             ticker = f"{code}{suffix}"
             try:
@@ -49,9 +52,15 @@ def fetch_stock_returns(codes: List[str], start: str, end: str) -> Dict:
                 last_price = float(close.iloc[-1])
                 if first_price > 0:
                     returns[code] = round(((last_price - first_price) / first_price) * 100, 2)
+                    found = True
                     break
             except Exception:
                 continue
+        if not found:
+            missing_codes.append(code)
+
+    if missing_codes:
+        print(f"  ⚠ 데이터 미확보 종목 ({len(missing_codes)}건): {', '.join(missing_codes)}")
 
     return returns
 
@@ -76,7 +85,8 @@ def fetch_index_return(start: str, end: str) -> float:
 def evaluate_prediction(prediction: Dict, returns: Dict, index_return: float) -> str:
     """단일 예측 평가
 
-    hit 기준: 대장주 중 1개 이상이 해당 기간 내 지수 대비 +1%p 초과 수익
+    hit 기준: 수익률 확인 가능한 대장주 중 과반수가 지수 대비 +1%p 초과 수익
+    (1개만 확인 가능한 경우 해당 종목 기준 판정)
     """
     category = prediction.get("category", "today")
     prediction_date = prediction.get("prediction_date", "")
@@ -86,7 +96,14 @@ def evaluate_prediction(prediction: Dict, returns: Dict, index_return: float) ->
 
     pred_date = datetime.strptime(prediction_date, "%Y-%m-%d")
     now = datetime.now(KST).replace(tzinfo=None)
-    days_elapsed = (now - pred_date).days
+
+    # 영업일 기준 경과일 계산 (주말 + 공휴일 제외)
+    days_elapsed = 0
+    d = pred_date + timedelta(days=1)
+    while d <= now:
+        if d.weekday() < 5 and d.strftime("%Y-%m-%d") not in KRX_HOLIDAYS_2026:
+            days_elapsed += 1
+        d += timedelta(days=1)
 
     # 카테고리별 판정 기간
     max_days = {"today": 1, "short_term": 7, "long_term": 30}.get(category, 7)
@@ -106,18 +123,23 @@ def evaluate_prediction(prediction: Dict, returns: Dict, index_return: float) ->
     if not stock_codes:
         return "expired"
 
-    # 수익률 데이터가 있는 종목 중 하나라도 지수 대비 +1%p 초과면 hit
+    # 수익률 데이터가 있는 종목만 평가
+    evaluated = []
     for code in stock_codes:
         stock_return = returns.get(code)
         if stock_return is not None:
             excess = stock_return - index_return
-            if excess > 1.0:
-                return "hit"
+            evaluated.append(excess > 1.0)
 
-    # 모든 종목의 수익률 데이터가 없으면 expired
-    has_any_return = any(code in returns for code in stock_codes)
-    if not has_any_return:
+    # 평가 가능 종목이 없으면 expired
+    if not evaluated:
         return "expired"
+
+    # 과반수가 지수 대비 +1%p 초과하면 hit
+    hit_count = sum(1 for is_hit in evaluated if is_hit)
+    threshold = max(1, (len(evaluated) + 1) // 2)  # 과반수 (1개면 1, 2개면 1, 3개면 2)
+    if hit_count >= threshold:
+        return "hit"
 
     return "missed"
 

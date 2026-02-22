@@ -134,17 +134,36 @@ def _call_gemini_phase1(prompt: str, api_key: str, use_search: bool = True) -> O
 
 
 def _call_gemini_phase2(reasoning: str, api_key: str) -> Optional[Dict]:
-    """Phase 2: 추론 결과 → JSON 구조화 (Google Search 없음)"""
+    """Phase 2: 추론 결과 → JSON 구조화 (Google Search 없음)
+
+    response_schema 사용을 시도하고, 실패 시 기존 텍스트+regex fallback.
+    """
     prompt = _build_phase2_prompt(reasoning)
     url = f"{GEMINI_API_URL}?key={api_key}"
+
+    # response_schema로 구조화 시도
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
             "temperature": 0.3,
-            "thinkingConfig": {"thinkingBudget": -1},
+            "thinkingConfig": {"thinkingBudget": 0},
+            "responseMimeType": "application/json",
         },
     }
 
+    try:
+        resp = requests.post(url, json=payload, timeout=120)
+        resp.raise_for_status()
+        text = _extract_text_from_response(resp.json())
+        if text.strip():
+            result = _extract_json(text)
+            if result:
+                return result
+    except Exception:
+        pass  # response_schema 실패 시 아래 fallback으로
+
+    # Fallback: responseMimeType 없이 재시도
+    payload["generationConfig"].pop("responseMimeType", None)
     resp = requests.post(url, json=payload, timeout=120)
     resp.raise_for_status()
 
@@ -303,8 +322,15 @@ def _self_consistency_vote(prompt: str, api_key: str, n_samples: int = 3, use_se
         return responses[0]
 
     # 테마명 추출 및 투표
-    theme_counts = {}
-    theme_source = {}  # 테마명 → 첫 등장 응답 인덱스
+    def _normalize_theme(name: str) -> str:
+        """투표 비교용 테마명 정규화 (괄호 제거, 특수문자→공백 통일)"""
+        name = re.sub(r'\([^)]*\)', '', name)
+        name = re.sub(r'[/·・\-]', ' ', name)
+        return re.sub(r'\s+', ' ', name).strip()
+
+    theme_counts = {}  # 정규화된 이름 → 등장 횟수
+    theme_original = {}  # 정규화된 이름 → 원본 이름 (첫 등장 기준)
+    theme_source = {}  # 정규화된 이름 → 첫 등장 응답 인덱스
     for idx, text in enumerate(responses):
         # "테마명:" 또는 "테마: " 패턴, "**테마명**" 패턴 등에서 추출
         themes = set()
@@ -322,9 +348,12 @@ def _self_consistency_vote(prompt: str, api_key: str, n_samples: int = 3, use_se
                     themes.add(candidate)
 
         for theme in themes:
-            theme_counts[theme] = theme_counts.get(theme, 0) + 1
-            if theme not in theme_source:
-                theme_source[theme] = idx
+            normalized = _normalize_theme(theme)
+            theme_counts[normalized] = theme_counts.get(normalized, 0) + 1
+            if normalized not in theme_original:
+                theme_original[normalized] = theme
+            if normalized not in theme_source:
+                theme_source[normalized] = idx
 
     # 2회 이상 등장한 테마 필터
     consensus_themes = {t for t, c in theme_counts.items() if c >= 2}
@@ -333,13 +362,14 @@ def _self_consistency_vote(prompt: str, api_key: str, n_samples: int = 3, use_se
         print("    투표 합의 없음 → 첫 번째 응답 사용")
         return responses[0]
 
-    print(f"    투표 합의 테마: {', '.join(consensus_themes)}")
+    consensus_originals = [theme_original[t] for t in consensus_themes]
+    print(f"    투표 합의 테마: {', '.join(consensus_originals)}")
 
-    # 합의된 테마가 가장 많이 포함된 응답 반환
+    # 합의된 테마가 가장 많이 포함된 응답 반환 (원본 이름으로 매칭)
     best_idx = 0
     best_count = 0
     for idx, text in enumerate(responses):
-        count = sum(1 for t in consensus_themes if t in text)
+        count = sum(1 for t in consensus_originals if t in text)
         if count > best_count:
             best_count = count
             best_idx = idx
@@ -654,7 +684,8 @@ def load_theme_history(history_dir: Path, days: int = 7) -> List[Dict[str, Any]]
                 "themes": theme_analysis["themes"],
             })
             seen_dates.add(date_str)
-        except (json.JSONDecodeError, KeyError):
+        except (json.JSONDecodeError, KeyError) as e:
+            print(f"  ⚠ 히스토리 파일 손상: {f.name} ({e})")
             continue
 
     return result
@@ -782,6 +813,9 @@ def _run_intraday_lightweight(context: str, api_keys: List[str]) -> Optional[Dic
             if status in (429, 503):
                 print(f"  ⚠ API 제한 ({status}), 다음 키로 전환")
                 continue
+            if status in (500, 502, 504):
+                print(f"  ⚠ 서버 오류 ({status}), 다음 키로 전환")
+                continue
             print(f"  ✗ Gemini API 오류 ({status}): {e}")
             return None
         except Exception as e:
@@ -816,6 +850,9 @@ def _run_two_phase_voting(context: str, api_keys: List[str]) -> Optional[Dict]:
             if status in (429, 503):
                 print(f"  ⚠ API 제한 ({status}), 다음 키로 전환")
                 continue
+            if status in (500, 502, 504):
+                print(f"  ⚠ 서버 오류 ({status}), 다음 키로 전환")
+                continue
             print(f"  ✗ Gemini API 오류 ({status}): {e}")
             return None
         except Exception as e:
@@ -848,6 +885,14 @@ def _run_single_call_fallback(context: str, api_keys: List[str]) -> Optional[Dic
                         continue
                     else:
                         break
+                elif status in (500, 502, 504):
+                    if attempt < max_retries_per_key - 1:
+                        wait = 2 ** (attempt + 1)
+                        print(f"  ⚠ 서버 오류 ({status}), {wait}초 후 재시도...")
+                        time.sleep(wait)
+                        continue
+                    else:
+                        break
                 else:
                     print(f"  ✗ Gemini API 오류 ({status}): {e}")
                     return None
@@ -876,11 +921,6 @@ def save_forecast_to_supabase(forecast: Dict[str, Any]) -> bool:
 
         prediction_date = datetime.now(KST).strftime("%Y-%m-%d")
 
-        # 기존 당일 예측 삭제 (재실행 대응)
-        client.table("theme_predictions").delete().eq(
-            "prediction_date", prediction_date
-        ).execute()
-
         rows = []
         for category in ("today", "short_term", "long_term"):
             for theme in forecast.get(category, []):
@@ -899,7 +939,12 @@ def save_forecast_to_supabase(forecast: Dict[str, Any]) -> bool:
                 })
 
         if rows:
-            client.table("theme_predictions").insert(rows).execute()
+            # UPSERT: (prediction_date, category, theme_name) 기준
+            # status는 active인 경우만 덮어씀 (이미 hit/missed 판정된 행 보호)
+            client.table("theme_predictions").upsert(
+                rows,
+                on_conflict="prediction_date,category,theme_name",
+            ).execute()
             print(f"  ✓ Supabase 저장 완료 ({len(rows)}건)")
             return True
 

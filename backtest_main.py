@@ -55,7 +55,7 @@ def main():
         print("\n✅ 백테스팅 완료")
         return
 
-    # Step 2: 대장주 종목코드 수집 + 수익률 조회
+    # Step 2: 대장주 종목코드 수집 + 카테고리별 수익률 조회
     print("\n[2/4] 주식 수익률 조회...")
     all_codes = set()
     for pred in predictions:
@@ -70,29 +70,43 @@ def main():
             if code:
                 all_codes.add(code)
 
-    # 최근 30일 수익률 조회
+    # 카테고리별 평가 기간 (영업일 기준이지만 yfinance는 달력일로 조회)
     end_date = datetime.now(KST).strftime("%Y-%m-%d")
-    start_date = (datetime.now(KST) - timedelta(days=35)).strftime("%Y-%m-%d")
+    category_periods = {
+        "today": 3,       # 1 영업일 ≈ 3 달력일 (주말 포함 여유)
+        "short_term": 12,  # 7 영업일 ≈ 12 달력일
+        "long_term": 45,   # 30 영업일 ≈ 45 달력일
+    }
 
-    returns = {}
-    if all_codes:
-        returns = fetch_stock_returns(list(all_codes), start_date, end_date)
-        print(f"  ✓ {len(returns)}개 종목 수익률 조회 완료")
+    # 카테고리별 수익률 + 지수 수익률 캐시
+    returns_by_category = {}
+    index_by_category = {}
+    for cat, cal_days in category_periods.items():
+        start = (datetime.now(KST) - timedelta(days=cal_days)).strftime("%Y-%m-%d")
+        if all_codes:
+            returns_by_category[cat] = fetch_stock_returns(list(all_codes), start, end_date)
+        else:
+            returns_by_category[cat] = {}
+        index_by_category[cat] = fetch_index_return(start, end_date)
 
-    # 지수 수익률
-    index_return = fetch_index_return(start_date, end_date)
-    print(f"  ✓ KOSPI 지수 수익률: {index_return:+.2f}%")
+    total_codes = sum(len(r) for r in returns_by_category.values())
+    print(f"  ✓ 카테고리별 수익률 조회 완료 (종목 {len(all_codes)}개)")
+    for cat in category_periods:
+        print(f"    - {cat}: KOSPI {index_by_category[cat]:+.2f}%, 종목 {len(returns_by_category[cat])}개")
 
     # Step 3: 예측 평가
     print("\n[3/4] 예측 평가...")
     results = {"hit": 0, "missed": 0, "expired": 0, "active": 0}
 
     for pred in predictions:
+        category = pred.get("category", "today")
+        returns = returns_by_category.get(category, {})
+        index_return = index_by_category.get(category, 0.0)
+
         status = evaluate_prediction(pred, returns, index_return)
         results[status] += 1
 
         theme_name = pred.get("theme_name", "N/A")
-        category = pred.get("category", "N/A")
 
         if status in ("hit", "missed", "expired"):
             print(f"  [{status.upper()}] {theme_name} ({category})")

@@ -30,8 +30,12 @@ def _call_agent(prompt: str, api_key: str, use_search: bool = False) -> Optional
     if use_search:
         payload["tools"] = [{"google_search": {}}]
 
-    resp = requests.post(url, json=payload, timeout=180)
-    resp.raise_for_status()
+    try:
+        resp = requests.post(url, json=payload, timeout=180)
+        resp.raise_for_status()
+    except Exception as e:
+        print(f"    ⚠ 에이전트 호출 실패: {e}")
+        return None
 
     text = _extract_text_from_response(resp.json())
     return text.strip() if text.strip() else None
@@ -105,8 +109,19 @@ JSON 형식 불필요. 정량 데이터 기반 텍스트 분석을 출력하세�
 
 
 def _build_synthesis_prompt(news_analysis: str, market_analysis: str, context: str) -> str:
-    """종합 에이전트 프롬프트"""
+    """종합 에이전트 프롬프트
+
+    Note: 원본 context 전체를 포함하지 않음.
+    Agent 1,2 분석에 이미 context가 반영되어 있으므로 토큰 절약.
+    """
     today = datetime.now(KST).strftime("%Y년 %m월 %d일")
+
+    # 원본 context에서 거래대금 TOP10 섹션만 추출 (대장주 검증용)
+    context_summary = ""
+    for section in context.split("\n## "):
+        if "거래대금 TOP10" in section:
+            context_summary = "## " + section
+            break
 
     return f"""당신은 한국 주식시장 테마 예측 종합 판단 전문가입니다.
 오늘은 {today}이며, 장 개장 전 기준입니다.
@@ -120,8 +135,8 @@ def _build_synthesis_prompt(news_analysis: str, market_analysis: str, context: s
 ### 에이전트 2 분석 (시장 데이터)
 {market_analysis}
 
-### 원본 시장 데이터
-{context}
+### 참고 데이터 (대장주 검증용)
+{context_summary}
 
 ### 분석 방법론 — 반드시 아래 순서대로 추론하세요
 1단계 [교차 검증]: 두 에이전트가 공통으로 언급한 테마를 우선 채택
@@ -155,11 +170,15 @@ def run_multi_agent_forecast(context: str, api_keys: List[str]) -> Optional[Dict
     if not api_keys:
         return None
 
-    api_key = api_keys[0]  # 단일 키 사용, 나머지는 retry 보존
+    # 에이전트별 키 분배 (가용 키가 여러 개면 분산, 아니면 동일 키 재사용)
+    key_agent1 = api_keys[0]
+    key_agent2 = api_keys[1 % len(api_keys)]
+    key_synthesis = api_keys[0]  # Agent 1 완료 후 재사용
+    key_phase2 = api_keys[2 % len(api_keys)]
 
     # Step 1: 뉴스/감성 에이전트
     print("    Agent 1: 뉴스/감성 분석...")
-    news_analysis = agent_news_sentiment(context, api_key)
+    news_analysis = agent_news_sentiment(context, key_agent1)
     if not news_analysis:
         print("    ⚠ Agent 1 실패")
         return None
@@ -168,7 +187,7 @@ def run_multi_agent_forecast(context: str, api_keys: List[str]) -> Optional[Dict
 
     # Step 2: 시장 데이터 에이전트
     print("    Agent 2: 시장 데이터 분석...")
-    market_analysis = agent_market_data(context, api_key)
+    market_analysis = agent_market_data(context, key_agent2)
     if not market_analysis:
         print("    ⚠ Agent 2 실패")
         return None
@@ -178,7 +197,7 @@ def run_multi_agent_forecast(context: str, api_keys: List[str]) -> Optional[Dict
     # Step 3: 종합 에이전트 (Self-Consistency 3회)
     print("    Agent 3: 종합 판단 (Self-Consistency 3회)...")
     synthesis_prompt = _build_synthesis_prompt(news_analysis, market_analysis, context)
-    reasoning = _self_consistency_vote(synthesis_prompt, api_key, n_samples=3)
+    reasoning = _self_consistency_vote(synthesis_prompt, key_synthesis, n_samples=3)
     if not reasoning:
         print("    ⚠ Agent 3 실패")
         return None
@@ -187,10 +206,14 @@ def run_multi_agent_forecast(context: str, api_keys: List[str]) -> Optional[Dict
 
     # Step 4: JSON 구조화 (Phase 2)
     print("    Phase 2: JSON 구조화...")
-    result = _call_gemini_phase2(reasoning, api_key)
+    result = _call_gemini_phase2(reasoning, key_phase2)
     if not result:
-        # retry with failover key
-        for fallback_key in api_keys[1:]:
+        # retry with remaining keys
+        tried = {key_phase2}
+        for fallback_key in api_keys:
+            if fallback_key in tried:
+                continue
+            tried.add(fallback_key)
             try:
                 result = _call_gemini_phase2(reasoning, fallback_key)
                 if result:

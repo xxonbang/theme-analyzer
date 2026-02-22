@@ -164,21 +164,10 @@ def main():
             export_forecast_json(forecast)
 
         if not test_mode:
-            # Supabase: 기존 today 예측 삭제 후 재삽입
+            # Supabase: today 예측 UPSERT (save_forecast_to_supabase가 UPSERT 처리)
             try:
-                from modules.supabase_client import get_supabase_manager
-                from datetime import datetime
-                from modules.utils import KST
-                manager = get_supabase_manager()
-                client = manager._get_client()
-                if client:
-                    prediction_date = datetime.now(KST).strftime("%Y-%m-%d")
-                    client.table("theme_predictions").delete().eq(
-                        "prediction_date", prediction_date
-                    ).eq("category", "today").execute()
-                    # save_forecast_to_supabase는 today만 포함된 forecast로 호출
-                    today_only = {**forecast, "short_term": [], "long_term": []}
-                    save_forecast_to_supabase(today_only)
+                today_only = {**forecast, "short_term": [], "long_term": []}
+                save_forecast_to_supabase(today_only)
             except Exception as e:
                 print(f"  ⚠ Supabase 장중 업데이트 실패: {e}")
         else:

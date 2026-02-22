@@ -1,5 +1,17 @@
 """미국 시장 데이터 + 심리지표 + 테마 모멘텀 모듈"""
+import re
 from typing import Dict, List, Optional
+
+
+def _normalize_theme_name(name: str) -> str:
+    """모멘텀/로테이션 비교용 테마명 정규화
+
+    괄호 내용 제거, 특수문자→공백 통일, 양쪽 공백 제거.
+    예: "AI/반도체(HBM)" → "AI 반도체"
+    """
+    name = re.sub(r'\([^)]*\)', '', name)
+    name = re.sub(r'[/·・\-]', ' ', name)
+    return re.sub(r'\s+', ' ', name).strip()
 
 
 def fetch_us_market_data() -> Optional[Dict]:
@@ -86,16 +98,21 @@ def calculate_theme_momentum(theme_history: List[Dict]) -> List[Dict]:
     sorted_history = sorted(theme_history, key=lambda x: x.get("date", ""))
     total_days = len(sorted_history)
 
-    # 테마별 등장 일자 인덱스 수집
-    theme_days = {}  # theme_name -> [day_index, ...]
+    # 테마별 등장 일자 인덱스 수집 (정규화된 이름으로 그룹핑)
+    theme_days = {}  # normalized_name -> [day_index, ...]
+    theme_original = {}  # normalized_name -> 원본 이름 (첫 등장 기준)
     for day_idx, entry in enumerate(sorted_history):
         for theme in entry.get("themes", []):
             name = theme.get("theme_name", "")
             if name:
-                theme_days.setdefault(name, []).append(day_idx)
+                normalized = _normalize_theme_name(name)
+                theme_days.setdefault(normalized, []).append(day_idx)
+                if normalized not in theme_original:
+                    theme_original[normalized] = name
 
     result = []
-    for name, days in theme_days.items():
+    for normalized, days in theme_days.items():
+        name = theme_original[normalized]
         frequency = len(days) / total_days
 
         # recency: 마지막 등장 이후 경과일
