@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-08 15:43:24",
+  "generated_at": "2026-09-09 15:42:59",
   "period": {
     "start": "2026-08-10",
-    "end": "2026-09-08",
-    "trading_days": 22
+    "end": "2026-09-09",
+    "trading_days": 23
   },
   "overall": {
-    "cumulative_return": 10.64,
-    "cumulative_high_return": 147.52,
-    "avg_daily_return": 0.52,
-    "volatility": 3.36,
-    "sharpe_ratio": 0.15,
+    "cumulative_return": 19.24,
+    "cumulative_high_return": 172.3,
+    "avg_daily_return": 0.83,
+    "volatility": 3.61,
+    "sharpe_ratio": 0.23,
     "max_drawdown": 11.71,
-    "win_rate": 68.2,
-    "win_days": 15,
+    "win_rate": 69.6,
+    "win_days": 16,
     "loss_days": 6,
     "flat_days": 1,
-    "avg_win": 2.32,
+    "avg_win": 2.66,
     "avg_loss": -3.9,
-    "profit_loss_ratio": 0.59,
-    "max_win_streak": 5,
+    "profit_loss_ratio": 0.68,
+    "max_win_streak": 6,
     "max_loss_streak": 2,
     "best_day": {
-      "date": "2026-08-20",
-      "return": 5.28
+      "date": "2026-09-09",
+      "return": 7.77
     },
     "worst_day": {
       "date": "2026-09-01",
@@ -31,16 +31,16 @@
     }
   },
   "recent_5d": {
-    "avg_return": 2.35,
+    "avg_return": 3.62,
     "win_rate": 100.0
   },
   "theme_performance": [
     {
       "theme": "바이오/제약",
-      "count": 17,
-      "win_rate": 52.9,
-      "avg_return": 13.97,
-      "total_return": 237.45
+      "count": 19,
+      "win_rate": 57.9,
+      "avg_return": 15.88,
+      "total_return": 301.67
     },
     {
       "theme": "반도체 장비 및 부품",
@@ -71,18 +71,18 @@
       "total_return": 17.14
     },
     {
-      "theme": "AI/소프트웨어",
-      "count": 7,
-      "win_rate": 42.9,
-      "avg_return": 2.65,
-      "total_return": 18.52
-    },
-    {
       "theme": "반도체/IT 하드웨어",
       "count": 6,
       "win_rate": 66.7,
       "avg_return": 2.52,
       "total_return": 15.1
+    },
+    {
+      "theme": "AI/소프트웨어",
+      "count": 8,
+      "win_rate": 37.5,
+      "avg_return": 2.17,
+      "total_return": 17.37
     },
     {
       "theme": "전력 인프라/변압기",
@@ -113,6 +113,13 @@
       "total_return": -1.26
     },
     {
+      "theme": "2차전지/전력설비",
+      "count": 12,
+      "win_rate": 58.3,
+      "avg_return": -2.45,
+      "total_return": -29.46
+    },
+    {
       "theme": "반도체/AI",
       "count": 4,
       "win_rate": 0.0,
@@ -125,13 +132,6 @@
       "win_rate": 25.0,
       "avg_return": -2.79,
       "total_return": -11.15
-    },
-    {
-      "theme": "2차전지/전력설비",
-      "count": 11,
-      "win_rate": 54.5,
-      "avg_return": -3.0,
-      "total_return": -33.02
     },
     {
       "theme": "반도체/AI 반도체 관련주",
@@ -172,15 +172,15 @@
   "market_performance": [
     {
       "market": "KOSPI",
-      "count": 141,
-      "win_rate": 48.2,
-      "avg_return": 1.1
+      "count": 144,
+      "win_rate": 49.3,
+      "avg_return": 1.54
     },
     {
       "market": "KOSDAQ",
-      "count": 32,
-      "win_rate": 40.6,
-      "avg_return": -0.17
+      "count": 33,
+      "win_rate": 39.4,
+      "avg_return": -0.2
     }
   ],
   "cumulative_series": [
@@ -271,6 +271,10 @@
     {
       "date": "2026-09-08",
       "cumulative_return": 10.64
+    },
+    {
+      "date": "2026-09-09",
+      "cumulative_return": 19.24
     }
   ]
 }
