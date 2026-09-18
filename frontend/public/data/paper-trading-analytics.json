@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-17 15:44:00",
+  "generated_at": "2026-09-18 15:43:25",
   "period": {
-    "start": "2026-08-18",
-    "end": "2026-09-17",
+    "start": "2026-08-19",
+    "end": "2026-09-18",
     "trading_days": 23
   },
   "overall": {
-    "cumulative_return": 95.21,
-    "cumulative_high_return": 343.21,
-    "avg_daily_return": 3.09,
-    "volatility": 5.55,
-    "sharpe_ratio": 0.55,
-    "max_drawdown": 10.25,
-    "win_rate": 78.3,
-    "win_days": 18,
-    "loss_days": 5,
+    "cumulative_return": 123.63,
+    "cumulative_high_return": 388.4,
+    "avg_daily_return": 3.69,
+    "volatility": 5.36,
+    "sharpe_ratio": 0.69,
+    "max_drawdown": 8.35,
+    "win_rate": 82.6,
+    "win_days": 19,
+    "loss_days": 4,
     "flat_days": 0,
-    "avg_win": 5.17,
-    "avg_loss": -4.36,
-    "profit_loss_ratio": 1.19,
-    "max_win_streak": 12,
+    "avg_win": 5.35,
+    "avg_loss": -4.17,
+    "profit_loss_ratio": 1.28,
+    "max_win_streak": 13,
     "max_loss_streak": 2,
     "best_day": {
       "date": "2026-09-15",
@@ -31,23 +31,23 @@
     }
   },
   "recent_5d": {
-    "avg_return": 10.85,
+    "avg_return": 10.51,
     "win_rate": 100.0
   },
   "theme_performance": [
     {
       "theme": "바이오/제약",
-      "count": 31,
-      "win_rate": 58.1,
-      "avg_return": 19.3,
-      "total_return": 598.2
+      "count": 33,
+      "win_rate": 60.6,
+      "avg_return": 19.49,
+      "total_return": 643.33
     },
     {
       "theme": "AI/소프트웨어",
-      "count": 14,
-      "win_rate": 57.1,
-      "avg_return": 12.38,
-      "total_return": 173.39
+      "count": 15,
+      "win_rate": 60.0,
+      "avg_return": 11.83,
+      "total_return": 177.38
     },
     {
       "theme": "반도체/IT 하드웨어",
@@ -79,10 +79,10 @@
     },
     {
       "theme": "2차전지/전력설비",
-      "count": 18,
-      "win_rate": 72.2,
-      "avg_return": -1.12,
-      "total_return": -20.13
+      "count": 19,
+      "win_rate": 73.7,
+      "avg_return": -0.5,
+      "total_return": -9.59
     },
     {
       "theme": "반도체/AI",
@@ -99,133 +99,119 @@
       "total_return": -11.15
     },
     {
-      "theme": "반도체/AI 반도체 관련주",
-      "count": 3,
-      "win_rate": 33.3,
-      "avg_return": -3.1,
-      "total_return": -9.31
-    },
-    {
       "theme": "건설 및 인프라",
       "count": 4,
       "win_rate": 25.0,
       "avg_return": -3.69,
       "total_return": -14.77
-    },
-    {
-      "theme": "인프라 투자/재건 관련주",
-      "count": 3,
-      "win_rate": 0.0,
-      "avg_return": -4.11,
-      "total_return": -12.34
     }
   ],
   "market_performance": [
     {
       "market": "KOSDAQ",
-      "count": 23,
-      "win_rate": 56.5,
-      "avg_return": 7.39
+      "count": 22,
+      "win_rate": 59.1,
+      "avg_return": 8.11
     },
     {
       "market": "KOSPI",
-      "count": 113,
-      "win_rate": 49.6,
-      "avg_return": 4.17
+      "count": 107,
+      "win_rate": 55.1,
+      "avg_return": 5.27
     }
   ],
   "cumulative_series": [
     {
-      "date": "2026-08-18",
-      "cumulative_return": -5.15
-    },
-    {
       "date": "2026-08-19",
-      "cumulative_return": -10.25
+      "cumulative_return": -5.38
     },
     {
       "date": "2026-08-20",
-      "cumulative_return": -5.51
+      "cumulative_return": -0.38
     },
     {
       "date": "2026-08-21",
-      "cumulative_return": -4.53
+      "cumulative_return": 0.65
     },
     {
       "date": "2026-08-24",
-      "cumulative_return": -3.41
+      "cumulative_return": 1.83
     },
     {
       "date": "2026-08-25",
-      "cumulative_return": -1.41
+      "cumulative_return": 3.95
     },
     {
       "date": "2026-08-26",
-      "cumulative_return": 0.33
+      "cumulative_return": 5.78
     },
     {
       "date": "2026-08-27",
-      "cumulative_return": 0.12
+      "cumulative_return": 5.55
     },
     {
       "date": "2026-08-28",
-      "cumulative_return": -2.97
+      "cumulative_return": 2.29
     },
     {
       "date": "2026-08-31",
-      "cumulative_return": -0.07
+      "cumulative_return": 5.35
     },
     {
       "date": "2026-09-01",
-      "cumulative_return": -8.05
+      "cumulative_return": -3.06
     },
     {
       "date": "2026-09-02",
-      "cumulative_return": -6.74
+      "cumulative_return": -1.68
     },
     {
       "date": "2026-09-03",
-      "cumulative_return": -5.2
+      "cumulative_return": -0.06
     },
     {
       "date": "2026-09-04",
-      "cumulative_return": -4.26
+      "cumulative_return": 0.94
     },
     {
       "date": "2026-09-07",
-      "cumulative_return": 0.6
+      "cumulative_return": 6.06
     },
     {
       "date": "2026-09-08",
-      "cumulative_return": 3.23
+      "cumulative_return": 8.84
     },
     {
       "date": "2026-09-09",
-      "cumulative_return": 11.26
+      "cumulative_return": 17.3
     },
     {
       "date": "2026-09-10",
-      "cumulative_return": 16.7
+      "cumulative_return": 23.03
     },
     {
       "date": "2026-09-11",
-      "cumulative_return": 28.75
+      "cumulative_return": 35.74
     },
     {
       "date": "2026-09-14",
-      "cumulative_return": 44.0
+      "cumulative_return": 51.81
     },
     {
       "date": "2026-09-15",
-      "cumulative_return": 62.93
+      "cumulative_return": 71.78
     },
     {
       "date": "2026-09-16",
-      "cumulative_return": 79.08
+      "cumulative_return": 88.8
     },
     {
       "date": "2026-09-17",
-      "cumulative_return": 95.21
+      "cumulative_return": 105.81
+    },
+    {
+      "date": "2026-09-18",
+      "cumulative_return": 123.63
     }
   ]
 }
