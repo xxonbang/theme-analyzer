@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-09-24 14:33:19",
+  "updated_at": "2026-09-25 07:36:21",
   "entries": [
+    {
+      "filename": "2026-09-25_0736.json",
+      "date": "2026-09-25",
+      "time": "07:36",
+      "path": "data/forecast-history/2026-09-25_0736.json"
+    },
     {
       "filename": "2026-09-24_1433.json",
       "date": "2026-09-24",
@@ -726,36 +732,6 @@
       "date": "2026-08-27",
       "time": "07:35",
       "path": "data/forecast-history/2026-08-27_0735.json"
-    },
-    {
-      "filename": "2026-08-26_1307.json",
-      "date": "2026-08-26",
-      "time": "13:07",
-      "path": "data/forecast-history/2026-08-26_1307.json"
-    },
-    {
-      "filename": "2026-08-26_1135.json",
-      "date": "2026-08-26",
-      "time": "11:35",
-      "path": "data/forecast-history/2026-08-26_1135.json"
-    },
-    {
-      "filename": "2026-08-26_1006.json",
-      "date": "2026-08-26",
-      "time": "10:06",
-      "path": "data/forecast-history/2026-08-26_1006.json"
-    },
-    {
-      "filename": "2026-08-26_0933.json",
-      "date": "2026-08-26",
-      "time": "09:33",
-      "path": "data/forecast-history/2026-08-26_0933.json"
-    },
-    {
-      "filename": "2026-08-26_0735.json",
-      "date": "2026-08-26",
-      "time": "07:35",
-      "path": "data/forecast-history/2026-08-26_0735.json"
     }
   ]
 }
