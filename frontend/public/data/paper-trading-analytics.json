@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-29 15:43:33",
+  "generated_at": "2026-09-30 15:43:26",
   "period": {
     "start": "2026-08-31",
-    "end": "2026-09-29",
-    "trading_days": 22
+    "end": "2026-09-30",
+    "trading_days": 23
   },
   "overall": {
-    "cumulative_return": 128.62,
-    "cumulative_high_return": 340.45,
-    "avg_daily_return": 3.95,
-    "volatility": 5.14,
-    "sharpe_ratio": 0.77,
+    "cumulative_return": 129.13,
+    "cumulative_high_return": 349.96,
+    "avg_daily_return": 3.79,
+    "volatility": 5.08,
+    "sharpe_ratio": 0.74,
     "max_drawdown": 7.98,
-    "win_rate": 77.3,
-    "win_days": 17,
+    "win_rate": 78.3,
+    "win_days": 18,
     "loss_days": 3,
     "flat_days": 2,
-    "avg_win": 5.78,
+    "avg_win": 5.48,
     "avg_loss": -3.8,
-    "profit_loss_ratio": 1.52,
+    "profit_loss_ratio": 1.44,
     "max_win_streak": 16,
     "max_loss_streak": 2,
     "best_day": {
@@ -31,44 +31,44 @@
     }
   },
   "recent_5d": {
-    "avg_return": -0.07,
+    "avg_return": -0.64,
     "win_rate": 20.0
   },
   "theme_performance": [
     {
       "theme": "바이오/제약",
-      "count": 44,
-      "win_rate": 52.3,
-      "avg_return": 17.05,
-      "total_return": 750.32
+      "count": 46,
+      "win_rate": 54.3,
+      "avg_return": 16.36,
+      "total_return": 752.47
     },
     {
       "theme": "AI/소프트웨어",
-      "count": 22,
-      "win_rate": 45.5,
-      "avg_return": 7.72,
-      "total_return": 169.74
+      "count": 23,
+      "win_rate": 43.5,
+      "avg_return": 7.34,
+      "total_return": 168.91
     },
     {
       "theme": "2차전지/전력설비",
-      "count": 28,
-      "win_rate": 64.3,
-      "avg_return": -0.21,
+      "count": 29,
+      "win_rate": 62.1,
+      "avg_return": -0.2,
       "total_return": -5.89
     }
   ],
   "market_performance": [
     {
       "market": "KOSPI",
-      "count": 72,
-      "win_rate": 56.9,
-      "avg_return": 10.34
+      "count": 75,
+      "win_rate": 57.3,
+      "avg_return": 9.95
     },
     {
       "market": "KOSDAQ",
-      "count": 22,
-      "win_rate": 45.5,
-      "avg_return": 7.72
+      "count": 23,
+      "win_rate": 43.5,
+      "avg_return": 7.34
     }
   ],
   "cumulative_series": [
@@ -159,6 +159,10 @@
     {
       "date": "2026-09-29",
       "cumulative_return": 128.62
+    },
+    {
+      "date": "2026-09-30",
+      "cumulative_return": 129.13
     }
   ]
 }
