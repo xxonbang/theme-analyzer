@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-30 15:43:26",
+  "generated_at": "2026-10-01 15:43:07",
   "period": {
-    "start": "2026-08-31",
-    "end": "2026-09-30",
+    "start": "2026-09-01",
+    "end": "2026-10-01",
     "trading_days": 23
   },
   "overall": {
-    "cumulative_return": 129.13,
-    "cumulative_high_return": 349.96,
-    "avg_daily_return": 3.79,
-    "volatility": 5.08,
+    "cumulative_return": 128.1,
+    "cumulative_high_return": 341.0,
+    "avg_daily_return": 3.77,
+    "volatility": 5.09,
     "sharpe_ratio": 0.74,
     "max_drawdown": 7.98,
     "win_rate": 78.3,
     "win_days": 18,
     "loss_days": 3,
     "flat_days": 2,
-    "avg_win": 5.48,
+    "avg_win": 5.45,
     "avg_loss": -3.8,
-    "profit_loss_ratio": 1.44,
+    "profit_loss_ratio": 1.43,
     "max_win_streak": 16,
     "max_loss_streak": 2,
     "best_day": {
@@ -31,138 +31,138 @@
     }
   },
   "recent_5d": {
-    "avg_return": -0.64,
-    "win_rate": 20.0
+    "avg_return": -0.13,
+    "win_rate": 40.0
   },
   "theme_performance": [
     {
       "theme": "바이오/제약",
       "count": 46,
-      "win_rate": 54.3,
-      "avg_return": 16.36,
-      "total_return": 752.47
+      "win_rate": 58.7,
+      "avg_return": 16.77,
+      "total_return": 771.44
     },
     {
       "theme": "AI/소프트웨어",
       "count": 23,
       "win_rate": 43.5,
-      "avg_return": 7.34,
-      "total_return": 168.91
+      "avg_return": 7.59,
+      "total_return": 174.47
     },
     {
       "theme": "2차전지/전력설비",
-      "count": 29,
-      "win_rate": 62.1,
-      "avg_return": -0.2,
-      "total_return": -5.89
+      "count": 28,
+      "win_rate": 64.3,
+      "avg_return": -0.15,
+      "total_return": -4.33
     }
   ],
   "market_performance": [
     {
       "market": "KOSPI",
-      "count": 75,
-      "win_rate": 57.3,
-      "avg_return": 9.95
+      "count": 74,
+      "win_rate": 60.8,
+      "avg_return": 10.37
     },
     {
       "market": "KOSDAQ",
       "count": 23,
       "win_rate": 43.5,
-      "avg_return": 7.34
+      "avg_return": 7.59
     }
   ],
   "cumulative_series": [
     {
-      "date": "2026-08-31",
-      "cumulative_return": 2.99
-    },
-    {
       "date": "2026-09-01",
-      "cumulative_return": -5.23
+      "cumulative_return": -7.98
     },
     {
       "date": "2026-09-02",
-      "cumulative_return": -3.88
+      "cumulative_return": -6.67
     },
     {
       "date": "2026-09-03",
-      "cumulative_return": -2.3
+      "cumulative_return": -5.13
     },
     {
       "date": "2026-09-04",
-      "cumulative_return": -1.32
+      "cumulative_return": -4.18
     },
     {
       "date": "2026-09-07",
-      "cumulative_return": 3.68
+      "cumulative_return": 0.67
     },
     {
       "date": "2026-09-08",
-      "cumulative_return": 6.4
+      "cumulative_return": 3.31
     },
     {
       "date": "2026-09-09",
-      "cumulative_return": 14.67
+      "cumulative_return": 11.34
     },
     {
       "date": "2026-09-10",
-      "cumulative_return": 20.27
+      "cumulative_return": 16.78
     },
     {
       "date": "2026-09-11",
-      "cumulative_return": 32.7
+      "cumulative_return": 28.85
     },
     {
       "date": "2026-09-14",
-      "cumulative_return": 48.41
+      "cumulative_return": 44.1
     },
     {
       "date": "2026-09-15",
-      "cumulative_return": 67.93
+      "cumulative_return": 63.05
     },
     {
       "date": "2026-09-16",
-      "cumulative_return": 84.57
+      "cumulative_return": 79.21
     },
     {
       "date": "2026-09-17",
-      "cumulative_return": 101.2
+      "cumulative_return": 95.36
     },
     {
       "date": "2026-09-18",
-      "cumulative_return": 118.62
+      "cumulative_return": 112.27
     },
     {
       "date": "2026-09-21",
-      "cumulative_return": 121.81
+      "cumulative_return": 115.37
     },
     {
       "date": "2026-09-22",
-      "cumulative_return": 129.55
+      "cumulative_return": 122.89
     },
     {
       "date": "2026-09-23",
-      "cumulative_return": 136.62
+      "cumulative_return": 129.75
     },
     {
       "date": "2026-09-24",
-      "cumulative_return": 136.62
+      "cumulative_return": 129.75
     },
     {
       "date": "2026-09-25",
-      "cumulative_return": 136.62
+      "cumulative_return": 129.75
     },
     {
       "date": "2026-09-28",
-      "cumulative_return": 132.03
+      "cumulative_return": 125.3
     },
     {
       "date": "2026-09-29",
-      "cumulative_return": 128.62
+      "cumulative_return": 121.99
     },
     {
       "date": "2026-09-30",
-      "cumulative_return": 129.13
+      "cumulative_return": 122.47
+    },
+    {
+      "date": "2026-10-01",
+      "cumulative_return": 128.1
     }
   ]
 }
