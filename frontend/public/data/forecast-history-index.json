@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-10-08 11:33:33",
+  "updated_at": "2026-10-09 07:36:08",
   "entries": [
+    {
+      "filename": "2026-10-09_0736.json",
+      "date": "2026-10-09",
+      "time": "07:36",
+      "path": "data/forecast-history/2026-10-09_0736.json"
+    },
     {
       "filename": "2026-10-08_1133.json",
       "date": "2026-10-08",
@@ -810,18 +816,6 @@
       "date": "2026-09-10",
       "time": "07:36",
       "path": "data/forecast-history/2026-09-10_0736.json"
-    },
-    {
-      "filename": "2026-09-09_0934.json",
-      "date": "2026-09-09",
-      "time": "09:34",
-      "path": "data/forecast-history/2026-09-09_0934.json"
-    },
-    {
-      "filename": "2026-09-09_0736.json",
-      "date": "2026-09-09",
-      "time": "07:36",
-      "path": "data/forecast-history/2026-09-09_0736.json"
     }
   ]
 }
