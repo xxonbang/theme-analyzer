@@ -1,241 +1,160 @@
 {
-  "forecast_date": "2026년 10월 09일",
-  "generated_at": "2026-10-09T13:35:17.859616+09:00",
-  "market_context": "오늘은 2026년 10월 9일 한글날로 국내 증시가 휴장하며, 10월 12일 개장 시 전일 미국 시장 데이터와 글로벌 뉴스에 영향을 받을 것으로 예상됩니다. 특히 미국 AI 기술주의 약세와 반도체 지수 급락은 국내 증시의 주요 하방 압력으로 작용할 것이며, 2차전지/전력설비 테마는 견조한 수급을 바탕으로 상대적 강세를 보일 가능성이 있습니다.",
-  "us_market_summary": "10월 8일 미국 증시는 다우존스 +0.10%, S&P 500 -0.47%, 나스닥 -1.25%로 마감했습니다. 필라델피아 반도체 지수는 3.35% 급락했고, 기술주(XLK)는 1.79% 하락한 반면, 에너지(XLE)는 2.97% 상승, 금융(XLF)은 0.89% 상승했습니다.",
-  "news_sources": [
-    {
-      "title": "einfomax.co.kr",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAro4mLOQiHJnMj2M9aCSoFp2O9iDSiC0DgCBg3GKCKtWtpJQSrKkg5lunTTlUCar8wL-0Bh_Y4kFArjOnaA_wAe9-uKkkz3RE3MJKTXm_OthqVaOj8ek6Ne7ksgqIvqCQ4phm940zZjvYHkbi2GkYTVSIzHDtii6V"
-    },
-    {
-      "title": "[글로벌 마켓 리포트 10월 8일]",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHq80y0UrwO0W_DrGTe5s2l9cva72ozYo5GyV2jccrglLJQmt2RNrzQY-pwJdiwuI0jYxZR0LaKfuxPSDuvHxjuKwZV9TtcyqWknsBtvEFm60Kb8s0FifmjRfW3Myoqa1H4gJw_8WDWMm45"
-    },
-    {
-      "title": "뉴욕증시 프리뷰, 미 주가 선물 일제 하락...유가 105달러 돌파·美 국채금리 24년 만에 최고",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9MI_iONXPHW8ZeTPM9aVl-aDtWuSiLxYvHaVWaRb4CTiu4U0r0XwUWMeexnGOQNZ7dCCCy3Gp3OaM6_zFDV46p1JplaecBPLWVPflMZ7BvAamprrXJ5fRK-dxj_RPo-7RwNiP_5hw9bhJ"
-    },
-    {
-      "title": "뉴욕증시, 혼조 마감…오픈AI 매출 보도 여파에 반도체 약세",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGrAXTahgsNA2ziwaYU2pkUDkPMVQ1Cdb2euhOwRez_EbVcmXabLrdYrklqxcXGoSq7g5xVLCjOSA2LgrItPwDknQqxQqDWuNEUFy0gCkRdHVr3UyHhoaLSViKLfx1VKy3OhtJ6MdU1M5F"
-    },
-    {
-      "title": "100조 실적냈는데 주가는 되레 하락",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfKXUxc1LjWW0OnZBK1kVyGKXIuGieox7XuSkJKHXWnKv-7EpTFPMRSlH824McNCn9Jvdo10sO2rNyX430XcufPGj0KMrZJoupvY4i1CRdnsrZcSPAREmwomWkOuJ_WhEXiu8r3pQYNpN62clTvunFwfgdFV2oVRicKR8R2X2nD6gwooEz"
-    },
-    {
-      "title": "moneytoring.ai",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEznIZIQRJ3WGz2cVxfzEE5SEAsuLmmUJX-0oaDwqqpiuo3A4q5yGgKzqfZzGGkqOIHEOtKLdZaHFJjPDyfp5gmokjLEP9wFEKx-cuCTUSGMlSfxVbRyCc-ylDOQ9vTyw=="
-    },
-    {
-      "title": "daishin.com",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4o06uorDXK0YYybKofEpRq5_W-GywJ8MxSPVbC1XM_FNormImUtuS7hATUymG_2DRsbzDyhbdH9JTZAkUD8Es1sGJ3c8eGNYlv5fhNtkIy4t91okHbrpRdZRWIHB1TatxYfysz_GHmct6LF3eGpm0dBmmzmm444C36Sbp6-BY548CTcmU0xE7-m2Ac52XLoQ11JPNowVNldNUL9zYwuHNFl-EQXI="
-    },
-    {
-      "title": "📅 2026년 10월 미국&middot;한국 경제지표 일정 총정리｜CPI&middot;고용&middot;금통위&middot;FOMC",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFI0TBi03fwjrBwAWXksI5vqPG5RWH7ysJcVZ5IqRYKXpcBVIWzMKV-eCfuaqc1naJKYWuWfz6MPvYxYzVw6OpZCaZ_hvuVABCrmsFqEzmYJ3DlYDM1oLLYYKAyiv3_s-UWON8e0vGhV6hwwBvUfOWa2X-YagsefMbBcwGHV36sXd9lhsiMKpmnnCpo791vmlmDCfwActi4_xH_067snG7fympui-MveekRGyG6Kg-fYLdtO7Dn41GyfdfMOyQH36MIEruIOHLdjcrZ0n12TJ_P6YqVRF-x-S9RunZFyNg5YIg6q9cflI7hK5OcOFzJ0TO4wqOEHsBfta47XZZmckew2dC9AGjZ0kxwPcp_96H8wdYMbxgn1lAtS0mIhRMYEjvpH14hVfufGFeMzispH9R-xU1Cai8tJkVaJB9REl4n-MMYNUIUsozQsZpk5wkjjtj-zlCU5mCmzqu1wzdM"
-    },
-    {
-      "title": "2026년 10월 미국 CPI·PPI 발표일 (한국시간)",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVed3NH1bgUj5gPqJCrG2z4kIsZDQOImBgwWVstJx0yeXmZkGvyrtl1sOpHMZ5jo_8oEXA9yyCBwPyM1B6yknqjxYuelB-D6eACcyrvO0tfZFvYa5Rqs7qQ5ws4Ho="
-    }
-  ],
+  "forecast_date": "2026년 10월 12일",
+  "generated_at": "2026-10-12T07:35:23.677383+09:00",
+  "market_context": "현재 시장 심리는 안정적인 수준을 유지하고 있으며, VIX 공포지수와 CNN Fear & Greed Index 모두 '중립' 상태를 나타내며 위험 회피 심리가 완화되었습니다. 글로벌 지정학적 긴장과 주요국 인플레이션 및 기업 실적 발표가 예정되어 있어 변동성은 여전히 존재할 수 있습니다. 국내 증시는 글로벌 경기 둔화 우려와 고금리 장기화 경계심 속에서 개별 기업의 실적 개선과 신기술 관련 모멘텀에 주목할 것으로 예상됩니다.",
+  "us_market_summary": "전일 미국 증시는 S&P500 (+0.59%)과 NASDAQ (+0.64%) 모두 상승 마감했습니다. 특히 헬스케어 섹터가 강세를 보였으나, 반도체 섹터는 소폭 하락했습니다.",
+  "news_sources": [],
   "today": [
     {
       "theme_name": "2차전지/전력설비",
-      "description": "전일 미국 시장에서 에너지 섹터 ETF(XLE)가 상승세를 보였고, 국내 시장에서는 주요 2차전지 관련 대형주인 삼성SDI와 LG에너지솔루션이 각각 기관과 외국인의 순매수세에 힘입어 상승 마감했습니다. 또한, 장중 실시간 수급에서도 삼기에너지솔루션즈, 알멕, 삼아알미늄 등 2차전지 관련주들이 강한 상승세를 보이며 테마의 견고함을 입증했습니다. 이는 글로벌 전기차 시장의 지속적인 성장 기대감과 함께 2차전지 소재 및 전력 인프라 구축에 대한 투자 심리가 여전히 유효함을 시사합니다.",
-      "catalyst": "글로벌 전기차 시장 성장 기대감 및 국내 2차전지 대형주 견조한 수급",
+      "description": "글로벌 전기차 시장 성장과 LFP 양극재, 전력 인프라 구축에 대한 기대감이 지속되고 있습니다. 특히 삼성SDI와 LG에너지솔루션 등 대형주 중심으로 기관 및 외국인 순매수세가 유입되며 강력한 모멘텀을 형성하고 있습니다.",
+      "catalyst": "글로벌 전기차 시장 성장 및 전력 인프라 구축 기대감 지속",
       "confidence": "높음",
       "leader_stocks": [
         {
           "priority": 1,
           "name": "삼성SDI",
           "code": "006400",
-          "reason": "전일 코스피 등락률 +0.89%를 기록했으며, 기관이 6일 연속 순매수하며 강력한 수급을 보여주었습니다. 이는 2차전지 섹터 내에서 견고한 매수세를 바탕으로 한 핵심 대장주로 판단됩니다.",
-          "data_verified": true
-        },
-        {
-          "priority": 2,
-          "name": "삼아알미늄",
-          "code": "006110",
-          "reason": "전일 장중 실시간 수급에서 외국인과 기관의 동반 순매수와 함께 +14.55%의 높은 상승률을 기록했습니다. 이는 2차전지 소재 관련 중소형주로서 단기 모멘텀이 강한 관련주로 판단됩니다.",
-          "data_verified": true
-        },
-        {
-          "priority": 3,
-          "name": "LG에너지솔루션",
-          "code": "373220",
-          "reason": "전일 코스닥 등락률 +3.07%로 강세를 보였고, 외국인이 2일 연속 순매수하며 긍정적인 수급 흐름을 나타냈습니다. 시장 대표성과 수급 측면에서 주요 관련주로 선정합니다.",
-          "data_verified": true
-        }
-      ]
-    },
-    {
-      "theme_name": "반도체/AI (하방 압력)",
-      "description": "전일 미국 뉴욕증시에서 인공지능(AI) 기술주에 대한 투자 수익성 경계감이 재부각되며 나스닥 지수가 1.25% 하락했고, 필라델피아 반도체 지수는 3% 이상 급락했습니다. 특히 챗GPT 개발사 오픈AI의 연환산 매출이 예상치를 하회한다는 보도가 AI 기업들의 높은 기업가치와 성장 기대에 대한 우려를 자극했습니다. 엔비디아, 브로드컴, 마이크론테크놀러지 등 주요 반도체 종목들이 일제히 하락했으며, 이는 국내 증시에도 부정적인 영향을 미칠 것으로 예상됩니다. 또한, 외국인 투자자들이 국내 증시에서 삼성전자와 SK하이닉스를 중심으로 대규모 순매도세를 이어가고 있다는 점도 하방 압력을 가중시킬 것입니다.",
-      "catalyst": "미국 AI 기술주 밸류에이션 우려 및 반도체 지수 급락, 외국인 국내 반도체주 순매도 지속",
-      "confidence": "보통",
-      "leader_stocks": [
-        {
-          "priority": 1,
-          "name": "삼성전자",
-          "code": "005930",
-          "reason": "전일 코스피 등락률 -2.05%를 기록했으며, 외국인과 기관이 각각 8일, 3일 연속 순매도하며 매도세가 집중되었습니다. 미국 반도체 시장의 약세에 가장 직접적인 영향을 받는 핵심 대장주입니다.",
-          "data_verified": true
-        },
-        {
-          "priority": 2,
-          "name": "SK하이닉스",
-          "code": "000660",
-          "reason": "전일 코스피 등락률 -2.15%를 기록했으며, 외국인과 기관이 각각 11일, 3일 연속 순매도하며 매도세가 이어지고 있습니다. 미국 반도체 시장의 약세에 민감하게 반응하는 주요 관련주입니다.",
-          "data_verified": true
-        },
-        {
-          "priority": 3,
-          "name": "한미반도체",
-          "code": "042700",
-          "reason": "전일 코스피 등락률 -0.57%를 기록했으며, 외국인과 기관의 순매도가 관찰되었습니다. HBM 관련주로서 AI 반도체 시장의 센티먼트에 영향을 받는 관련주입니다.",
-          "data_verified": true
-        }
-      ],
-      "confidence_note": "최근 적중률 33.3%로 하향 보정"
-    },
-    {
-      "theme_name": "에너지 (단기 변동성)",
-      "description": "전일 미국 에너지 섹터 ETF(XLE)가 2.97% 상승했으나, 국제유가(WTI)는 트럼프 대통령의 이란 관련 발언으로 공급 우려가 완화되며 1.26% 하락했습니다. 중동 지역의 지정학적 긴장 고조와 아시아 국가들의 원유 비축 및 신재생에너지 가속화 움직임은 에너지 섹터에 대한 관심을 유지시키지만, 유가 변동성이 커지면서 단기적인 방향성은 불확실합니다.",
-      "catalyst": "중동 지정학적 긴장 및 유가 변동성",
-      "confidence": "낮음",
-      "leader_stocks": [
-        {
-          "priority": 1,
-          "name": "S-Oil",
-          "code": "010950",
-          "reason": "국내 대표 정유주로서 유가 변동에 민감하게 반응합니다. 전일 거래대금 및 수급 데이터는 명확하지 않으나, 에너지 테마의 대표성을 고려하여 선정합니다.",
-          "data_verified": false
-        },
-        {
-          "priority": 2,
-          "name": "한국가스공사",
-          "code": "036460",
-          "reason": "에너지 공기업으로서 에너지 안보 및 수급 관련 이슈에 영향을 받습니다.",
-          "data_verified": false
-        }
-      ]
-    }
-  ],
-  "short_term": [
-    {
-      "theme_name": "2차전지 (대형주 중심)",
-      "description": "글로벌 전기차 시장 성장 기대감은 지속되지만, 미국 기술주 약세와 고금리 환경은 부담으로 작용할 수 있습니다. 그러나 10월 시장 전망에서 2차전지 등 개별 호재가 있는 종목들의 차별화가 언급되었으며, 대형주 중심으로는 기관/외국인 매수세가 확인됩니다.",
-      "catalyst": "글로벌 전기차 시장 성장 기대감 지속 및 대형주 중심 수급 개선",
-      "confidence": "보통",
-      "target_period": "이번주",
-      "leader_stocks": [
-        {
-          "priority": 1,
-          "name": "삼성SDI",
-          "code": "006400",
-          "reason": "기관이 6일 연속 순매수(+89,428주)하며 대형 2차전지주의 안정적인 수급을 보여줍니다.",
+          "reason": "기관 6일 연속 순매수 유입, 전일 +0.89% 상승하며 안정적인 수급을 보여주었습니다.",
           "data_verified": true
         },
         {
           "priority": 2,
           "name": "LG에너지솔루션",
           "code": "373220",
-          "reason": "외국인이 2일 연속 순매수(+110,570주)하며 긍정적인 수급을 보였습니다.",
-          "data_verified": true
-        },
-        {
-          "priority": 3,
-          "name": "엘앤에프",
-          "code": "066970",
-          "reason": "'2차전지/전력설비' 테마의 대장주로 언급되었으나, 외국인/기관 동반 순매도 및 '과열:주의' 상태로 단기적인 변동성에 유의해야 합니다.",
+          "reason": "외국인 2일 연속 순매수 유입, 전일 +3.07% 상승하며 대형주 중 강한 상승세를 보였습니다.",
           "data_verified": true
         }
       ]
     },
     {
-      "theme_name": "바이오/제약 (개별 모멘텀)",
-      "description": "코로나19 재확산 우려와 함께 개별 기업의 실적 개선 및 신사업 기대감이 작용할 수 있습니다. 시장 전반의 약세 속에서 방어적 성격과 개별 모멘텀을 가진 바이오 섹터가 다시 주목받고 있습니다.",
-      "catalyst": "코로나19 재확산 우려 및 개별 기업 실적/신사업 기대감",
-      "confidence": "낮음",
-      "target_period": "7일 이내",
+      "theme_name": "바이오/제약",
+      "description": "전일 미국 헬스케어 섹터의 강세가 국내 바이오/제약 섹터에 긍정적인 투자 심리를 형성할 것으로 보입니다. 또한, 코로나19 재확산 우려와 개별 기업의 신약 개발 및 임상 관련 소식이 모멘텀으로 작용할 수 있습니다.",
+      "catalyst": "미국 헬스케어 섹터 강세 및 신약 개발 기대감",
+      "confidence": "보통",
       "leader_stocks": [
         {
           "priority": 1,
           "name": "신풍제약",
           "code": "019170",
-          "reason": "'과열:경고' 상태 및 외국인 순매도(-174,495주)가 확인되어 단기적인 조정 가능성에 유의해야 합니다.",
+          "reason": "전일 모의투자 성과가 안정적이었으며, 테마 내 대표성을 가진 종목입니다.",
           "data_verified": true
         },
         {
           "priority": 2,
           "name": "JW신약",
           "code": "067290",
-          "reason": "외국인 순매수(+392,597주) 및 정배열 골든크로스(3) 신호가 나타나 긍정적인 수급 및 기술적 흐름을 보입니다.",
+          "reason": "외국인 순매수가 유입되었고, 정배열 골든크로스 신호가 나타나 긍정적인 기술적 흐름을 보였습니다.",
           "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "방산",
+      "description": "중동 지역의 지정학적 긴장 고조와 같은 글로벌 정세 불안은 방산 산업에 대한 관심을 높일 수 있습니다. 국내 방산 기업들의 수출 확대 기대감 또한 긍정적인 요인입니다.",
+      "catalyst": "중동 지역 지정학적 긴장 고조 및 국내 방산 수출 확대 기대감",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "한화에어로스페이스",
+          "code": "012450",
+          "reason": "전일 주가는 하락했으나 외국인 순매수가 유입되었으며, 국내 방산 산업의 대표 기업입니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "HD현대중공업",
+          "code": "329180",
+          "reason": "전일 주가는 하락했으나 외국인 4일 연속 순매수가 유입되었으며, 조선 및 방산 분야에서 중요한 역할을 합니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "AI/소프트웨어",
+      "description": "인공지능(AI) 기술 혁신은 지속적인 시장의 관심사이며, 국내 증시 전망에서도 핵심 테마로 언급되고 있습니다. 관련 기술 발전과 신규 서비스 출시에 대한 기대감이 여전히 높습니다.",
+      "catalyst": "인공지능(AI) 기술 혁신 및 신규 서비스 출시 기대감",
+      "confidence": "낮음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "에스피소프트",
+          "code": "443670",
+          "reason": "외국인과 기관의 동반 순매수가 유입되었고, 모의투자 성과도 '안정'적인 흐름을 보였습니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "실적 개선주",
+      "description": "이번 주부터 3분기 기업 실적 발표가 본격화됩니다. 시장의 기대치를 상회하는 '어닝 서프라이즈'를 기록하는 기업들은 강력한 주가 상승 모멘텀을 확보할 것으로 예상됩니다. 특히 AI, 2차전지, 바이오 등 성장 섹터 내에서 실적 개선이 두드러지는 기업에 대한 관심이 집중될 것입니다.",
+      "catalyst": "3분기 기업 실적 발표 본격화 및 어닝 서프라이즈 기대",
+      "confidence": "높음",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "대표적인 실적 개선 기대주로, 시장 전반의 실적 개선 분위기를 주도할 수 있습니다.",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "반도체 업황 회복과 함께 실적 개선 기대감이 높은 종목입니다.",
+          "data_verified": false
+        }
+      ]
+    },
+    {
+      "theme_name": "금융",
+      "description": "전일 미국 금융 섹터의 강세가 국내 금융주에 긍정적인 영향을 미칠 수 있습니다. 국내 금리 인상 기조 유지 또는 금융 시장 안정화에 대한 기대감도 작용할 수 있습니다.",
+      "catalyst": "미국 금융 섹터 강세 및 국내 금융 시장 안정화 기대감",
+      "confidence": "낮음",
+      "target_period": "2~3일",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "KB금융",
+          "code": "105560",
+          "reason": "국내 대표 금융주로, 시장 상황에 따라 반등 가능성이 있습니다.",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "신한지주",
+          "code": "055550",
+          "reason": "국내 대형 금융주 중 하나로, 금융 섹터의 흐름에 영향을 받을 수 있습니다.",
+          "data_verified": false
         }
       ]
     }
   ],
   "long_term": [
     {
-      "theme_name": "AI 인프라 및 데이터센터",
-      "description": "인공지능(AI) 기술 발전 가속화는 단기적인 시장 변동성을 넘어선 구조적인 성장 동력입니다. AI 연산에 필수적인 고성능 반도체, 이를 지원하는 전력 인프라, 그리고 데이터 처리를 위한 데이터센터 수요는 장기적으로 지속될 것입니다.",
-      "catalyst": "AI 기술 발전 가속화 및 AI 인프라(반도체, 전력, 데이터센터) 수요 증가",
-      "confidence": "높음",
-      "target_period": "1개월 이내",
-      "leader_stocks": [
-        {
-          "priority": 1,
-          "name": "삼성전자",
-          "code": "005930",
-          "reason": "AI 반도체의 핵심 기업으로, 장기적인 AI 인프라 성장의 최대 수혜주입니다.",
-          "data_verified": true
-        },
-        {
-          "priority": 2,
-          "name": "SK하이닉스",
-          "code": "000660",
-          "reason": "AI 반도체의 핵심 기업으로, 장기적인 AI 인프라 성장의 최대 수혜주입니다.",
-          "data_verified": true
-        },
-        {
-          "priority": 3,
-          "name": "네이버",
-          "code": "035420",
-          "reason": "AI 서비스 개발 및 데이터센터 투자 확대를 지속하며 장기적인 성장 동력을 확보하고 있습니다.",
-          "data_verified": false
-        }
-      ]
-    },
-    {
-      "theme_name": "친환경 에너지 전환 및 전력 인프라",
-      "description": "글로벌 ESG 트렌드 강화와 탄소중립 목표 달성을 위한 전 세계적인 재생에너지 및 전력망 투자 확대가 지속될 것입니다. 최근 유가 변동성 심화는 장기적인 에너지 전환의 필요성을 더욱 부각시킵니다.",
-      "catalyst": "글로벌 ESG 트렌드 및 탄소중립 목표 달성을 위한 재생에너지/전력망 투자 확대",
-      "confidence": "높음",
+      "theme_name": "정책 수혜주 (친환경/신기술)",
+      "description": "정부의 내년도 예산안 심의 과정에서 친환경 에너지, AI, 반도체 등 특정 산업 육성 정책이 발표될 가능성이 있습니다. 이는 해당 분야 기업들에게 중장기적인 성장 모멘텀을 제공할 것입니다.",
+      "catalyst": "정부의 친환경 에너지, AI, 반도체 등 산업 육성 정책 발표 기대",
+      "confidence": "보통",
       "target_period": "1개월 이내",
       "leader_stocks": [
         {
           "priority": 1,
           "name": "두산에너빌리티",
           "code": "034020",
-          "reason": "원전 및 발전 설비 관련 기업으로, 장기적인 에너지 전환 및 전력 인프라 구축의 핵심 역할을 수행할 것으로 기대됩니다.",
-          "data_verified": true
-        },
-        {
-          "priority": 2,
-          "name": "LS일렉트릭",
-          "code": "010120",
-          "reason": "노후 전력망 교체 및 신규 전력 인프라 투자 확대의 직접적인 수혜주입니다.",
+          "reason": "에너지 전환 및 신기술 관련 정책 수혜 기대감이 있습니다.",
           "data_verified": false
         },
         {
-          "priority": 3,
+          "priority": 2,
           "name": "한화솔루션",
           "code": "009830",
-          "reason": "태양광/신재생에너지 업체로서 친환경 에너지 전환의 핵심 축이며 장기적인 성장 잠재력을 보유하고 있습니다.",
+          "reason": "친환경 에너지 정책 수혜가 예상되는 대표 기업입니다.",
           "data_verified": false
         }
       ]
