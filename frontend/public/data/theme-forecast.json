@@ -1,124 +1,105 @@
 {
-  "forecast_date": "2026년 10월 13일",
-  "generated_at": "2026-10-13T11:35:14.729253+09:00",
-  "market_context": "오늘(10월 13일) 한국 주식시장은 전일 미국 증시의 반도체 약세 영향으로 장 초반 변동성이 확대될 것으로 예상됩니다. 그러나 최근 코스피 지수가 급락한 만큼 기술적 반등 및 저가 매수세 유입 가능성도 존재합니다. 이러한 시장 환경 속에서 글로벌 뉴스 및 전일 시장 데이터를 종합 분석한 결과, AI/소프트웨어 및 사이버보안, 에너지/유가 관련주, 그리고 선별적 반도체 섹터가 유망 테마로 부각될 것으로 전망됩니다.",
-  "us_market_summary": "10월 12일 미국 증시는 NASDAQ -0.44%, S&P500 -0.06%로 혼조세 마감했으며, 필라델피아 반도체 지수는 -2.60% 크게 하락했습니다. 반면 에너지(+1.43%)와 헬스케어(+0.69%) 섹터는 상승했습니다.",
+  "forecast_date": "2026년 10월 14일",
+  "generated_at": "2026-10-14T07:36:32.949175+09:00",
+  "market_context": "2026년 10월 14일 장 개장 전, 한국 주식시장은 전일 코스피 5% 이상 급락과 외국인 대규모 순매도에 따른 투자 심리 위축이 지배적입니다. VIX 지수는 '보통'이나 CNN Fear & Greed Index는 '공포'를 나타내며 경계심이 높습니다.",
+  "us_market_summary": "미국 시장 마감 요약 정보는 제공되지 않았습니다.",
   "news_sources": [
     {
-      "title": "미국증시 혼조 마감…다우 상승에도 나스닥 하락, 중국 메모리 반격에 반도체 급락 | 김명수 기자",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3yeCcgSXW8HYigsbsbR6tuhUwd5rLI85AMZY8aNPMD0uPR8MrCJ264F9fQgW5Ic2VPnHyQqImES93pWGxgQNBUyH-LHNaC4eCetjy4cIEDqRqgYaTYkZYgk4jVFotWEYuWQzfAENan3MEEJdY1sjnOtg32mm2zDrwoOE="
+      "title": "뉴욕증시, 美은행 실적 혼조·반도체 약세에 일제히 하락",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQdlNIaohi4HX11zoB_Z1mHGUAiP0n_1DQM4MjxTfLNR8djDNy1IcrLKO3udIUqnBfbfXT4XCIO5dD_lqzN_Ma2qpOXNlNCfr6LgLkchDrPDBTJlb1kGvBFVP0eV5yt_PgClAdv3ccA70="
     },
     {
-      "title": "specialtimes.co.kr",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERswI6QHWqATgetuuy_5n6KgtHvOrafLG043d19cCBMro436PFK0kORyZP4L2lL6hQ4UWvB1Pw-fzvCnbqABCNWeGMAFaI_K6o91uiYb4dFNC2BJ9Xr5B7nzcBAM-DZjhsNxY5jjwkApGwblahvKV6uXTlg0s_8_IOBm0="
+      "title": "中 반도체 공습·외국인 매도… 주저앉은 코스피",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLZDhYj_GQYxbLV5ft1RoTJAWlF-FM6_XBaRAdGzP4irfaC1FNYoOGVP-5N7Fqko2un6xigXJC7TVfx5wrtb7COgZWqc8Ng49D-RWDA4fFg56rwyQcHYyzDT4kpyS5bW5aqI7feojImQijc6XinGBr5YBXJez7ohNr3rB4jz45GJVpnWFJ"
     },
     {
-      "title": "유가 상승·반도체 약세 속 뉴욕증시 혼조…다우 홀로 상승(종합)",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4G926HB2lPHFI2qSp6Kzj4bJoERLO_BrT0RmLTWo37icbfh4BGpxF07jpY7nyelg_hiy4WksHEjvNwChbUgh1KMZ2Cy2MZnGZdpplN8cvZN1GeyCGQyAQdUdsfaQnJ-zwb4D_7oBbBNGo"
+      "title": "[KFT 모닝 브리프] 2026.10.14 — 오늘 꼭 알아야 할 국내외 경제뉴스",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEi3pHhjY00u135pfhus9Rko_I1HjGvWED9Lkl0qISzoT488InTzZdHRBpHHrGk1XlfpfNAEyVJGNgAGBVO23JIJ-w3l0h48-2bmnEXd14JV5uPlfCaVDxMtfS3HDT0UhF1jMj9aXW1SV0UKxQunwkVKMc5t9V9M8aWn_QX31qwSg=="
     },
     {
-      "title": "뉴욕증시, 혼조 마감…반도체주 약세에 나스닥 0.44%↓",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZrZ7hcwNAdvGg5vjv4u8D0sgGL6gzWkNQhQi4x8_LVCBFlazVYp8cL8T19FWExLqgnMH6xC2m7hAO2SMitnxIcToDzYRepua9Ou5Z-mCKGD-cr54k2ZsDcwtHmuTYyvOIs8BuJiYngLpH-g=="
+      "title": "성장률 전망 3.3%로 오른 날, 코스피는 5% 폭락",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtgJ9P_ubUhdGZ283GB0yInppAK-SC4Sp8LvqCmrsIPeNGXFRdjvjPfQ4J15VT_-pXRxRbaF_K4T3WbtK-4n4DVaW4bhSeHBI9ffGQaAajmyBC7H9LXlrc_cw1EKZn18uKJK8ZLFWEitzqthyPVCSZSUv9L4r2KkMxuLvrMSRJXvj8E61Q0cg7AxkuiyKRdg=="
     },
     {
-      "title": "[KFT 모닝 브리프] 2026.10.13 — 오늘 꼭 알아야 할 국내외 경제뉴스",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVXHjQf8gaOHq9OXFmojKldgIO4vCo9NLLEJlr6zAvYt796WDff1BgDrr_jS39NbIABbOcb1IvwSTrJsqFvWrK25-YeZj_JTgLO78L3mMD5iW-VeADu8T-mCNaQiPWAYkF2hp1ld1P60Ah0wFHdHuZMBxeuq4LQno_PF7kJTNFuGo="
+      "title": "Just a moment...",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM5Wfmnmmd5oV6FvSqwWokzAb578zWYLA1g6klvet7R_BJHwYXcE2Ac_tnxUtIAVbFraRzh-4FO-GcENoTmDM6MwQjZS7ggohhJJhd2Yvx6R3ZjvBM06rEm0vpYu2voXy1LoG4"
     },
     {
-      "title": "investing.com",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCx3TNqO6JdomCSSKPZDvJbunQZxLb6vhrNAczSnvW3KGUaN5NIgi4P3zN6spylb3H2i5IRkxjyDYbsH9RUayAx_YsJPoIaJOdR2W-ptRUo6uAaUVbRsepAwuSGr_A-ZRsc_-f-YcMV3lqebbzIV2ZmPcxIg9DijuUKA=="
+      "title": "2025년 10월 14일 증시 마감시황 요약",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPrdi1IA1df3GXwA_9BudFrXThEsn_yMvVG1PX59Poud-T1PyvbWg6izyn73Ffdp0cclM2HH3ho9sU1HZSstdjGftr-Sj4eWXFYiLQbYLtRG3QdzHMj6Jr0v8n4J4xECJNRJPqNl0T3_XHXUakNn9k1-iPvZQXeYxSHUFMkk5BupyyzNPPfHka_N9rnEq8Bg4wYMxTIZ69_A=="
     },
     {
-      "title": "&#39;아무도 안 사는&#39; 한국증시…&#39;천수답 장세&#39; 이어지나",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUbd-T9dYrHnQYrM9lqBZGfQTkBarB9cX0kIJPhzH1coV3BmLOkyTk3xkkzFEPQ5G7udg-gD_mKG36rMB16hBNt2OvykKRAJYJsYJXPjDmtSH4F2s6hfdmcrXWGhTppChGECouOs7pAoYvfgnbWbnONknAD4_D1KwwCVr4a5dv-75PHxlM3Q85CVFJ-yJlZ1oYkDaAFnczyovSygJuzn4Do3716WuzXvN1_U1Zia__UDQcMneJRAGGf7bEWN1hlY9YOyjim8Ym6Wp7cFH5rx_bIdW9DqeR9BXOd48AiKNs0c8jmtV0BixYsFHMn1OzPKURl5KMa-85yg=="
-    },
-    {
-      "title": "[헬로스톡] 10월 12일 주목할 종목 : 한국전력·한국콜마·한국항공우주·효성중공업",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3-RVrwP5_KSiqU3K9yGWYnTKuwHjSA_v54o_ufL5M6cGSWZDsfNG8cHx45UKtwZIc0IUfqzCo9RCvg4zr16LuAM0mMMvVpu-nKa_LQRtYsiFAPaPQUqkojfao-jn1RAxQxsCNMpPAkCx0SznC"
+      "title": "Just a moment...",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgaEyLFnznvoupjBuvGu3JAB7JbLHjRilFJA2W_AiItdTLRoaMoSpzcfujVTiYKsYY3HaFE0tqTLeKOAwxDMGbDN3bjdSEUeIPpXBf6s7eqysWF1eI1hzpdZuMl2X1FELfsA=="
     },
     {
       "title": "investing.com",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3uBuPFsJGKEIDWbddwBD87ra6BijbXFCwtRIGZMF-xzwC5T2pzM31oxuXTcZidS0vJ-2uDpDzSUnHuY0m8rxwMoWZftH2v4_n7cwOUdWPZRaz4Gznm80zgX7qnu6Ndo0eAI_TOVAgx34j2q6ze3tUE87F2iWMrJV19g=="
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQc-jIn8GWuDLu0VvA1_sv9UosZweRN1WD0jBo1RiCNvs5D5jlw4XcKhRyKv7gM2fgW4A8m3lPD02iSihGqcOt4tdc4x4_8AO2w45tgBT40bvnZ-2TW92bYy9O8IEDeULBAFQQ"
     },
     {
-      "title": "[한주간 주요 경제·암호화폐 일정] 美 9월 생산자물가지수(PPI)·근원 PPI 外",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEETKRiixelfSvvFz7yVxuuZC2rTNCNKqNOiidai5Q2ViCR_-YKV3gqpsN5dgUMgEFiM0z-PA2hGGeycmboPsywTds32q3lkb847jY8Gzd7R3RXP8IkieLWnI6R24ZPbe9-kQ=="
+      "title": "instagram.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2yeareO8Svg-hZP77eal1BjgIq0aJElhBRofMGLoeAB7d1RMBf-Jl66EwAZleUMkJO3c_dhH-k4ViwRDel4Fo_wFKZRfJGLnw7rzQzMoW3hGf14c-NPT4aAQ-vyPOtq3G1A=="
     },
     {
       "title": "einfomax.co.kr",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOLY1o7yfdRmSOxhfgU0W-u8Ze4SwHfFG-VjsybMXXAm49IuiLZFLc_HF057AYrppUMG4m9K9wBzuos3gS9SQ93TVxudxxnx9G7OEdibGCrW-3nPUQTnIBzoSU5UTHNDW_2bcihyzaQ2hk0QdIFGryAIP6U_omy9tmxA=="
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqaXcl4mTXxlTe4ELm5hYP-OSydq9C80NK_-1-Lph8aeKsQoJNXr_eyn9MWyvR9K9MSpurJ10zqi82YC3BJLqlFAyJ7cw38HcLCMvLY7WPoIFd7hS7I_DFw_AIzhp3wYvXYJK7-h-ykrABVSYg6zYrhPZEq8KlaDsr"
     }
   ],
   "today": [
     {
-      "theme_name": "AI/소프트웨어 및 사이버보안",
-      "description": "미국 증시에서 AI 관련 빅테크 기업들이 반도체 약세 속에서도 차별화된 강세를 보였으며, 이는 AI 기반 솔루션 및 소프트웨어, 그리고 AI 시대에 필수적인 사이버보안 분야에 대한 투자 심리를 강화할 것으로 예상됩니다. 특히 메타의 신규 AI 모델과 마이크로소프트의 자체 AI 칩 도입 계획이 긍정적으로 작용했습니다.",
-      "catalyst": "미국 빅테크 AI 관련주 차별적 강세 및 AI 기술 혁신 기대",
+      "theme_name": "2차전지/전력설비 & 에너지",
+      "description": "시장 약세에도 불구하고 글로벌 전기차 시장 성장, LFP 양극재 기술 발전, 전력망 밸류체인 구축 필요성 증대로 2차전지/전력설비 섹터에 기관 매수세가 유입되고 있습니다. 중동 지정학적 긴장 고조로 인한 국제 유가 상승 압력은 에너지 관련주에 긍정적입니다.",
+      "catalyst": "글로벌 전기차 시장 성장, LFP 기술 발전, 전력망 구축 필요성, 중동 지정학적 긴장 고조로 인한 국제 유가 상승",
       "confidence": "높음",
       "leader_stocks": [
         {
           "priority": 1,
-          "name": "안랩",
-          "code": "053800",
-          "reason": "장중 실시간 수급에서 외국인(+1.4만주) 및 기관(+0.3만주) 동반 순매수와 함께 +9.74% 상승. 대표적인 보안 소프트웨어 기업으로 AI 보안 수혜 기대.",
+          "name": "LG에너지솔루션",
+          "code": "373220",
+          "reason": "전일 +3.02% 상승, 기관 순매수(+225,260주)로 2차전지 대형주로서 테마 강세 견인.",
           "data_verified": true
         },
         {
           "priority": 2,
-          "name": "라온시큐어",
-          "code": "042510",
-          "reason": "전일 거래대금 상위권(1,177억원) 기록, 외국인 순매수(+9,000주) 및 장중 실시간 수급에서 외국인 순매수(+0.9만주)와 함께 +16.33% 급등. AI 기반 보안 솔루션 관련주로 부각.",
+          "name": "LS머트리얼즈",
+          "code": "417200",
+          "reason": "전일 +2.54% 상승, 기관 순매수(+172,495주)로 전력설비 및 2차전지 소재 관련 모멘텀 보유.",
           "data_verified": true
         },
         {
           "priority": 3,
-          "name": "모아데이타",
-          "code": "288980",
-          "reason": "장중 실시간 수급에서 외국인 순매수(+45.5만주)와 함께 +29.86% 급등. AI 기반 데이터 및 솔루션 관련주로 부각.",
-          "data_verified": true
-        }
-      ]
-    },
-    {
-      "theme_name": "에너지/유가 관련주",
-      "description": "중동 지역의 지정학적 불안정(사우디-후티 반군 충돌, 공항 공격) 심화로 국제 유가가 3거래일 연속 상승했으며, 유럽의 높은 가스 가격 전망도 지속되고 있습니다. 이는 글로벌 에너지 시장의 불확실성을 높여 유가 관련 기업들의 수혜로 이어질 수 있습니다.",
-      "catalyst": "중동 지정학적 불안정 심화 및 국제 유가 급등",
-      "confidence": "보통",
-      "leader_stocks": [
-        {
-          "priority": 1,
-          "name": "중앙에너비스",
-          "code": "004440",
-          "reason": "대표적인 유류 도매 및 주유소 사업을 영위하는 에너지 관련주로, 국제 유가 상승 시 직접적인 수혜 기대.",
-          "data_verified": false
-        },
-        {
-          "priority": 2,
-          "name": "흥구석유",
-          "code": "024060",
-          "reason": "석유류 판매 및 유통 사업을 영위하는 에너지 관련주로, 국제 유가 상승 시 수혜 기대.",
+          "name": "엘앤에프",
+          "code": "066970",
+          "reason": "과거 모의투자 기준 '안정'적인 성과를 보였으며, 2차전지 양극재 대장주로서 테마 대표성 높음.",
           "data_verified": false
         }
       ]
     },
     {
-      "theme_name": "반도체 (선별적 - 비메모리/장비/소재 중심)",
-      "description": "중국 CXMT의 차세대 메모리 출시 계획 발표로 인한 미국 반도체 지수 급락은 국내 대형 메모리 반도체 기업에 단기적인 투자 심리 위축을 가져왔습니다. 그러나 10월 초 한국 반도체 수출은 역대 최대치를 기록하며 견조한 펀더멘털을 보여주고 있으며, AI 수요에 기반한 비메모리, 장비, 소재 부문은 선별적인 강세를 나타낼 수 있습니다.",
-      "catalyst": "AI 수요 기반 비메모리/장비/소재 부문 선별적 강세",
-      "confidence": "보통",
+      "theme_name": "반도체 (장비/소재 중심)",
+      "description": "전반적인 반도체 섹터는 대형 메모리 기업을 중심으로 약세가 예상되나, 시장 전반의 약세 속에서도 주성엔지니어링, HPSP, 피에스케이 등 일부 반도체 장비/소재 기업에 대한 기관 투자자의 선별적 순매수 유입이 관찰됩니다. 이는 장기적인 기술 투자 및 국산화 기대감을 반영할 가능성이 있습니다.",
+      "catalyst": "중국 CXMT의 차세대 D램 개발 및 'AI 투자 거품론' 확산, 일부 반도체 장비/소재 기업에 대한 기관 투자자의 선별적 순매수",
+      "confidence": "높음",
       "leader_stocks": [
         {
           "priority": 1,
-          "name": "HPSP",
-          "code": "403870",
-          "reason": "전일 거래대금 상위권(414억원) 기록, 외국인(+7.1만주) 및 기관(+1.4만주) 동반 순매수. 외국인 5일 연속, 기관 2일 연속 순매수. 고압 수소 어닐링 장비 전문 기업으로 반도체 장비 관련주.",
-          "data_verified": true
-        },
-        {
-          "priority": 2,
           "name": "주성엔지니어링",
           "code": "036930",
-          "reason": "전일 거래대금 상위권(1,983억원) 기록, 외국인(+1.8만주) 및 기관(+1,000주) 동반 순매수. 반도체 및 디스플레이 장비 관련주.",
+          "reason": "전일 +4.35% 상승, 기관 순매수(+24,662주).",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "HPSP",
+          "code": "403870",
+          "reason": "전일 +3.11% 상승, 기관 순매수(+335,419주).",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "피에스케이",
+          "code": "319660",
+          "reason": "전일 +6.50% 상승, 기관 순매수(+133,475주).",
           "data_verified": true
         }
       ]
@@ -126,183 +107,79 @@
   ],
   "short_term": [
     {
-      "theme_name": "AI/소프트웨어 (AI/Software)",
-      "description": "AI 기술 발전 및 AI 기반 솔루션/소프트웨어(특히 딥페이크 차단 기술)에 대한 기대감이 있으며, 미국 시장 일부 소프트웨어/커뮤니케이션 서비스 기업 강세가 나타나고 있습니다.",
-      "catalyst": "AI 기술 발전 및 딥페이크 차단 기술 부각",
+      "theme_name": "AI/소프트웨어 (보안/솔루션 특화)",
+      "description": "AI는 강력한 성장 동력을 가진 메가트렌드이지만, 최근 'AI 투자 거품론'이 확산되며 단기적인 조정 압력을 받고 있습니다. 그러나 '딥페이크 차단 기술'과 같은 특정 AI 솔루션 분야의 부각은 새로운 모멘텀을 제공할 수 있습니다.",
+      "catalyst": "글로벌 AI 기술 발전 지속 (Meta의 새로운 AI 모델 발표 등), '딥페이크 차단 기술'과 같은 AI 기반 보안 솔루션의 구체적인 수요 부각",
       "confidence": "보통",
-      "target_period": "이번주",
+      "target_period": "며칠 내",
       "leader_stocks": [
         {
           "priority": 1,
           "name": "에스피소프트",
           "code": "443670",
-          "reason": "기관 순매수 유입, '과열:주의' 신호, 딥페이크 차단 기술 부각.",
-          "data_verified": true
+          "reason": "기관 순매수(+3,808주)가 있었으며, 과거 모의투자 기준 '보통' 성과.",
+          "data_verified": false
         },
         {
           "priority": 2,
-          "name": "엑스게이트",
-          "code": "356680",
-          "reason": "전일 코스닥 등락률 +3.01%, AI 보안 관련 테마성 종목.",
-          "data_verified": true
-        },
-        {
-          "priority": 3,
-          "name": "한글과컴퓨터",
-          "code": "030520",
-          "reason": "AI 기반 소프트웨어 개발 및 솔루션 제공.",
+          "name": "라온시큐어",
+          "code": "042510",
+          "reason": "전일 +5.87% 상승, 외국인 순매수(+172,825주). AI 기반 보안 솔루션 및 인증 분야와 연관성.",
           "data_verified": true
         }
       ]
     },
     {
-      "theme_name": "바이오/제약 (Bio/Pharma)",
-      "description": "코로나19 재확산 우려와 개별 기업의 실적 개선 및 신사업 기대감이 있으며, 미국 헬스케어(XLV) ETF가 상승했습니다.",
-      "catalyst": "코로나19 재확산 우려 및 개별 기업 실적/신사업 기대감",
+      "theme_name": "바이오/제약",
+      "description": "시장 약세 속에서 상대적 강세를 보였고, 외국인/기관의 동반 순매수가 관찰되는 등 긍정적인 수급 흐름을 보입니다. 국내 코로나19 재확산 우려와 개별 기업의 실적 개선 및 신사업 기대감이 단기적인 모멘텀으로 작용할 수 있습니다.",
+      "catalyst": "국내 코로나19 재확산 우려, 개별 기업의 실적 개선 및 신사업 기대감",
       "confidence": "보통",
-      "target_period": "이번주",
+      "target_period": "며칠 내",
       "leader_stocks": [
         {
           "priority": 1,
           "name": "신풍제약",
           "code": "019170",
-          "reason": "외국인과 기관 동반 순매수.",
-          "data_verified": true
+          "reason": "외국인/기관 동반 순매수, 과거 모의투자 기준 '안정'적인 성과.",
+          "data_verified": false
         },
         {
           "priority": 2,
-          "name": "리메드",
-          "code": "302550",
-          "reason": "전일 코스닥 등락률 +15.12%, 거래대금 534억원.",
-          "data_verified": true
-        },
-        {
-          "priority": 3,
           "name": "JW신약",
           "code": "067290",
-          "reason": "'정배열 골든크로스(3)' 기술적 강세 신호.",
-          "data_verified": true
-        }
-      ]
-    },
-    {
-      "theme_name": "저평가 가치주 / LNG 밸류체인 (Undervalued Value / LNG Value Chain)",
-      "description": "반도체 쏠림 현상 완화에 따라 실적 및 재무구조가 탄탄한 저평가 종목이 부각될 수 있으며, 특히 LNG 운반선 보냉재를 만드는 한국카본이 언급되었습니다.",
-      "catalyst": "반도체 쏠림 완화 및 실적 기반 저평가 종목 부각",
-      "confidence": "보통",
-      "target_period": "이번주",
-      "leader_stocks": [
-        {
-          "priority": 1,
-          "name": "현대차",
-          "code": "005380",
-          "reason": "전일 기관 순매수(+107,978주) 유입, 대표적인 실적 기반 가치주.",
-          "data_verified": true
-        },
-        {
-          "priority": 2,
-          "name": "우리금융지주",
-          "code": "316140",
-          "reason": "전일 기관 순매수(+314,555주) 유입, 대표적인 금융 가치주.",
-          "data_verified": true
-        },
-        {
-          "priority": 3,
-          "name": "한국카본",
-          "code": "023030",
-          "reason": "LNG 밸류체인 대표주이자 저평가 가치주로 언급.",
-          "data_verified": true
+          "reason": "외국인/기관 동반 순매수, '정배열 수급동반 골든크로스' 신호.",
+          "data_verified": false
         }
       ]
     }
   ],
   "long_term": [
     {
-      "theme_name": "2차전지/전력설비 (Secondary Battery/Power Equipment)",
-      "description": "글로벌 전기차 시장 성장 및 LFP 양극재 시장 확대, 전력망 밸류체인 구축 및 전력 인프라 수요 급증으로 장기적인 성장 동력을 가지고 있습니다.",
-      "catalyst": "글로벌 전기차 시장 성장 및 전력 인프라 수요 급증",
-      "confidence": "보통",
-      "target_period": "1개월 이내",
-      "leader_stocks": [
-        {
-          "priority": 1,
-          "name": "삼성SDI",
-          "code": "006400",
-          "reason": "기관 7일 연속 순매수, 대표적인 2차전지 대형주.",
-          "data_verified": true
-        },
-        {
-          "priority": 2,
-          "name": "LG에너지솔루션",
-          "code": "373220",
-          "reason": "기관 순매수 유입, 대표적인 2차전지 대형주.",
-          "data_verified": true
-        },
-        {
-          "priority": 3,
-          "name": "LS ELECTRIC",
-          "code": "010120",
-          "reason": "전력 인프라 및 전력 설비 관련 대표 기업.",
-          "data_verified": false
-        }
-      ]
-    },
-    {
-      "theme_name": "인플레이션/금리 민감주 및 내수/소비 관련주 (Inflation/Interest Rate Sensitive & Domestic/Consumption)",
-      "description": "독일 9월 CPI, 미국 9월 CPI/PPI 등 주요국 인플레이션 지표 발표와 국내 9월 고용동향 및 10월 경제동향 발표가 예정되어 있어, 글로벌 긴축 기조 유지 여부 및 고금리 환경 지속 여부가 시장 전반의 방향성을 결정할 것입니다.",
-      "catalyst": "주요국 인플레이션 및 고용 지표 발표",
+      "theme_name": "시장 유동성 환경 개선 및 금리 안정 관련 테마",
+      "description": "오늘 밤 발표될 미국 소비자물가지수(CPI) 결과와 향후 한 달 내 예정된 한국은행 및 FOMC 기준금리 결정, 그리고 11월 초 미국 중간선거 이후 재정 우려 완화 및 금리 안정 기대감은 시장 전반의 유동성 환경과 투자 심리에 직접적인 영향을 미칠 것입니다.",
+      "catalyst": "미국 소비자물가지수(CPI) 결과, 한국은행 및 FOMC 기준금리 결정, 미국 중간선거 이후 재정 우려 완화 및 금리 안정 기대감",
       "confidence": "높음",
       "target_period": "1개월 이내",
       "leader_stocks": [
         {
           "priority": 1,
-          "name": "신세계",
-          "code": "004170",
-          "reason": "대표적인 내수 소비 관련주로 인플레이션 및 금리 환경 변화에 민감.",
+          "name": "네이버",
+          "code": "035420",
+          "reason": "대표적인 성장주로, 유동성 환경 개선 및 금리 안정 시 저평가 매력이 부각될 수 있음.",
           "data_verified": false
         },
         {
           "priority": 2,
-          "name": "롯데쇼핑",
-          "code": "023530",
-          "reason": "대표적인 내수 소비 관련주로 인플레이션 및 금리 환경 변화에 민감.",
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "국내 시가총액 1위 기업으로, 시장 유동성 개선 시 가장 큰 수혜를 입을 수 있는 대표 성장주.",
           "data_verified": false
         },
         {
           "priority": 3,
-          "name": "CJ제일제당",
-          "code": "097950",
-          "reason": "필수 소비재 기업으로 인플레이션 환경에서 가격 전가력 보유.",
-          "data_verified": false
-        }
-      ]
-    },
-    {
-      "theme_name": "방산 (Defense)",
-      "description": "11월 3일 미국 중간선거 이후 도널드 트럼프 대통령의 이란 공격 유보 발언에 따른 중동 지정학적 긴장 재고조 가능성이 존재합니다.",
-      "catalyst": "미국 중간선거 이후 중동 지정학적 긴장 재고조 가능성",
-      "confidence": "보통",
-      "target_period": "1개월 이내",
-      "leader_stocks": [
-        {
-          "priority": 1,
-          "name": "한화에어로스페이스",
-          "code": "012450",
-          "reason": "국내 대표 방산 기업으로 지정학적 리스크 발생 시 수혜 기대.",
-          "data_verified": false
-        },
-        {
-          "priority": 2,
-          "name": "한국항공우주",
-          "code": "047810",
-          "reason": "항공우주 및 방산 분야 대표 기업으로 지정학적 리스크 발생 시 수혜 기대.",
-          "data_verified": false
-        },
-        {
-          "priority": 3,
-          "name": "현대로템",
-          "code": "064350",
-          "reason": "방산 및 철도 사업을 영위하며 지정학적 리스크에 반응.",
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "국내 시가총액 2위 기업이자 반도체 대표주로, 금리 안정 시 투자 심리 회복과 함께 반등 기대.",
           "data_verified": false
         }
       ]
