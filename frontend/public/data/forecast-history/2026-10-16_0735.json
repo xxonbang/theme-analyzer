@@ -1,0 +1,203 @@
+{
+  "forecast_date": "2026년 10월 16일",
+  "generated_at": "2026-10-16T07:35:21.969685+09:00",
+  "market_context": "2026년 10월 16일 한국 증시 개장 전, 전일 코스피와 코스닥이 동반 7%대 폭락하며 투자 심리가 극도로 위축된 '검은 목요일'을 기록했습니다. CNN Fear & Greed Index는 '공포' 상태를 나타내며 투자자들의 위험 회피 심리가 강하게 작용하고 있습니다.",
+  "us_market_summary": "미국 증시는 다우, S&P500, 나스닥 3대 지수가 반등했으나, 이는 헬스케어와 소비재 등 경기 방어 섹터로의 자금 이동과 국채 금리 하락에 기인합니다. 특히 필라델피아 반도체 지수는 7거래일 연속 하락하며 기술주 전반에 대한 우려가 지속되고 있습니다.",
+  "news_sources": [
+    {
+      "title": "코스피·코스닥 동반 폭락, 삼성전자·SK하이닉스·알테오젠 등 '풀썩'…미국 CPI 충격에 PPI까지, 16일 증시 향방은?",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE111paD9YeTp6fJ1LmdYTuBTD9x0Bz3qBiQqcFdZeTxeYnMGxJXYPEB3cQeI4JMeAtdgoKOD_1K4un27hiEYzLB95HNQvpnabC4cqLr0qFZwVx9iV7ktSCz1OJFwz-mL5yAUqavMhNmuACqJSUf6wR4sLM"
+    },
+    {
+      "title": "고점 대비 40% 녹아내린 코스피…증시 전망도 &#039;시계제로&#039;",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFY9rmEIzB6H4oAl1vJzQM49rM-W77DAvTkFqfHN1IO6iOdezXbNFCrkGtzcVr1Gz7OgIM5lsF2YOLlhWHFt2Je7fma4fq1OkALv5jyxwDWUvmE6WiphGtjcsHoVKZjlA6hRYEJR1a4ODSdKZKUdlam"
+    },
+    {
+      "title": "뉴욕증시, 헬스케어 강세 속 반등…다우 1.08%↑",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5aFZkSddvkOVmt_1kuGlQw07xPAaspzUF3uLP0_xsvpYxqqfo-_PQac3mhMKZJtywqsK1Oh4L-UF65Rhfrcg_ILbTnJlv-c1e8G7tZMZllgdTNlQawOL3jV198fopBOnW2o-GQlZzq9fG"
+    },
+    {
+      "title": "뉴욕증시, 국채금리 하락에 3대 지수 반등 마감",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFakQhwNgaJEnOoIKMajQqKaIshkcWQg3aceA6txAr7m0Igybb8IsbF3xq9tV05u4tTrdX9XPtTkDDojMZCOQYl9hS1-aKIf0dIzDC_pqvX1_xzlRC2BN5ZaofHCsWllSnz68wuuE-CWDQ="
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwnVamm2FwWvF9AiFOjTlE4IB0JhOX_HwyrLFdsu0-ggRB0HGAA2wlqwNHwjxSRHUq7izDFrPTO-Fu5FytF4IEp52nBDvR2E3Co0mpPSANnQj-UdodOeK1Ny7OoqK69JoHO9ERg3TRkDcWtABTS3jg6mcl96OWJucZ"
+    },
+    {
+      "title": "[뉴욕 마켓 브리핑](16일)",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLN3_88XT_J4L8T7aVV4tLqi8NBgFZZd1Sm18Ml6sGoWJfCmw1mcaNCNTBkg-Aqp2S_MFw1zIUNEpYA9fxigbEwV5pdN7Bp1ieMj4yY3mPsQB8hLoMj1OpJ5P99NmwNt66niDHyA_30Zu24QTwcAfJc7wEr4mQRkvIBg=="
+    },
+    {
+      "title": "코스피 7.5% 폭락… 불안한 ‘반도체 코리아’",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrC7_gJ43ufuvMcIUDzx-MR6zx178e9ctRFXzxRfzTS3-_9etzND0KW3uT4CGhpKoQln4DrUGZtjUb7DGxosplY6GRL64ILYFDOTV7paUh-zIiaHABiuI1UaRdxwNF7KctZD6B_QN--MY_mON4Gmr2Ty9fhTVFFYMzXKlgpykDcN0_TaCNQVeAVOZFmkF_4g=="
+    },
+    {
+      "title": "도대체 언제까지 빠지나…전문가들이 꼽은 증시 반등 조건",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_7QyuBBaaCoDXcU_zw2rf4o-5HLQQK2Td9Vnms31HXMcN-C3OWbNFUglcEaHKZSr8xgewZv1mTi4qMWUtRUgr8FEom8fplmFcd7w2y30oXfPE3wzOOT0RfSZeGXWjQoKYndJT0KsYeg=="
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1psKDyv_YgNorXtFspQta7O50FQOndViCwChAUwxuIOOoYJuS8j44j9sJNYJMCT9o-l2zlq0JIO1CV_ToW0DNOLAy6rJIxZbjwqSslcHZXLqQeVwH5GwdthoNI-S33DZJI1bGxlW0-lDE2H49lawQXe8Zgywdpmo_"
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsQG7bumAWqb5mOQWGfxfHt3nMwILyVRfEwuSxcBB4ueUaFtIoUu6XAG9V7G3u_3ECRA6lL0Esov0kO4j2Yy4gX5cWoGL2K3oY39cjGYU6Ii3Bvc5v4jZ8E1mpYJPmoWU-YE3CwC6l5_FLZb4qCnPj1M-0h3qzApjv"
+    },
+    {
+      "title": "Attention Required!",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlAgqAYOpztL9DlcWtKMu8oF7-CTR0xEBbucWl1EOUJ-8RZr0lc7pZwWce3BMC5byGosjaojqMeTv4ZUVMApr6QVGrP9zLmKuhdBTUGdox7sE6qk_t2dSTS_LTHgS2uolXPJgAC2avTMXkIGM-lInYGFA="
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "바이오/제약 (경기 방어)",
+      "description": "전반적인 시장의 위험 회피 심리 강화와 미국 증시 헬스케어 섹터 강세에 힘입어 국내 바이오/제약 테마가 방어적 성격의 매수세를 유입받을 가능성이 높습니다. 코로나19 재확산 우려 및 개별 기업 실적 개선 기대감도 긍정적입니다.",
+      "catalyst": "미국 헬스케어 섹터 강세 및 시장 위험 회피 심리",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "신풍제약",
+          "code": "019170",
+          "reason": "외국인과 기관의 동반 순매수가 관찰되어 강력한 수급을 보였으나, '수급동반 과열:경고' 상태이므로 단기 변동성 확대에 유의해야 합니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "JW신약",
+          "code": "067290",
+          "reason": "외국인 순매수세가 강하게 유입되었고, 정배열 골든크로스(3) 신호가 발생하여 기술적으로도 긍정적입니다. 수급 과열 경고가 없는 점도 매력적입니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "AI/소프트웨어 (단기 투기적 관심)",
+      "description": "전반적인 AI 테마에 대한 의구심과 과거 낮은 적중률에도 불구하고, 특정 AI 관련 종목(특히 보안 솔루션)에서 강한 수급과 상승세가 나타나 단기적인 투기적 매수세가 유입될 수 있습니다.",
+      "catalyst": "인공지능 기술 발전 기대감 및 AI 보안 솔루션 강세",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "라온시큐어",
+          "code": "042510",
+          "reason": "전일 거래대금 상위권에서 외국인과 기관의 동반 순매수와 함께 14.29% 급등하며 AI 보안 솔루션 관련주로서 강한 모멘텀을 보였습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "에스피소프트",
+          "code": "443670",
+          "reason": "외국인과 기관의 동반 순매수가 관찰되었으나, '수급동반 과열:주의' 상태이며 과거 테마 적중률이 낮았던 점을 고려하여 신중한 접근이 필요합니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "반도체",
+      "description": "미국 필라델피아 반도체 지수 7거래일 연속 하락과 AI 반도체 수요 및 수익성 지속 가능성 우려, 미국 CPI/PPI 상승에 따른 금리 인상 가능성 등으로 인해 국내 반도체 시장에 대한 부정적인 영향이 지속될 것으로 예상됩니다. 외국인 대규모 매도세도 지속되고 있습니다.",
+      "catalyst": "미국 필라델피아 반도체 지수 하락 및 금리 인상 우려",
+      "confidence": "높음",
+      "target_period": "2~3일",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "전일 10% 내외로 폭락했으며, 외국인 매도세가 11거래일 연속 이어지고 있습니다. 미국 증시에서도 반도체 섹터의 약세가 뚜렷하여 국내 반도체 시장에 대한 부정적인 영향이 지속될 것으로 예상됩니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "전일 10% 내외로 폭락했으며, 외국인 매도세가 11거래일 연속 이어지고 있습니다. 미국 증시에서도 반도체 섹터의 약세가 뚜렷하여 국내 반도체 시장에 대한 부정적인 영향이 지속될 것으로 예상됩니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "2차전지/전력설비",
+      "description": "시장 전반의 위험 회피 심리와 주요 2차전지 대형주들의 급락 및 외국인 매도세로 인해 단기적인 상승 동력을 찾기 어려울 것으로 판단됩니다. 관련 테마의 과거 낮은 적중률도 부정적인 요인입니다.",
+      "catalyst": "시장 위험 회피 심리 및 외국인 매도세 지속",
+      "confidence": "낮음",
+      "target_period": "2~3일",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성SDI",
+          "code": "006400",
+          "reason": "글로벌 전기차 시장 성장 기대감에도 불구하고, 전일 큰 폭으로 하락했으며 외국인 매도세가 강하게 나타났습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "LG에너지솔루션",
+          "code": "373220",
+          "reason": "글로벌 전기차 시장 성장 기대감에도 불구하고, 전일 큰 폭으로 하락했으며 외국인 매도세가 강하게 나타났습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "엘앤에프",
+          "code": "066970",
+          "reason": "글로벌 전기차 시장 성장 기대감에도 불구하고, 전일 큰 폭으로 하락했으며 외국인 매도세가 강하게 나타났습니다. 일부 종목은 '과열:주의' 상태입니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "AI 기술 발전",
+      "description": "AI 기술 발전은 장기적인 메가 트렌드로서 지속적인 관심이 필요하지만, 현재는 단기적인 시장의 역풍에 직면해 있습니다. 시장 불확실성 해소 후 재평가가 필요합니다.",
+      "catalyst": "AI 기술 혁신 및 산업 전반의 디지털 전환 가속화",
+      "confidence": "보통",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "네이버",
+          "code": "035420",
+          "reason": "장기적인 AI 기술 발전 트렌드에 부합하는 국내 대표 기술 기업이나, 현재는 단기 시장 불확실성으로 인해 명확한 상승 동력을 찾기 어렵습니다.",
+          "data_verified": false
+        }
+      ]
+    },
+    {
+      "theme_name": "친환경 에너지 전환 (2차전지/전력설비)",
+      "description": "친환경 에너지 전환은 장기적인 메가 트렌드로서 지속적인 관심이 필요하지만, 현재는 단기적인 시장의 역풍에 직면해 있습니다. 시장 불확실성 해소 후 재평가가 필요합니다.",
+      "catalyst": "글로벌 탄소 중립 정책 강화 및 전기차 시장 성장",
+      "confidence": "보통",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "LG화학",
+          "code": "051910",
+          "reason": "장기적인 친환경 에너지 전환 트렌드에 부합하는 국내 대표 기업이나, 현재는 단기 시장 불확실성으로 인해 명확한 상승 동력을 찾기 어렵습니다.",
+          "data_verified": false
+        }
+      ]
+    },
+    {
+      "theme_name": "고령화 사회 및 바이오 기술 발전",
+      "description": "고령화 사회 및 바이오 기술 발전은 장기적인 메가 트렌드로서 지속적인 관심이 필요하지만, 현재는 단기적인 시장의 역풍에 직면해 있습니다. 시장 불확실성 해소 후 재평가가 필요합니다.",
+      "catalyst": "인구 고령화 심화 및 바이오 신약 개발 가속화",
+      "confidence": "보통",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "셀트리온",
+          "code": "068270",
+          "reason": "장기적인 고령화 및 바이오 기술 발전 트렌드에 부합하는 국내 대표 바이오 기업이나, 현재는 단기 시장 불확실성으로 인해 명확한 상승 동력을 찾기 어렵습니다.",
+          "data_verified": false
+        }
+      ]
+    }
+  ]
+}
