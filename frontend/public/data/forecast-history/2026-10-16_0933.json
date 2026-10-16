@@ -1,0 +1,225 @@
+{
+  "forecast_date": "2026년 10월 16일",
+  "generated_at": "2026-10-16T09:33:28.308608+09:00",
+  "market_context": "전일 미국 증시는 다우존스와 S&P500이 상승 마감했으나, 필라델피아 반도체 지수는 7거래일 연속 하락하며 기술주 전반에 대한 투자 심리가 위축되었습니다. 이는 9월 소비자물가지수(CPI)가 예상치를 상회하며 연방준비제도(Fed)의 추가 금리 인상 우려가 커진 데다, AI 클라우드 서비스 기업 코어위브의 회사채 부실 우려가 AI 산업 전반의 자금 조달 부담으로 확산되었기 때문입니다.",
+  "us_market_summary": "미국 증시는 다우존스 산업평균지수 (+1.08%)와 S&P500 지수 (+0.33%)가 상승 마감했으나, 나스닥 종합지수 (+0.08%)는 강보합, 필라델피아 반도체 지수(SOX)는 약 0.9% 하락하며 기술주 전반이 약세를 보였습니다. 금융, 헬스케어 등 비기술 업종이 강세를 나타냈습니다.",
+  "news_sources": [
+    {
+      "title": "코스피·코스닥 동반 폭락, 삼성전자·SK하이닉스·알테오젠 등 '풀썩'…미국 CPI 충격에 PPI까지, 16일 증시 향방은?",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE111paD9YeTp6fJ1LmdYTuBTD9x0Bz3qBiQqcFdZeTxeYnMGxJXYPEB3cQeI4JMeAtdgoKOD_1K4un27hiEYzLB95HNQvpnabC4cqLr0qFZwVx9iV7ktSCz1OJFwz-mL5yAUqavMhNmuACqJSUf6wR4sLM"
+    },
+    {
+      "title": "고점 대비 40% 녹아내린 코스피…증시 전망도 &#039;시계제로&#039;",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFY9rmEIzB6H4oAl1vJzQM49rM-W77DAvTkFqfHN1IO6iOdezXbNFCrkGtzcVr1Gz7OgIM5lsF2YOLlhWHFt2Je7fma4fq1OkALv5jyxwDWUvmE6WiphGtjcsHoVKZjlA6hRYEJR1a4ODSdKZKUdlam"
+    },
+    {
+      "title": "뉴욕증시, 헬스케어 강세 속 반등…다우 1.08%↑",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5aFZkSddvkOVmt_1kuGlQw07xPAaspzUF3uLP0_xsvpYxqqfo-_PQac3mhMKZJtywqsK1Oh4L-UF65Rhfrcg_ILbTnJlv-c1e8G7tZMZllgdTNlQawOL3jV198fopBOnW2o-GQlZzq9fG"
+    },
+    {
+      "title": "뉴욕증시, 국채금리 하락에 3대 지수 반등 마감",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFakQhwNgaJEnOoIKMajQqKaIshkcWQg3aceA6txAr7m0Igybb8IsbF3xq9tV05u4tTrdX9XPtTkDDojMZCOQYl9hS1-aKIf0dIzDC_pqvX1_xzlRC2BN5ZaofHCsWllSnz68wuuE-CWDQ="
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwnVamm2FwWvF9AiFOjTlE4IB0JhOX_HwyrLFdsu0-ggRB0HGAA2wlqwNHwjxSRHUq7izDFrPTO-Fu5FytF4IEp52nBDvR2E3Co0mpPSANnQj-UdodOeK1Ny7OoqK69JoHO9ERg3TRkDcWtABTS3jg6mcl96OWJucZ"
+    },
+    {
+      "title": "[뉴욕 마켓 브리핑](16일)",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLN3_88XT_J4L8T7aVV4tLqi8NBgFZZd1Sm18Ml6sGoWJfCmw1mcaNCNTBkg-Aqp2S_MFw1zIUNEpYA9fxigbEwV5pdN7Bp1ieMj4yY3mPsQB8hLoMj1OpJ5P99NmwNt66niDHyA_30Zu24QTwcAfJc7wEr4mQRkvIBg=="
+    },
+    {
+      "title": "코스피 7.5% 폭락… 불안한 ‘반도체 코리아’",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrC7_gJ43ufuvMcIUDzx-MR6zx178e9ctRFXzxRfzTS3-_9etzND0KW3uT4CGhpKoQln4DrUGZtjUb7DGxosplY6GRL64ILYFDOTV7paUh-zIiaHABiuI1UaRdxwNF7KctZD6B_QN--MY_mON4Gmr2Ty9fhTVFFYMzXKlgpykDcN0_TaCNQVeAVOZFmkF_4g=="
+    },
+    {
+      "title": "도대체 언제까지 빠지나…전문가들이 꼽은 증시 반등 조건",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_7QyuBBaaCoDXcU_zw2rf4o-5HLQQK2Td9Vnms31HXMcN-C3OWbNFUglcEaHKZSr8xgewZv1mTi4qMWUtRUgr8FEom8fplmFcd7w2y30oXfPE3wzOOT0RfSZeGXWjQoKYndJT0KsYeg=="
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1psKDyv_YgNorXtFspQta7O50FQOndViCwChAUwxuIOOoYJuS8j44j9sJNYJMCT9o-l2zlq0JIO1CV_ToW0DNOLAy6rJIxZbjwqSslcHZXLqQeVwH5GwdthoNI-S33DZJI1bGxlW0-lDE2H49lawQXe8Zgywdpmo_"
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsQG7bumAWqb5mOQWGfxfHt3nMwILyVRfEwuSxcBB4ueUaFtIoUu6XAG9V7G3u_3ECRA6lL0Esov0kO4j2Yy4gX5cWoGL2K3oY39cjGYU6Ii3Bvc5v4jZ8E1mpYJPmoWU-YE3CwC6l5_FLZb4qCnPj1M-0h3qzApjv"
+    },
+    {
+      "title": "Attention Required!",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlAgqAYOpztL9DlcWtKMu8oF7-CTR0xEBbucWl1EOUJ-8RZr0lc7pZwWce3BMC5byGosjaojqMeTv4ZUVMApr6QVGrP9zLmKuhdBTUGdox7sE6qk_t2dSTS_LTHgS2uolXPJgAC2avTMXkIGM-lInYGFA="
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "AI/반도체 (단기 변동성 확대 및 개별 종목 차별화)",
+      "description": "미국 필라델피아 반도체 지수의 7거래일 연속 하락과 AI 기업 자금 조달 우려 확산으로 글로벌 AI 및 반도체 산업 전반에 대한 투자 심리가 위축되고 있습니다. 메모리 반도체 비중이 큰 한국 증시의 특성상 AI/반도체 테마는 단기적으로 큰 변동성을 보일 것으로 예상됩니다.",
+      "catalyst": "미국 필라델피아 반도체 지수 7거래일 연속 하락 및 AI 기업 자금 조달 우려 확산",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "라온시큐어",
+          "code": "042510",
+          "reason": "전일 +14.29% 급등 및 외국인/기관 동반 순매수. AI/소프트웨어 테마 내에서 개별 모멘텀을 통해 강세를 보인 종목으로, 시장 전반의 약세 속에서도 차별화된 움직임을 보일 수 있음.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "전일 코스피 거래대금 1위(72,999억원)를 기록했으나, -11.35% 급락 및 외국인 11일 연속 순매도. AI/반도체 테마의 핵심 종목으로 시장의 불안감을 가장 크게 반영할 것으로 예상.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "전일 코스피 거래대금 2위(68,213억원)를 기록했으나, -9.27% 급락 및 외국인 11일 연속 순매도. SK하이닉스와 함께 국내 반도체 업황을 대표하며, AI 투자 심리 악화에 직접적인 영향을 받을 것으로 판단.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "금융/방어주",
+      "description": "미국 국채금리 하락으로 인한 시장 금리 부담 완화 및 기술주 약세 속 비기술 업종(금융, 헬스케어, 필수소비재)으로의 자금 이동이 기대됩니다. 높은 시장 변동성 속 경기 방어적 성격의 종목 선호 심리가 작용할 수 있습니다.",
+      "catalyst": "미국 국채금리 하락 및 비기술 업종으로의 자금 이동 기대",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "우리금융지주",
+          "code": "316140",
+          "reason": "전일 +0.48% 강보합 마감 및 기관 4일 연속 대규모 순매수. 미국 금융주 강세 흐름과 국내 기관의 수급이 뒷받침되며 시장 불안정 속에서 안정적인 흐름을 보일 가능성.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "삼성SDI",
+          "code": "006400",
+          "reason": "전일 -8.97% 하락했으나 기관이 10일 연속 순매수하며 꾸준한 관심을 보임. 2차전지 산업의 장기 성장성은 유효하며, 시장 약세 속에서도 기관의 매수세가 방어적인 역할을 할 수 있음.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "중동 지정학적 리스크 관련 (유가/방산)",
+      "description": "예멘 후티 반군의 사우디 석유시설 및 공항 공격 소식으로 국제유가 상승 압력이 발생하고 중동 지역 불안정이 심화되고 있습니다. 이는 유가 관련주 및 방산주에 대한 관심을 높일 수 있습니다.",
+      "catalyst": "예멘 후티 반군의 사우디 석유시설 및 공항 공격 소식",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "HD현대중공업",
+          "code": "329180",
+          "reason": "전일 -5.56% 하락했으나 외국인 8일 연속 순매수, 기관 3일 연속 순매수. 중동 리스크 고조 시 방산 및 조선 섹터에 대한 관심이 높아질 수 있으며, 외국인/기관의 꾸준한 수급이 긍정적.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "반도체",
+      "description": "미국 필라델피아 반도체 지수 7거래일 연속 하락과 AI 반도체 수요 및 수익성 지속 가능성 우려, 미국 CPI/PPI 상승에 따른 금리 인상 가능성 등으로 인해 국내 반도체 시장에 대한 부정적인 영향이 지속될 것으로 예상됩니다. 외국인 대규모 매도세도 지속되고 있습니다.",
+      "catalyst": "미국 필라델피아 반도체 지수 하락 및 금리 인상 우려",
+      "confidence": "높음",
+      "target_period": "2~3일",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "전일 10% 내외로 폭락했으며, 외국인 매도세가 11거래일 연속 이어지고 있습니다. 미국 증시에서도 반도체 섹터의 약세가 뚜렷하여 국내 반도체 시장에 대한 부정적인 영향이 지속될 것으로 예상됩니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "전일 10% 내외로 폭락했으며, 외국인 매도세가 11거래일 연속 이어지고 있습니다. 미국 증시에서도 반도체 섹터의 약세가 뚜렷하여 국내 반도체 시장에 대한 부정적인 영향이 지속될 것으로 예상됩니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "2차전지/전력설비",
+      "description": "시장 전반의 위험 회피 심리와 주요 2차전지 대형주들의 급락 및 외국인 매도세로 인해 단기적인 상승 동력을 찾기 어려울 것으로 판단됩니다. 관련 테마의 과거 낮은 적중률도 부정적인 요인입니다.",
+      "catalyst": "시장 위험 회피 심리 및 외국인 매도세 지속",
+      "confidence": "낮음",
+      "target_period": "2~3일",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성SDI",
+          "code": "006400",
+          "reason": "글로벌 전기차 시장 성장 기대감에도 불구하고, 전일 큰 폭으로 하락했으며 외국인 매도세가 강하게 나타났습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "LG에너지솔루션",
+          "code": "373220",
+          "reason": "글로벌 전기차 시장 성장 기대감에도 불구하고, 전일 큰 폭으로 하락했으며 외국인 매도세가 강하게 나타났습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "엘앤에프",
+          "code": "066970",
+          "reason": "글로벌 전기차 시장 성장 기대감에도 불구하고, 전일 큰 폭으로 하락했으며 외국인 매도세가 강하게 나타났습니다. 일부 종목은 '과열:주의' 상태입니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "AI 기술 발전",
+      "description": "AI 기술 발전은 장기적인 메가 트렌드로서 지속적인 관심이 필요하지만, 현재는 단기적인 시장의 역풍에 직면해 있습니다. 시장 불확실성 해소 후 재평가가 필요합니다.",
+      "catalyst": "AI 기술 혁신 및 산업 전반의 디지털 전환 가속화",
+      "confidence": "보통",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "네이버",
+          "code": "035420",
+          "reason": "장기적인 AI 기술 발전 트렌드에 부합하는 국내 대표 기술 기업이나, 현재는 단기 시장 불확실성으로 인해 명확한 상승 동력을 찾기 어렵습니다.",
+          "data_verified": false
+        }
+      ]
+    },
+    {
+      "theme_name": "친환경 에너지 전환 (2차전지/전력설비)",
+      "description": "친환경 에너지 전환은 장기적인 메가 트렌드로서 지속적인 관심이 필요하지만, 현재는 단기적인 시장의 역풍에 직면해 있습니다. 시장 불확실성 해소 후 재평가가 필요합니다.",
+      "catalyst": "글로벌 탄소 중립 정책 강화 및 전기차 시장 성장",
+      "confidence": "보통",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "LG화학",
+          "code": "051910",
+          "reason": "장기적인 친환경 에너지 전환 트렌드에 부합하는 국내 대표 기업이나, 현재는 단기 시장 불확실성으로 인해 명확한 상승 동력을 찾기 어렵습니다.",
+          "data_verified": false
+        }
+      ]
+    },
+    {
+      "theme_name": "고령화 사회 및 바이오 기술 발전",
+      "description": "고령화 사회 및 바이오 기술 발전은 장기적인 메가 트렌드로서 지속적인 관심이 필요하지만, 현재는 단기적인 시장의 역풍에 직면해 있습니다. 시장 불확실성 해소 후 재평가가 필요합니다.",
+      "catalyst": "인구 고령화 심화 및 바이오 신약 개발 가속화",
+      "confidence": "보통",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "셀트리온",
+          "code": "068270",
+          "reason": "장기적인 고령화 및 바이오 기술 발전 트렌드에 부합하는 국내 대표 바이오 기업이나, 현재는 단기 시장 불확실성으로 인해 명확한 상승 동력을 찾기 어렵습니다.",
+          "data_verified": false
+        }
+      ]
+    }
+  ]
+}
