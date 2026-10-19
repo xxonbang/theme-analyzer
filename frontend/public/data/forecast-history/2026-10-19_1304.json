@@ -1,0 +1,266 @@
+{
+  "forecast_date": "2026년 10월 19일",
+  "generated_at": "2026-10-19T13:04:00.569616+09:00",
+  "market_context": "미국 중간선거를 앞두고 친환경 및 인프라 투자 정책 기대감이 커지고 있으며, 중동 및 우크라이나발 지정학적 위험 고조로 국제유가가 급등했습니다. JP모건은 한국 증시의 비반도체 산업재, 금융, 헬스케어 업종에서 투자 기회를 언급했습니다.",
+  "us_market_summary": "전일 WTI 유가는 3.50% 급등하여 배럴당 99.02달러를 기록했으며, 미국 증시에서도 에너지 섹터(XLE)가 2.52% 상승하며 강세를 보였습니다.",
+  "news_sources": [
+    {
+      "title": "반등 노리는 코스피…글로벌 빅테크 실적에 쏠리는 눈",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlCH1pGoFOWwLAFrwZYzFN_UticfLinN2HF6nKqFHtoMquFvs6uprvs0Zf9QmOqCgVOxRG8RH857pMV9_kWTq2MQV3SPCLRU0W7MF53hCrKLbCCEPEMyED8VWahEGrFFJaWKIv3lp8R1jfuG-g1zwxJWth8G3UXp-QbXg="
+    },
+    {
+      "title": "[10.19(월) 월요일 장 전망] 주말 종합 · 이번 주 시장 관전 포인트",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHka8yf2XDCG7GSoPoV-aNQ3tPuuJHqgNw0679I3glb3mYJR6FpsdqZ0mrrsxocFDu6Pe2eUFLMl9OgKt--pFJQIkZ490F9LuA4wYZaBvqcsUNjZ11z9ekbFki-PyECygq5nHbvGDo-jsOWyXkltndp9fu1Ma93F3JJU1CKs1IJ"
+    },
+    {
+      "title": "美 반도체지수 8일 연속 하락… 개미들 “조정 길어지나” 한숨｜동아일보",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7jRmOWV_i65ARcgnVfz44_PeopafY31sg4JTHwFim1b3q_DsVuEUo2GLmVg_d2M18fC1xCs83HQKd6ulVll_CIKJA5Pe4JiYv3PC_KtYjlnW97pPpohAsuxsITB0GBYnhSfcfFnYmrWlRjOJRSiguiRr6OwAes5fCVJGATw=="
+    },
+    {
+      "title": "investing.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpcDTp8Oi5WM62oRphXBt9k_jJpTZLuWw5o-0DKw4y3QsVBCsohJZVl4VSrRXoP7ec2KmQrZOe2QJiZ-wbegFywA03SeIQ6fspfZsy5lAOp90WPMqQ4eEVpUYAHqUC9lMAzZ8JqGa8vA=="
+    },
+    {
+      "title": "코스피 전망, 美 반도체 8일째 급락…외국인 수급 시험대 | 김명수 기자",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL-jOlSmPbxljYiePPDgGYXk_8kN5fXI-B-C2Xr8pzrHU3UAIv1CG13H2-c5-UjHptYk102S-MdPnLB3wzYf1T1AQqezLj-Ie-8esFJBh3akVp0Z34kYlj5Up9RylodfUGPvKL7KodqhuvVACuLVatO845lsCnIimxSg=="
+    },
+    {
+      "title": "AI 자금 조달 우려에 기술주 급락…메타·테슬라 실적에 쏠린 눈[이번주 美 증시는]",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGU6NnVpYRwYe_bP7cX3t448StG5WdpBrvVGCFEY0FJ20CTqRrusprbVBGSWP1DKXnHlRRMYkULFAjeut6DHnHpYDwTztAS-rfmkkzvWLyjeubOUjrIa4Ra8xqg6-QDx7jbdc-asvHyKA9E88nqnytAdAnk"
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAmxEIwVtJ6sRLR2KhioxJdc22_-5heNfrYfwKk7XUZYCIL2uqZjHYgsOOoOb-1jq8DbWh0YTi7JytAfT41AmfI2ugqxt8C5oIWXOZ_-se5FOEF5rndAhV_IIO2GnKpGvqgBmU5GFZgMDrGo5IpxSLY6aqYaEd3kqb"
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "2차전지/전력설비/신재생에너지",
+      "description": "미국 중간선거를 약 15일 앞두고 '블루웨이브' 부각에 따른 친환경 및 인프라 투자 정책 수혜 기대감이 커지면서 2차전지, 전력저장장치(ESS), 태양광 에너지 관련 국내 기업들에게 긍정적인 모멘텀으로 작용할 것으로 예상됩니다.",
+      "catalyst": "미국 중간선거 '블루웨이브' 기대감 및 친환경/인프라 투자 정책 수혜",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성SDI",
+          "code": "006400",
+          "reason": "전일 8.77% 급등하며 외국인(+5.3만주)과 기관(+3.3만주)의 동반 순매수를 기록했습니다. 이는 강력한 시장의 관심과 수급을 보여주며, 글로벌 전기차 시장 성장 및 2차전지 소재 기업의 실적 개선 기대감이 반영된 것으로 판단됩니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "롯데에너지머티리얼즈",
+          "code": "020150",
+          "reason": "장중 실시간 수급에서 외국인(+3.5만주)과 기관(+2.3만주)의 동반 순매수를 기록하며 14.37% 상승했습니다. 이는 2차전지 소재 분야에서 높은 시장 관심을 반영합니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "엘앤에프",
+          "code": "066970",
+          "reason": "전일 외국인(+1.7만주) 순매수를 기록하며 2차전지/전력설비 테마의 대장주로 언급되었으며, 과거 모의투자 기준 안정적인 성과를 보였습니다.",
+          "data_verified": true
+        }
+      ],
+      "confidence_note": "최근 적중률 33.3%로 하향 보정"
+    },
+    {
+      "theme_name": "에너지/유가 관련주",
+      "description": "중동 및 우크라이나발 지정학적 위험이 고조되면서 국제유가가 급등하고 있습니다. 이집트가 사우디아라비아를 지원할 준비가 되어 있다고 밝히는 등 중동 지역의 긴장이 고조되고 있으며, 이란의 호르무즈 해협 재개통 요구 및 유조선 피격 주장은 에너지 공급 불안정성을 더욱 심화시키고 있습니다.",
+      "catalyst": "중동/우크라이나 지정학적 위험 고조 및 국제유가 급등",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "한국석유",
+          "code": "004090",
+          "reason": "국제유가 급등에 직접적인 수혜를 받을 수 있는 대표적인 유가 관련주입니다.",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "흥구석유",
+          "code": "024060",
+          "reason": "국제유가 변동에 민감하게 반응하는 종목으로, 유가 상승 시 시장의 주목을 받을 가능성이 높습니다.",
+          "data_verified": false
+        }
+      ]
+    },
+    {
+      "theme_name": "비반도체 산업재/헬스케어",
+      "description": "JP모건은 최근 보고서에서 한국 증시가 기술적 지표와 밸류에이션 측면에서 매력적인 수준에 진입했다고 평가하며, 중장기적으로 반도체를 제외한 산업재, 금융, 헬스케어 업종에서 투자 기회를 찾을 수 있다고 조언했습니다.",
+      "catalyst": "JP모건의 한국 증시 비반도체 산업재/헬스케어 투자 기회 언급",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성바이오로직스",
+          "code": "207940",
+          "reason": "전일 7.47% 급등하며 외국인(+6천주)과 기관(+2천주)의 동반 순매수를 기록했고, 기관은 3일 연속 순매수했습니다. JP모건의 헬스케어 투자 기회 언급과 맞물려 강력한 모멘텀을 형성하고 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "루닛",
+          "code": "328130",
+          "reason": "장중 실시간 수급에서 외국인(+2천주)과 기관(+1.1만주)의 동반 순매수와 함께 9.29% 상승했습니다. AI 기반 의료 솔루션 기업으로 헬스케어 섹터 내 성장성이 부각되고 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "현대차",
+          "code": "005380",
+          "reason": "전일 3.53% 상승했으며, 기관이 6일 연속 순매수하며 꾸준한 매수세를 보여주고 있습니다. 이는 JP모건이 언급한 비반도체 산업재 섹터의 대표적인 종목으로, 안정적인 수급이 뒷받침되고 있습니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "AI/반도체 (글로벌 빅테크 실적 영향)",
+      "description": "이번 주 메타, 테슬라 등 글로벌 빅테크 기업들의 실적 발표는 AI 관련 투자 심리와 반도체 수요 전망에 중요한 변수가 될 것입니다. AI 인프라 투자 수익성에 대한 우려가 큰 상황에서, 이들 기업의 가이던스는 테마의 방향성을 결정할 수 있습니다.",
+      "catalyst": "글로벌 빅테크 기업 실적 발표",
+      "confidence": "보통",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "종합 반도체 기업이자 AI 기술 투자에 적극적인 기업입니다.",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "HT로보틱스",
+          "code": "396300",
+          "reason": "AI 디바이스 및 로봇 분야의 성장 기대감을 반영합니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "AI 반도체의 핵심인 고대역폭 메모리(HBM) 시장의 주요 플레이어입니다.",
+          "data_verified": false
+        }
+      ]
+    },
+    {
+      "theme_name": "2차전지/전기차",
+      "description": "테슬라의 실적 발표는 글로벌 전기차 시장의 성장세와 2차전지 관련 기업들의 전망에 큰 영향을 미칠 것입니다. 다만, 해당 테마는 '과거 예측 신뢰도가 매우 낮은 실패 테마'로 분석되었으며, 주요 종목들의 수급이 엇갈리는 점은 신중한 접근을 요구합니다.",
+      "catalyst": "테슬라 실적 발표",
+      "confidence": "낮음",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "LG에너지솔루션",
+          "code": "373220",
+          "reason": "전일 외국인/기관 동반 순매수(기관 5일 연속)를 기록하며 테마 내에서 가장 긍정적인 수급을 보였습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "삼성SDI",
+          "code": "006400",
+          "reason": "2차전지 대표 기업이나, 전일 외국인/기관 동반 순매도를 기록했습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "엘앤에프",
+          "code": "066970",
+          "reason": "양극재 대표 기업이나, 전일 외국인/기관 동반 순매도를 기록했습니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "에너지/유가 관련주",
+      "description": "중동발 지정학적 리스크(이집트의 사우디 아라비아 지원 의사 표명, 이란-후티 관련 뉴스 등)는 국제 유가 변동성에 영향을 미칠 수 있습니다. 다만, WTI 유가는 전일 하락했으므로 추가적인 유가 동향을 주시해야 합니다.",
+      "catalyst": "중동 지정학적 리스크 심화",
+      "confidence": "낮음",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "흥구석유",
+          "code": "024060",
+          "reason": "유가 변동에 민감하게 반응하는 대표적인 석유 관련주입니다.",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "중앙에너비스",
+          "code": "004440",
+          "reason": "역시 유가 관련 대표주로 분류됩니다.",
+          "data_verified": false
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "AI/반도체",
+      "description": "인공지능 기술 발전 가속화와 데이터센터 인프라 투자는 거스를 수 없는 구조적 성장 동력입니다. 현재 AI 인프라 투자 수익성에 대한 단기적인 우려가 존재하지만, AI 기술의 확산은 장기적으로 반도체 수요를 견인할 것입니다.",
+      "catalyst": "인공지능 기술 발전 및 데이터센터 인프라 투자 확대",
+      "confidence": "보통",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "종합 반도체 기업으로서 AI 기술 투자 및 파운드리 역량 강화를 통해 장기적인 성장 동력을 확보하고 있습니다.",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "HT로보틱스",
+          "code": "396300",
+          "reason": "AI 기반 로봇 및 디바이스 시장의 성장은 AI 테마의 장기적인 확장을 의미합니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "고대역폭 메모리(HBM) 등 AI 반도체 시장의 핵심 플레이어로서 장기 성장 잠재력이 높습니다.",
+          "data_verified": false
+        }
+      ]
+    },
+    {
+      "theme_name": "2차전지/전력설비",
+      "description": "글로벌 전기차 전환 가속화와 에너지 저장 시스템(ESS) 및 노후 전력망 교체, 신재생에너지 확대를 위한 전력망 인프라 투자는 장기적인 관점에서 구조적인 성장 동력입니다. 현재는 시장 불안정성과 엇갈리는 수급, 과거 실패 테마 이력이 부담으로 작용하고 있으나, 근본적인 성장 추세는 변함이 없습니다.",
+      "catalyst": "글로벌 전기차 전환 및 에너지 인프라 투자 확대",
+      "confidence": "보통",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "LG에너지솔루션",
+          "code": "373220",
+          "reason": "글로벌 2차전지 시장의 선두 기업으로서 장기적인 성장 잠재력을 보유하고 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "삼성SDI",
+          "code": "006400",
+          "reason": "2차전지 및 ESS 솔루션 분야에서 경쟁력을 갖춘 기업입니다.",
+          "data_verified": false
+        },
+        {
+          "priority": 3,
+          "name": "LS ELECTRIC",
+          "code": "010120",
+          "reason": "전력 인프라 및 전력설비 분야의 대표 기업으로, 전력망 투자 확대의 수혜가 예상됩니다.",
+          "data_verified": false
+        }
+      ]
+    }
+  ]
+}
