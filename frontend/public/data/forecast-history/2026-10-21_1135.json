@@ -1,0 +1,148 @@
+{
+  "forecast_date": "2026년 10월 21일",
+  "generated_at": "2026-10-21T11:35:11.509391+09:00",
+  "market_context": "2026년 10월 21일 장 개장 전, 전일 시장 데이터와 실시간 뉴스를 기반으로 향후 유망 테마를 분석했습니다. 미국 시장은 헬스케어 및 금융 섹터의 강세가 두드러졌으며, 국내 시장은 반도체 및 AI 관련 종목들이 전일 거래대금 상위를 기록하며 강한 수급을 보였습니다. 글로벌 매크로 환경에서는 유가 상승 압력과 중동 지정학적 리스크가 지속되는 가운데, AI 산업에 대한 관심은 여전히 높습니다.",
+  "us_market_summary": "S&P500은 +0.28% 상승, NASDAQ은 -0.02% 하락 마감했습니다. 헬스케어 섹터가 +2.37%, 금융 섹터가 +1.20% 강세를 보였으며, WTI 유가는 -4.38% 하락했습니다.",
+  "news_sources": [
+    {
+      "title": "증시 반등했지만…&#039;한국 AI 30% 폭락&#039;에 숨죽인 빅테크[뉴욕마감]",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhvRGtMYsfdaFT_P0KoOuY0ciHL_k1LTscx_4c9dtzsMiXyZv7GFGlo8p1zeTwfN8V1GvGD-XQbGyH4g6opKr52Ng3v3sL0aVnlGEomHGu8KbDRNCpBVDc-mIYSduiMetKGURqrYd-Hg4vMjMEdREnSmRIyA=="
+    },
+    {
+      "title": "뉴욕증시, 실적 호조·유가 하락에 투자심리 개선…다우 1%↑",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzclaF3yuQxV0bvNakgdRECUMMiywgKgdzfmBVnVDFZ0DnB0wTxqe9lYKlTwDenc4edGrrZPT1CRSK_sX6fCr_aapJg1xDXTv33RQVRHagsrqFldhdxnQGwzLOeYoK0Ze8mLxYsiyyTisZ"
+    },
+    {
+      "title": "탄탄한 기업 실적과 국제유가 하락",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFU1LGleZn3AeeVOWElHKI5PqXyhfK9MHAAc2areYP5RsmXmw8poSkCgH9p0F5D4UByJp4_-GBNsw3ZdBFp5oK9_SSOB5q-anlg0fBI1VeAjoouZAIsNm1B2Xs="
+    },
+    {
+      "title": "investing.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTU4ORe5ri4J4N7vghOBmCzb4Skg6ErGMq2XjtU6fwq0p34Z-r5MZ0Yz1WY-T1KriifvSKzDqQgh5GNuHcy9XIeK5-EiKz2IfIB4oxceYMB9ngo3aJQuVRTpPKJ1PKVZIiDBKxT0RYp_OAr9GgeunwXJatSe8qX4fE-122CK1a"
+    },
+    {
+      "title": "[KFT 모닝 브리프] 2026.10.21 — 오늘 꼭 알아야 할 국내외 경제뉴스",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLBmeDjVi5U5zwvitUR1W0hDpta9ajtjBXC1Dd9muBYUP4PYdYmC36OZliJvF8cD88JenR3iuM4BWZ586UPOk7R8icG_mcdGVSnW9xOhzRbBgclcNywMFWyZIkN9O-rlJpbK7Y_ccrcHZLADO0ZKHAy5re_6RpQBwWMHyne7VIxG0="
+    },
+    {
+      "title": "28조 팔아치우고 이것 샀다…외인들 조용히 쓸어담은 종목",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu4FjDCAXV4w3ucSPvIEC1ULbSdLH2wMmdq2ZEfA8zVjA5S6T3CVBM0WdXgxD0ZsdmJ15Yq36fw3UlRYgQhgfSEzeZYg4bc32C8LgdQ0x_YYOCYCV2PXevOK8Lmdsycw_iNVclap7JLzw="
+    },
+    {
+      "title": "&quot;韓 증시 코로나 위기때보다 더 저평가됐다&quot;",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0S7OcWU8v4Se06l4GVOMPLJiOrge9ezgr_wOuGESUaudo4-ZnSgvyM9LOVlKKYpDwCV5ap-YxFZvFKyIvZfzyDYo8zUbRZ7pjYMhr9k4qX0649jiHhYZhK8NWZ3Im9If5VEL64fQhu-db8X8G38raaVo77g=="
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE41tZUC73k9dHlMV79do6esxvTr6rWVM_YVHAk3OMjavjmK0InL-OTSA1HZN2NCtUSwmC-sSPBHqsutc_Ep6S7xUAdSq3ij4FaMB6hY8fQ85KtQwiLcwtFDoQroUEEfWCv8mu0KmUjAYttbtV4AMqjHNNiI_3FLvgsmw=="
+    },
+    {
+      "title": "investing.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpT4tqy6tWpnotcX7VVOh6cY3MmDcTzdsmcnzS75JlEhGR80HGvrEXg8NhH6j4yWSScNS2biV6ZfFUiVOUJQGEYOLqZW91xH00_NS0jLVSQV0DAOvzKFv4U_8VYtHO0kRjk7QuR_k="
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "반도체",
+      "description": "국내 반도체 대형주 및 일부 장비/소재 기업의 견조한 실적 기대감과 외국인/기관의 강력한 순매수 지속. 글로벌 AI 산업 성장에 따른 반도체 수요 증가 기대감.",
+      "catalyst": "국내 반도체 기업 실적 기대감 및 외국인/기관 순매수 지속",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "전일 코스피 거래대금 최상위(17,028억원), 외국인 및 기관 동반 순매수(+4.5만주, +5.6만주) 기록하며 5.64% 상승. 국내 반도체 업황 개선의 핵심 수혜주로 판단.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "전일 코스피 거래대금 상위(10,743억원), 외국인 및 기관 동반 순매수(+44.6만주, +26.2만주) 기록하며 4.26% 상승. 외국인 4일 연속 순매수. 국내 증시 대장주로서 반도체 업황 개선의 직접적인 수혜.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "두산테스나",
+          "code": "131970",
+          "reason": "전일 코스피에서 11.82% 상승, 외국인 및 기관 동반 순매수(+3.8만주, +0.4만주) 기록. 외국인 3일 연속 순매수. 비메모리 반도체 테스트 전문 기업으로, 반도체 업황 개선 시 수혜 기대.",
+          "data_verified": true
+        }
+      ],
+      "confidence_note": "최근 적중률 33.3%로 하향 보정"
+    },
+    {
+      "theme_name": "바이오/제약",
+      "description": "미국 헬스케어 섹터의 강세 흐름과 국내 개별 바이오 기업들의 기술력 및 실적 기대감에 따른 외국인/기관 수급 개선. 3분기 실적 발표 시즌을 맞아 개별 기업의 긍정적 실적 발표 가능성.",
+      "catalyst": "미국 헬스케어 섹터 강세 및 국내 개별 바이오 기업 수급 개선",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "지투지바이오",
+          "code": "456160",
+          "reason": "전일 코스닥에서 14.86% 급등, 외국인 및 기관 동반 순매수(+2.9만주, +0.3만주) 기록. 기관 2일 연속 순매수. 개별 모멘텀이 강하게 작용.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "올릭스",
+          "code": "226950",
+          "reason": "전일 코스닥에서 9.53% 상승, 외국인 및 기관 동반 순매수(+0.6만주, +0.1만주) 기록. RNA 간섭 기술 기반 신약 개발 기업으로, 기술력 부각 시 모멘텀 기대.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "큐리옥스바이오시스템즈",
+          "code": "445680",
+          "reason": "전일 코스닥에서 12.41% 상승, 외국인 순매수(+4.0만주) 기록. 바이오 분석 장비 관련 기업으로, 바이오 섹터 전반의 투자 심리 개선 시 수혜 기대.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "증권/금융투자",
+      "description": "10월 24일 (목) 한국은행 금융통화위원회 본회의에서 기준금리 결정이 예정되어 있습니다. 금리 동결 또는 인하 시 금융 시장에 긍정적인 영향을 미칠 수 있으며, 이는 증권 및 금융투자 업종에 대한 기대로 이어질 수 있습니다.",
+      "catalyst": "한국은행 금융통화위원회 기준금리 결정",
+      "confidence": "보통",
+      "target_period": "7일 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "KB금융",
+          "code": "105560",
+          "reason": "전일(8월 31일 기준) 거래대금 상위 종목이었으며, 기관 순매수세가 유입되었습니다. 금통위 결과에 따라 추가적인 수급 개선을 기대할 수 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "우리금융지주",
+          "code": "316140",
+          "reason": "전일(8월 31일 기준) 기관 순매수세가 강하게 유입되었습니다. 금통위 결과에 따른 수혜가 예상됩니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "방산",
+      "description": "이란과 중동 지역의 지정학적 불안정 심화는 장기적으로 방위 산업에 대한 투자 심리를 자극할 수 있습니다.",
+      "catalyst": "중동 지정학적 불안정 심화",
+      "confidence": "낮음",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "한화에어로스페이스",
+          "code": "012450",
+          "reason": "전일(8월 31일 기준) 거래대금 상위 종목이었으나 큰 폭으로 하락하고 외국인/기관 동반 매도세가 나타났습니다. 현재는 수급이 부진하나, 지정학적 리스크가 장기화될 경우 다시 주목받을 가능성이 있습니다. 새로운 촉매(지정학적 리스크)가 강하나, 실제 수급이 뒷받침되는지 지속적인 관찰이 필요합니다.",
+          "data_verified": false
+        }
+      ]
+    }
+  ]
+}
