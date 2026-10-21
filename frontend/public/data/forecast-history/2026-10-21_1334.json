@@ -1,0 +1,178 @@
+{
+  "forecast_date": "2026년 10월 21일",
+  "generated_at": "2026-10-21T13:34:08.670254+09:00",
+  "market_context": "전일 코스피는 급락에 따른 낙폭 과대 인식과 미국 금리·유가 하락, AI 서버 수요 호조로 반등을 시도했으며, 외국인과 기관의 순매수가 유입되었습니다. 미국 증시는 중동 긴장 완화 기대와 일부 기업 실적 호조로 다우존스와 S&P 500이 상승했으나, 나스닥은 AI 관련주 투자심리 위축으로 약보합 마감했습니다.",
+  "us_market_summary": "다우존스 산업평균지수 +1.02%, S&P 500 지수 +0.28% 상승, 나스닥 종합지수 -0.02% 하락했습니다. 헬스케어(+2.37%)와 금융(+1.20%) 섹터가 강세를 보였으며, 필라델피아 반도체 지수는 -0.29% 하락했습니다.",
+  "news_sources": [
+    {
+      "title": "증시 반등했지만…&#039;한국 AI 30% 폭락&#039;에 숨죽인 빅테크[뉴욕마감]",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhvRGtMYsfdaFT_P0KoOuY0ciHL_k1LTscx_4c9dtzsMiXyZv7GFGlo8p1zeTwfN8V1GvGD-XQbGyH4g6opKr52Ng3v3sL0aVnlGEomHGu8KbDRNCpBVDc-mIYSduiMetKGURqrYd-Hg4vMjMEdREnSmRIyA=="
+    },
+    {
+      "title": "뉴욕증시, 실적 호조·유가 하락에 투자심리 개선…다우 1%↑",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzclaF3yuQxV0bvNakgdRECUMMiywgKgdzfmBVnVDFZ0DnB0wTxqe9lYKlTwDenc4edGrrZPT1CRSK_sX6fCr_aapJg1xDXTv33RQVRHagsrqFldhdxnQGwzLOeYoK0Ze8mLxYsiyyTisZ"
+    },
+    {
+      "title": "탄탄한 기업 실적과 국제유가 하락",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFU1LGleZn3AeeVOWElHKI5PqXyhfK9MHAAc2areYP5RsmXmw8poSkCgH9p0F5D4UByJp4_-GBNsw3ZdBFp5oK9_SSOB5q-anlg0fBI1VeAjoouZAIsNm1B2Xs="
+    },
+    {
+      "title": "investing.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTU4ORe5ri4J4N7vghOBmCzb4Skg6ErGMq2XjtU6fwq0p34Z-r5MZ0Yz1WY-T1KriifvSKzDqQgh5GNuHcy9XIeK5-EiKz2IfIB4oxceYMB9ngo3aJQuVRTpPKJ1PKVZIiDBKxT0RYp_OAr9GgeunwXJatSe8qX4fE-122CK1a"
+    },
+    {
+      "title": "[KFT 모닝 브리프] 2026.10.21 — 오늘 꼭 알아야 할 국내외 경제뉴스",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLBmeDjVi5U5zwvitUR1W0hDpta9ajtjBXC1Dd9muBYUP4PYdYmC36OZliJvF8cD88JenR3iuM4BWZ586UPOk7R8icG_mcdGVSnW9xOhzRbBgclcNywMFWyZIkN9O-rlJpbK7Y_ccrcHZLADO0ZKHAy5re_6RpQBwWMHyne7VIxG0="
+    },
+    {
+      "title": "28조 팔아치우고 이것 샀다…외인들 조용히 쓸어담은 종목",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu4FjDCAXV4w3ucSPvIEC1ULbSdLH2wMmdq2ZEfA8zVjA5S6T3CVBM0WdXgxD0ZsdmJ15Yq36fw3UlRYgQhgfSEzeZYg4bc32C8LgdQ0x_YYOCYCV2PXevOK8Lmdsycw_iNVclap7JLzw="
+    },
+    {
+      "title": "&quot;韓 증시 코로나 위기때보다 더 저평가됐다&quot;",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0S7OcWU8v4Se06l4GVOMPLJiOrge9ezgr_wOuGESUaudo4-ZnSgvyM9LOVlKKYpDwCV5ap-YxFZvFKyIvZfzyDYo8zUbRZ7pjYMhr9k4qX0649jiHhYZhK8NWZ3Im9If5VEL64fQhu-db8X8G38raaVo77g=="
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE41tZUC73k9dHlMV79do6esxvTr6rWVM_YVHAk3OMjavjmK0InL-OTSA1HZN2NCtUSwmC-sSPBHqsutc_Ep6S7xUAdSq3ij4FaMB6hY8fQ85KtQwiLcwtFDoQroUEEfWCv8mu0KmUjAYttbtV4AMqjHNNiI_3FLvgsmw=="
+    },
+    {
+      "title": "investing.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpT4tqy6tWpnotcX7VVOh6cY3MmDcTzdsmcnzS75JlEhGR80HGvrEXg8NhH6j4yWSScNS2biV6ZfFUiVOUJQGEYOLqZW91xH00_NS0jLVSQV0DAOvzKFv4U_8VYtHO0kRjk7QuR_k="
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "반도체",
+      "description": "전일 국내 증시에서 삼성전자와 SK하이닉스가 외국인과 기관의 강력한 순매수에 힘입어 높은 상승률을 기록하며 시장을 견인했습니다. 이는 AI 서버 수요 호조에 대한 기대감과 SK하이닉스의 자사주 매입·소각 마무리 예정이 긍정적으로 작용한 것으로 풀이됩니다. 미국 증시 마감 후 스페이스X의 AI 컴퓨팅 수요 초과 발언 및 슈퍼마이크로컴퓨터(SMCI)의 급등은 AI 인프라 관련 반도체 수요에 대한 기대감을 더욱 높이고 있습니다.",
+      "catalyst": "AI 서버 수요 호조 및 엔비디아 GTC 기조연설, 메타 실적 발표 대기",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "전일 코스피 거래대금 2위 (2.5조원), +4.96% 상승, 외국인 4일 연속 순매수 및 기관 동반 순매수. AI 및 반도체 산업의 핵심 대장주로서 시장의 강력한 수급을 받고 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "전일 코스피 거래대금 1위 (3.7조원), +3.84% 상승, 외국인 및 기관 동반 순매수. AI 반도체 시장의 핵심 플레이어로서 강력한 매수세가 유입되고 있으며, 자사주 매입 종료로 인한 수급 불확실성 해소 기대감도 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "주성엔지니어링",
+          "code": "036930",
+          "reason": "전일 +2.73% 상승, 1,542억원 거래대금. 기관 순매수 유입. 반도체 장비 관련주로서 대형주 강세에 동반 상승 기대.",
+          "data_verified": true
+        }
+      ],
+      "confidence_note": "최근 적중률 33.3%로 하향 보정"
+    },
+    {
+      "theme_name": "바이오/제약",
+      "description": "전일 미국 증시에서 헬스케어 섹터(XLV)가 가장 높은 상승률을 기록하며 긍정적인 투자 심리를 형성했습니다. 국내 증시에서도 지투지바이오가 급등하며 외국인과 기관의 동반 순매수를 기록했고, 올릭스, 큐리옥스바이오시스템즈, 엔젠바이오 등 개별 바이오 종목들이 높은 상승률을 보이며 수급이 유입되었습니다.",
+      "catalyst": "미국 헬스케어 섹터 강세 및 국내 개별 바이오 종목 수급 유입",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "지투지바이오",
+          "code": "456160",
+          "reason": "전일 코스닥 +19.59% 급등, 384억원 거래대금, 외국인 및 기관 동반 순매수, 기관 2일 연속 순매수. 바이오/제약 테마 내에서 가장 강력한 수급과 상승 모멘텀을 보여주고 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "올릭스",
+          "code": "226950",
+          "reason": "전일 코스닥 +11.17% 상승, 외국인 및 기관 동반 순매수. RNAi 기반 신약 개발 기업으로, 바이오 섹터 내에서 꾸준히 주목받는 종목입니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "AI/소프트웨어",
+      "description": "AI 서버 수요 호조에 대한 기대감은 지속되고 있으며, 엔비디아 GTC 기조연설 및 메타의 3분기 실적 발표 등 AI 산업의 향방을 가늠할 주요 이벤트들이 대기하고 있습니다. 스페이스X의 AI 컴퓨팅 수요 초과 발언은 AI 인프라 투자에 대한 긍정적인 시그널로 작용할 수 있습니다. 전일 시장에서는 SK스퀘어, SK와 같은 AI 투자 관련 지주사 형태의 종목들이 외국인과 기관의 순매수를 받으며 강세를 보였습니다.",
+      "catalyst": "AI 서버 수요 호조 및 AI 관련 주요 이벤트 대기",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "SK스퀘어",
+          "code": "402340",
+          "reason": "전일 코스닥 +2.70% 상승, 3,847억원 거래대금, 외국인 6일 연속 순매수 및 기관 동반 순매수. 다양한 IT 및 AI 관련 자회사 투자 포트폴리오를 보유한 지주사로서 AI 테마의 간접 수혜주로 부각되고 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "아이크래프트",
+          "code": "052460",
+          "reason": "장중 실시간 수급에서 외국인 순매수와 함께 +20.85% 급등. 네트워크 인프라 및 보안 솔루션 관련 기업으로, AI 인프라 구축 수요 증가 시 수혜를 받을 수 있습니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "광통신/5G 인프라",
+      "description": "전일 대한광통신이 +9.10% 급등하며 외국인과 기관의 동반 순매수를 기록했습니다. 이는 5G 및 광통신 인프라 투자 확대에 대한 기대감이 반영된 것으로 보입니다. AI 기술 발전과 함께 데이터 트래픽이 폭증하면서 고성능 통신 인프라의 중요성이 부각되고 있으며, 관련 장비 및 부품 기업들이 주목받을 수 있습니다.",
+      "catalyst": "5G 및 광통신 인프라 투자 확대 기대감",
+      "confidence": "낮음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "대한광통신",
+          "code": "010170",
+          "reason": "전일 코스피 +9.10% 상승, 1,165억원 거래대금, 외국인 및 기관 2일 연속 동반 순매수. 광통신 케이블 및 부품 전문 기업으로, 관련 테마 내에서 가장 강력한 수급을 보여주고 있습니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "증권/금융투자",
+      "description": "10월 24일 (목) 한국은행 금융통화위원회 본회의에서 기준금리 결정이 예정되어 있습니다. 금리 동결 또는 인하 시 금융 시장에 긍정적인 영향을 미칠 수 있으며, 이는 증권 및 금융투자 업종에 대한 기대로 이어질 수 있습니다.",
+      "catalyst": "한국은행 금융통화위원회 기준금리 결정",
+      "confidence": "보통",
+      "target_period": "7일 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "KB금융",
+          "code": "105560",
+          "reason": "전일(8월 31일 기준) 거래대금 상위 종목이었으며, 기관 순매수세가 유입되었습니다. 금통위 결과에 따라 추가적인 수급 개선을 기대할 수 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "우리금융지주",
+          "code": "316140",
+          "reason": "전일(8월 31일 기준) 기관 순매수세가 강하게 유입되었습니다. 금통위 결과에 따른 수혜가 예상됩니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "방산",
+      "description": "이란과 중동 지역의 지정학적 불안정 심화는 장기적으로 방위 산업에 대한 투자 심리를 자극할 수 있습니다.",
+      "catalyst": "중동 지정학적 불안정 심화",
+      "confidence": "낮음",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "한화에어로스페이스",
+          "code": "012450",
+          "reason": "전일(8월 31일 기준) 거래대금 상위 종목이었으나 큰 폭으로 하락하고 외국인/기관 동반 매도세가 나타났습니다. 현재는 수급이 부진하나, 지정학적 리스크가 장기화될 경우 다시 주목받을 가능성이 있습니다. 새로운 촉매(지정학적 리스크)가 강하나, 실제 수급이 뒷받침되는지 지속적인 관찰이 필요합니다.",
+          "data_verified": false
+        }
+      ]
+    }
+  ]
+}
