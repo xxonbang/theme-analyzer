@@ -1,0 +1,111 @@
+{
+  "forecast_date": "2026년 10월 21일",
+  "generated_at": "2026-10-21T09:33:12.455249+09:00",
+  "market_context": "전일 미국 증시는 다우존스 산업평균지수와 S&P500이 상승 마감했으나, 나스닥과 필라델피아 반도체 지수는 소폭 하락하며 기술주에 대한 투자심리가 혼조세를 보였습니다. 국제유가 하락과 미국 장기 국채금리 안정화는 전반적인 시장 투자심리 회복에 긍정적으로 작용했습니다. 국내 증시는 전일 급락에 따른 낙폭 과대 인식과 함께 미국 금리·유가 하락, AI 서버 수요 호조 등이 반등 재료로 작용할 것으로 예상됩니다.",
+  "us_market_summary": "다우존스 산업평균지수와 S&P500은 상승 마감했으나, 나스닥과 필라델피아 반도체 지수는 소폭 하락했습니다. AI 투자 수익성 의구심으로 기술주와 반도체 기업이 약세를 보인 반면, 헬스케어 및 금융 섹터는 강세를 나타냈습니다.",
+  "news_sources": [
+    {
+      "title": "증시 반등했지만…&#039;한국 AI 30% 폭락&#039;에 숨죽인 빅테크[뉴욕마감]",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhvRGtMYsfdaFT_P0KoOuY0ciHL_k1LTscx_4c9dtzsMiXyZv7GFGlo8p1zeTwfN8V1GvGD-XQbGyH4g6opKr52Ng3v3sL0aVnlGEomHGu8KbDRNCpBVDc-mIYSduiMetKGURqrYd-Hg4vMjMEdREnSmRIyA=="
+    },
+    {
+      "title": "뉴욕증시, 실적 호조·유가 하락에 투자심리 개선…다우 1%↑",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzclaF3yuQxV0bvNakgdRECUMMiywgKgdzfmBVnVDFZ0DnB0wTxqe9lYKlTwDenc4edGrrZPT1CRSK_sX6fCr_aapJg1xDXTv33RQVRHagsrqFldhdxnQGwzLOeYoK0Ze8mLxYsiyyTisZ"
+    },
+    {
+      "title": "탄탄한 기업 실적과 국제유가 하락",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFU1LGleZn3AeeVOWElHKI5PqXyhfK9MHAAc2areYP5RsmXmw8poSkCgH9p0F5D4UByJp4_-GBNsw3ZdBFp5oK9_SSOB5q-anlg0fBI1VeAjoouZAIsNm1B2Xs="
+    },
+    {
+      "title": "investing.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTU4ORe5ri4J4N7vghOBmCzb4Skg6ErGMq2XjtU6fwq0p34Z-r5MZ0Yz1WY-T1KriifvSKzDqQgh5GNuHcy9XIeK5-EiKz2IfIB4oxceYMB9ngo3aJQuVRTpPKJ1PKVZIiDBKxT0RYp_OAr9GgeunwXJatSe8qX4fE-122CK1a"
+    },
+    {
+      "title": "[KFT 모닝 브리프] 2026.10.21 — 오늘 꼭 알아야 할 국내외 경제뉴스",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLBmeDjVi5U5zwvitUR1W0hDpta9ajtjBXC1Dd9muBYUP4PYdYmC36OZliJvF8cD88JenR3iuM4BWZ586UPOk7R8icG_mcdGVSnW9xOhzRbBgclcNywMFWyZIkN9O-rlJpbK7Y_ccrcHZLADO0ZKHAy5re_6RpQBwWMHyne7VIxG0="
+    },
+    {
+      "title": "28조 팔아치우고 이것 샀다…외인들 조용히 쓸어담은 종목",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu4FjDCAXV4w3ucSPvIEC1ULbSdLH2wMmdq2ZEfA8zVjA5S6T3CVBM0WdXgxD0ZsdmJ15Yq36fw3UlRYgQhgfSEzeZYg4bc32C8LgdQ0x_YYOCYCV2PXevOK8Lmdsycw_iNVclap7JLzw="
+    },
+    {
+      "title": "&quot;韓 증시 코로나 위기때보다 더 저평가됐다&quot;",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0S7OcWU8v4Se06l4GVOMPLJiOrge9ezgr_wOuGESUaudo4-ZnSgvyM9LOVlKKYpDwCV5ap-YxFZvFKyIvZfzyDYo8zUbRZ7pjYMhr9k4qX0649jiHhYZhK8NWZ3Im9If5VEL64fQhu-db8X8G38raaVo77g=="
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE41tZUC73k9dHlMV79do6esxvTr6rWVM_YVHAk3OMjavjmK0InL-OTSA1HZN2NCtUSwmC-sSPBHqsutc_Ep6S7xUAdSq3ij4FaMB6hY8fQ85KtQwiLcwtFDoQroUEEfWCv8mu0KmUjAYttbtV4AMqjHNNiI_3FLvgsmw=="
+    },
+    {
+      "title": "investing.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpT4tqy6tWpnotcX7VVOh6cY3MmDcTzdsmcnzS75JlEhGR80HGvrEXg8NhH6j4yWSScNS2biV6ZfFUiVOUJQGEYOLqZW91xH00_NS0jLVSQV0DAOvzKFv4U_8VYtHO0kRjk7QuR_k="
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "AI/반도체",
+      "description": "미국 증시에서 AI 투자 수익성에 대한 의구심이 제기되며 주요 기술주와 반도체주의 약세가 나타났으나, 스페이스X의 AI 컴퓨팅 수요 초과 발언과 엔비디아 GTC 기조연설, 메타 3분기 실적 발표가 AI/반도체 테마의 향방을 결정할 주요 촉매로 작용할 것입니다. 전일 하락폭이 컸던 국내 대형 반도체주에 대한 낙폭 과대 인식에 따른 반발 매수세 유입 가능성도 있습니다.",
+      "catalyst": "엔비디아 젠슨 황 CEO의 GTC 기조연설 및 메타 3분기 실적 발표",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "플리토",
+          "code": "300080",
+          "reason": "전일 장중 외국인(+3.0만주)과 기관(+6.9만주)의 동반 순매수가 포착되며 상한가에 근접하는 강세를 보였습니다. AI 기반 번역 및 데이터 기업으로서 AI 테마 내에서 강한 수급 모멘텀을 확보했습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "자이언트스텝",
+          "code": "289220",
+          "reason": "전일 장중 외국인(+4.8만주) 순매수가 포착되며 상한가에 근접하는 강세를 보였습니다. AI 기반 실감형 콘텐츠 및 VFX 기술 기업으로 AI 테마의 확산에 따른 수혜가 기대됩니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "증권/금융투자",
+      "description": "10월 24일 (목) 한국은행 금융통화위원회 본회의에서 기준금리 결정이 예정되어 있습니다. 금리 동결 또는 인하 시 금융 시장에 긍정적인 영향을 미칠 수 있으며, 이는 증권 및 금융투자 업종에 대한 기대로 이어질 수 있습니다.",
+      "catalyst": "한국은행 금융통화위원회 기준금리 결정",
+      "confidence": "보통",
+      "target_period": "7일 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "KB금융",
+          "code": "105560",
+          "reason": "전일(8월 31일 기준) 거래대금 상위 종목이었으며, 기관 순매수세가 유입되었습니다. 금통위 결과에 따라 추가적인 수급 개선을 기대할 수 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "우리금융지주",
+          "code": "316140",
+          "reason": "전일(8월 31일 기준) 기관 순매수세가 강하게 유입되었습니다. 금통위 결과에 따른 수혜가 예상됩니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "방산",
+      "description": "이란과 중동 지역의 지정학적 불안정 심화는 장기적으로 방위 산업에 대한 투자 심리를 자극할 수 있습니다.",
+      "catalyst": "중동 지정학적 불안정 심화",
+      "confidence": "낮음",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "한화에어로스페이스",
+          "code": "012450",
+          "reason": "전일(8월 31일 기준) 거래대금 상위 종목이었으나 큰 폭으로 하락하고 외국인/기관 동반 매도세가 나타났습니다. 현재는 수급이 부진하나, 지정학적 리스크가 장기화될 경우 다시 주목받을 가능성이 있습니다. 새로운 촉매(지정학적 리스크)가 강하나, 실제 수급이 뒷받침되는지 지속적인 관찰이 필요합니다.",
+          "data_verified": false
+        }
+      ]
+    }
+  ]
+}
