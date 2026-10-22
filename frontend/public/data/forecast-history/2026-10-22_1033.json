@@ -1,0 +1,150 @@
+{
+  "forecast_date": "2026년 10월 22일",
+  "generated_at": "2026-10-22T10:33:53.903902+09:00",
+  "market_context": "오늘은 2026년 10월 22일 장 개장 전이며, 전일 미국 증시의 AI 및 반도체 관련 강력한 호재와 국내 증시의 AI 인프라 및 건설/플랜트 관련주 강세가 시장을 주도했습니다. 이러한 흐름은 오늘 한국 증시에도 긍정적인 영향을 미칠 것으로 예상됩니다.",
+  "us_market_summary": "전일 미국 증시에서는 스페이스X의 AI 사업 호실적, 엔비디아 상승, 슈퍼마이크로컴퓨터의 매출 전망 상향 등 AI 및 반도체 관련 호재가 기술주 전반의 상승을 견인했습니다. OpenAI의 ChatGPT Ads 26개국 확장 소식도 AI 산업 성장을 뒷받침했습니다.",
+  "news_sources": [
+    {
+      "title": "뉴욕증시, 스페이스X 호실적에 상승…나스닥 1.1%↑",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUaWMwPLB5iWyd7yl_WU0Nl9K2NzO0U7Lhc74nI694nKu1mAl7Nq0S4CZgJ5slNEx86_VKS5_D44dpaw8aHa42fei3rp5mMHSV6o_AX_w9OtZ88ohpSMKiJiqPAZfvJVF33-MBGDrs5s0="
+    },
+    {
+      "title": "[서울데이터랩]미국 증시, 기술주 강세에 일제히 상승 마감…나스닥 1%대 올라",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-7zSuwhxb8PHHX9bIR1eoepALpUVlcmErCHnQ27NB-firEkVChddUBGPQjlZZfDZToYKpZi4SwDpE3rY82At9GDIgqZoKLBTQyE_YYDpOHY8MwNPjcfr8OlMWabJEi0b_VAIIk4RXz0ZzVC1OrA0UbPdP5JHX6gQO-V-sArnxqPxMHQ=="
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH33DtaNhMj3iDr233oH0MPYjgYnOkM6HEsbBii6YNKQfZJ_I2upTjk8tap4MKqdSnu3vbkz2gyMqhRkWtqViryeE_ll8-ZGnUQpcqr2AVVLY52DOGuDKZetCUbiYWX3TnBu0_o5BuTqOvdvRAz65HhczDT3p_KNg_o"
+    },
+    {
+      "title": "뉴욕증시, 상승세로 마감…나스닥 1.05%↑",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8AZck5G5oAPWBYwP5fCMppPibRjpjOqEzCbyB6FbYvKFiVziU3vZpB_JSFw609crr5iixvb9jbiAVQ0xGnXehXSPCJgDgIbLWueLnI-ZqK92UFHz7ngBN-JKCzHsm6Eld"
+    },
+    {
+      "title": "국내증시 전망, 코스피 반등 시도…삼성전자·SK하이닉스 수급 관건 | 김명수 기자",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGT2mEYMZWAnRNcw8tBlE7AUjNYIjSNOXcAZr7memh6X7OtPMZ0OJod6wxeqLSvHq6vs_orKcs-qs8sEZcGr3TRtbopHgsZYxZDG6-iuiMGukIcIRgFC9N_pOQ5aOWaeebIu9-Rf0r8nRslMUKRFyoVy8MMm9Vv8FQllA=="
+    },
+    {
+      "title": "[주간증시전망]급락 딛고 반등한 코스피, 금주 방향성은…外人 수급·실적이 관건",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0lNbeBsuare-iFm9LhE8Zuxo7RqviLfRaaGpOvbqaznF831QavUsrPwJ1UpOgtWokfvmZ1BUNom1fwOzavh5FmcioCwJctDNMBp4Hi3JXr8FHKbhC84WfB93UTm7jyB4fEw7LgyrUbnVllhyFIDRW"
+    },
+    {
+      "title": "investing.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhfIEkFL7jwZDwOIMM_yFg-94i-A0RFfcAoCkmrqZ905tdbwKA7sNnk3al-zAIkhUrv0IIU0B1VuZ2VF3ZNrnLUQ2hT2EBCOrDdkN4FZrCp93OTJeipu0Fkb4QQqiqcSWSqZjjzGj_k-1cF28Mr6cG61ADlaOVqwbU"
+    },
+    {
+      "title": "오늘(22일) 10월 한은 금통위&#8230;기준금리 동결 전망 우세",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIBmbbBOvkKbm-QIJjvDLPYB2UQSl-JNYU5oFKLytcr-Ahm3pUXg1BvcBpwbxsoBWp1t0Lp81QieTgZaPGYzCI2J-TDOyTIhKhE_N7Y9iku75gfKyiflWLj8r2uDF5zmx4rhBfskrf-cGAbt2lwcMgg7_O_zGovp0UXk7FjGMV"
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "AI/반도체 및 AI 인프라 (전력설비 포함)",
+      "description": "전일 미국 증시에서 스페이스X의 AI 사업 호실적, 엔비디아 상승, 슈퍼마이크로컴퓨터의 매출 전망 상향 등 강력한 AI 및 반도체 관련 호재가 쏟아져 나오며 기술주 전반의 상승을 견인했습니다. OpenAI의 ChatGPT Ads 26개국 확장 소식 또한 AI 산업의 성장을 뒷받침합니다. 국내 증시 또한 전일 AI 인프라 관련주를 중심으로 급반등했습니다. 이는 AI 기술 발전과 데이터센터 구축 수요 증가라는 장기적인 메가트렌드와 맞물려 지속적인 시장의 관심을 받을 것으로 예상됩니다.",
+      "catalyst": "미국발 AI 및 반도체 호재와 OpenAI의 ChatGPT Ads 확장",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "대덕전자",
+          "code": "353200",
+          "reason": "전일 +4.39% 상승, 거래대금 상위권, 외국인/기관 동반 순매수(기관 8일 연속), 반도체 기판 및 PCB 전문 기업으로 AI 반도체 수요 증가 수혜 기대.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "코세스",
+          "code": "089890",
+          "reason": "장중 실시간 수급에서 +10.93% 급등, 외국인/기관 동반 순매수, 반도체 후공정 장비 기업으로 AI 반도체 생산 증가 수혜 예상.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "LS에코에너지",
+          "code": "229640",
+          "reason": "장중 실시간 수급에서 +10.15% 상승, 외국인/기관 동반 순매수, 전력 케이블 및 해저 케이블 사업 영위로 AI 데이터센터 및 전력 인프라 구축 수요 증가 수혜 기대.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "건설/인프라 (플랜트 및 건설기계)",
+      "description": "전일 국내 증시에서 삼성E&A(028050)가 +14.36% 급등하며 3,718억원의 높은 거래대금을 기록했습니다. 특히 외국인 +144만주, 기관 +36.8만주 동반 순매수를 기록하며 외국인은 2일, 기관은 9일 연속 매수세를 보였습니다. 이는 해외 플랜트 수주 기대감 또는 실적 개선에 대한 강한 기대감이 반영된 것으로 풀이됩니다. 또한, 혜인(003010) 역시 +15.12% 상승하며 외국인/기관 동반 순매수를 기록하며 건설기계 관련주의 강세를 보였습니다.",
+      "catalyst": "해외 플랜트 수주 기대감 및 건설기계 관련주 강세",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성E&A",
+          "code": "028050",
+          "reason": "전일 압도적인 거래대금과 외국인/기관의 강력한 동반 순매수를 바탕으로 핵심 대장주로 선정. 해외 플랜트 수주 및 실적 개선 기대감 반영.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "혜인",
+          "code": "003010",
+          "reason": "전일 +15.12% 상승, 외국인/기관 동반 순매수, 건설기계 및 산업용 엔진 유통 사업 영위로 건설/인프라 투자 확대 시 수혜 예상.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "전반적인 시장 심리 개선 및 성장주",
+      "description": "오늘 개최되는 한국은행 금융통화위원회에서 기준금리 동결이 예상됩니다. 이는 추가적인 금리 인상에 대한 불확실성을 해소하여 시장 전반의 투자 심리를 안정화시킬 것입니다. 금리 인상에 민감했던 기술주, 바이오주 등 성장주 전반에 긍정적인 영향을 미칠 수 있습니다.",
+      "catalyst": "한국은행 기준금리 동결 전망",
+      "confidence": "보통",
+      "target_period": "2~3일",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "시장 전반의 투자 심리 개선에 따른 대표적인 성장주 수혜가 기대됩니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "시장 전반의 투자 심리 개선에 따른 대표적인 성장주 수혜가 기대됩니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "AI/반도체",
+      "description": "AI는 산업 전반의 패러다임을 변화시키는 메가 트렌드이며, 이에 필수적인 고성능 반도체 수요는 지속적으로 증가할 것입니다. 클라우드 AI, 온디바이스 AI, AI 데이터센터 등 기술 발전과 적용 범위 확대는 장기적인 성장 동력입니다. 국내 기업들의 글로벌 경쟁력과 3분기 실적을 통한 펀더멘털 재확인은 장기적인 투자 매력을 높입니다.",
+      "catalyst": "AI 메가 트렌드, 고성능 반도체 수요 증가, 국내 기업 글로벌 경쟁력 강화",
+      "confidence": "높음",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "글로벌 AI 반도체 시장의 핵심 플레이어로서 장기적인 성장이 기대됩니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "글로벌 AI 반도체 시장의 핵심 플레이어로서 장기적인 성장이 기대됩니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "HT로보틱스",
+          "code": "396300",
+          "reason": "AI 기반 로봇 및 자동화 솔루션 시장의 성장에 따라 장기적인 수혜가 예상됩니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ]
+}
