@@ -1,0 +1,226 @@
+{
+  "forecast_date": "2026년 10월 23일",
+  "generated_at": "2026-10-23T07:36:33.476914+09:00",
+  "market_context": "2026년 10월 23일 한국 주식시장은 미국 기술주 급락과 AI 투자 회의론 확산, 중동발 유가 급등에 따른 인플레이션 우려 심화로 인해 '극도의 공포' 심리가 지배하며 강한 하방 압력을 받을 것으로 예상됩니다. 전반적인 위험 회피 심리가 강화되어 주요 성장 테마인 AI/반도체, 2차전지 섹터는 큰 폭의 조정이 불가피할 것으로 보입니다.",
+  "us_market_summary": "미국 뉴욕 증시에서 인공지능(AI) 투자 수익성에 대한 회의론이 확산되며 메타, 엔비디아, 마이크론 등 주요 기술주 및 반도체 기업들이 급락했습니다. 필라델피아 반도체 지수는 무려 6.7% 폭락하며 글로벌 반도체 섹터 전반에 대한 투자 심리를 크게 위축시켰습니다.",
+  "news_sources": [
+    {
+      "title": "뉴욕증시, AI 불안 재고조에 기술주 급락…나스닥 2.6%↓",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuTQoI7DQMgSfeNwamCI8pkyRBn4LE_h8dhkA1yQe1jbfyqdz1DImrqyPErhjKY4gcjm5x0Bb8pKgc9aaTd1T9455Bo70plo0go2vyiWr8zQrtqup2MQdHcr_zz3l-95SRE3J_4Bjgejo="
+    },
+    {
+      "title": "뉴욕증시, AI투자 불안에 나스닥 2.6%↓…반도체지수 6.7% 급락(종합)",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHccHaVpdf2vz2YuPtO5OenL_UHnpBwW5SvSU7lAcDRxpTwl-Yl022efN0ZqoqWj0CFNsHhmHTGTyF9qolNUQSrTKhocCr2tgUkfvraQZfrabRyn0pIe56UXNpDvEOwvOaAcRZe1c3A0E0="
+    },
+    {
+      "title": "뉴욕증시, AI 투자 회의론에 나스닥 2.6% 급락…메타 7%대↓",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5IvltL-V2rRBoAwjrrQA2NO6GAXOBPn45undObv11hfOICfnsUaSjvmMm4o78mytcIUhjn8nqgymNvk5JUonj9avbaMeKVWn85LV-fX50rx-5pxLqTZHbql1-ZQvYAnd9zT7zKt1OkLqH"
+    },
+    {
+      "title": "[주간증시전망]급락 딛고 반등한 코스피, 금주 방향성은…外人 수급·실적이 관건",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5yNlc6BhCkO3iK2aD1PPFAmzVphXdxiD-qkiXTSfpT-6Njb57QQLO0gNeouAim-3lc8MZTaZH6RLXCLNB0QICBfkS-mSeQ41K35QBV11JMCqnMu5DI_LQ3ONStwdpeKFcfCP5pYlgM4RQsHH-h4rZ"
+    },
+    {
+      "title": "탈출 기회 안 주나요 개미 속타는데…증권가 뜻밖의 전망 [분석+]",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNlSIR_SExRQTONEjg7Xj9qBMmhzIBk6w27ZnN0EyJGzYf1LF5WqfejtdO0_Vk2aMajuxj5d9Q3wA-XlMEy68VZ50WvbzjFyXEieYMQjLkR-zJo4RCfAPs1hKlwujwZKdGnWiTRNFtkw=="
+    },
+    {
+      "title": "국내증시 전망, 금통위·美기술주 훈풍…코스피 5800 재도전 | 김명수 기자",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeJzPlvHNl-2XA2EKqwsZL8nHmhvQUtNeShBKmukycVRtN22ts2eIRSiZCdV3sH2WG4IcaN6YK_4p0sHTxed1XP8SuklYlRv8UlnoeLc9_WNxdEzALox3fQPpiy9e98cdLe82GkI0NuIZItKGWehhU29WL5dMVJHX3_Q=="
+    },
+    {
+      "title": "investing.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOKxApzZm28gDaDJt6IE-iozSDtl1RciBn6rmE2bvYbIrYbqky2QzLPKuCkZrWnQm_GUbg4pVkj01_f9e6YmUw9F6hndfEE-rmR9dWJm6La6PQ0xGqW3L9GITvySp1czrh9PKwR6_PE2MWPnpGhBgmVC7grhSFb_H9"
+    },
+    {
+      "title": "거래 대금 급감·금리 상승… 증권사 실적 ‘찬바람’",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEV8dKteLixs38V6zI0m5W2glGhLSe0QGdnF9-oaBaCr_WuMgXNoA28-e4f7YTdhGRIAGe6x89mDcw_YqpCusY3l-h-g8s54AIfhPPHUJYESuznYWW5bQOVRWbEvpUuQdAaqjbLVZ2MYWlPaCx4BfNIcXSYXWzfen77mitoCNGWtPWHtdd4PdegOF21JR4="
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaXVd2-IBwrl9OWm2eA9YlRpdt6WSjvHW7FFvb2kvNiBzzAQdvcZ5LdZVJIIiItDlkOOJmBHZf8bMN1sg7Qvs9yQPa3BWvt9Qkd-lq0tllQftno6qs2SCu4vcCvE2J0FwWTrET3oLVDDT6T_n6fbg5nro8QZ6vVGvn"
+    },
+    {
+      "title": "뉴욕증시, 하락세로 전환…나스닥 2.23%↓",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFU9s8pXkqC1-MzPdSOZgUyhE8dxZ87PlTxAh1JZkiFPCVRl5U0x6DauUcByBgriFJByLoyibVEP41TCzBUV8WJ_qDXU4ZucdfOof7JgDbd_Gxy-ebp-tZQFlnwJBTMmEGd"
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "AI/반도체",
+      "description": "미국 뉴욕 증시에서 인공지능(AI) 투자 수익성에 대한 회의론이 확산되며 메타, 엔비디아, 마이크론 등 주요 기술주 및 반도체 기업들이 급락했습니다. 필라델피아 반도체 지수는 무려 6.7% 폭락하며 글로벌 반도체 섹터 전반에 대한 투자 심리를 크게 위축시켰습니다. 국내 증시에서도 외국인 매도세가 반도체 업종에 집중되고 있어 추가 하락 가능성이 높습니다.",
+      "catalyst": "미국 기술주 급락 및 AI 투자 회의론 확산",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "외국인 2일 연속 순매수(+36,131주)가 있었으나 기관의 대규모 매도(-212,153주)가 더 강하게 나타나며 전일 -5.95% 하락했습니다. 시장 전반의 하방 압력을 이겨내기 어려울 것입니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "외국인(-575,325주) 및 기관(-392,994주)의 대규모 동반 매도가 나타나며 국내 반도체 섹터 하락을 주도할 것으로 예상됩니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "주성엔지니어링",
+          "code": "036930",
+          "reason": "외국인(-102,287주) 및 기관(-127,912주) 동반 매도로 전일 -9.80% 급락했습니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "금융/증권",
+      "description": "국내 증권사들의 3분기 합산 순이익이 거래대금 급감과 금리 상승의 영향으로 전 분기 대비 절반 이상 감소할 것으로 전망됩니다. 이는 증권사의 핵심 수익원인 수수료 수익 감소와 채권 평가 손실로 직결되어 증권주 전반에 대한 투자 심리를 위축시키고 하락세를 유도할 것입니다.",
+      "catalyst": "국내 증권사 3분기 실적 악화 전망",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "미래에셋증권",
+          "code": "006800",
+          "reason": "국내 대표 증권사로서 시장 거래대금 감소 및 금리 상승의 영향을 직접적으로 받을 것으로 예상됩니다.",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "한국금융지주",
+          "code": "005940",
+          "reason": "증권업을 영위하는 지주사로서 실적 악화 우려에 노출될 것입니다.",
+          "data_verified": false
+        }
+      ]
+    },
+    {
+      "theme_name": "인플레이션/거시경제",
+      "description": "중동 지역의 지정학적 긴장 고조로 친이란 예멘 후티 반군이 사우디아라비아 공격을 강화하면서 국제유가(브렌트유)가 배럴당 113달러를 넘어섰습니다. 이는 인플레이션 압력을 다시 높여 연방준비제도(Fed)의 추가 금리 인상 우려를 자극하고, 전반적인 위험자산 회피 심리를 강화할 것입니다.",
+      "catalyst": "중동 지정학적 긴장 고조 및 국제유가 급등",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "흥구석유",
+          "code": "024060",
+          "reason": "국제유가 급등 시 대표적인 수혜주로 부각될 가능성이 높습니다.",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "중앙에너비스",
+          "code": "004440",
+          "reason": "유가 상승에 따른 인플레이션 우려가 커질 때 관련 테마로 움직이는 경향이 있습니다.",
+          "data_verified": false
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "2차전지/전기차",
+      "description": "글로벌 전기차 시장 선두 주자인 테슬라의 실적 부진과 주가 하락은 국내 2차전지 관련 기업들의 투자 심리에 부정적인 영향을 미칠 것입니다. 미국 기술주 전반의 약세 또한 성장주 성격이 강한 2차전지 섹터에 부담으로 작용합니다. 다만, LFP 양극재 및 전력망 밸류체인 구축에 대한 기대감과 일부 종목의 외국인 순매수가 관찰되어 섹터 내에서 선택적인 움직임이 나타날 수 있습니다.",
+      "catalyst": "테슬라 실적 부진 및 미국 기술주 약세, LFP/전력망 기대감",
+      "confidence": "보통",
+      "target_period": "2~3일",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "LG에너지솔루션",
+          "code": "373220",
+          "reason": "전일 -5.95% 하락했으나 외국인 2일 연속 순매수(+34,599주)가 이어지는 점은 긍정적입니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "엘앤에프",
+          "code": "066970",
+          "reason": "외국인 순매수(+48,107주)가 강하게 유입되었으나 기관 매도(-102,150주)가 강하고 '과열:주의' 신호가 있어 변동성이 클 것으로 예상됩니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "KBI메탈",
+          "code": "024840",
+          "reason": "외국인 순매수(+39,834주)와 정배열 기술적 신호는 긍정적이나, '과열:주의' 신호가 있어 주의가 필요합니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "바이오/제약",
+      "description": "전반적인 시장 약세와 위험 회피 심리 속에서 상대적으로 방어적인 성격을 띠며 일부 자금이 유입될 수 있습니다. 코로나19 재확산 우려 및 개별 기업의 실적 개선 기대감, 미국 헬스케어 섹터의 강세는 긍정적 요인입니다. 그러나 과거 예측 적중률이 매우 낮았고, 테마 전체의 대규모 자금 유입보다는 특정 종목으로의 선별적 수급이 나타날 가능성이 높습니다.",
+      "catalyst": "시장 약세 속 방어적 성격, 코로나19 재확산 우려",
+      "confidence": "낮음",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "신풍제약",
+          "code": "019170",
+          "reason": "전일 외국인 매도(-19,885주)가 나타났고 '과열:경고' 상태이므로 지속적인 상승 모멘텀은 불확실합니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "JW신약",
+          "code": "067290",
+          "reason": "외국인 순매수(+188,921주)가 강하게 유입되었고, 기술적으로 정배열 골든크로스 신호가 발생하여 단기적인 관심이 예상됩니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "거시경제 불확실성 (금리, 물가, 경기 침체)",
+      "description": "한국은행 금융통화위원회(금통위)의 통화정책 방향과 미국의 PMI 지표 등 주요 거시경제 지표는 국내외 금리, 환율, 경기 건전성에 광범위한 영향을 미칩니다. 인플레이션 우려가 지속되고 금리 인상 가능성이 상존하는 상황에서 기업 실적과 시장 유동성에 대한 불확실성이 장기화될 것입니다.",
+      "catalyst": "한국은행 금통위 통화정책, 미국 PMI 지표 등 거시경제 지표",
+      "confidence": "높음",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "한국전력",
+          "code": "015760",
+          "reason": "금리 인상 및 에너지 가격 변동에 민감하게 반응하는 대표적인 공공재 성격의 기업입니다.",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "POSCO홀딩스",
+          "code": "005490",
+          "reason": "경기 침체 우려 시 산업재 수요 감소로 영향을 받을 수 있습니다.",
+          "data_verified": false
+        }
+      ]
+    },
+    {
+      "theme_name": "글로벌 기술주 투자 회의론 및 밸류에이션 재평가",
+      "description": "AI 기술의 막대한 투자 비용 대비 수익성에 대한 회의론이 확산되면서, 글로벌 기술주 섹터 전반에 걸쳐 밸류에이션 재평가 압력이 가중될 수 있습니다. 이는 단순히 단기적인 조정이 아닌, 장기적인 투자 패러다임의 변화로 이어질 가능성이 있습니다. 한국 시장의 AI/반도체 섹터 역시 이러한 글로벌 흐름에서 자유롭지 못할 것입니다.",
+      "catalyst": "AI 투자 수익성 회의론 확산 및 글로벌 기술주 밸류에이션 재평가",
+      "confidence": "높음",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "NAVER",
+          "code": "035420",
+          "reason": "글로벌 기술주 흐름에 민감하며 AI 관련 투자 및 수익성 이슈에 영향을 받을 수 있습니다.",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "카카오",
+          "code": "035720",
+          "reason": "플랫폼 기반 기술 기업으로 글로벌 기술주 밸류에이션 재평가 흐름에 노출될 수 있습니다.",
+          "data_verified": false
+        }
+      ]
+    }
+  ]
+}
