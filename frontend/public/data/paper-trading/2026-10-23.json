@@ -1,0 +1,279 @@
+{
+  "trade_date": "2026-10-23",
+  "morning_timestamp": "2026-10-23 09:32:56",
+  "collected_at": "2026-10-23 15:43:19",
+  "price_snapshots": [
+    {
+      "timestamp": "2026-10-23 09:32:56",
+      "prices": {
+        "067290": 2320,
+        "019170": 8620,
+        "024840": 4230,
+        "443670": 3810
+      },
+      "leader_stocks": [
+        {
+          "code": "067290",
+          "name": "JW신약",
+          "theme": "바이오/제약"
+        },
+        {
+          "code": "019170",
+          "name": "신풍제약",
+          "theme": "바이오/제약"
+        },
+        {
+          "code": "066970",
+          "name": "엘앤에프",
+          "theme": "2차전지/전력설비"
+        },
+        {
+          "code": "024840",
+          "name": "KBI메탈",
+          "theme": "2차전지/전력설비"
+        },
+        {
+          "code": "443670",
+          "name": "에스피소프트",
+          "theme": "AI/소프트웨어"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-23 10:03:22",
+      "prices": {
+        "067290": 2325,
+        "019170": 8655,
+        "066970": 86300,
+        "024840": 4280,
+        "443670": 3860
+      },
+      "leader_stocks": [
+        {
+          "code": "067290",
+          "name": "JW신약",
+          "theme": "바이오/제약"
+        },
+        {
+          "code": "019170",
+          "name": "신풍제약",
+          "theme": "바이오/제약"
+        },
+        {
+          "code": "066970",
+          "name": "엘앤에프",
+          "theme": "2차전지/전력설비"
+        },
+        {
+          "code": "024840",
+          "name": "KBI메탈",
+          "theme": "2차전지/전력설비"
+        },
+        {
+          "code": "443670",
+          "name": "에스피소프트",
+          "theme": "AI/소프트웨어"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-23 12:02:31",
+      "prices": {
+        "067290": 2305,
+        "019170": 8690,
+        "066970": 84600,
+        "024840": 4230,
+        "443670": 3825
+      },
+      "leader_stocks": [
+        {
+          "code": "067290",
+          "name": "JW신약",
+          "theme": "바이오/제약"
+        },
+        {
+          "code": "019170",
+          "name": "신풍제약",
+          "theme": "바이오/제약"
+        },
+        {
+          "code": "066970",
+          "name": "엘앤에프",
+          "theme": "2차전지/전력설비"
+        },
+        {
+          "code": "024840",
+          "name": "KBI메탈",
+          "theme": "2차전지/전력설비"
+        },
+        {
+          "code": "443670",
+          "name": "에스피소프트",
+          "theme": "AI/소프트웨어"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-23 13:26:56",
+      "prices": {
+        "067290": 2335,
+        "019170": 8720,
+        "066970": 84400,
+        "024840": 4290,
+        "443670": 3820
+      },
+      "leader_stocks": [
+        {
+          "code": "067290",
+          "name": "JW신약",
+          "theme": "바이오/제약"
+        },
+        {
+          "code": "019170",
+          "name": "신풍제약",
+          "theme": "바이오/제약"
+        },
+        {
+          "code": "066970",
+          "name": "엘앤에프",
+          "theme": "2차전지/전력설비"
+        },
+        {
+          "code": "024840",
+          "name": "KBI메탈",
+          "theme": "2차전지/전력설비"
+        },
+        {
+          "code": "443670",
+          "name": "에스피소프트",
+          "theme": "AI/소프트웨어"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-23 14:37:08",
+      "prices": {
+        "067290": 2360,
+        "019170": 8690,
+        "066970": 86100,
+        "024840": 4335,
+        "443670": 3795
+      },
+      "leader_stocks": [
+        {
+          "code": "067290",
+          "name": "JW신약",
+          "theme": "바이오/제약"
+        },
+        {
+          "code": "019170",
+          "name": "신풍제약",
+          "theme": "바이오/제약"
+        },
+        {
+          "code": "066970",
+          "name": "엘앤에프",
+          "theme": "2차전지/전력설비"
+        },
+        {
+          "code": "024840",
+          "name": "KBI메탈",
+          "theme": "2차전지/전력설비"
+        },
+        {
+          "code": "443670",
+          "name": "에스피소프트",
+          "theme": "AI/소프트웨어"
+        }
+      ]
+    }
+  ],
+  "stocks": [
+    {
+      "code": "067290",
+      "name": "JW신약",
+      "theme": "바이오/제약",
+      "market": "KOSPI",
+      "buy_price": 2320,
+      "close_price": 2385,
+      "profit_rate": 2.8,
+      "profit_amount": 65,
+      "high_price": 2390,
+      "high_time": "15:30",
+      "high_profit_rate": 3.02,
+      "high_profit_amount": 70,
+      "low_price": 2270,
+      "low_profit_rate": -2.16,
+      "low_profit_amount": -50,
+      "low_time": "09:05"
+    },
+    {
+      "code": "019170",
+      "name": "신풍제약",
+      "theme": "바이오/제약",
+      "market": "KOSPI",
+      "buy_price": 8620,
+      "close_price": 8670,
+      "profit_rate": 0.58,
+      "profit_amount": 50,
+      "high_price": 8920,
+      "high_time": "09:37",
+      "high_profit_rate": 3.48,
+      "high_profit_amount": 300,
+      "low_price": 8640,
+      "low_profit_rate": 0.23,
+      "low_profit_amount": 20,
+      "low_time": "10:04"
+    },
+    {
+      "code": "024840",
+      "name": "KBI메탈",
+      "theme": "2차전지/전력설비",
+      "market": "KOSPI",
+      "buy_price": 4230,
+      "close_price": 4350,
+      "profit_rate": 2.84,
+      "profit_amount": 120,
+      "high_price": 4380,
+      "high_time": "15:17",
+      "high_profit_rate": 3.55,
+      "high_profit_amount": 150,
+      "low_price": 4180,
+      "low_profit_rate": -1.18,
+      "low_profit_amount": -50,
+      "low_time": "11:20"
+    },
+    {
+      "code": "443670",
+      "name": "에스피소프트",
+      "theme": "AI/소프트웨어",
+      "market": "KOSDAQ",
+      "buy_price": 3810,
+      "close_price": 3795,
+      "profit_rate": -0.39,
+      "profit_amount": -15,
+      "high_price": 3900,
+      "high_time": "10:14",
+      "high_profit_rate": 2.36,
+      "high_profit_amount": 90,
+      "low_price": 3765,
+      "low_profit_rate": -1.18,
+      "low_profit_amount": -45,
+      "low_time": "15:17"
+    }
+  ],
+  "summary": {
+    "total_stocks": 4,
+    "profit_stocks": 3,
+    "loss_stocks": 1,
+    "total_invested": 18980,
+    "total_value": 19200,
+    "total_profit": 220,
+    "total_profit_rate": 1.16,
+    "high_total_value": 19590,
+    "high_total_profit": 610,
+    "high_total_profit_rate": 3.21,
+    "high_profit_stocks": 4,
+    "high_loss_stocks": 0
+  }
+}
