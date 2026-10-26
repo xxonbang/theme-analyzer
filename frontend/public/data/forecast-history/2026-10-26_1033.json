@@ -1,0 +1,277 @@
+{
+  "forecast_date": "2026년 10월 26일",
+  "generated_at": "2026-10-26T10:33:33.005312+09:00",
+  "market_context": "오늘은 2026년 10월 26일 월요일, 장 개장 전 오전 7시 30분 기준입니다. 전일 미국 증시는 에너지 섹터 강세에도 불구하고 전반적으로 하락 마감했으며, 국내 증시는 외국인과 기관의 순매수에 힘입어 낙폭을 축소했습니다.",
+  "us_market_summary": "S&P 500 (-0.52%), NASDAQ (-0.21%), Dow Jones (-1.23%) 하락 마감. 에너지 섹터 (+2.5%)는 중동 지정학적 리스크로 인한 WTI 유가 100달러 돌파로 강세를 보였으며, 반도체 섹터 (+0.53%)와 기술 섹터 (+0.49%)는 일부 기업의 견조한 실적 및 AI 투자 기대감으로 반등을 시도했습니다.",
+  "news_sources": [
+    {
+      "title": "[10.26(월) 월요일 장 전망] 주말 종합 · 이번 주 시장 관전 포인트",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERM8SzgmmAdt1x3dBnUwA0RM5nQ7Qk42nbn_kxYYaELipoowkmYd5bvg0P90kw8tlfckNuLhkkDVDwcZySQ7bmb7ppvPbHLg9QH2C8QsjTHXqCd8FWhfaXfzw-rP9A7Q-a1Qw6sN-Uwa7I0BN_59KigO-likYlfXOFXFreF_4="
+    },
+    {
+      "title": "ebn.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7uitwdRjsvQRmJ-MnMrlI3GM_GulNZCi20oIdfigg8fQWsbP8hJ_aUtx9tlYK9IRBdG4Rwhs517XcrMPjsbGTBPqt6MlEzUMqTiNivRKQMovOlWMTIfwyK8IbnlDnZFgIdabimNk-WAIKudficWK-oa3CJQ=="
+    },
+    {
+      "title": "[미리보는 증시재료] 실마리 못 찾는 코스피…삼전닉스·美 빅테크 실적에 반등 기대",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYlddEypk70lJrwMXZoGo5PWkwlG_L3bZ06SqAT-QUFaLt75qMMAV3oBxsSQj3yabxJBj_M3xyi8JUFsnGSO0ATIGhtAV5xu-LadCWBopBs8QL3YRpBOr7mH2pTD1_g5O8TsNK2KIBdgYZ5A=="
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_xYDiJJHDXZM01N7XFCGX2USMKcUwYJPpc3K3pMvk5ymg7ZpkztA0u0Zj5tTaR7qW0YETOGEwyTlSxfN-fa0kQzgMrgtOn04cOodPUBF0bUwih7y2WLN687_3CXY3M2cVy99UelsyP6-D4j2ZbEjrAskV7M1z7yoPgg=="
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhPbp7O1bUG0jlWWeJ0Z3HpaGE8T9-bqX1sFYtzqEKLC1eHI_aVPYdsZvjCpS7OSfP2hLva-jG4rIvvKjNLCjGvd1uBzd3g6LSBjZIRuWwUZ4kRkDuWNDjoY30TsNH19P2QA3P5EGpXCA82HxU-r-IQYFs0RTSj7rvMg=="
+    },
+    {
+      "title": "[이번주 재정경제부 등 경제부처 일정]",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLJSm4mDBiejm3QrwHQ28_D9UX2C0pU4WTcITyMm65JJ_IDUgiTo-3_lna9cPuw0wG8KMgycExuQV1NTNL6qWuwyfSl9UG0oo4Jbu_RuPYZG9S-BEwd_c0f54lPovxhBi_4yfk4pR6C14KMA9qmS2Ul34Vd8F7ewfemy4="
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "AI 기술 및 반도체",
+      "description": "미국 반도체 및 기술주의 실적 반등과 국내 주요 반도체 기업의 실적 발표는 AI 산업의 성장성과 직결되며, HBM(고대역폭 메모리) 수요 증가에 대한 기대감을 높일 것입니다. SK하이닉스의 솔리다임 IPO 중단은 지배구조 불확실성 해소 및 주주 가치 제고 측면에서 긍정적인 영향을 미칠 수 있습니다. AI 기반 소프트웨어, 로봇, 보안 솔루션 기업들도 AI 기술 발전의 직접적인 수혜를 받을 것으로 예상됩니다.",
+      "catalyst": "미국 반도체 지수 상승, SK하이닉스 솔리다임 IPO 중단, 삼성전자/SK하이닉스 실적 발표 기대감, AI 투자 수익성 및 HBM/DRAM 수요 증가 기대.",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "전일 거래대금 최상위 (10,214억) 및 외국인/기관 동반 순매수 (+1.9만주, +2.9만주). 솔리다임 IPO 중단 호재 및 주주환원 기대감.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "루닛",
+          "code": "328130",
+          "reason": "전일 및 장중 실시간 수급에서 외국인/기관 동반 순매수 (+11.2만주, +20.1만주) 및 높은 등락률 (+30.00%). 의료 AI 분야 대장주.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "로보티즈",
+          "code": "108490",
+          "reason": "전일 거래대금 상위 (571억) 및 기관 순매수 (+1.1만주). 높은 등락률 (+10.00%).",
+          "data_verified": true
+        },
+        {
+          "priority": 4,
+          "name": "엑스게이트",
+          "code": "356680",
+          "reason": "전일 및 장중 실시간 수급에서 외국인 순매수 (+6.9만주) 및 높은 등락률 (+11.48%). AI 시대 보안/네트워크 수요 증가 수혜.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "에너지 및 방산",
+      "description": "중동 지역의 지정학적 긴장 고조는 국제유가 상승으로 이어져 에너지 관련 기업들의 실적 개선 기대를 높입니다. 또한, 불안정한 국제 정세는 방위 산업의 중요성을 부각시키며 관련 기업들에 대한 관심을 증가시킬 수 있습니다.",
+      "catalyst": "중동 지정학적 긴장 고조로 인한 국제유가(WTI) 배럴당 100달러 돌파.",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "LIG넥스원",
+          "code": "079550",
+          "reason": "전일 외국인 순매수 (+1.9만주). 지정학적 리스크 고조 시 방산주 부각 가능성.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "빅텍",
+          "code": "065450",
+          "reason": "장중 실시간 수급에서 외국인 순매수 (+17.3만주). 대표적인 방산주로 지정학적 리스크 시 부각.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "바이오/헬스케어 (의료 AI/디지털 헬스케어 중심)",
+      "description": "삼성바이오로직스의 견조한 실적 및 수주 기대감은 바이오 산업 전반에 긍정적인 투자 심리를 형성할 수 있습니다. 특히 의료 AI 및 디지털 헬스케어 분야는 기술 발전과 함께 꾸준한 성장세를 보이며 시장의 주목을 받을 것입니다.",
+      "catalyst": "삼성바이오로직스의 견조한 실적 및 수주 기대감, 의료 AI 및 디지털 헬스케어 분야의 성장 지속.",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "레몬헬스케어",
+          "code": "365660",
+          "reason": "전일 및 장중 실시간 수급에서 외국인 순매수 (+12.5만주) 및 높은 등락률 (+11.70%). 디지털 헬스케어 관련주.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "삼성바이오로직스",
+          "code": "207940",
+          "reason": "견조한 실적 및 수주 기대감으로 전일 강세.",
+          "data_verified": false
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "반도체 (대형주 중심)",
+      "description": "삼성전자 및 SK하이닉스의 3분기 실적 발표 및 주주환원 정책 발표 여부가 이번 주 시장의 주요 관심사로 작용할 것입니다. 이번 주 후반 예정된 미국 빅테크 기업들의 실적 발표와 FOMC 회의 결과도 증시 방향에 영향을 미칠 것입니다.",
+      "catalyst": "삼성전자 및 SK하이닉스 3분기 실적 발표 및 주주환원 정책 발표",
+      "confidence": "보통",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "주성엔지니어링",
+          "code": "036930",
+          "reason": "실적 발표는 이번 주 내내 시장의 주요 관심사로 작용할 것이며, 그 결과에 따라 단기적인 수급 및 심리 변화가 예상됩니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "실적 발표는 이번 주 내내 시장의 주요 관심사로 작용할 것이며, 그 결과에 따라 단기적인 수급 및 심리 변화가 예상됩니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "실적 발표는 이번 주 내내 시장의 주요 관심사로 작용할 것이며, 그 결과에 따라 단기적인 수급 및 심리 변화가 예상됩니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "에너지/방산",
+      "description": "중동 지정학적 긴장 지속 여부 및 국제유가 변동성이 단기적으로 시장에 영향을 미칠 것으로 예상됩니다.",
+      "catalyst": "중동 지정학적 긴장 지속 및 국제유가 변동성",
+      "confidence": "높음",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성E&A",
+          "code": "028050",
+          "reason": "지정학적 리스크는 단기적으로 지속될 가능성이 높으며, 이에 따라 에너지 및 방산 테마의 강세가 이어질 수 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "빅텍",
+          "code": "065450",
+          "reason": "지정학적 리스크는 단기적으로 지속될 가능성이 높으며, 이에 따라 에너지 및 방산 테마의 강세가 이어질 수 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "두산에너빌리티",
+          "code": "034020",
+          "reason": "지정학적 리스크는 단기적으로 지속될 가능성이 높으며, 이에 따라 에너지 및 방산 테마의 강세가 이어질 수 있습니다.",
+          "data_verified": false
+        }
+      ]
+    },
+    {
+      "theme_name": "거시경제/금융",
+      "description": "2026년 3/4분기 실질 국내총생산(속보) 발표(27일), 한국은행 금융통화위원회 본회의(29일), 9월 산업활동동향 발표(30일) 등 국내 주요 경제 지표 발표와 한국은행 금통위는 단기적으로 한국 경제의 방향성과 통화정책에 대한 시장의 기대를 형성하며 금융 섹터에 영향을 미칠 수 있습니다.",
+      "catalyst": "주요 경제 지표 발표 및 한국은행 금통위 개최",
+      "confidence": "보통",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "우리금융지주",
+          "code": "316140",
+          "reason": "전일 기관 5일 연속 순매수(+377,331주) 유입, 금융주 대표성. (단, 외국인 11일 연속 순매도)",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "KB금융",
+          "code": "105560",
+          "reason": "국내 대표 금융 지주사로, 고금리 환경 지속 시 순이자마진 개선 등 수혜 기대.",
+          "data_verified": false
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "반도체 (AI 반도체 및 HBM 등 고부가 가치 중심)",
+      "description": "글로벌 AI 기술 발전 및 데이터센터 투자 지속, 메모리 반도체 업황 회복 가속화, 고대역폭 메모리(HBM) 등 고부가 가치 제품 수요 증가가 예상됩니다. AI 투자 수익성 우려는 단기적 변동성을 야기하나, 장기적인 AI 성장 동력은 유효합니다.",
+      "catalyst": "글로벌 AI 기술 발전 및 데이터센터 투자 지속",
+      "confidence": "높음",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "HBM 시장 선도 기업으로 AI 반도체 수요 증가의 직접적인 수혜주.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "파운드리 및 AI 반도체 경쟁력 강화, 전반적인 반도체 업황 회복 수혜.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "HPSP",
+          "code": "403870",
+          "reason": "고압 수소 어닐링 장비 독점 기술 보유, 차세대 반도체 공정 필수 장비로 장기 성장 잠재력 보유. (단, 전일 기관 순매도)",
+          "data_verified": false
+        }
+      ]
+    },
+    {
+      "theme_name": "친환경/ESG (탄소중립 및 신재생에너지)",
+      "description": "한국은행의 '탄소중립 이행경로의 경제적 영향' 이슈노트 발표(28일), 정부의 탄소중립 정책 강화 및 신재생에너지 투자 확대, 글로벌 ESG 경영 트렌드 지속으로 친환경/ESG 테마가 장기적으로 주목받을 것입니다.",
+      "catalyst": "정부의 탄소중립 정책 강화 및 신재생에너지 투자 확대",
+      "confidence": "보통",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "두산에너빌리티",
+          "code": "034020",
+          "reason": "SMR(소형모듈원전), 풍력 등 신재생에너지 사업 확장으로 친환경 에너지 전환의 핵심 기업. (단, 전일 외국인/기관 순매도)",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "한화솔루션",
+          "code": "009830",
+          "reason": "태양광 사업을 선도하는 기업으로, 글로벌 신재생에너지 시장 성장 수혜.",
+          "data_verified": false
+        }
+      ]
+    },
+    {
+      "theme_name": "연기금/자산운용 (퇴직연금 시장 성장)",
+      "description": "퇴직연금 기능강화 방안 발표(29일)와 고령화 사회 진입에 따른 연금 자산 규모 확대 및 운용 시장 성장이 예상됩니다.",
+      "catalyst": "퇴직연금 기능강화 방안 발표 및 고령화 사회 진입",
+      "confidence": "보통",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "미래에셋증권",
+          "code": "006800",
+          "reason": "국내 주요 증권사로 퇴직연금 운용 시장에서 강점을 보유.",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "삼성생명",
+          "code": "032830",
+          "reason": "국내 최대 생명보험사로 퇴직연금 시장에서 높은 점유율을 차지.",
+          "data_verified": false
+        }
+      ]
+    }
+  ]
+}
