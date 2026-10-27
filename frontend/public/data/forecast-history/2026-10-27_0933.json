@@ -1,0 +1,177 @@
+{
+  "forecast_date": "2026년 10월 27일",
+  "generated_at": "2026-10-27T09:33:47.685581+09:00",
+  "market_context": "오늘은 2026년 10월 27일 장 개장 전입니다. 전일 미국 증시는 기술주와 반도체주를 중심으로 상승 마감했으며, AI 기업 앤스로픽의 IPO 신청과 중동 지정학적 긴장 완화로 인한 유가 하락이 긍정적인 영향을 미쳤습니다. 국내 증시 또한 이러한 영향으로 상승 출발할 것으로 전망됩니다.",
+  "us_market_summary": "전일 미국 증시는 기술주와 반도체주를 중심으로 상승 마감했습니다. 필라델피아 반도체지수가 2.82% 급등했으며, 엔비디아, AMD, 인텔, 마이크론 등 주요 반도체 기업들이 강세를 보였습니다.",
+  "news_sources": [
+    {
+      "title": "뉴욕증시, 상승세로 마감…나스닥 0.83%↑",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgc4bq50Sn2LiErkA4Afdrc3a44EFyM-SNCFf849DOJT0-J5-JDeBTmYaQdgictcnKqAQsLV_J9WLy4nb4MjPL0s6Lk0A_gEo3bJmEL2efbRt1JjJM8wlJxZAAerB8aflRhA=="
+    },
+    {
+      "title": "뉴욕증시, 상승 마감…앤스로픽 상장 신청에 AI주 반등",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfyjZO3VMZurGiBilvCYmnd7_4qpMHN3WsGO9LLblgE0WzA-MNf3qpeM9GDwz2Af24urlG4FdP9wAjaB9_mB-yMsJdlNBedQNwM2TJFd_h1we5qGmjgq_rO6fPxe1vDyJw8Ag7forLT99e5g=="
+    },
+    {
+      "title": "[서울데이터랩] 미국 증시, 기술주·반도체 강세에 일제히 상승 마감",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQYibTwjYIF4dhML1ZYdejET4QyuZ6L2dDnLhmsgm1hNjpdcfnQ1PraCzILm2GTfUU-k0RESlCOjxHLovjWZdrDKdEws1TN1MrO_uxWhP_NKW544sm_HjGMnf21Eho9nR4l5PrrsBIsWeLr_T2Fwp-5fKoS2Uk_R6O"
+    },
+    {
+      "title": "삼전닉스 실적보다 중요한 국내증시 반등 조건",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSHLLv0-BCkAlUi5acjLVKZxlK6aKWdhbbEI3CAD-TICqbIScPhopcUrpM79lcobVMkIyLGDxPQ3YqswGzj1H5r7-S53_1pdE-YffKtdLjMZPVu_dWLXLE-8-nLgji-cmmgUh2Xw=="
+    },
+    {
+      "title": "[KFT 모닝 브리프] 2026.10.27 — 오늘 꼭 알아야 할 국내외 경제뉴스",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFHKOD4Ca5bjrkHvLePwbaCcr148RyzwvmTTD5ilOWFqAw3stQHScQchxceNeOozYj_VzU0FlJGGC3vvnmvHEEIcML7D_PC7hsMapptqnVp_Q-KlJ9IaJ-Ves_8bI1Ce24S63F_XbiMmSi_Enr9BM70R4MDES3a4y7iuV575inH0Ow="
+    },
+    {
+      "title": "investing.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxIyI1EjuixPbXc81nmQLIwr7I92aohH0KCuLYVlFzuUL7JdK1tm9yTWCTMO0b6uDDj9pcW8aQ1o2GKm_OUET0hU1DdMzC6LePXoBuabylBtUmsS1pFDIpAZpcJAxr1dVr4ud-FU3KDXqwBFP5f5Q41ZrGzWqQUmdbRQ=="
+    },
+    {
+      "title": "주가 빠지자 소비심리도 뚝…집값 상승 기대는 여전",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGC3uoR8akQqEi1HRqO34HGfqcybdRgzz60aAe4zpoUZBDSFhUdCxiB-pqFMIj9MGLylkq11yvde5Gsj3I-va8RxtDIk3zy4Uo7QK9HeNhN8pgPHwnTdfQkdi7fvX1aveiHwYyIUPV76B3A9pUbJD3fsBX5qGq3QiSezYwy"
+    },
+    {
+      "title": "주가 하락이 끌어내리는 소비 심리…한 달 만에 하락 전환",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2Ec2iTq1xYWINJydf4VW3lwSJuHuBEK_HKvMoSopl71eQBoHald23A9-XWRrOY29BLtt54g7IkWDgZcaDGSHatRsdOeGkHzxhUlQ7xgcPATjBe8PWg2oyi_Q514U_wpyGp74QoQdYBpbofKRw1qhNeCACZhxtItKRKcQQjjyPJYis_fviRqWJ0GbPyxcloR4="
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEt9U5SuA2b3zqt1aTGtVetlTUTQm8XgZTZxsQxk1o251OC-25KN-I0xW_7jfCEBkHDeAO4OeDnZ0KMMIyC5mQaMg4jrqTmKgILb9d4IawQ75PBbuhEKI2JNS_DNnrFtCPRRTaEMWEVVlZql6IziPtK6jfw3qaF_ohBwQ=="
+    },
+    {
+      "title": "[이번주 재정경제부 등 경제부처 일정]",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPH3w7u3yBvWhuIxAM-p3ju7h6h_Cbyre1FE-GRfhppTjAxDBWC7dnL5TG3aocMIGvor-tCbgxIAI_h07rwVu1Y65ThiyYGcIcw1is1j0blobiYab-GgXM_9qEJ6YFtfKAvS5Bha4WH1kOgCLvK_eITluPVzW-0DdltE4="
+    },
+    {
+      "title": "investing.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjRY9eZBZ5ICRD4z8iQiw0rlKHYPvdNyk6sCewq3YxFqr8GMPuyuTNWRwIIQrr0dWj9pCuU_GYVbmxE_TAFHzWSh0ZyTLRGOhlpKEwTnizAPvHeVKfqtcVZ-102wxc-167_2VmKBs="
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "AI/반도체",
+      "description": "전일 미국 증시에서 필라델피아 반도체지수가 2.82% 급등하고 엔비디아, AMD, 인텔, 마이크론 등 주요 반도체 기업들이 강세를 보였습니다. 또한, AI 기업 앤스로픽의 IPO 신청 소식과 메타의 AI 인프라 투자 계획이 AI 관련주 투자 심리를 끌어올렸습니다. 국내에서도 뉴스핌이 AI 투자심리 개선에 따른 삼성전자, SK하이닉스 등 반도체주 매수를 기대하고 있습니다. 10월 28일에는 '2026년 공공기관 AI 혁신성과대회'가 예정되어 있어 단기적인 추가 모멘텀이 기대됩니다.",
+      "catalyst": "미국 반도체 지수 급등, AI 기업 IPO 신청, 국내 공공기관 AI 혁신성과대회 예정",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "브릴스",
+          "code": "468670",
+          "reason": "전일 22.17% 급등하며 720억원의 거래대금을 기록했고, 외국인과 기관이 각각 9천주, 1.1만주 동반 순매수하며 강력한 수급을 보였습니다. AI/소프트웨어 관련 중소형주로서 높은 모멘텀을 가집니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "전일 코스피 거래대금 1위(30,629억원)를 기록했으며, 기관이 24만주 이상 순매수하며 수급이 뒷받침되었습니다. 미국 반도체 시장 강세와 국내 AI 투자심리 개선의 직접적인 수혜주입니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "로보티즈",
+          "code": "108490",
+          "reason": "전일 10.89% 급등하며 1,250억원의 거래대금을 기록했고, 기관이 7만주 이상 순매수했습니다. 로봇 및 AI 디바이스 관련 대표 종목으로 AI 테마의 확산에 따른 수혜가 기대됩니다.",
+          "data_verified": true
+        }
+      ],
+      "confidence_note": "최근 적중률 0.0%로 하향 보정"
+    },
+    {
+      "theme_name": "바이오/헬스케어 (AI 의료)",
+      "description": "전일 국내 시장에서 AI 기반 의료 솔루션 기업인 루닛이 상한가를 기록하며 외국인과 기관의 강력한 동반 순매수가 유입되었습니다. 또한 레몬헬스케어, 쓰리빌리언 등 헬스케어 관련 종목들도 높은 상승률과 함께 긍정적인 수급을 보였습니다. 이는 AI 기술이 헬스케어 분야에 접목되면서 나타나는 개별 기업의 강력한 모멘텀으로 해석됩니다.",
+      "catalyst": "AI 기반 의료 솔루션 기업 루닛 상한가 및 외국인/기관 동반 순매수",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "루닛",
+          "code": "328130",
+          "reason": "전일 +30.00% 상한가를 기록하며 593억원의 거래대금을 기록했고, 외국인과 기관이 각각 18.7만주, 28.9만주를 동반 순매수하며 압도적인 수급을 보여 핵심 대장주로 선정됩니다. AI 의료 영상 분석 분야의 선두 기업입니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "쓰리빌리언",
+          "code": "394800",
+          "reason": "전일 장중 +13.80% 상승했으며, 외국인 6.7만주, 기관 17.2만주 동반 순매수를 기록했습니다. 유전체 분석 및 희귀질환 진단 AI 플랫폼 관련 기업으로 AI 헬스케어 분야의 주요 관련주입니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "레몬헬스케어",
+          "code": "365660",
+          "reason": "전일 +11.84% 상승하며 669억원의 거래대금을 기록했고, 외국인 8.7만주 순매수가 유입되었습니다. 디지털 헬스케어 플랫폼 관련 기업으로 AI 헬스케어 테마의 확산에 따른 수혜가 기대됩니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "친환경/ESG",
+      "description": "10월 29일(목) 개최 예정인 '글로벌녹색성장주간(GGGW) 서밋'은 친환경 에너지, 탄소중립, ESG 경영 등 녹색 성장에 대한 시장의 관심을 다시 불러일으킬 수 있습니다.",
+      "catalyst": "10월 29일 '글로벌녹색성장주간(GGGW) 서밋' 개최 예정.",
+      "confidence": "낮음",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "현대차",
+          "code": "005380",
+          "reason": "ESG 경영 및 수소차/전기차 전환 노력으로 테마 대표성 높음.",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "SK이노베이션",
+          "code": "096770",
+          "reason": "배터리 및 친환경 사업 전환 노력으로 테마 대표성 높음.",
+          "data_verified": false
+        },
+        {
+          "priority": 3,
+          "name": "한화솔루션",
+          "code": "009830",
+          "reason": "태양광 및 친환경 에너지 사업 영위로 테마 대표성 높음.",
+          "data_verified": false
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "AI/테크/반도체",
+      "description": "AI 테마는 단기적인 시장의 관심사를 넘어 산업 전반의 패러다임 변화를 주도하는 핵심 동력입니다. 미국 시장의 기술주 강세와 국내외 기업들의 AI 투자 확대는 장기적인 성장 가능성을 뒷받침합니다.",
+      "catalyst": "글로벌 AI 산업의 구조적 성장 및 미국 빅테크 기업들의 지속적인 AI 투자 확대.",
+      "confidence": "높음",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "네이버",
+          "code": "035420",
+          "reason": "국내 AI 기술 및 서비스 플랫폼 리더.",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "HBM 등 고대역폭 메모리 시장 선도.",
+          "data_verified": false
+        },
+        {
+          "priority": 3,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "파운드리, AI 반도체, 전반적인 AI 생태계 투자.",
+          "data_verified": false
+        }
+      ]
+    }
+  ]
+}
