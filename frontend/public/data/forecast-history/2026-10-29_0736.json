@@ -1,0 +1,115 @@
+{
+  "forecast_date": "2026년 10월 29일",
+  "generated_at": "2026-10-29T07:36:06.186160+09:00",
+  "market_context": "2026년 10월 29일 장 개장 전, 한국 주식시장은 미국 증시의 긍정적인 흐름과 국내 반도체 대형주의 강력한 실적 호조에 힘입어 전반적인 상승 기대감이 높습니다. 다만, 급등한 원/달러 환율과 미국 10년물 국채금리 상승 부담은 시장 전반의 상승폭을 제한하며 선별적인 접근이 예상됩니다.",
+  "us_market_summary": "뉴욕 증시에서 S&P 500, 나스닥, 다우지수 모두 상승 마감했으며, 특히 반도체(SOXX +2.13%) 및 기술(XLK +0.80%) 섹터가 강세를 보였습니다. 마이크로소프트의 클라우드 매출 급증과 오라클의 매출 전망 상향 조정이 긍정적인 영향을 미쳤습니다.",
+  "news_sources": [
+    {
+      "title": "뉴욕증시, 연준 금리 동결 속 일제히 상승…오라클 11%↑",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaRY7ZxavwRSnSyhdRkIeo8PTkimuFu4eSLTUX7yUAyWSKxM3Ur8kD9jdXU47iS4c5wCZA8Fxs8SDDhBuxLSVrjsqxNUs6uV3WV33-Z9S6bxF0Bg53QHPsJVoZZfYoRAmtV0DV2u8wbXOy"
+    },
+    {
+      "title": "investing.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5fs03fHAw3pC4wulP1nipD5xzyabzk_-y6Tw_vqUEIgkwgAY0E1XEZlcHUQevZuOySEGzZCEU0k5jauRwISvBIpitr7nP2XBQjg8YCM3EUpaMbP7sLBfuII3XLvoDJ0wmY1pFGZaTLgIPG0Ko5jbLuEg3tU5kpOdblAlWumGT"
+    },
+    {
+      "title": "[KFT 모닝 브리프] 2026.10.29 — 오늘 꼭 알아야 할 국내외 경제뉴스",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKYgWeJdDhcwXnMY5OIzvNl1HOEY4XWGBxRbmMNiUZbrb5Zm5l4qBgCy6DbMllhzAm0AUWvOxGL3XirKZl9QpopzgIr1fgSzTMKOT_uiT7NuYK32c_uRVUl0e_jZOfhp-gDOeUBowH4Lp1142HjTGmFpbr4pde_qmnIHCCCtT8jcE="
+    },
+    {
+      "title": "반도체 부담 던 코스피, 10월 말 반등…연말 상승 기대감 키우나",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGh06mih1oLf8W6z4XXisGDN3xz0Vj3FG86z3p-h7TztxuR4wzt1AiiXcnHl3bj791PwGrKRbDFFxGfezq5TB4Y17OM75uyw8jjsO1dBwOrMOUotgGIsSM1pntV1s-K4rLvougJ4jfy7625VbEcVA0_vw=="
+    },
+    {
+      "title": "[10.29(목) 한국장 전망] 환율 1,343원·금리 급등 부담, 코스피 혼조",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCzumnOERImfWgz4_SmZ3VfGpF0fpm_WYSb7Hg32zDUkCi_IGTz3jxmQZl7Q1X9UYu4rlH1Y9hXx1ZF4qdoESAWhWScbaRRj5Fk4DOJ5r9qvobRDgpY8K2BSrE-eva_bzmLKEbShUTatAgr1VfqXHwOKnv_Yula5K2GgJKLrtZpQ=="
+    },
+    {
+      "title": "[증시 예보] 결국 열쇠는 ‘삼전닉스’…28·29일이 진짜 중요한 이유",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8tfdEaQ--EJjIZTlJFO_3jj0llir33lGHrWvNsP8brQFzdNjsz8pwaoAmsvnuxxqMGo6tJ37YrRp4ySPVm0hEnW0d6p29-ckccp1zuClvBTqDq_FN6kd3AlK-JvFT8yDV7t_KS-HV"
+    },
+    {
+      "title": "Just a moment...",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWyy7HK2w7oaLwpi_HJbyXoyOhc95Py5fJxYGmiVnd5amRkb7BKYqEjlTQwiJqEQLGK5tA77ThmFlfBymnewpNLAV0gM34-ZWjgOMN2j8wC_3XT3hL5VMNN-2JjsP4rwdK7p0="
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "AI/반도체/소프트웨어/클라우드",
+      "description": "글로벌 기술 기업들의 실적 호조와 국내 반도체 대형주의 사상 최대 실적 발표가 AI 및 반도체 섹터에 강력한 매수 모멘텀을 제공할 것으로 예상됩니다. 지속적인 AI 투자 관심도 테마를 강화합니다.",
+      "catalyst": "마이크로소프트 클라우드 매출 48% 급증 및 SK하이닉스 사상 최대 실적 달성",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "전일 거래대금 1위, +11.19% 급등, 외국인/기관 동반 순매수, AI 메모리 선두주자, 사상 최대 실적 및 주주환원 발표.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "전일 거래대금 2위, +9.23% 급등, 외국인/기관 동반 순매수, AI 반도체 경쟁 심화 및 전반적인 반도체 업황 개선 기대감.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "엑스게이트",
+          "code": "356680",
+          "reason": "+13.31% 급등, 거래대금 1,019억원, 외국인/기관 동반 순매수, AI 보안 솔루션 관련 중소형주로 테마 확산 가능성.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "주주환원 관련주",
+      "description": "SK하이닉스의 100조원 규모 주주환원 계획 발표는 기업의 주주가치 제고 의지를 강력히 보여주는 신호로, 시장 전반에 주주환원 정책에 대한 기대감을 확산시킬 것입니다.",
+      "catalyst": "SK하이닉스 100조원 규모 주주환원 계획 발표",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "직접적인 주주환원 계획 발표 주체이며, AI/반도체 테마와 시너지 효과가 기대됩니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "국내 대표 대형주로서, SK하이닉스의 주주환원 발표가 유사한 정책 압력 또는 기대감으로 작용할 수 있습니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [],
+  "long_term": [
+    {
+      "theme_name": "AI/반도체/소프트웨어/클라우드",
+      "description": "AI 기술 발전과 클라우드 컴퓨팅 수요 증가는 장기적인 메가트렌드입니다. 주요 기술 기업들의 지속적인 투자와 혁신은 이 테마의 장기적인 성장 동력을 제공할 것입니다.",
+      "catalyst": "AI 기술 발전 및 클라우드 컴퓨팅 수요 증가 지속",
+      "confidence": "높음",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "AI 메모리 시장 선도 및 지속적인 기술 혁신으로 장기 성장 동력 확보.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "글로벌 반도체 시장의 핵심 플레이어로서 AI 반도체 경쟁 심화 속에서 장기적인 수혜 기대.",
+          "data_verified": true
+        }
+      ]
+    }
+  ]
+}
