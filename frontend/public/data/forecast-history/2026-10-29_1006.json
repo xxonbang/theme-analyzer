@@ -1,0 +1,122 @@
+{
+  "forecast_date": "2026년 10월 29일",
+  "generated_at": "2026-10-29T10:06:38.787995+09:00",
+  "market_context": "2026년 10월 28일 미국 증시는 연방준비제도(Fed)의 기준금리 동결 결정에 힘입어 3대 지수가 모두 상승 마감하며 위험자산 선호 심리가 회복되는 모습을 보였습니다. 특히 반도체 업종이 강세를 보였으며, 한국 SK하이닉스의 미국 주식예탁증서(ADR)가 사상 최고 분기 순이익 달성 소식에 13.30% 폭등하며 국내 증시에도 긍정적인 영향을 미칠 것으로 예상됩니다.",
+  "us_market_summary": "미국 증시는 연방준비제도(Fed)의 기준금리 동결 결정에 힘입어 3대 지수가 모두 상승 마감했습니다. 반도체 업종이 강세를 보였으며, SK하이닉스 ADR이 13.30% 폭등했습니다.",
+  "news_sources": [
+    {
+      "title": "뉴욕증시, 연준 금리 동결 속 일제히 상승…오라클 11%↑",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaRY7ZxavwRSnSyhdRkIeo8PTkimuFu4eSLTUX7yUAyWSKxM3Ur8kD9jdXU47iS4c5wCZA8Fxs8SDDhBuxLSVrjsqxNUs6uV3WV33-Z9S6bxF0Bg53QHPsJVoZZfYoRAmtV0DV2u8wbXOy"
+    },
+    {
+      "title": "investing.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5fs03fHAw3pC4wulP1nipD5xzyabzk_-y6Tw_vqUEIgkwgAY0E1XEZlcHUQevZuOySEGzZCEU0k5jauRwISvBIpitr7nP2XBQjg8YCM3EUpaMbP7sLBfuII3XLvoDJ0wmY1pFGZaTLgIPG0Ko5jbLuEg3tU5kpOdblAlWumGT"
+    },
+    {
+      "title": "[KFT 모닝 브리프] 2026.10.29 — 오늘 꼭 알아야 할 국내외 경제뉴스",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKYgWeJdDhcwXnMY5OIzvNl1HOEY4XWGBxRbmMNiUZbrb5Zm5l4qBgCy6DbMllhzAm0AUWvOxGL3XirKZl9QpopzgIr1fgSzTMKOT_uiT7NuYK32c_uRVUl0e_jZOfhp-gDOeUBowH4Lp1142HjTGmFpbr4pde_qmnIHCCCtT8jcE="
+    },
+    {
+      "title": "반도체 부담 던 코스피, 10월 말 반등…연말 상승 기대감 키우나",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGh06mih1oLf8W6z4XXisGDN3xz0Vj3FG86z3p-h7TztxuR4wzt1AiiXcnHl3bj791PwGrKRbDFFxGfezq5TB4Y17OM75uyw8jjsO1dBwOrMOUotgGIsSM1pntV1s-K4rLvougJ4jfy7625VbEcVA0_vw=="
+    },
+    {
+      "title": "[10.29(목) 한국장 전망] 환율 1,343원·금리 급등 부담, 코스피 혼조",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCzumnOERImfWgz4_SmZ3VfGpF0fpm_WYSb7Hg32zDUkCi_IGTz3jxmQZl7Q1X9UYu4rlH1Y9hXx1ZF4qdoESAWhWScbaRRj5Fk4DOJ5r9qvobRDgpY8K2BSrE-eva_bzmLKEbShUTatAgr1VfqXHwOKnv_Yula5K2GgJKLrtZpQ=="
+    },
+    {
+      "title": "[증시 예보] 결국 열쇠는 ‘삼전닉스’…28·29일이 진짜 중요한 이유",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8tfdEaQ--EJjIZTlJFO_3jj0llir33lGHrWvNsP8brQFzdNjsz8pwaoAmsvnuxxqMGo6tJ37YrRp4ySPVm0hEnW0d6p29-ckccp1zuClvBTqDq_FN6kd3AlK-JvFT8yDV7t_KS-HV"
+    },
+    {
+      "title": "Just a moment...",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWyy7HK2w7oaLwpi_HJbyXoyOhc95Py5fJxYGmiVnd5amRkb7BKYqEjlTQwiJqEQLGK5tA77ThmFlfBymnewpNLAV0gM34-ZWjgOMN2j8wC_3XT3hL5VMNN-2JjsP4rwdK7p0="
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "반도체",
+      "description": "미국 증시의 반도체 강세 및 SK하이닉스 ADR 폭등, 삼성전자/SK하이닉스 실적 발표 임박으로 금일 시장에서 가장 강력한 매수세가 예상됩니다. 특히 외국인 수급이 뒷받침되는 대형주 중심의 강세가 기대됩니다.",
+      "catalyst": "Fed 금리 동결, SK하이닉스 ADR 폭등, 삼성전자/SK하이닉스 실적 발표 임박",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "전일 코스피 시장에서 14,575억원의 거래대금으로 가장 높은 거래량을 기록하며 +4.98% 상승했고, 외국인이 2일 연속 순매수했습니다. 미국 ADR의 폭등은 금일 국내 시장에도 직접적인 긍정적 영향을 미칠 것입니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "전일 코스피 시장에서 9,859억원의 거래대금으로 두 번째로 높은 거래량을 기록하며 +1.34% 상승했고, 외국인이 3일 연속 순매수했습니다. SK하이닉스와 함께 국내 반도체 시장의 핵심 종목으로, 실적 발표 기대감과 외국인 수급이 강합니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "제주반도체",
+          "code": "080220",
+          "reason": "전일 코스피 시장에서 +5.61% 상승했으며 외국인 순매수가 확인되었습니다. 중소형 반도체 관련주로서 시장의 관심이 지속될 것으로 예상됩니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "AI/로봇",
+      "description": "정부의 정책적 지원과 구체적인 행사 개최로 인해 AI 로봇 관련주에 대한 단기적인 관심이 집중될 것으로 보입니다. 금일 장 초반 수급에서도 일부 종목의 강세가 확인되어 단기적인 모멘텀이 유효합니다.",
+      "catalyst": "정부의 AI 로봇 공공부문 보급 계획 발표 및 관련 행사 개최",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "RF머트리얼즈",
+          "code": "327260",
+          "reason": "전일 코스닥 시장에서 +13.07% 상승했으며 외국인 순매수가 확인되었습니다. 금일 장 초반(09:31 KST)에도 +12.79% 급등하며 외국인 순매수세가 지속되고 있어 AI 반도체 관련 테마의 핵심 종목으로 부각됩니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "HT로보틱스",
+          "code": "396300",
+          "reason": "전일 코스닥 시장에서 +1.78% 상승했으며 외국인이 3일 연속 순매수했습니다. 로봇 관련주로서 정부의 공공부문 AI 로봇 보급 계획에 따른 수혜가 기대됩니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "에스피소프트",
+          "code": "443670",
+          "reason": "전일 테마 분석 결과에서 AI/소프트웨어 대장주로 언급되었으며, 최근 대장주 실적 피드백에서 종가 평균 +3.9%, 최고가 평균 +6.6%로 안정적인 성과를 보였습니다. AI 기술 발전과 정부 정책 수혜가 기대됩니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [],
+  "long_term": [
+    {
+      "theme_name": "AI/반도체/소프트웨어/클라우드",
+      "description": "AI 기술 발전과 클라우드 컴퓨팅 수요 증가는 장기적인 메가트렌드입니다. 주요 기술 기업들의 지속적인 투자와 혁신은 이 테마의 장기적인 성장 동력을 제공할 것입니다.",
+      "catalyst": "AI 기술 발전 및 클라우드 컴퓨팅 수요 증가 지속",
+      "confidence": "높음",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "AI 메모리 시장 선도 및 지속적인 기술 혁신으로 장기 성장 동력 확보.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "글로벌 반도체 시장의 핵심 플레이어로서 AI 반도체 경쟁 심화 속에서 장기적인 수혜 기대.",
+          "data_verified": true
+        }
+      ]
+    }
+  ]
+}
