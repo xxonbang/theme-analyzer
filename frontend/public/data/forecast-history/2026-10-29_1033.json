@@ -1,0 +1,93 @@
+{
+  "forecast_date": "2026년 10월 29일",
+  "generated_at": "2026-10-29T10:33:14.582001+09:00",
+  "market_context": "전일 코스피는 SK하이닉스의 실적 호조와 미국 AI/반도체 시장의 긍정적인 흐름에 힘입어 6000선을 회복하며 강세를 보였습니다. 그러나 이러한 상승세가 반도체 대형주에 편중되어 있어, 다른 업종으로의 매수세 확산 여부가 향후 시장의 질을 결정할 중요한 요소가 될 것입니다.",
+  "us_market_summary": "전일 미국 증시에서 인공지능(AI) 관련주와 반도체 섹터가 강세를 보였으며, 앤트로픽 IPO 기대감, 브로드컴의 AI 인프라 금융 계약, 마이크로소프트 클라우드 사업 호조 등 긍정적인 소식이 이어졌습니다.",
+  "news_sources": [
+    {
+      "title": "뉴욕증시, 연준 금리 동결 속 일제히 상승…오라클 11%↑",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaRY7ZxavwRSnSyhdRkIeo8PTkimuFu4eSLTUX7yUAyWSKxM3Ur8kD9jdXU47iS4c5wCZA8Fxs8SDDhBuxLSVrjsqxNUs6uV3WV33-Z9S6bxF0Bg53QHPsJVoZZfYoRAmtV0DV2u8wbXOy"
+    },
+    {
+      "title": "investing.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5fs03fHAw3pC4wulP1nipD5xzyabzk_-y6Tw_vqUEIgkwgAY0E1XEZlcHUQevZuOySEGzZCEU0k5jauRwISvBIpitr7nP2XBQjg8YCM3EUpaMbP7sLBfuII3XLvoDJ0wmY1pFGZaTLgIPG0Ko5jbLuEg3tU5kpOdblAlWumGT"
+    },
+    {
+      "title": "[KFT 모닝 브리프] 2026.10.29 — 오늘 꼭 알아야 할 국내외 경제뉴스",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKYgWeJdDhcwXnMY5OIzvNl1HOEY4XWGBxRbmMNiUZbrb5Zm5l4qBgCy6DbMllhzAm0AUWvOxGL3XirKZl9QpopzgIr1fgSzTMKOT_uiT7NuYK32c_uRVUl0e_jZOfhp-gDOeUBowH4Lp1142HjTGmFpbr4pde_qmnIHCCCtT8jcE="
+    },
+    {
+      "title": "반도체 부담 던 코스피, 10월 말 반등…연말 상승 기대감 키우나",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGh06mih1oLf8W6z4XXisGDN3xz0Vj3FG86z3p-h7TztxuR4wzt1AiiXcnHl3bj791PwGrKRbDFFxGfezq5TB4Y17OM75uyw8jjsO1dBwOrMOUotgGIsSM1pntV1s-K4rLvougJ4jfy7625VbEcVA0_vw=="
+    },
+    {
+      "title": "[10.29(목) 한국장 전망] 환율 1,343원·금리 급등 부담, 코스피 혼조",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCzumnOERImfWgz4_SmZ3VfGpF0fpm_WYSb7Hg32zDUkCi_IGTz3jxmQZl7Q1X9UYu4rlH1Y9hXx1ZF4qdoESAWhWScbaRRj5Fk4DOJ5r9qvobRDgpY8K2BSrE-eva_bzmLKEbShUTatAgr1VfqXHwOKnv_Yula5K2GgJKLrtZpQ=="
+    },
+    {
+      "title": "[증시 예보] 결국 열쇠는 ‘삼전닉스’…28·29일이 진짜 중요한 이유",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8tfdEaQ--EJjIZTlJFO_3jj0llir33lGHrWvNsP8brQFzdNjsz8pwaoAmsvnuxxqMGo6tJ37YrRp4ySPVm0hEnW0d6p29-ckccp1zuClvBTqDq_FN6kd3AlK-JvFT8yDV7t_KS-HV"
+    },
+    {
+      "title": "Just a moment...",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWyy7HK2w7oaLwpi_HJbyXoyOhc95Py5fJxYGmiVnd5amRkb7BKYqEjlTQwiJqEQLGK5tA77ThmFlfBymnewpNLAV0gM34-ZWjgOMN2j8wC_3XT3hL5VMNN-2JjsP4rwdK7p0="
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "반도체/AI",
+      "description": "글로벌 AI 투자 확대와 반도체 수요 증가, SK하이닉스의 역대급 실적 및 주주환원 발표, 삼성전자의 실적 기대감, 그리고 연준 의장의 한국 첨단기술 공급망 언급이 복합적으로 작용하여 국내 반도체/AI 테마에 대한 강력한 매수 심리를 형성하고 있습니다.",
+      "catalyst": "글로벌 AI 투자 확대 및 SK하이닉스 역대급 실적 발표",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "전일 코스피 시장에서 가장 높은 거래대금(22,442억원)을 기록했으며, 10% 이상 급등하며 시장을 주도했습니다. 사상 최대 실적 발표와 대규모 주주환원 계획은 강력한 매수 촉매로 작용하고 있습니다. 외국인 순매수가 2일 연속 이어지고 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "전일 높은 거래대금(18,085억원)을 기록했으며, 외국인 순매수가 3일 연속 유입되었습니다. 3분기 실적 발표를 앞두고 HBM 관련 기대감이 높아지고 있어 추가 상승 모멘텀이 기대됩니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "광전자",
+          "code": "017900",
+          "reason": "전일 코스피에서 +20.40% 급등하며 높은 상승률을 기록했고, 외국인 순매수가 유입되었습니다. 반도체 관련 부품 제조 기업으로, 반도체 업황 개선의 수혜를 받을 수 있습니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [],
+  "long_term": [
+    {
+      "theme_name": "AI/반도체/소프트웨어/클라우드",
+      "description": "AI 기술 발전과 클라우드 컴퓨팅 수요 증가는 장기적인 메가트렌드입니다. 주요 기술 기업들의 지속적인 투자와 혁신은 이 테마의 장기적인 성장 동력을 제공할 것입니다.",
+      "catalyst": "AI 기술 발전 및 클라우드 컴퓨팅 수요 증가 지속",
+      "confidence": "높음",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "AI 메모리 시장 선도 및 지속적인 기술 혁신으로 장기 성장 동력 확보.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "글로벌 반도체 시장의 핵심 플레이어로서 AI 반도체 경쟁 심화 속에서 장기적인 수혜 기대.",
+          "data_verified": true
+        }
+      ]
+    }
+  ]
+}
