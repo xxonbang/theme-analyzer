@@ -1,0 +1,188 @@
+{
+  "forecast_date": "2026년 10월 30일",
+  "generated_at": "2026-10-30T10:04:04.199355+09:00",
+  "market_context": "2026년 10월 29일 미국 증시의 기술주 약세와 알파벳 실적 부진이 국내 증시에 영향을 미쳐 10월 30일 코스피가 4% 급락했습니다. 삼성전자 주주환원책 실망과 LG화학의 LG에너지솔루션 지분 처분 발표 또한 시장에 부담으로 작용하며 전반적인 투자 심리가 위축되었습니다.",
+  "us_market_summary": "미국 증시는 알파벳의 실적 부진과 AI 투자 수익성에 대한 우려로 나스닥이 1.38% 하락하는 등 기술주 전반에 걸쳐 약세를 보였습니다.",
+  "news_sources": [
+    {
+      "title": "AI 투자 우려 재점화…뉴욕증시 일제히 하락, 알파벳 13%↓(종합)",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgonL_MHWe37H677XAfLLUgyioceKtsUqngg1MRNhwScjYc2y09IhX252vjKGUxskbGul9XFvU9WooOLElk7Ub5tPEqWVtNOmicmDLNlX-nG6xfywQCw3k09nr5AhBFVyPAiCG_6TKTpPS"
+    },
+    {
+      "title": "AI 투자 우려 재점화…뉴욕증시 일제히 하락, 알파벳 12.6%↓",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGY7huKGIdUGbK-txo887B62lZ9esVUw_vU3LbX2c55lRuNEM_EmJTPxlSe216f0PSY-sg68luytDH_XQNyH2xecf9cw9fGocUXggh7YnnsyDrih0cdOHSC1gPICgX19g2Og8IeJCcR6fcL"
+    },
+    {
+      "title": "뉴욕증시, 알파벳 폭락에 하락 마감…나스닥 1.38%↓",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvxEVGAZYlvHSn9-rjgrhNz93MPey9WRxuA4i8v9KM4QxG4yYc-_0QMnUxSyIaYeIIIf2JqfTiCEqFg-AwmopHicoPZ1pBp9g2BOw11DS8fSZfkv_0GOMuwJ9u3Iu_wwZthY_jtkzFJnfUTQ=="
+    },
+    {
+      "title": "[외환] 美 기술주 약세에 상승…1,330원대 후반",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJV9Z50tdtfRU-ctzsepxCvBmkEmNfFQlfKWDdtboHiScO7Oc4gPticwuEzzbvh1uTk8nVObyEQmbRVzqbxytz_w12insObNX_YgvxWCWtHzcZ3PvLr6CYEwKmOqNyK1YbF6KDncYIe_L4d8jB1fMfsyLoeN85ChbPbKc="
+    },
+    {
+      "title": "국내증시 전망…미국 기술주 반등에도 외국인 수급 관건 | 김명수 기자",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-9TX9S-F-ltivzYYgLtxndWGUvgY36HxYneD0vJ1VSd3RyaNeLx0cnOjgIniYKsE8v000R_fkW4L0L5Peg42vKbpHnrrJ7X6ba_bY7nJn-Gq4EShfmABWioj3djvoXUZcy_aitJEwBpPB22TNFQWXoM8-3cTrEbhDOPo="
+    },
+    {
+      "title": "사상최대 실적에도 조정받은 10월 코스피…내달 반등 재료는?",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGukknrBth2wOyVB_JWM38ECuPFLpwijLKJR15US2YCA4hSq03Xwte-ZmPhoQIVCeO46fbtCK-nnwmFRRZO4QTPGHolCazOKVsGL7ZlztC9KCCjgJ-EZEhXZ1U_xzxiNeN2XUBGJXtuF-A4"
+    },
+    {
+      "title": "Just a moment...",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF00Gv6yak_WUDB0LS9vIc1lcZMOgYq0LIGV7XoBKku30RPiuH0C10wk2eYxMGwR07bdEYeItQav7svH-b5d8zoFi-VmEDiyCMjmwA3u2qzGEWhGMGSbPZEehcrk_KOV6IBAqsqrA=="
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE59bYLYRzDC0jNj1NOHMPlSaHBEsDSGwmbEBT_UklMvvGNg-zf5tDEaXNopWZqmwTyR17_ITZOr4g_S1MUzqROThAm54CaeMo2I5hkyIkySf8ccdoq6qQD62cOwOvks4ejBb4XzzqS0vwG9t_ZHGHWu_YuUTc5DbEB3w=="
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "AI/소프트웨어 (보안/솔루션 중심)",
+      "description": "미국 빅테크 기업들의 AI 투자 수익성 우려가 확산되는 가운데, AI 기술의 효율성 및 보안의 중요성이 부각되고 있습니다. 특히 딥페이크 차단 기술과 같은 AI 기반 보안 솔루션 기업들이 개별적인 강세를 보이며 시장의 관심을 받고 있습니다.",
+      "catalyst": "AI 투자 수익성 우려 확산 및 AI 인프라 보안 중요성 부각",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "지니언스",
+          "code": "263860",
+          "reason": "전일 코스피 시장에서 12.60% 상승했으며, 외국인 순매수(+30,000주)가 유입되었습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "인텔리빅스",
+          "code": "420610",
+          "reason": "전일 코스닥 시장에서 121.89% 상승했으며, 외국인 순매수(+2,000주)가 확인되었습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "안랩",
+          "code": "053800",
+          "reason": "전일 코스피 시장에서 7.89% 상승했으며, 외국인 순매수(+16,000주)가 유입되었습니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "건설 및 인프라",
+      "description": "정부의 경기 김포·하남·구리·의정부·고양 등 5개 시 6곳에 주택 7만6700가구 공급 계획 발표는 건설 및 인프라 관련 기업들에게 중장기적인 사업 기회를 제공하며 긍정적인 모멘텀으로 작용할 것입니다. 전일 일부 건설주가 급락했으나, 이는 정책 발표 전의 시장 조정으로 해석될 수 있으며, 오늘 정책 효과가 반영되며 반등을 시도할 가능성이 있습니다.",
+      "catalyst": "정부의 대규모 주택 공급 계획 발표",
+      "confidence": "보통",
+      "target_period": "2~3일",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성E&A",
+          "code": "028050",
+          "reason": "해외 플랜트 강자이나, 국내 인프라 확대 시 수혜 가능성",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "현대건설",
+          "code": "000720",
+          "reason": "국내 대형 건설사로서 정책 수혜 기대",
+          "data_verified": false
+        },
+        {
+          "priority": 3,
+          "name": "대우건설",
+          "code": "047040",
+          "reason": "대규모 주택 공급 정책의 직접적인 수혜 기대",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "바이오/제약",
+      "description": "미국 헬스케어 섹터의 강세가 국내 바이오/제약 테마에 긍정적인 영향을 미칠 수 있으며, 코로나19 재확산 우려 역시 단기적인 투자 심리를 자극할 수 있습니다. AI 의료 관련주인 루닛의 기관 매수세는 긍정적입니다. 그러나 과거 예측 실패 이력이 많아 지속 가능성에 대한 신중한 접근이 필요합니다.",
+      "catalyst": "미국 헬스케어 섹터 강세 및 코로나19 재확산 우려",
+      "confidence": "낮음",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "신풍제약",
+          "code": "019170",
+          "reason": "과열 경고에도 불구하고 시장의 관심이 집중된 종목. 단기 모멘텀 플레이 가능성",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "루닛",
+          "code": "328130",
+          "reason": "AI 의료 관련주로 바이오 테마의 확장성을 보여주며 기관 매수세가 긍정적",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "AI/소프트웨어",
+      "description": "인공지능 기술 발전은 거스를 수 없는 메가트렌드이며, 앤트로픽 IPO와 같은 대형 이벤트는 AI 섹터 전반에 대한 장기적인 투자 심리를 지속적으로 견인할 것입니다. 단기적인 수익성 우려에도 불구하고 기술 혁신과 적용 분야 확대는 장기적인 성장을 담보합니다.",
+      "catalyst": "인공지능 기술 발전 및 앤트로픽 IPO 기대감",
+      "confidence": "높음",
+      "target_period": "수개월~수년간",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "SK스퀘어",
+          "code": "402340",
+          "reason": "AI 및 기술 투자 전문 기업으로서 장기적인 AI 산업 성장의 수혜 기대",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "루닛",
+          "code": "328130",
+          "reason": "AI 의료 분야의 선두주자로서 장기적인 성장 잠재력",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "에스피소프트",
+          "code": "443670",
+          "reason": "과거 모의투자 성과가 좋았던 점과 AI 소프트웨어 기술력",
+          "data_verified": false
+        }
+      ]
+    },
+    {
+      "theme_name": "반도체/IT 하드웨어",
+      "description": "AI 기술 발전과 데이터센터 수요 증가에 따른 고성능 반도체 수요는 지속적으로 증가할 것입니다. 국내 반도체 대형주들의 적극적인 주주환원 정책은 기업 가치 제고와 함께 장기적인 외국인 투자 유치를 가능하게 할 것입니다. 반도체 산업은 한국 경제의 핵심 축으로서 장기적인 성장 동력을 유지할 것입니다.",
+      "catalyst": "AI 기술 발전, 데이터센터 수요 증가 및 국내 반도체 대형주 주주환원 정책",
+      "confidence": "높음",
+      "target_period": "수개월~수년간",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "글로벌 반도체 시장의 핵심 플레이어이자 주주환원 정책의 중심",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "고대역폭 메모리(HBM) 등 AI 반도체 시장의 선두주자이자 주주환원 정책의 수혜주",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "삼성전기",
+          "code": "009150",
+          "reason": "IT 기기 및 전장용 부품 수요 증가에 따른 장기 성장 기대",
+          "data_verified": false
+        }
+      ]
+    }
+  ]
+}
