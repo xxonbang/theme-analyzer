@@ -1,0 +1,194 @@
+{
+  "forecast_date": "2026년 11월 02일",
+  "generated_at": "2026-11-02T07:35:15.118887+09:00",
+  "market_context": "오늘은 2026년 11월 02일 장 개장 전 기준으로, 한국 주식시장은 전반적인 위험 회피 심리와 불안감 속에 놓여 있습니다. 미국 증시의 기술주 및 반도체 섹터 급락과 AI 투자 수익성 우려가 국내 증시에 직접적인 하방 압력으로 작용할 것으로 예상되며, 이는 시장 전반의 변동성을 확대시킬 가능성이 큽니다. 이러한 환경 속에서 투자자들은 명확한 정책 모멘텀이 있거나 상대적으로 방어적인 성격을 띠는 테마로 자금을 이동시킬 것으로 판단됩니다.",
+  "us_market_summary": "11월 1일(현지시간) 미국 증시에서 S&P500, 나스닥, 반도체(SOXX), 기술(XLK) 섹터가 큰 폭으로 급락했습니다. 인텔의 4분기 매출 전망 하향 조정, 알파벳의 AI 투자 대비 잉여현금흐름 적자, 오픈AI의 자금 조달 목표 하향 등 AI 투자 수익성에 대한 우려가 확산된 것이 주요 원인입니다.",
+  "news_sources": [
+    {
+      "title": "삼성전기 등 대형주 흔들·HLB는 장후 도약, 11월 첫장 '촉각'…코스피·코스닥 3%대 급락 후 흐름은?",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtcl6SrUR-FqRKDHHRvMY-bC3urPpGw23oYVVdVgaeU5rAIQL92NHsMX7Ubjnjq9cFXovwqJ7cyGIlb7rqVq2fKjAGi78VZeD3_g9lgfq9AhNVd0bJ_d0-elvXqNaHta76tSsFBXxo-5KPeUT8r_RE-JVAgw=="
+    },
+    {
+      "title": "&quot;지금이 바닥?&quot; 덥석 샀다간…美 AI 쇼크에 코스피도 &#039;살얼음판&#039;",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8sGR1vQ66x3FA7SnhDjxv91q9jCeA7q4qeb6cI4a3biRgKII0yjqV4gABgnZt-moYoeLN3ev1Sga6pFw_s2vkTJQ2b8fQvIjT3TQMsKOoxX_NXUb_FB9DKAXSwdF97bmOCbiHM2PvHRbgl5vSitlk6sH1nA=="
+    },
+    {
+      "title": "[KFT 모닝 브리프] 2026.11.02 — 오늘 꼭 알아야 할 국내외 경제뉴스",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdLv3A72n_anin5TvR_sid6vsqznI1jM135tXzsi69yswFv2C__E_9kZtRHpwudgmNL1LdIJgrztmN92NylaXza6rdZf1XzuHFOr2KAgGt4Pg7DsYF9DI2LP9BCOcghCNUm8rjXU2e8DHaLpV01JRBjrXcfDVizfwNjUnj3Qi_Hxg="
+    },
+    {
+      "title": "investing.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSF2fnHck6NuEF4W8iXBtANrPufY_ZRDVJfPv_8hOm7lh80T9dHGC3WWK3keREUv_DHLKjaM6D00yziNnDJ65rdyluskL5RTS-xPG4TgrerHFgfRzlQQJr_SGnhEERBfIsseCt54K_6tv9gWZvYlUUvB09qNWobsjdkA=="
+    },
+    {
+      "title": "The Korea Daily",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXvKDTOGSnA7AH9qnz_p1awIrtKChRP7PrT7XalFLD0OAWrviQmijohZpsMPWxb8HBLonJHVkNyp7wwyrnihikEWsZQBzNurHjXXVPuDWsb0igWtgzWv8Xk8VkGXga30lTCXPRzYiPs-iLg47MpJ0="
+    },
+    {
+      "title": "investing.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkmE2j7_mV3fV7vyy3vfqT0Gc49D1ChXDPnRXVVLTocJVKHK-2oxRivxk3LSz1WJZlQxYYDGbW6F-nthLnxTsoqKtpgJYUJkSN9W79tANKy1FZZEzAJ1PhW6RA0l15pCaLk-OtNXnzXdj4Ged8A3ZCea1VW4w0x39fjw=="
+    },
+    {
+      "title": "[미리보는 증시재료] 美 중간선거·고용지표에 실적까지…코스피 반등 이어질까",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrFX2GdRvCeBAdeDP8CS6ZC6dGQGyq3ZImYPKOl1kgwbzvcU0yH6VixaxM9YN9iqv9fjL7BJQTY1wtIkZpHPv0q4EFe5-G6QzclUYB6kSGnJILIGiGIprQVUBZZe6InoAyn6J-6FUr_xc="
+    },
+    {
+      "title": "Just a moment...",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKX7WMHCNKeG8sjH9UI_zaEU9KvHwOLDhmDaxKczd3UndS9MDJmvS97T7YfHh4Dyf0eJUHWAMRwczqvfljUokEZIAjJ5QZOeqrniC0Wr27-WHdzVVpNn8ZmWiO9sPJIjFmn0Q="
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "주주환원 정책 / 저PBR 관련주",
+      "description": "오늘 한국거래소에서 저주가순자산비율(PBR) 기업 명단 공개가 예정되어 있습니다. 이는 정부의 밸류업 프로그램 기조와 맞물려 해당 기업들의 배당 확대, 자사주 매입 등 주주환원 정책에 대한 시장의 관심을 폭발적으로 높일 것입니다. 시장 전반의 위험 회피 심리 속에서 새로운 투자 대안이자 정책 수혜 테마로 강력하게 부각될 가능성이 높습니다.",
+      "catalyst": "한국거래소 저PBR 기업 명단 공개 예정",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "우리금융지주",
+          "code": "316140",
+          "reason": "기관 10일 연속 순매수를 기록하며, 대표적인 저PBR 금융주로서 주주환원 정책 강화 시 가장 큰 수혜가 기대됩니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "삼성물산",
+          "code": "028260",
+          "reason": "지주사 성격이 강하고 대표적인 저PBR 종목으로, 주주환원 기대감이 높습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "기업은행",
+          "code": "024110",
+          "reason": "대표적인 저PBR 공공 금융주로, 정책 수혜 기대감이 작용할 수 있습니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "AI/반도체 및 기술주 전반",
+      "description": "11월 1일(현지시간) 미국 증시에서 S&P500, 나스닥, 반도체(SOXX), 기술(XLK) 섹터가 큰 폭으로 급락했습니다. 인텔의 4분기 매출 전망 하향 조정, 알파벳의 AI 투자 대비 잉여현금흐름 적자, 오픈AI의 자금 조달 목표 하향 등 AI 투자 수익성에 대한 우려가 확산된 것이 주요 원인입니다. 이는 한국 증시의 AI/반도체 및 기술주 전반에 직접적인 부정적 영향을 미치고 외국인 매도세를 심화시킬 것입니다. 국내 AI 관련 일부 종목의 극심한 과열 양상도 부담으로 작용합니다.",
+      "catalyst": "미국 증시 기술주/반도체 급락 및 AI 투자 수익성 우려 확산",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "외국인이 2일 연속 순매도하며 전일 -3.88% 하락했습니다. 시장 전반의 약세를 주도할 가능성이 높습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "외국인과 기관이 2일 연속 대량 순매도하며 전일 -7.40% 하락했습니다. 추가적인 하방 압력이 예상됩니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "인텔리빅스",
+          "code": "420610",
+          "reason": "전일 +220.56% 급등하며 코스닥 거래대금 1위를 기록했으나, 외국인과 기관이 대량 순매도했습니다. 개인 투자자 주도의 극심한 과열 상태로, 오늘 높은 변동성과 함께 차익 실현 매물 출회 가능성이 매우 높습니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "2차전지/전력설비",
+      "description": "이번 주 LG에너지솔루션, LG화학, 에코프로비엠, 엘앤에프 등 국내 주요 2차전지 기업들의 실적 발표가 예정되어 있습니다. 글로벌 전기차 시장 성장세(Xiaomi EV 인도량 호조)와 LFP 양극재, 전력망 밸류체인 구축에 대한 기대감이 여전히 유효합니다. 시장 약세 속에서도 기관의 꾸준한 매수세가 일부 대형주에서 확인되고 있습니다.",
+      "catalyst": "주요 2차전지 기업 실적 발표 및 글로벌 전기차 시장 성장 기대감",
+      "confidence": "보통",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성SDI",
+          "code": "006400",
+          "reason": "기관이 5일 연속 순매수하며 주요 2차전지 대형주로서 실적 및 성장 기대감에 대한 지지를 보였습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "LG에너지솔루션",
+          "code": "373220",
+          "reason": "기관 순매수를 기록하며 주요 2차전지 대형주로서 실적 및 성장 기대감을 받고 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "엘앤에프",
+          "code": "066970",
+          "reason": "외국인 순매수가 확인되었으며, 양극재 기업으로서 실적 및 LFP 관련 모멘텀이 기대됩니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "바이오/제약",
+      "description": "시장 전반의 위험 회피 심리가 지배적인 상황에서 상대적으로 방어적인 성격을 띠는 헬스케어 섹터에 대한 관심이 지속될 수 있습니다. 미국 헬스케어(XLV) 섹터가 전일 상승하며 글로벌 흐름과 동조하는 모습을 보였습니다. 개별 기업의 신약 개발, 임상 진전, 실적 개선 등 고유 모멘텀에 따라 움직일 가능성이 높습니다.",
+      "catalyst": "시장 위험 회피 심리 속 방어적 성격 부각 및 개별 기업 모멘텀",
+      "confidence": "보통",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "루닛",
+          "code": "328130",
+          "reason": "기관이 6일 연속 순매수하며 헬스케어 AI 관련주로서 시장 약세 속에서도 꾸준한 관심을 받고 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "셀트리온",
+          "code": "068270",
+          "reason": "바이오 시밀러 및 신약 개발 모멘텀을 보유한 대표적인 바이오 기업입니다.",
+          "data_verified": false
+        },
+        {
+          "priority": 3,
+          "name": "JW신약",
+          "code": "067290",
+          "reason": "외국인 대량 순매수가 확인되며 개별 모멘텀에 따른 수급 유입 가능성을 보여주었습니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "거시경제 및 정책 관련 테마 (미국 중간선거 영향)",
+      "description": "미국 현지시간 11월 3일 치러지는 미국 중간선거 결과에 따라 향후 미국 정책 방향(감세, 규제, 재정) 및 글로벌 시장의 불확실성 완화 여부가 결정될 것입니다. 이는 단기적인 변동성을 넘어 장기적으로 글로벌 증시 및 한국 증시 전반의 투자 심리와 특정 산업(예: 방산, 신재생에너지, IT 규제 등)의 성장성에 중대한 영향을 미칠 수 있습니다.",
+      "catalyst": "미국 중간선거 결과 발표",
+      "confidence": "높음",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "현대차",
+          "code": "005380",
+          "reason": "미국 IRA 등 정책 변화에 따라 전기차 산업에 장기적인 영향 가능성.",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "한화에어로스페이스",
+          "code": "012450",
+          "reason": "미국 정책 방향에 따라 해외 수주 및 방산 산업 전반에 장기적인 영향 가능성.",
+          "data_verified": false
+        },
+        {
+          "priority": 3,
+          "name": "기아",
+          "code": "000270",
+          "reason": "미국 IRA 등 정책 변화에 따라 전기차 산업에 장기적인 영향 가능성.",
+          "data_verified": false
+        }
+      ]
+    }
+  ]
+}
