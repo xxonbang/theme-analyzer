@@ -1,0 +1,223 @@
+{
+  "forecast_date": "2026년 11월 02일",
+  "generated_at": "2026-11-02T11:34:25.171411+09:00",
+  "market_context": "2026년 11월 2일 한국 주식시장은 미국 기술주 및 반도체 섹터의 급락으로 전반적인 약세 압력을 받을 것으로 예상됩니다. 그러나 국내 반도체 기업의 실적 개선 기대감과 저가 매수세 유입 가능성, 그리고 특정 산업 이벤트가 일부 테마에 긍정적인 모멘텀을 제공할 것으로 보입니다.",
+  "us_market_summary": "미국 필라델피아 반도체 지수가 7.2% 급락하고 인텔 등 주요 AI 관련 기술 기업들의 주가가 폭락하며 AI 투자 수익성에 대한 우려가 확산되었습니다. 반면 미국 헬스케어 섹터(XLV)는 +0.45% 상승하며 상대적인 방어력을 보였고, 에너지 섹터(XLE)는 +1.91% 상승했습니다.",
+  "news_sources": [
+    {
+      "title": "삼성전기 등 대형주 흔들·HLB는 장후 도약, 11월 첫장 '촉각'…코스피·코스닥 3%대 급락 후 흐름은?",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtcl6SrUR-FqRKDHHRvMY-bC3urPpGw23oYVVdVgaeU5rAIQL92NHsMX7Ubjnjq9cFXovwqJ7cyGIlb7rqVq2fKjAGi78VZeD3_g9lgfq9AhNVd0bJ_d0-elvXqNaHta76tSsFBXxo-5KPeUT8r_RE-JVAgw=="
+    },
+    {
+      "title": "&quot;지금이 바닥?&quot; 덥석 샀다간…美 AI 쇼크에 코스피도 &#039;살얼음판&#039;",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8sGR1vQ66x3FA7SnhDjxv91q9jCeA7q4qeb6cI4a3biRgKII0yjqV4gABgnZt-moYoeLN3ev1Sga6pFw_s2vkTJQ2b8fQvIjT3TQMsKOoxX_NXUb_FB9DKAXSwdF97bmOCbiHM2PvHRbgl5vSitlk6sH1nA=="
+    },
+    {
+      "title": "[KFT 모닝 브리프] 2026.11.02 — 오늘 꼭 알아야 할 국내외 경제뉴스",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdLv3A72n_anin5TvR_sid6vsqznI1jM135tXzsi69yswFv2C__E_9kZtRHpwudgmNL1LdIJgrztmN92NylaXza6rdZf1XzuHFOr2KAgGt4Pg7DsYF9DI2LP9BCOcghCNUm8rjXU2e8DHaLpV01JRBjrXcfDVizfwNjUnj3Qi_Hxg="
+    },
+    {
+      "title": "investing.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSF2fnHck6NuEF4W8iXBtANrPufY_ZRDVJfPv_8hOm7lh80T9dHGC3WWK3keREUv_DHLKjaM6D00yziNnDJ65rdyluskL5RTS-xPG4TgrerHFgfRzlQQJr_SGnhEERBfIsseCt54K_6tv9gWZvYlUUvB09qNWobsjdkA=="
+    },
+    {
+      "title": "The Korea Daily",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXvKDTOGSnA7AH9qnz_p1awIrtKChRP7PrT7XalFLD0OAWrviQmijohZpsMPWxb8HBLonJHVkNyp7wwyrnihikEWsZQBzNurHjXXVPuDWsb0igWtgzWv8Xk8VkGXga30lTCXPRzYiPs-iLg47MpJ0="
+    },
+    {
+      "title": "investing.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkmE2j7_mV3fV7vyy3vfqT0Gc49D1ChXDPnRXVVLTocJVKHK-2oxRivxk3LSz1WJZlQxYYDGbW6F-nthLnxTsoqKtpgJYUJkSN9W79tANKy1FZZEzAJ1PhW6RA0l15pCaLk-OtNXnzXdj4Ged8A3ZCea1VW4w0x39fjw=="
+    },
+    {
+      "title": "[미리보는 증시재료] 美 중간선거·고용지표에 실적까지…코스피 반등 이어질까",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrFX2GdRvCeBAdeDP8CS6ZC6dGQGyq3ZImYPKOl1kgwbzvcU0yH6VixaxM9YN9iqv9fjL7BJQTY1wtIkZpHPv0q4EFe5-G6QzclUYB6kSGnJILIGiGIprQVUBZZe6InoAyn6J-6FUr_xc="
+    },
+    {
+      "title": "Just a moment...",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKX7WMHCNKeG8sjH9UI_zaEU9KvHwOLDhmDaxKczd3UndS9MDJmvS97T7YfHh4Dyf0eJUHWAMRwczqvfljUokEZIAjJ5QZOeqrniC0Wr27-WHdzVVpNn8ZmWiO9sPJIjFmn0Q="
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "조선/방산",
+      "description": "한화가 미 해군과 2억 6,900만 달러 규모의 조선 계약을 체결했다는 소식은 국내 조선 및 방산 산업에 대한 강력한 긍정적 모멘텀으로 작용할 것입니다. 이는 국내 방산 기업들의 기술력과 수출 경쟁력을 다시 한번 부각시키는 계기가 될 수 있으며, 지정학적 리스크가 상존하는 상황에서 방산 산업의 중요성은 지속적으로 부각될 것으로 예상됩니다.",
+      "catalyst": "한화의 미 해군 2.69억 달러 규모 조선 계약 체결",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "한화에어로스페이스",
+          "code": "012450",
+          "reason": "전일 +3.59% 상승하며 외국인과 기관의 순매수가 유입되었습니다. 방산 산업의 대표주자로, 한화그룹의 방산 부문 전반에 대한 기대감이 반영될 수 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "한화오션",
+          "code": "042660",
+          "reason": "전일 +9.20% 상승하며 거래대금 상위권에 위치했으며, 기관의 순매수가 2일 연속 유입되었습니다. 한화그룹의 미 해군 계약 소식에 직접적인 수혜 기대감이 높습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "HD현대중공업",
+          "code": "329180",
+          "reason": "전일 +6.93% 상승하며 외국인 순매수가 유입되었습니다. 국내 조선업 전반의 긍정적 분위기 확산에 따른 수혜가 예상됩니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "AI/반도체",
+      "description": "미국 필라델피아 반도체 지수 급락에도 불구하고, 국내 반도체 기업들의 실적 전망은 상향되고 있으며, 삼성전자와 SK하이닉스는 3분기 사상 최대 실적을 발표했습니다. 미국발 악재로 인한 과도한 낙폭에 대한 저가 매수세 유입 가능성이 있으며, 11월 2일 '의료데이터 국가 AI 인프라' 포럼 개최는 의료 분야 AI 관련 새로운 모멘텀을 제공할 수 있습니다.",
+      "catalyst": "국내 반도체 기업 실적 개선 기대감 및 '의료데이터 국가 AI 인프라' 포럼 개최",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "전일 +1.62% 상승하며 외국인과 기관의 순매수가 유입되었습니다. 3분기 사상 최대 실적 발표와 함께 저가 매수세 유입 기대감이 높습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "원익홀딩스",
+          "code": "030530",
+          "reason": "전일 +4.32% 상승하며 외국인과 기관의 순매수가 유입되었고, 기관은 11일 연속 순매수 중입니다. 반도체 장비 관련주로서 업황 개선 기대감에 수혜가 예상됩니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "에스피소프트",
+          "code": "443670",
+          "reason": "AI/소프트웨어 테마의 대장주로 꾸준히 언급되며, 최근 모의투자 기준 종가 평균 +16.2%의 안정적인 성과를 보였습니다. AI 기술의 장기 성장성에 대한 기대감이 유효합니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "바이오/제약",
+      "description": "미국 헬스케어 섹터가 전반적인 시장 하락 속에서도 상대적인 방어력을 보였습니다. 이는 위험 회피 심리 속에서 방어적 성격의 바이오/제약 섹터에 대한 관심을 유지시킬 수 있습니다. 또한, 11월 2일 '의료데이터 국가 AI 인프라' 포럼 개최는 의료 데이터 및 AI 기술 융합에 대한 기대감을 높여 바이오/제약 섹터 내 특정 기업들에게 긍정적인 영향을 줄 수 있습니다.",
+      "catalyst": "미국 헬스케어 섹터의 상대적 강세 및 '의료데이터 국가 AI 인프라' 포럼 개최",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "JW신약",
+          "code": "067290",
+          "reason": "전일 외국인 순매수가 유입되었고 정배열 골든크로스 패턴을 보였습니다. 개별 기업의 실적 개선 및 신사업 기대감이 유효합니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "신풍제약",
+          "code": "019170",
+          "reason": "전일 외국인 순매수가 유입되었으나 과열 경고 상태입니다. 코로나19 재확산 우려와 같은 이슈에 민감하게 반응할 수 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "HLB바이오스텝",
+          "code": "278650",
+          "reason": "장중 실시간 수급에서 +17.77% 상승하며 외국인 매도세에도 불구하고 강세를 보였습니다. (다만, 기관 수급 부재 및 외국인 매도세는 유의)",
+          "data_verified": false
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "2차전지/전력설비",
+      "description": "이번 주 LG에너지솔루션, LG화학, 에코프로비엠, 엘앤에프 등 국내 주요 2차전지 기업들의 실적 발표가 예정되어 있습니다. 글로벌 전기차 시장 성장세(Xiaomi EV 인도량 호조)와 LFP 양극재, 전력망 밸류체인 구축에 대한 기대감이 여전히 유효합니다. 시장 약세 속에서도 기관의 꾸준한 매수세가 일부 대형주에서 확인되고 있습니다.",
+      "catalyst": "주요 2차전지 기업 실적 발표 및 글로벌 전기차 시장 성장 기대감",
+      "confidence": "보통",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성SDI",
+          "code": "006400",
+          "reason": "기관이 5일 연속 순매수하며 주요 2차전지 대형주로서 실적 및 성장 기대감에 대한 지지를 보였습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "LG에너지솔루션",
+          "code": "373220",
+          "reason": "기관 순매수를 기록하며 주요 2차전지 대형주로서 실적 및 성장 기대감을 받고 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "엘앤에프",
+          "code": "066970",
+          "reason": "외국인 순매수가 확인되었으며, 양극재 기업으로서 실적 및 LFP 관련 모멘텀이 기대됩니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "바이오/제약",
+      "description": "시장 전반의 위험 회피 심리가 지배적인 상황에서 상대적으로 방어적인 성격을 띠는 헬스케어 섹터에 대한 관심이 지속될 수 있습니다. 미국 헬스케어(XLV) 섹터가 전일 상승하며 글로벌 흐름과 동조하는 모습을 보였습니다. 개별 기업의 신약 개발, 임상 진전, 실적 개선 등 고유 모멘텀에 따라 움직일 가능성이 높습니다.",
+      "catalyst": "시장 위험 회피 심리 속 방어적 성격 부각 및 개별 기업 모멘텀",
+      "confidence": "보통",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "루닛",
+          "code": "328130",
+          "reason": "기관이 6일 연속 순매수하며 헬스케어 AI 관련주로서 시장 약세 속에서도 꾸준한 관심을 받고 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "셀트리온",
+          "code": "068270",
+          "reason": "바이오 시밀러 및 신약 개발 모멘텀을 보유한 대표적인 바이오 기업입니다.",
+          "data_verified": false
+        },
+        {
+          "priority": 3,
+          "name": "JW신약",
+          "code": "067290",
+          "reason": "외국인 대량 순매수가 확인되며 개별 모멘텀에 따른 수급 유입 가능성을 보여주었습니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "거시경제 및 정책 관련 테마 (미국 중간선거 영향)",
+      "description": "미국 현지시간 11월 3일 치러지는 미국 중간선거 결과에 따라 향후 미국 정책 방향(감세, 규제, 재정) 및 글로벌 시장의 불확실성 완화 여부가 결정될 것입니다. 이는 단기적인 변동성을 넘어 장기적으로 글로벌 증시 및 한국 증시 전반의 투자 심리와 특정 산업(예: 방산, 신재생에너지, IT 규제 등)의 성장성에 중대한 영향을 미칠 수 있습니다.",
+      "catalyst": "미국 중간선거 결과 발표",
+      "confidence": "높음",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "현대차",
+          "code": "005380",
+          "reason": "미국 IRA 등 정책 변화에 따라 전기차 산업에 장기적인 영향 가능성.",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "한화에어로스페이스",
+          "code": "012450",
+          "reason": "미국 정책 방향에 따라 해외 수주 및 방산 산업 전반에 장기적인 영향 가능성.",
+          "data_verified": false
+        },
+        {
+          "priority": 3,
+          "name": "기아",
+          "code": "000270",
+          "reason": "미국 IRA 등 정책 변화에 따라 전기차 산업에 장기적인 영향 가능성.",
+          "data_verified": false
+        }
+      ]
+    }
+  ]
+}
