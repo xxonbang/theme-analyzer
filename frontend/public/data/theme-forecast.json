@@ -1,227 +1,215 @@
 {
-  "forecast_date": "2026년 11월 04일",
-  "generated_at": "2026-11-04T13:33:32.308878+09:00",
-  "market_context": "전일 미국 증시는 중간선거 결과를 주시하며 혼조세로 마감했으나, 주요 AI 및 반도체 기업들의 반등에 힘입어 나스닥과 필라델피아 반도체 지수는 상승했습니다. 국내 증시는 미국발 AI 투자 수익성 우려와 외국인 대규모 매도세로 큰 폭 하락했지만, 밸류에이션 부담이 낮아져 저가 매수 유입 가능성이 커졌습니다.",
-  "us_market_summary": "전일 미국 증시는 나스닥 지수(+0.83%)와 필라델피아 반도체 지수(+2.63%)가 상승 마감했습니다. 엔비디아, 마이크론, 마이크로소프트, AMD, 브로드컴 등 주요 반도체 및 AI 관련주들이 강세를 보였습니다.",
+  "forecast_date": "2026년 11월 05일",
+  "generated_at": "2026-11-05T07:36:01.542270+09:00",
+  "market_context": "미국 중간선거에서 민주당의 '블루 웨이브' 달성은 정치적 불확실성을 일부 해소하며 뉴욕 증시를 상승 마감시켰으나, 동시에 AI 데이터센터 증설 규제 가능성이라는 새로운 리스크를 불러왔습니다. 이에 따라 반도체 및 AI 인프라 관련주는 하락세를 보였습니다. 국내 증권사들은 11월 증시가 종목별 차별화 장세를 보일 것으로 전망하며 반도체, 전력기기, 건설, 금융/지주사를 유망 업종으로 꼽았습니다.",
+  "us_market_summary": "미국 중간선거 결과로 인한 정치적 불확실성 해소로 뉴욕 증시는 상승 마감했습니다. 다만, AI 데이터센터 증설 규제 가능성으로 인해 반도체 및 AI 인프라 관련주는 하락세를 보였습니다.",
   "news_sources": [
     {
-      "title": "뉴욕 증시, 중간선거 결과 주시하며 혼조세로 마감",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCxW2PegiUXkJWdtay4ETxPaSHNikpZ5NyBknmd-hCI0NQqlQD_Wf2fIHuUunYVcI6wZ040SXYNUSoENJzzZzKf2ei4uoXmflBTCxc1rKHYC3FUqWL8RLBV48Lep5yD2OjTiRkEK_7iSxl9ZU="
-    },
-    {
-      "title": "뉴욕증시, 중간선거 경계 속 혼조…기술주 반등에 나스닥 0.8%↑",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjB0KIXcdsmqpN1wKnWfypFb8KuI7XrI0Z-zB5X9hVkugTTqdxxmrqnlOwqzO5zZKLpN2nz_lNbLZugUnXqoYScnFB-FIFYyLbdsB6RU0Q2OE60QA9Z-_SZziCsO31kTmNc96XN5yVR__O"
-    },
-    {
-      "title": "Nasdaq Bounces as Chips Lead AI Revival: Stock Market Today",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGduF9K6yTkGD3G88QshW0iJbCDDRPkw3NKYYdLj54mpvBm3ZwbeHIR_US8OHk_P3OcMLT03UEbsfnF3K00jlujIW66SIgjOO19SfKVKXYI4fAdfWeoPKmfeEk0if0iROCcpbU5IVDI2_wElLmsKr4ERF87YHVXzBoViaHEJOEihnCINyZR2qEVUgB9khPQ9xYrYzewlqgkc6FIuY_fUyjE"
-    },
-    {
-      "title": "kvue.com",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ9WdB4VuuvvyoMKAcafyxMkKjYGX5m7toB8vER16Lk_Tq9ies2pQb8MV5C-38mG6y8z928pg4eIJArSTnH8NaoX5cRVh2J0e_8MHeYDZ1zp6a4ERHDiG4ln_C1edk4W35TtMuPudRzt4anGLhvavmqQQNB_C7meffHXNMCFneNPdkQN9B03_pLuTrv_BcIbQgsxflXZyXazsyFxGRXfwL_UjMyh1-ntg8t2I8Fp9yExNpgR4WJ3YfoJ88f9aWDD3tM6c3Vscq_iawAbry5Q=="
-    },
-    {
-      "title": "Markets today: U.S. stocks drift in mixed trading",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnVOSVCdDD1If5K0DeyKmyb9KFX66mDgapRxSJ6aXnHD2k792yRhngM1QNiwdGhQ6my4k4z_01-oWuNO_K2PJ5JZ77dtASiPenyXgaLxyIbtMPoY242nO_lPcIhoCQb7cU4oooDdIT1OsXNzozF0qeobVgieTXkXwUF1wvE3bUzaw6zTV6oAPU84uucpt6Q1qI-BVq7JNv-o00SIex9XT8JSnG8K9NiuMS8RYlfnLTIFnwQ295kpaLyw=="
-    },
-    {
-      "title": "Access Denied",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBbCK663r9dL8eA9BbFAfSCfNqCwQLRfPFHJi0DD8EUfBpIEYeYL7gEhQ1wriSfdoMIiJmCc6RV108JNfj--Eh4NAO-1Tb4nGVH0RvXW753cid-O8nwsyI_vpiNarqZ99zS1xUXHdHzcBQNAtc9ww4BrOFkyoL8YsynwBt90qrBQtnekOQRAYEu9_LJRmMA8FMWhEO"
-    },
-    {
-      "title": "tradingkey.com",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUUfXfC21gxkXCiHUsXwChRp3nZSL1bdw-DSwgB3Vv9JFDtGxAw-NXaS16qPpmahRLzlsGkbVfMsXPJZ9LIxA1n1pRo7TwTj4eqDs2HzZIVJnd0WrupCjqztY79kEeVjBolYMWImQDUyQ52zss4eTEI-NtX64QSG4nrWLlFrTmJPZhtjxUQsak28v9avPBaAjrYeuxbYQQQVJS3n0bfJnQsgu66A_2QnO4obojlES-OCbqt9fU9_dF7Q=="
-    },
-    {
-      "title": "404 Not Found",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEohLmvjwuSHMcVtoKX3VIo0Hnx8v1LqiGm2smWp5iHpe8CyO7RG8Zm80rXLwr0FgdA0xNwxbVZ9furdU3fAcJcN_2Hpx76dwXJo0p-ycj2YOm1L7odC5M6j2M1txAZ_X4sJT5HMCowWCeMxrlK9onR0f49ygQdgde9RzYZqr1XkI9hredq7Bo7zy0vzQzaZ1N3ztz4mo5ODczp7asKL2Fas8UByuzX"
-    },
-    {
-      "title": "stocktitan.net",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbEYWF4C37XGdjbMixSNOAuAs7UD738teVfgcz79o5zknM6kjeohMr5JSGv5fM5Lg1-0CbGu_6A8rQmwWynxLV-WciyscaPVW3NJJLxq2PhSfbZcfhCZd4Cp7ialL1NYbtLg0o37XUwYuIPkWEW_zoK1pRChTtxwG3peO9lAKo90plL2QRHA=="
-    },
-    {
-      "title": "Stock Market News for Nov 3, 2026 - November 3, 2026",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8HbBTgu6Wwy_cBtC5Op_DAbpmC07_REKGLlgtWhh8-39n_xv4mdSCPfV9_NhjmMH_H3tTrRS8e_Iqa2ZpLgsZ4nE1m22LlpYvoMnSwdaaFtt7O0cb6yLxZukhN2_9dsRwLQTHU8TtPk4str2BcwbAcOV05YFXkQLvXPPIXOHpzabiU68="
-    },
-    {
-      "title": "코스피 오른다면서 “주식은 팔라”는 증권가⋯내년 하반기 경계감↑",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSYGaaYzMlR9vu71Al7aBl7LVLvIs4TSnrQGW1RiX0f9cSqcWnsvefswIv9sBZ5d5JM-dPA9wmgWFW4SCfG6tys2iSJjTxXjEznZG5kaJx3hxn10J4vZ6xJnmaRYFQE9tPvGVrXQ=="
-    },
-    {
-      "title": "FSM Global | Invest Through SGX and Global Markets from Singapore",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6X0-d5y_tafplu3Fdx-7onwZdU-jaaBf75bg2pRnCkByVO1MqIAucXyCZdCclIv9bOcJDUu5Rbx7I1spG4oI7D5IAle1Jtxm8Va-iit2xzOe2xQjdfHRT1EL9I-svvx-kiUg="
-    },
-    {
-      "title": "South Korea Doubles AI Chip Budget: 4 ETFs to Ride the Wave - November 3, 2026",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5gJ98LOTWxXcJ1m3GJEj7fkNV3lU5ct0iop30hsIm3jjLYBUBiKYhcn2bChXOOj5pWFBpGTAZQL7Ow1GF7Ea9gJj5GgQ4N2D87a_HkmyP9Exww0RXTqnS9exCd0YP3Wns4ktpXIXjpFLMxv8atIBbhu1IvvUGIik-nY3E_qZMw-WKSFn0saX8nOrV33oX5vrrdGLVXLThM3msBBfeFQ=="
-    },
-    {
-      "title": "South Korea 4Q26 Investment Outlook: After the Pullback, Is the Korea Equity Story Over?",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIYX4tpboclmap3pmGbLaF6OwKiSH9OjJj40Jij1Nkb-k7I5Wa8Wo7K44iuJ3EwhAgUkX4XrwKttIijNDHnOxM6onWReLFCoxEaZBjzVYIyPyk81UadjeRZLRuAvSIiQ426asTo-eLzgATeH_4SifVISRpKznM45KFEJkQjIEMKPKuZtazfjlIHElYGeLpc13S7zRhjkLVJW3A9T-0_1qGHBHffYWg6VKH3A=="
-    },
-    {
-      "title": "11월 증시, 그래도 반도체? 전력기기 건설주?…증권사들이 꼽은 유망주는",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFp5ydj9kEo5tVKtlG7LzB-_q4bSdi3zZRBhIqRsjH9wo1L4FJpImTS_0smDAljcY0ABnKHfKK6017fZ3bsy9nNiS6TAuQC1J9VmST7bBM8B7yorqa6NgZnPvagbdsCLd7zITpTQnwDYs="
-    },
-    {
-      "title": "[11월 증시전망] 실적&#183;소비&#183;배당에 주목…AI 반도체와 K-소비재 관심",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSkeVLm06ITGdmYzohHrPiOKyeAxtWgrqo8BP7Z_yM5ftDvygw-SAW86cYUvgldgVtpEVZyE_RkJKREKeKfyuZbzC6luiy1kVj-xW0r2-mMkhTbTtnS4B-RFJ3CFJrrCvk2NP5PEOELwBWeWW6_srRtbNgI2tbvarcJ0yDU2cJTJUNeLyRsw=="
-    },
-    {
-      "title": "[KFT 모닝 브리프] 2026.11.04 — 오늘 꼭 알아야 할 국내외 경제뉴스",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBGAGQ70v0DYjjg2KbVZEXpEJMuAaI0-xq-_ROgl0ejtYC6iHNs9TCL07RB7shVCgsIgjf3HbqUm3w4_LGObs10cu_OUtq1KvOg-6G6D6NzNy-5ljJl7UBc49MciS6iMXyvhe9HIJTbX9HVf4LV5qJJ6pF4rjfJTMqQJRg4wlPEZk="
-    },
-    {
-      "title": "Asian markets mixed, South Korea&#x2019;s Kospi plunges 4%",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2IYANM80Zp0llHwP0bXGqfKydeWkEvWj_l5PU95McXVgAi9EyGNC4HniONHEmh8yswCuj9MvIEnWWJax4tvty1k_z3ORnlpj_g7JkkuF_txO8JvBH1iDJUXdpv5JPlh4Z69XtKYAdrfbyMKlXXqzBgfEEmxylpcjdjzV-7KRIFLdpBdK_-UQbyADp"
-    },
-    {
-      "title": "2026년 11월 미국 CPI·PPI 발표일 (한국시간)",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvIvzy3_pzVBGu3SrJQVQzxO5h6vEcYes002L754K-0pxcKJ19d0tviQtqRPaAn489Jjpm8aO6VmwacKxv89J38do5BhfGEqIUoBeRLuwT0k7z_1ZW6bPPLm28SoPL"
-    },
-    {
-      "title": "2026년 11월, 내가 알아둬야 할 경제&middot;주식 일정은?",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcvL0EGqFTv3t_9PymAzqXWNzRgT7MYQWG4YBS3AH9rs9au9lrw8JXNMwQz3fm0BHc1_xMYo9_LRvAwiguc_ErxJWRxuk3duhSyBGWco0Nmc6ZlwSyJDYwvLLz2YrmLlvEmSyqu7vGqOQS4zj0YUl9dmYq8rUKlNp4XZrB98_gD_zOO2_0LWHOwrJ7BBPZgGKJG8EAonrlE-nWjO_E4JVBYW93pyegNUYI3qrd7vbsKs4spUtUMNiivw-0M2pGguk1-cRXSPrDAPU_9-cVWBGUwsnkHDSYkFs9CgTz_rFpTDtQeV5h_oWIgDnr26TR7lj3okV8Mu-xsTE__VwjD7oysWg="
-    },
-    {
-      "title": "youtube.com",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbntlMiINivkw2XyneBCVkT4g30u2Ni2lDwkpHiNv_osGArhry8BcTiDMgRNpYXF1Ip4nym5srXf-6hs_cFAAumur9_V2LDE50SVoWuRGN026AOmEqLm9QrhkUaZudCwRpDcrGRA=="
-    },
-    {
-      "title": "South Korea Calendar",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHghaOMK0JG4N3CsAxS3YWScgI3aCKCGDDZR8OAcwU8oV2xw6I_VlB-yKOMcOZCC_3CdhSs_Ar2ZHWjw8RyTxV_NXZLgglbtlnz3F_tbT9Ai41D1lJuDvVDcuIVKpKsIBp-ZSPsZfax5WW3qeo="
-    },
-    {
-      "title": "Just a moment...",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6fLIfEOPAeW90BPJSrJNEC56wmwroLu60rVC5ehx_GwIVunEf46SHsn0AfxoBuvSMvad1NiVUZSe3symOuSv-UTJ2uafyRZNqk1Bpm6aFsiA51E9mrt2ZBxR4dJc1ccqHAXAPAvCO8jJ5Za0nbpY29AhZYnf2_A=="
-    },
-    {
-      "title": "[주요경제지표] 2026년 11월 3일자",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7Fk2BwrgUktOPc_ud_Wfl51RH-TiOM9Ie37eeEwPWTrk4NBfK7xKjhb3Wt5mzrJS4Zg3tT5vXOmcykE0mGRQT_I929k1Ly1twcucetprYdwJDx40tZhUzbB-SXPWx6Tdxo98DlyAEt7mnoQSXtvWIz5CIIHWQFCkiHWcnYnkf3Tm1I_eL9E4kkSnFkv8B"
-    },
-    {
-      "title": "대한민국",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0evOv7H-8uNjXYVDFMZKuSqQALZsulM2_L-Lb1TM0pu1KIDHoihHR1Xcz9t9FbaSwXTYhtOS7205INxMLms4dqgEWZhLfZ0u4wSsJkoiBQWh_otjKIoCaSnedoFRozzbHcXNxO2EjVI8Of3hrowo="
+      "title": "美선거 끝나자 뉴욕증시 급등…다우 3% 오르며 53,000선 회복",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxMu097uUwD9zapN-TyVXgPKHzKWYAAD0vvanQxxn0PunakoArEvNn-mp10NUOcrnaGIeJ7DkxuR8anJR6Rv-8bVRuiRK43UVP0sNl9OL51cUuFE4WGP2d487AxBtSTD3M_uvUIs1Gbmxe"
     },
     {
       "title": "einfomax.co.kr",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFOasixpRzjvYL9tDuIcaDFuN7J_xV1jYLYQSPByaXSh_SYCeC8rFdzQV96B_P6tEDkGqE9NAw1DcjI7uIE_jN65wM9vOKOBdeLAtBh-GpzYsXofVNvCvVOakWh1uOLEeHnzguBDsngz6czW9WALGltKEIcrUTHVF2JQ=="
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKCjv9S6D6MQJIC3babt9J5Y7-VNQX16-ShJVMOyoIiEGJFuKe1wM_CWF3o89QhPUUrsMerdZwYeMU4VUKyBiiotv1gVHC_0sPIiKk8LscLxaSCPrh0S1hlcjIXKfcF4a8cwtZgYwBP4XxLlxERFuQBBoSukepA7svOg=="
     },
     {
-      "title": "Economic Bulletin, November 2026 - KDI - Korea Development Institute - RESEARCH - Periodicals",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0VtxZmGu6GMSjr4zcQSnCW7gGG-i_FCqICKNhLmfd2N7-Qu-jOAKvGc-S9-BnT0790q4oiOkDGu_nRmDelR7qfqfHUiwNTRwq4CLB3aiEDBNlyOWeIApD90L1T7FmAdzSY_M="
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDuiT-Op1NtaH8y0iyVlTyI1YmQV2y07MZhnsCADKVoUtA7y2adyh3L44gvyZkWJjfI3lqkxoCD8Eln94RRdjrvVeWJL4WYcrxAtrS5sWHg-3cpkTrriTOi_oEbXqGIm8tpgze8TfOP7oKqF812UyvF8c_a3lSsnhaoQ=="
+    },
+    {
+      "title": "11월 증시, 그래도 반도체? 전력기기 건설주?…증권사들이 꼽은 유망주는",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJipeXYMVQ-CGpnJTV1C3WSdKFkTOoGOumyVmk6WMh7kPlHep-ScMZg7RqfzQU-9A6TO6T5Caekz8DBzhvFvh9b7dK5eymZBds1hjlVmFY_iw8ChSI-pvX8xV5LOo1-_IF80C71AkbWQg="
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaKccFwd0PH5VBYH--M5HRZB7rXTUkU7g1OlucphdorQFdlL5pky581jItgPUBEtdyw4_oU2hHFJ1vDh_bcnktUqVT1AvZLH7bVxYG7lUl9YW-Cgy6mfSw_CLCwGquSBMqzJgw9S_1WdULYvU7F6jYhdmBuWOhZUSk0g=="
     }
   ],
   "today": [
     {
-      "theme_name": "반도체/AI",
-      "description": "전일 미국 증시에서 필라델피아 반도체 지수가 2.63% 상승했으며, 엔비디아, 마이크론, 마이크로소프트 등 주요 AI 및 반도체 관련 대형 기술주들이 저가 매수세에 힘입어 반등했습니다. 이는 국내 반도체/AI 관련주에 긍정적인 투자 심리를 형성할 것으로 예상됩니다.",
-      "catalyst": "미국 반도체 지수 강세 및 주요 AI 반도체 기업 반등",
-      "confidence": "보통",
+      "theme_name": "전력기기 및 전력 인프라 (에너지 전환 및 그리드 현대화)",
+      "description": "글로벌 전기차 시장 성장 및 LFP 양극재 확대, 전력망 구축 기대감, 국내 증권사 11월 유망 업종 지목, 기관 순매수 지속. 미국 중간선거 이후 친환경 정책 강화 기대감도 일부 작용하여 오늘 시장에서 부각될 것으로 예상됩니다.",
+      "catalyst": "글로벌 전기차 시장 성장 및 전력망 구축 기대감, 기관 순매수",
+      "confidence": "높음",
       "leader_stocks": [
         {
           "priority": 1,
-          "name": "삼성전자",
-          "code": "005930",
-          "reason": "전일 코스피 거래대금 2위(29,502억원)를 기록한 국내 시가총액 최상위 종목으로, 반도체 업황 개선 기대감과 함께 외국인 매도세 완화 시 가장 먼저 반등할 가능성이 높습니다.",
+          "name": "한화솔루션",
+          "code": "009830",
+          "reason": "전일 기관 67만주 순매수, 거래대금 상위, 태양광 및 에너지 솔루션 선도 기업으로 전력 인프라 핵심 역할",
           "data_verified": true
         },
         {
           "priority": 2,
-          "name": "심텍",
-          "code": "222800",
-          "reason": "전일 코스피에서 +4.63% 상승하며 거래대금 상위권(8위, 1,699억원)에 위치했습니다. 반도체 기판 관련주로, 반도체 업황 개선 기대감에 따른 수혜가 예상됩니다. 기관 순매수가 유입된 점도 긍정적입니다.",
+          "name": "삼성E&A",
+          "code": "028050",
+          "reason": "전일 기관 24만주 순매수, 플랜트 건설 및 인프라 구축 대형주로 전력 인프라 확장 수혜 기대",
           "data_verified": true
         },
         {
           "priority": 3,
-          "name": "SK하이닉스",
-          "code": "000660",
-          "reason": "전일 코스피 거래대금 1위(42,292억원)를 기록하며 시장의 높은 관심을 받았으며, 미국 필라델피아 반도체 지수 상승 및 SK하이닉스 미국주식예탁증서(ADR)도 2.09% 상승한 점은 오늘 국내 증시에서 반등 기대감을 높입니다.",
+          "name": "HD현대에너지솔루션",
+          "code": "322000",
+          "reason": "전일 기관 7.5만주 순매수, 태양광 발전 및 에너지 솔루션으로 전력 인프라 관련",
           "data_verified": true
         }
       ]
     },
     {
-      "theme_name": "2차전지/전력설비",
-      "description": "새로운 강력한 촉매는 부재합니다. 전일 한화솔루션(+13.98%)과 대명에너지(+27.03%) 등 전력설비/신재생에너지 관련 일부 종목이 강세를 보였으나, 2차전지 대형주인 LG에너지솔루션은 외국인/기관 매도세가 나타났습니다.",
-      "catalyst": "새로운 강력한 촉매 부재",
-      "confidence": "낮음",
+      "theme_name": "AI 소프트웨어 및 솔루션 (선별적 접근)",
+      "description": "AI 기술 발전 메가 트렌드, 딥페이크 차단 기술 등 신사업 기대감, 특정 종목의 강한 외국인 수급 유입으로 오늘 시장에서 주목받을 수 있습니다. 다만, 미국 중간선거 결과에 따른 AI 데이터센터 증설 규제 가능성 및 미국 AI 시장 내 분열 소식은 리스크 요인입니다.",
+      "catalyst": "AI 기술 발전 메가 트렌드, 신사업 기대감, 외국인 수급 유입",
+      "confidence": "보통",
       "leader_stocks": [
         {
           "priority": 1,
-          "name": "삼성SDI",
-          "code": "006400",
-          "reason": "전일 소폭 상승 및 외국인/기관 순매수를 보였으며, 2차전지 섹터 내에서 상대적으로 양호한 흐름을 보였습니다.",
+          "name": "에스피소프트",
+          "code": "443670",
+          "reason": "전일 외국인 19.7만주 순매수 유입, 전일 14.70% 급등, 과거 예측 성과 매우 긍정적, AI 소프트웨어 전문 기업",
           "data_verified": true
         }
       ]
     },
     {
-      "theme_name": "바이오/제약",
-      "description": "전일 미국 증시에서 생명과학 기업 레비티(Levity)가 연간 EPS 전망 상향 조정으로 7.77% 상승했으나, 이는 개별 기업 이슈로 섹터 전반의 강력한 촉매로 보기 어렵습니다.",
-      "catalyst": "개별 기업 이슈 외 섹터 전반의 강력한 촉매 부재",
-      "confidence": "낮음",
+      "theme_name": "금융 및 지주사 (주주환원 확대 및 시장 불확실성 해소)",
+      "description": "미국 중간선거 불확실성 해소로 인한 시장 심리 개선, 정부의 주주환원 정책 확대 기조에 따른 배당 및 자사주 매입 기대감으로 오늘 시장에서 주목받을 수 있습니다.",
+      "catalyst": "미국 중간선거 불확실성 해소, 주주환원 정책 확대 기대감",
+      "confidence": "보통",
       "leader_stocks": [
         {
           "priority": 1,
-          "name": "셀트리온",
-          "code": "068270",
-          "reason": "국내 바이오/제약 섹터의 대표적인 시가총액 상위 종목으로, 섹터 전반의 모멘텀 부재 속에서도 시장의 관심이 유지될 수 있습니다.",
-          "data_verified": false
+          "name": "한진칼",
+          "code": "180640",
+          "reason": "전일 기관 6.2만주 순매수, 지주사로서 주주환원 정책 강화 기대감",
+          "data_verified": true
         }
       ]
     }
   ],
   "short_term": [
     {
-      "theme_name": "전력설비",
-      "description": "국내 증권가에서 반도체와 함께 실적 개선이 뚜렷한 업종으로 전력기기를 주목하고 있습니다. AI 반도체 산업의 성장은 데이터센터 등 전력 인프라 확충을 필연적으로 동반하기 때문에 중장기적인 성장 동력을 확보하고 있습니다.",
-      "catalyst": "AI 반도체 산업 성장으로 인한 전력 인프라 확충 필요성 증대",
-      "confidence": "보통",
+      "theme_name": "전력기기 및 전력 인프라 (에너지 전환 및 그리드 현대화)",
+      "description": "글로벌 전기차 시장 성장 및 LFP 양극재 확대, 전력망 구축 기대감, 국내 증권사 11월 유망 업종 지목, 기관 순매수 지속. 미국 중간선거 이후 친환경 정책 강화 기대감도 일부 작용하며 단기적으로 지속적인 상승이 기대됩니다.",
+      "catalyst": "지속적인 글로벌 투자 및 정책 지원, 에너지 안보 중요성 부각",
+      "confidence": "높음",
       "target_period": "이번주",
       "leader_stocks": [
         {
           "priority": 1,
-          "name": "HD현대일렉트릭",
-          "code": "267260",
-          "reason": "전력기기 산업의 대표 기업으로 AI 반도체 산업 성장에 따른 수혜 기대.",
-          "data_verified": false
+          "name": "한화솔루션",
+          "code": "009830",
+          "reason": "전일 기관 67만주 순매수, 거래대금 상위, 태양광 및 에너지 솔루션 선도 기업으로 전력 인프라 핵심 역할",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "삼성E&A",
+          "code": "028050",
+          "reason": "전일 기관 24만주 순매수, 플랜트 건설 및 인프라 구축 대형주로 전력 인프라 확장 수혜 기대",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "HD현대에너지솔루션",
+          "code": "322000",
+          "reason": "전일 기관 7.5만주 순매수, 태양광 발전 및 에너지 솔루션으로 전력 인프라 관련",
+          "data_verified": true
         }
       ]
     },
     {
-      "theme_name": "소비재/유통",
-      "description": "11월 블랙프라이데이 등 연말 소비 시즌을 앞두고 필수소비재 및 유통 관련 기업의 수혜 가능성이 언급됩니다. 미국 고용 및 물가 지표가 소비 심리에 영향을 미칠 수 있습니다.",
-      "catalyst": "블랙프라이데이 등 연말 소비 시즌 도래",
+      "theme_name": "AI 소프트웨어 및 솔루션 (선별적 접근)",
+      "description": "AI 기술 발전 메가 트렌드, 딥페이크 차단 기술 등 신사업 기대감, 특정 종목의 강한 외국인 수급 유입으로 단기적으로 주목받을 수 있습니다. 다만, 규제 리스크와 시장 내 차별화 심화 가능성 상존합니다.",
+      "catalyst": "지속적인 AI 기술 발전 및 산업 적용 확대",
       "confidence": "보통",
       "target_period": "이번주",
       "leader_stocks": [
         {
           "priority": 1,
-          "name": "신세계",
-          "code": "004170",
-          "reason": "연말 소비 시즌 수혜가 예상되는 대표적인 유통 기업.",
-          "data_verified": false
+          "name": "에스피소프트",
+          "code": "443670",
+          "reason": "전일 외국인 19.7만주 순매수 유입, 전일 14.70% 급등, 과거 예측 성과 매우 긍정적, AI 소프트웨어 전문 기업",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "건설 (회복 기대감 및 정부 정책 수혜)",
+      "description": "국내 증권사 11월 유망 업종 지목, 국내 건설 경기 회복 기대감, 신도시 건설 및 재건축/재개발 등 정부 정책 수혜로 단기적으로 주목할 만합니다.",
+      "catalyst": "국내 건설 경기 회복 기대감, 정부 정책 수혜",
+      "confidence": "보통",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성E&A",
+          "code": "028050",
+          "reason": "전일 기관 24만주 순매수, 플랜트 및 인프라 건설 대형주로 건설업 회복 기대감 반영",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "2차전지 (대형주 중심의 선별적 접근)",
+      "description": "글로벌 전기차 시장 성장 지속 (특히 LFP 양극재 시장), 기관의 대형주 순매수 유입으로 단기적으로 주목받을 수 있습니다. 다만, 테마 전반의 높은 변동성 및 과거 낮은 적중률, 미국 데이터센터 규제 가능성으로 인한 전력설비 투자 위축 우려가 리스크 요인입니다.",
+      "catalyst": "글로벌 전기차 시장 성장 지속, 기관의 대형주 순매수 유입",
+      "confidence": "보통",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성SDI",
+          "code": "006400",
+          "reason": "전일 외국인 8.3만주, 기관 14.6만주 동반 순매수, 거래대금 상위, 2차전지 대형주로서 시장의 관심 집중",
+          "data_verified": true
         }
       ]
     }
   ],
   "long_term": [
     {
-      "theme_name": "건설",
-      "description": "국내 증권가에서 2027년 실적 개선이 기대되는 업종 중 하나로 건설을 언급했습니다.",
-      "catalyst": "2027년 실적 개선 기대감",
-      "confidence": "보통",
+      "theme_name": "전력기기 및 전력 인프라 (에너지 전환 및 그리드 현대화)",
+      "description": "전 세계적인 탄소중립 목표 달성을 위한 재생에너지 확대, 노후 전력망 교체 및 스마트 그리드 구축, 전기차 충전 인프라 확충 등 구조적인 성장 동력을 바탕으로 장기적인 성장이 기대됩니다.",
+      "catalyst": "전 세계적인 탄소중립 목표 달성, 재생에너지 확대, 전력망 현대화",
+      "confidence": "높음",
       "target_period": "1개월 이내",
       "leader_stocks": [
         {
           "priority": 1,
-          "name": "현대건설",
-          "code": "000720",
-          "reason": "국내 대형 건설사로 장기적인 실적 개선 기대감 보유.",
-          "data_verified": false
+          "name": "한화솔루션",
+          "code": "009830",
+          "reason": "전일 기관 67만주 순매수, 거래대금 상위, 태양광 및 에너지 솔루션 선도 기업으로 전력 인프라 핵심 역할",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "삼성E&A",
+          "code": "028050",
+          "reason": "전일 기관 24만주 순매수, 플랜트 건설 및 인프라 구축 대형주로 전력 인프라 확장 수혜 기대",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "HD현대에너지솔루션",
+          "code": "322000",
+          "reason": "전일 기관 7.5만주 순매수, 태양광 발전 및 에너지 솔루션으로 전력 인프라 관련",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "AI 소프트웨어 및 솔루션 (산업 전반의 혁신 동력)",
+      "description": "AI 기술의 비약적인 발전과 산업 전반으로의 확산, 생산성 향상 및 신규 시장 창출. 인류 삶의 방식과 비즈니스 모델을 근본적으로 변화시킬 메가 트렌드로 장기적인 성장이 기대됩니다.",
+      "catalyst": "AI 기술의 비약적인 발전과 산업 전반으로의 확산, 생산성 향상 및 신규 시장 창출",
+      "confidence": "높음",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "에스피소프트",
+          "code": "443670",
+          "reason": "전일 외국인 19.7만주 순매수 유입, 전일 14.70% 급등, 과거 예측 성과 매우 긍정적, AI 소프트웨어 전문 기업",
+          "data_verified": true
         }
       ]
     }
