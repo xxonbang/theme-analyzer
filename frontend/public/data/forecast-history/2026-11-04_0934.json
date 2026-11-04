@@ -1,0 +1,243 @@
+{
+  "forecast_date": "2026년 11월 04일",
+  "generated_at": "2026-11-04T09:34:58.165609+09:00",
+  "market_context": "2026년 11월 4일 한국 주식시장은 전일 미국 시장의 반도체/AI 섹터 강세와 국내 증시의 저가 매수 심리가 맞물려 반등을 시도할 것으로 예상됩니다. 미국 중간선거 결과 발표를 앞두고 단기 변동성이 존재할 수 있으나, AI 투자 수익성 우려 완화와 유가 급락에 따른 인플레이션 압력 완화는 긍정적인 시장 분위기를 조성할 것입니다.",
+  "us_market_summary": "전일 미국 증시에서 나스닥 및 S&P 500 지수가 상승하고 필라델피아 반도체 지수가 2.63% 급등하며 반도체주가 강한 반등을 보였습니다. 엔비디아, 마이크론, 마이크로소프트 등 주요 AI 관련 기술주들이 상승했으며, 장 마감 후 AMD와 슈퍼마이크로도 예상치를 웃도는 실적을 발표하며 시간 외 거래에서 강세를 나타냈습니다.",
+  "news_sources": [
+    {
+      "title": "뉴욕 증시, 중간선거 결과 주시하며 혼조세로 마감",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCxW2PegiUXkJWdtay4ETxPaSHNikpZ5NyBknmd-hCI0NQqlQD_Wf2fIHuUunYVcI6wZ040SXYNUSoENJzzZzKf2ei4uoXmflBTCxc1rKHYC3FUqWL8RLBV48Lep5yD2OjTiRkEK_7iSxl9ZU="
+    },
+    {
+      "title": "뉴욕증시, 중간선거 경계 속 혼조…기술주 반등에 나스닥 0.8%↑",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjB0KIXcdsmqpN1wKnWfypFb8KuI7XrI0Z-zB5X9hVkugTTqdxxmrqnlOwqzO5zZKLpN2nz_lNbLZugUnXqoYScnFB-FIFYyLbdsB6RU0Q2OE60QA9Z-_SZziCsO31kTmNc96XN5yVR__O"
+    },
+    {
+      "title": "Nasdaq Bounces as Chips Lead AI Revival: Stock Market Today",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGduF9K6yTkGD3G88QshW0iJbCDDRPkw3NKYYdLj54mpvBm3ZwbeHIR_US8OHk_P3OcMLT03UEbsfnF3K00jlujIW66SIgjOO19SfKVKXYI4fAdfWeoPKmfeEk0if0iROCcpbU5IVDI2_wElLmsKr4ERF87YHVXzBoViaHEJOEihnCINyZR2qEVUgB9khPQ9xYrYzewlqgkc6FIuY_fUyjE"
+    },
+    {
+      "title": "kvue.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ9WdB4VuuvvyoMKAcafyxMkKjYGX5m7toB8vER16Lk_Tq9ies2pQb8MV5C-38mG6y8z928pg4eIJArSTnH8NaoX5cRVh2J0e_8MHeYDZ1zp6a4ERHDiG4ln_C1edk4W35TtMuPudRzt4anGLhvavmqQQNB_C7meffHXNMCFneNPdkQN9B03_pLuTrv_BcIbQgsxflXZyXazsyFxGRXfwL_UjMyh1-ntg8t2I8Fp9yExNpgR4WJ3YfoJ88f9aWDD3tM6c3Vscq_iawAbry5Q=="
+    },
+    {
+      "title": "Markets today: U.S. stocks drift in mixed trading",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnVOSVCdDD1If5K0DeyKmyb9KFX66mDgapRxSJ6aXnHD2k792yRhngM1QNiwdGhQ6my4k4z_01-oWuNO_K2PJ5JZ77dtASiPenyXgaLxyIbtMPoY242nO_lPcIhoCQb7cU4oooDdIT1OsXNzozF0qeobVgieTXkXwUF1wvE3bUzaw6zTV6oAPU84uucpt6Q1qI-BVq7JNv-o00SIex9XT8JSnG8K9NiuMS8RYlfnLTIFnwQ295kpaLyw=="
+    },
+    {
+      "title": "Access Denied",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBbCK663r9dL8eA9BbFAfSCfNqCwQLRfPFHJi0DD8EUfBpIEYeYL7gEhQ1wriSfdoMIiJmCc6RV108JNfj--Eh4NAO-1Tb4nGVH0RvXW753cid-O8nwsyI_vpiNarqZ99zS1xUXHdHzcBQNAtc9ww4BrOFkyoL8YsynwBt90qrBQtnekOQRAYEu9_LJRmMA8FMWhEO"
+    },
+    {
+      "title": "tradingkey.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUUfXfC21gxkXCiHUsXwChRp3nZSL1bdw-DSwgB3Vv9JFDtGxAw-NXaS16qPpmahRLzlsGkbVfMsXPJZ9LIxA1n1pRo7TwTj4eqDs2HzZIVJnd0WrupCjqztY79kEeVjBolYMWImQDUyQ52zss4eTEI-NtX64QSG4nrWLlFrTmJPZhtjxUQsak28v9avPBaAjrYeuxbYQQQVJS3n0bfJnQsgu66A_2QnO4obojlES-OCbqt9fU9_dF7Q=="
+    },
+    {
+      "title": "404 Not Found",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEohLmvjwuSHMcVtoKX3VIo0Hnx8v1LqiGm2smWp5iHpe8CyO7RG8Zm80rXLwr0FgdA0xNwxbVZ9furdU3fAcJcN_2Hpx76dwXJo0p-ycj2YOm1L7odC5M6j2M1txAZ_X4sJT5HMCowWCeMxrlK9onR0f49ygQdgde9RzYZqr1XkI9hredq7Bo7zy0vzQzaZ1N3ztz4mo5ODczp7asKL2Fas8UByuzX"
+    },
+    {
+      "title": "stocktitan.net",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbEYWF4C37XGdjbMixSNOAuAs7UD738teVfgcz79o5zknM6kjeohMr5JSGv5fM5Lg1-0CbGu_6A8rQmwWynxLV-WciyscaPVW3NJJLxq2PhSfbZcfhCZd4Cp7ialL1NYbtLg0o37XUwYuIPkWEW_zoK1pRChTtxwG3peO9lAKo90plL2QRHA=="
+    },
+    {
+      "title": "Stock Market News for Nov 3, 2026 - November 3, 2026",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8HbBTgu6Wwy_cBtC5Op_DAbpmC07_REKGLlgtWhh8-39n_xv4mdSCPfV9_NhjmMH_H3tTrRS8e_Iqa2ZpLgsZ4nE1m22LlpYvoMnSwdaaFtt7O0cb6yLxZukhN2_9dsRwLQTHU8TtPk4str2BcwbAcOV05YFXkQLvXPPIXOHpzabiU68="
+    },
+    {
+      "title": "코스피 오른다면서 “주식은 팔라”는 증권가⋯내년 하반기 경계감↑",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSYGaaYzMlR9vu71Al7aBl7LVLvIs4TSnrQGW1RiX0f9cSqcWnsvefswIv9sBZ5d5JM-dPA9wmgWFW4SCfG6tys2iSJjTxXjEznZG5kaJx3hxn10J4vZ6xJnmaRYFQE9tPvGVrXQ=="
+    },
+    {
+      "title": "FSM Global | Invest Through SGX and Global Markets from Singapore",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6X0-d5y_tafplu3Fdx-7onwZdU-jaaBf75bg2pRnCkByVO1MqIAucXyCZdCclIv9bOcJDUu5Rbx7I1spG4oI7D5IAle1Jtxm8Va-iit2xzOe2xQjdfHRT1EL9I-svvx-kiUg="
+    },
+    {
+      "title": "South Korea Doubles AI Chip Budget: 4 ETFs to Ride the Wave - November 3, 2026",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5gJ98LOTWxXcJ1m3GJEj7fkNV3lU5ct0iop30hsIm3jjLYBUBiKYhcn2bChXOOj5pWFBpGTAZQL7Ow1GF7Ea9gJj5GgQ4N2D87a_HkmyP9Exww0RXTqnS9exCd0YP3Wns4ktpXIXjpFLMxv8atIBbhu1IvvUGIik-nY3E_qZMw-WKSFn0saX8nOrV33oX5vrrdGLVXLThM3msBBfeFQ=="
+    },
+    {
+      "title": "South Korea 4Q26 Investment Outlook: After the Pullback, Is the Korea Equity Story Over?",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIYX4tpboclmap3pmGbLaF6OwKiSH9OjJj40Jij1Nkb-k7I5Wa8Wo7K44iuJ3EwhAgUkX4XrwKttIijNDHnOxM6onWReLFCoxEaZBjzVYIyPyk81UadjeRZLRuAvSIiQ426asTo-eLzgATeH_4SifVISRpKznM45KFEJkQjIEMKPKuZtazfjlIHElYGeLpc13S7zRhjkLVJW3A9T-0_1qGHBHffYWg6VKH3A=="
+    },
+    {
+      "title": "11월 증시, 그래도 반도체? 전력기기 건설주?…증권사들이 꼽은 유망주는",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFp5ydj9kEo5tVKtlG7LzB-_q4bSdi3zZRBhIqRsjH9wo1L4FJpImTS_0smDAljcY0ABnKHfKK6017fZ3bsy9nNiS6TAuQC1J9VmST7bBM8B7yorqa6NgZnPvagbdsCLd7zITpTQnwDYs="
+    },
+    {
+      "title": "[11월 증시전망] 실적&#183;소비&#183;배당에 주목…AI 반도체와 K-소비재 관심",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSkeVLm06ITGdmYzohHrPiOKyeAxtWgrqo8BP7Z_yM5ftDvygw-SAW86cYUvgldgVtpEVZyE_RkJKREKeKfyuZbzC6luiy1kVj-xW0r2-mMkhTbTtnS4B-RFJ3CFJrrCvk2NP5PEOELwBWeWW6_srRtbNgI2tbvarcJ0yDU2cJTJUNeLyRsw=="
+    },
+    {
+      "title": "[KFT 모닝 브리프] 2026.11.04 — 오늘 꼭 알아야 할 국내외 경제뉴스",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBGAGQ70v0DYjjg2KbVZEXpEJMuAaI0-xq-_ROgl0ejtYC6iHNs9TCL07RB7shVCgsIgjf3HbqUm3w4_LGObs10cu_OUtq1KvOg-6G6D6NzNy-5ljJl7UBc49MciS6iMXyvhe9HIJTbX9HVf4LV5qJJ6pF4rjfJTMqQJRg4wlPEZk="
+    },
+    {
+      "title": "Asian markets mixed, South Korea&#x2019;s Kospi plunges 4%",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2IYANM80Zp0llHwP0bXGqfKydeWkEvWj_l5PU95McXVgAi9EyGNC4HniONHEmh8yswCuj9MvIEnWWJax4tvty1k_z3ORnlpj_g7JkkuF_txO8JvBH1iDJUXdpv5JPlh4Z69XtKYAdrfbyMKlXXqzBgfEEmxylpcjdjzV-7KRIFLdpBdK_-UQbyADp"
+    },
+    {
+      "title": "2026년 11월 미국 CPI·PPI 발표일 (한국시간)",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvIvzy3_pzVBGu3SrJQVQzxO5h6vEcYes002L754K-0pxcKJ19d0tviQtqRPaAn489Jjpm8aO6VmwacKxv89J38do5BhfGEqIUoBeRLuwT0k7z_1ZW6bPPLm28SoPL"
+    },
+    {
+      "title": "2026년 11월, 내가 알아둬야 할 경제&middot;주식 일정은?",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcvL0EGqFTv3t_9PymAzqXWNzRgT7MYQWG4YBS3AH9rs9au9lrw8JXNMwQz3fm0BHc1_xMYo9_LRvAwiguc_ErxJWRxuk3duhSyBGWco0Nmc6ZlwSyJDYwvLLz2YrmLlvEmSyqu7vGqOQS4zj0YUl9dmYq8rUKlNp4XZrB98_gD_zOO2_0LWHOwrJ7BBPZgGKJG8EAonrlE-nWjO_E4JVBYW93pyegNUYI3qrd7vbsKs4spUtUMNiivw-0M2pGguk1-cRXSPrDAPU_9-cVWBGUwsnkHDSYkFs9CgTz_rFpTDtQeV5h_oWIgDnr26TR7lj3okV8Mu-xsTE__VwjD7oysWg="
+    },
+    {
+      "title": "youtube.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbntlMiINivkw2XyneBCVkT4g30u2Ni2lDwkpHiNv_osGArhry8BcTiDMgRNpYXF1Ip4nym5srXf-6hs_cFAAumur9_V2LDE50SVoWuRGN026AOmEqLm9QrhkUaZudCwRpDcrGRA=="
+    },
+    {
+      "title": "South Korea Calendar",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHghaOMK0JG4N3CsAxS3YWScgI3aCKCGDDZR8OAcwU8oV2xw6I_VlB-yKOMcOZCC_3CdhSs_Ar2ZHWjw8RyTxV_NXZLgglbtlnz3F_tbT9Ai41D1lJuDvVDcuIVKpKsIBp-ZSPsZfax5WW3qeo="
+    },
+    {
+      "title": "Just a moment...",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6fLIfEOPAeW90BPJSrJNEC56wmwroLu60rVC5ehx_GwIVunEf46SHsn0AfxoBuvSMvad1NiVUZSe3symOuSv-UTJ2uafyRZNqk1Bpm6aFsiA51E9mrt2ZBxR4dJc1ccqHAXAPAvCO8jJ5Za0nbpY29AhZYnf2_A=="
+    },
+    {
+      "title": "[주요경제지표] 2026년 11월 3일자",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7Fk2BwrgUktOPc_ud_Wfl51RH-TiOM9Ie37eeEwPWTrk4NBfK7xKjhb3Wt5mzrJS4Zg3tT5vXOmcykE0mGRQT_I929k1Ly1twcucetprYdwJDx40tZhUzbB-SXPWx6Tdxo98DlyAEt7mnoQSXtvWIz5CIIHWQFCkiHWcnYnkf3Tm1I_eL9E4kkSnFkv8B"
+    },
+    {
+      "title": "대한민국",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0evOv7H-8uNjXYVDFMZKuSqQALZsulM2_L-Lb1TM0pu1KIDHoihHR1Xcz9t9FbaSwXTYhtOS7205INxMLms4dqgEWZhLfZ0u4wSsJkoiBQWh_otjKIoCaSnedoFRozzbHcXNxO2EjVI8Of3hrowo="
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFOasixpRzjvYL9tDuIcaDFuN7J_xV1jYLYQSPByaXSh_SYCeC8rFdzQV96B_P6tEDkGqE9NAw1DcjI7uIE_jN65wM9vOKOBdeLAtBh-GpzYsXofVNvCvVOakWh1uOLEeHnzguBDsngz6czW9WALGltKEIcrUTHVF2JQ=="
+    },
+    {
+      "title": "Economic Bulletin, November 2026 - KDI - Korea Development Institute - RESEARCH - Periodicals",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0VtxZmGu6GMSjr4zcQSnCW7gGG-i_FCqICKNhLmfd2N7-Qu-jOAKvGc-S9-BnT0790q4oiOkDGu_nRmDelR7qfqfHUiwNTRwq4CLB3aiEDBNlyOWeIApD90L1T7FmAdzSY_M="
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "AI/반도체",
+      "description": "전일 미국 증시에서 나스닥 및 S&P 500 지수가 상승하고 필라델피아 반도체 지수가 2.63% 급등하며 반도체주가 강한 반등을 보였습니다. 엔비디아, 마이크론, 마이크로소프트 등 주요 AI 관련 기술주들이 상승했으며, 장 마감 후 AMD와 슈퍼마이크로도 예상치를 웃도는 실적을 발표하며 시간 외 거래에서 강세를 나타냈습니다. 이는 AI 투자 수익성에 대한 시장의 우려를 일부 완화시키는 요인으로 작용했습니다. 국내 증시 전망에서도 미국 반도체주 강세에 힘입어 반등 시도가 예상됩니다.",
+      "catalyst": "미국 반도체 지수 2.63% 급등 및 주요 AI 기술주 강세, AMD/슈퍼마이크로 실적 호조",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "인텔리빅스",
+          "code": "420610",
+          "reason": "코스닥 시장에서 AI 관련주로 분류될 수 있으며, 전일(8/31) 코스닥 거래대금 상위권에 위치하면서 외국인 순매수를 기록했습니다. AI 기술 발전과 함께 개별 AI 솔루션 기업에 대한 관심이 지속될 수 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "국내 반도체 산업의 대표주자로, 미국 반도체 시장의 강세는 SK하이닉스의 주가에 직접적인 영향을 미칠 것으로 예상됩니다. 전일(8/31) 외국인과 기관의 대규모 순매도가 있었으나, 이는 미국 시장의 반등으로 상쇄될 가능성이 높습니다. 한국 증시 전망에서도 외국인 매도세 감소 여부가 지수 회복의 주요 변수로 언급되었습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "국내 시가총액 1위 기업으로, 반도체 업황 개선 기대감에 따라 외국인 수급이 개선될 경우 시장 전반의 반등을 이끌 수 있습니다. 전일(8/31) 외국인과 기관의 순매도가 있었으나, 미국 시장의 반도체 훈풍이 긍정적으로 작용할 것으로 보입니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "사이버 보안",
+      "description": "글로벌 뉴스에서 해커들이 AI 도구를 사용하여 암호화폐를 탈취한 사례와 유럽 슈퍼마켓의 냉장고가 사이버 공격을 받아 음식이 부패한 사건이 보도되었습니다. 이는 AI 기술의 발전과 함께 사이버 공격의 지능화 및 범위가 확대되고 있음을 보여주며, 사이버 보안의 중요성이 더욱 부각될 수 있음을 시사합니다.",
+      "catalyst": "AI 도구 활용 사이버 공격 증가 및 유럽 슈퍼마켓 냉장고 사이버 공격 사례 발생",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "엑스게이트",
+          "code": "356680",
+          "reason": "정보 보안 솔루션 전문 기업으로, 기관의 3일 연속 순매수(8/31 기준)가 있었던 점이 긍정적입니다. AI 기반 사이버 보안 솔루션에 대한 기대감이 반영될 수 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "안랩",
+          "code": "053800",
+          "reason": "국내 대표적인 보안 소프트웨어 기업으로, 사이버 보안 위협 증가에 따른 수혜가 예상됩니다. 전일(8/31) 외국인과 기관의 순매도가 있었으나, 새로운 촉매 발생으로 관심이 집중될 수 있습니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "항공/여행",
+      "description": "미국과 이란 간의 종전 협상 기대감 확산으로 국제유가(WTI, 브렌트유)가 7% 이상 급락했습니다. 유가 하락은 항공사들의 유류비 부담을 크게 줄여 실적 개선에 긍정적인 영향을 미칠 수 있습니다.",
+      "catalyst": "미국-이란 종전 협상 기대감 확산으로 국제유가 7% 이상 급락",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "대한항공",
+          "code": "003490",
+          "reason": "국내 대표 항공사로, 유가 급락은 직접적인 비용 절감 효과로 이어져 실적 개선 기대감을 높일 수 있습니다. 전일(8/31) 기관이 5일 연속 순매수를 기록하며 긍정적인 수급 흐름을 보였습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "한진칼",
+          "code": "180640",
+          "reason": "대한항공의 지주사로, 대한항공의 실적 개선 기대감은 한진칼에도 긍정적인 영향을 미칠 수 있습니다. 전일(8/31) 기관이 7일 연속 순매수를 기록하며 강한 매수세를 보였습니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "전력설비",
+      "description": "국내 증권가에서 반도체와 함께 실적 개선이 뚜렷한 업종으로 전력기기를 주목하고 있습니다. AI 반도체 산업의 성장은 데이터센터 등 전력 인프라 확충을 필연적으로 동반하기 때문에 중장기적인 성장 동력을 확보하고 있습니다.",
+      "catalyst": "AI 반도체 산업 성장으로 인한 전력 인프라 확충 필요성 증대",
+      "confidence": "보통",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "HD현대일렉트릭",
+          "code": "267260",
+          "reason": "전력기기 산업의 대표 기업으로 AI 반도체 산업 성장에 따른 수혜 기대.",
+          "data_verified": false
+        }
+      ]
+    },
+    {
+      "theme_name": "소비재/유통",
+      "description": "11월 블랙프라이데이 등 연말 소비 시즌을 앞두고 필수소비재 및 유통 관련 기업의 수혜 가능성이 언급됩니다. 미국 고용 및 물가 지표가 소비 심리에 영향을 미칠 수 있습니다.",
+      "catalyst": "블랙프라이데이 등 연말 소비 시즌 도래",
+      "confidence": "보통",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "신세계",
+          "code": "004170",
+          "reason": "연말 소비 시즌 수혜가 예상되는 대표적인 유통 기업.",
+          "data_verified": false
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "건설",
+      "description": "국내 증권가에서 2027년 실적 개선이 기대되는 업종 중 하나로 건설을 언급했습니다.",
+      "catalyst": "2027년 실적 개선 기대감",
+      "confidence": "보통",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "현대건설",
+          "code": "000720",
+          "reason": "국내 대형 건설사로 장기적인 실적 개선 기대감 보유.",
+          "data_verified": false
+        }
+      ]
+    }
+  ]
+}
