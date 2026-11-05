@@ -1,0 +1,245 @@
+{
+  "forecast_date": "2026년 11월 05일",
+  "generated_at": "2026-11-05T10:33:36.448572+09:00",
+  "market_context": "2026년 11월 4일 미국 증시는 민주당의 상·하원 압승(블루 웨이브)이라는 정치적 불확실성 해소와 국제유가 급락에 힘입어 일제히 상승 마감했습니다. 국내 증시 또한 이러한 흐름을 반영하며 2차전지, 신재생에너지, 바이오/제약 섹터가 강세를 보인 반면, 반도체 섹터는 크게 하락하며 업종별 희비가 엇갈리는 모습을 보였습니다.",
+  "us_market_summary": "미국 중간선거에서 민주당의 상·하원 압승(블루 웨이브)과 국제유가 급락으로 미국 증시가 일제히 상승 마감했습니다. 특히 친환경 정책 강화 기대감에 신재생에너지 및 2차전지 관련주가 강세를 보였고, 민주당의 AI 데이터센터 규제 강화 우려로 반도체/AI 관련주는 급락했습니다.",
+  "news_sources": [
+    {
+      "title": "美선거 끝나자 뉴욕증시 급등…다우 3% 오르며 53,000선 회복",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxMu097uUwD9zapN-TyVXgPKHzKWYAAD0vvanQxxn0PunakoArEvNn-mp10NUOcrnaGIeJ7DkxuR8anJR6Rv-8bVRuiRK43UVP0sNl9OL51cUuFE4WGP2d487AxBtSTD3M_uvUIs1Gbmxe"
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKCjv9S6D6MQJIC3babt9J5Y7-VNQX16-ShJVMOyoIiEGJFuKe1wM_CWF3o89QhPUUrsMerdZwYeMU4VUKyBiiotv1gVHC_0sPIiKk8LscLxaSCPrh0S1hlcjIXKfcF4a8cwtZgYwBP4XxLlxERFuQBBoSukepA7svOg=="
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDuiT-Op1NtaH8y0iyVlTyI1YmQV2y07MZhnsCADKVoUtA7y2adyh3L44gvyZkWJjfI3lqkxoCD8Eln94RRdjrvVeWJL4WYcrxAtrS5sWHg-3cpkTrriTOi_oEbXqGIm8tpgze8TfOP7oKqF812UyvF8c_a3lSsnhaoQ=="
+    },
+    {
+      "title": "11월 증시, 그래도 반도체? 전력기기 건설주?…증권사들이 꼽은 유망주는",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJipeXYMVQ-CGpnJTV1C3WSdKFkTOoGOumyVmk6WMh7kPlHep-ScMZg7RqfzQU-9A6TO6T5Caekz8DBzhvFvh9b7dK5eymZBds1hjlVmFY_iw8ChSI-pvX8xV5LOo1-_IF80C71AkbWQg="
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaKccFwd0PH5VBYH--M5HRZB7rXTUkU7g1OlucphdorQFdlL5pky581jItgPUBEtdyw4_oU2hHFJ1vDh_bcnktUqVT1AvZLH7bVxYG7lUl9YW-Cgy6mfSw_CLCwGquSBMqzJgw9S_1WdULYvU7F6jYhdmBuWOhZUSk0g=="
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "신재생에너지",
+      "description": "미국 중간선거에서 민주당의 '블루 웨이브' 현실화로 친환경 정책 강화 기대감이 커지면서 글로벌 재생에너지 주식 급등에 따라 국내 신재생에너지 관련주에도 긍정적인 영향을 미칠 것으로 예상됩니다. 국제유가 급락 또한 에너지 전환 가속화에 대한 기대감을 높이는 요인입니다.",
+      "catalyst": "미국 중간선거 민주당 '블루 웨이브' 및 국제유가 급락",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "한화솔루션",
+          "code": "009830",
+          "reason": "전일 18.64% 급등하며 신재생에너지 테마의 강력한 상승세를 주도했습니다. 전일 거래대금 1,409억원으로 상위권에 위치했으며, 기관의 2일 연속 순매수(+78,000주)가 확인되었습니다. 태양광 사업의 국내 대표주자로서 정책 수혜 기대감이 높습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "HD현대에너지솔루션",
+          "code": "322000",
+          "reason": "전일 3.39% 상승하며 신재생에너지 테마에 편승했습니다. 기관의 2일 연속 순매수(+1,000주)가 확인되어 수급 측면의 지지를 받고 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "OCI홀딩스",
+          "code": "010060",
+          "reason": "전일 10.38% 상승하며 신재생에너지 테마 강세에 동참했습니다. 폴리실리콘 등 태양광 핵심 소재 사업을 영위하며 정책 수혜 기대감이 유효합니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "2차전지",
+      "description": "미국 민주당의 친환경 정책 강화 기대감은 전기차 시장 성장 및 에너지 저장장치(ESS) 수요 증가로 이어져 2차전지 섹터에 긍정적인 영향을 미칠 것으로 예상됩니다. 특히 엘앤에프의 LG에너지솔루션과의 대규모 LFP 양극재 공급 계약 소식은 섹터 전반에 강력한 상승 모멘텀을 제공했습니다.",
+      "catalyst": "미국 민주당 친환경 정책 강화 기대감 및 엘앤에프-LG에너지솔루션 LFP 양극재 공급 계약",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성SDI",
+          "code": "006400",
+          "reason": "전일 11.57% 급등하며 2차전지 대형주 중 가장 높은 상승률을 기록했습니다. 전일 거래대금 1,582억원으로 상위권이었으며, 기관의 2일 연속 순매수(+20,000주)가 확인되었습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "LG에너지솔루션",
+          "code": "373220",
+          "reason": "전일 5.03% 상승하며 2차전지 섹터 강세에 동참했습니다. 엘앤에프와의 계약 당사자로서 LFP 양극재 사업 확대에 대한 기대감이 반영되고 있으며, 기관의 2일 연속 순매수(+1,000주)가 확인되었습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "엘앤에프",
+          "code": "066970",
+          "reason": "LG에너지솔루션과의 대규모 LFP 양극재 공급 계약이라는 강력한 개별 촉매를 보유하고 있으며, 전일 12.84% 급등했습니다. 비록 외국인/기관 순매도는 없었으나, 계약의 규모와 중요성으로 인해 테마의 핵심 대장주 역할을 할 것으로 기대됩니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "바이오/제약",
+      "description": "전반적인 시장 약세 및 업종별 변동성 속에서도 개별 기업의 실적 개선 기대감과 신사업 진출 모멘텀이 유효하며, 특히 기관 투자자들의 지속적인 순매수 유입이 확인되며 섹터 내 수급이 긍정적으로 작용하고 있습니다.",
+      "catalyst": "개별 기업 실적 개선 기대감, 신사업 진출 모멘텀, 기관 투자자 순매수",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "셀트리온",
+          "code": "068270",
+          "reason": "전일 6.50% 상승하며 바이오 대형주 중 강세를 보였습니다. 전일 거래대금 1,144억원으로 상위권이었으며, 외국인(+177,000주)과 기관(+53,000주, 7일 연속)의 동반 순매수가 유입되었습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "SK바이오팜",
+          "code": "326030",
+          "reason": "전일 13.01% 급등하며 바이오 섹터 내 강한 모멘텀을 보여주었습니다. 외국인(+103,000주)과 기관(+7,000주, 11일 연속)의 동반 순매수가 확인되었습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "신풍제약",
+          "code": "019170",
+          "reason": "전일 테마 대장주 중 하나였으며, 외국인 순매수(+22,000주)가 확인되었습니다. 모의투자 기준 종가 평균이 +0.2%로 안정적인 흐름을 보이고 있습니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "전력기기 및 전력 인프라 (에너지 전환 및 그리드 현대화)",
+      "description": "글로벌 전기차 시장 성장 및 LFP 양극재 확대, 전력망 구축 기대감, 국내 증권사 11월 유망 업종 지목, 기관 순매수 지속. 미국 중간선거 이후 친환경 정책 강화 기대감도 일부 작용하며 단기적으로 지속적인 상승이 기대됩니다.",
+      "catalyst": "지속적인 글로벌 투자 및 정책 지원, 에너지 안보 중요성 부각",
+      "confidence": "높음",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "한화솔루션",
+          "code": "009830",
+          "reason": "전일 기관 67만주 순매수, 거래대금 상위, 태양광 및 에너지 솔루션 선도 기업으로 전력 인프라 핵심 역할",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "삼성E&A",
+          "code": "028050",
+          "reason": "전일 기관 24만주 순매수, 플랜트 건설 및 인프라 구축 대형주로 전력 인프라 확장 수혜 기대",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "HD현대에너지솔루션",
+          "code": "322000",
+          "reason": "전일 기관 7.5만주 순매수, 태양광 발전 및 에너지 솔루션으로 전력 인프라 관련",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "AI 소프트웨어 및 솔루션 (선별적 접근)",
+      "description": "AI 기술 발전 메가 트렌드, 딥페이크 차단 기술 등 신사업 기대감, 특정 종목의 강한 외국인 수급 유입으로 단기적으로 주목받을 수 있습니다. 다만, 규제 리스크와 시장 내 차별화 심화 가능성 상존합니다.",
+      "catalyst": "지속적인 AI 기술 발전 및 산업 적용 확대",
+      "confidence": "보통",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "에스피소프트",
+          "code": "443670",
+          "reason": "전일 외국인 19.7만주 순매수 유입, 전일 14.70% 급등, 과거 예측 성과 매우 긍정적, AI 소프트웨어 전문 기업",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "건설 (회복 기대감 및 정부 정책 수혜)",
+      "description": "국내 증권사 11월 유망 업종 지목, 국내 건설 경기 회복 기대감, 신도시 건설 및 재건축/재개발 등 정부 정책 수혜로 단기적으로 주목할 만합니다.",
+      "catalyst": "국내 건설 경기 회복 기대감, 정부 정책 수혜",
+      "confidence": "보통",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성E&A",
+          "code": "028050",
+          "reason": "전일 기관 24만주 순매수, 플랜트 및 인프라 건설 대형주로 건설업 회복 기대감 반영",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "2차전지 (대형주 중심의 선별적 접근)",
+      "description": "글로벌 전기차 시장 성장 지속 (특히 LFP 양극재 시장), 기관의 대형주 순매수 유입으로 단기적으로 주목받을 수 있습니다. 다만, 테마 전반의 높은 변동성 및 과거 낮은 적중률, 미국 데이터센터 규제 가능성으로 인한 전력설비 투자 위축 우려가 리스크 요인입니다.",
+      "catalyst": "글로벌 전기차 시장 성장 지속, 기관의 대형주 순매수 유입",
+      "confidence": "보통",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성SDI",
+          "code": "006400",
+          "reason": "전일 외국인 8.3만주, 기관 14.6만주 동반 순매수, 거래대금 상위, 2차전지 대형주로서 시장의 관심 집중",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "전력기기 및 전력 인프라 (에너지 전환 및 그리드 현대화)",
+      "description": "전 세계적인 탄소중립 목표 달성을 위한 재생에너지 확대, 노후 전력망 교체 및 스마트 그리드 구축, 전기차 충전 인프라 확충 등 구조적인 성장 동력을 바탕으로 장기적인 성장이 기대됩니다.",
+      "catalyst": "전 세계적인 탄소중립 목표 달성, 재생에너지 확대, 전력망 현대화",
+      "confidence": "높음",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "한화솔루션",
+          "code": "009830",
+          "reason": "전일 기관 67만주 순매수, 거래대금 상위, 태양광 및 에너지 솔루션 선도 기업으로 전력 인프라 핵심 역할",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "삼성E&A",
+          "code": "028050",
+          "reason": "전일 기관 24만주 순매수, 플랜트 건설 및 인프라 구축 대형주로 전력 인프라 확장 수혜 기대",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "HD현대에너지솔루션",
+          "code": "322000",
+          "reason": "전일 기관 7.5만주 순매수, 태양광 발전 및 에너지 솔루션으로 전력 인프라 관련",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "AI 소프트웨어 및 솔루션 (산업 전반의 혁신 동력)",
+      "description": "AI 기술의 비약적인 발전과 산업 전반으로의 확산, 생산성 향상 및 신규 시장 창출. 인류 삶의 방식과 비즈니스 모델을 근본적으로 변화시킬 메가 트렌드로 장기적인 성장이 기대됩니다.",
+      "catalyst": "AI 기술의 비약적인 발전과 산업 전반으로의 확산, 생산성 향상 및 신규 시장 창출",
+      "confidence": "높음",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "에스피소프트",
+          "code": "443670",
+          "reason": "전일 외국인 19.7만주 순매수 유입, 전일 14.70% 급등, 과거 예측 성과 매우 긍정적, AI 소프트웨어 전문 기업",
+          "data_verified": true
+        }
+      ]
+    }
+  ]
+}
