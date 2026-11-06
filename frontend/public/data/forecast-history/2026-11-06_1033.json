@@ -1,0 +1,250 @@
+{
+  "forecast_date": "2026년 11월 06일",
+  "generated_at": "2026-11-06T10:33:31.561633+09:00",
+  "market_context": "2026년 11월 6일 한국 주식시장은 미국 중간선거 결과에 따른 AI 및 반도체 섹터의 글로벌 투매 여파로 개장 초부터 극심한 하방 압력을 받고 있습니다. 국내 증시 또한 코스피가 개장 초 8% 이상 급락하여 서킷브레이커가 발동되었고, 코스닥 역시 매도 사이드카가 발동되는 등 전반적인 패닉 셀링 양상을 보였습니다.",
+  "us_market_summary": "전일 미국 나스닥 지수가 5.52% 폭락하며 조정 국면에 진입했고, 필라델피아 반도체 지수는 12.25% 급락했습니다. 이는 민주당의 상하원 장악으로 인한 AI 데이터센터 규제 강화 우려와 전력 소비 증가에 대한 부담, 해외 헤지펀드의 연말 차익 실현이 복합적으로 작용한 결과로 분석됩니다.",
+  "news_sources": [
+    {
+      "title": "[속보]뉴욕증시 급락 마감…나스닥 -5.5%·S&amp;P500 -4.3%",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQsyhTI1rXgKlPTQhpDz9-NsapvoftsLIlxSJvLAZF3sYhZK111i-GEYcxNFX7ql35UeZ7V9tpwP8UXzemS5LRaedSADzdhgN2_e8oGMlZt_5Kmj6MjvE9mi7JNL-aEWJCnbvkwp6rcd4-pcICx8OlLGbrXg=="
+    },
+    {
+      "title": "[2보] 뉴욕증시, AI 기술주 투매에 급락…나스닥 5.5%↓",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaYhZNIuz1XWsT0H9TSHXhoM_FezgYLBV__hTm0U_6CmrcD1_K9Vo9cnY8Ofcx0F4kRCv-bMweU4ouOE9H60z_NaWAdqNOr3cq0TysKUlMesD98Th5MZZR_ScBAHYud59hjArnxosOHwkM"
+    },
+    {
+      "title": "[속보] 美 증시, AI 규제 강화 우려에 일제히 급락",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2KaxJ5HAXj-TfycoKhPOUWJcN73cglX6exyZ_2YRcXaIjBgIQkMCEDrPLLfJ9PSf5JAcOgydOso94AS_53_pzBgJKj4pB8QXYbSLueOO4RRwNR9Gvv85FqYsdCkJvctA-UyEM_EZa_yeavoNj-uratLORZguF"
+    },
+    {
+      "title": "뉴욕증시, 중간선거발 'AI 발작'에 급락 마감…나스닥 5.5% 폭락",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxDHPll4mKRx-wYkWg-lsRdwF-bKCW6QAR6J7GwSHrVjx78Fius0DWe86bLUmFVlYGXUFRvHR1Ym1RVa4GBBdboGO0zERFHE9-qfFW13jHo3o_9rQtqUHLGmmW85sy7c0cGLuIqcGy9GVaVg=="
+    },
+    {
+      "title": "choicenews.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpZVg8FKwfjjwycZQL__KP8MByQYeTcx4zr0oDFrQvmgp7LabEfDuw-MMOr9bhlvahZkgGvJVECKtQsTj4OCH1W9nDFT7rh8yO0iHanlLYWIWw1ZM4WWlmslJ3EtTmR-LJcq403gfV-nzIlZXMcDq1r-_VEKDjLZfJ5A=="
+    },
+    {
+      "title": "[KFT 모닝 브리프] 2026.11.06 — 오늘 꼭 알아야 할 국내외 경제뉴스",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnZgkYMXOrHnkiyQdbf5wvzC8uoTO_Cp-ihKHaEoFJznzITf89hB0ADiThj2BmaxTCNrhmtYu0g5hRT404QGlHLN0gzPy5n6Ah1F5xmkZUQc9GOg12NALAc1ggGM3jKvD6MGs2ZismtWzHNVB-SkX8-NlusqyHO0afxKl-24OyGrI="
+    },
+    {
+      "title": "youtube.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfBCByq3GcrlB5jPFcDn-n2knIw_eQkRKzbp0xR5pr_mZVICom1Be42bKaWaU3NmZmGI--avTMZKevNm4WJ0SnjWYH0mV8tzkLVt5cdqCsrqZXzG2jyCJRKvxrDeTB5OkMGFRn8_Y="
+    },
+    {
+      "title": "11월 증시, 그래도 반도체? 전력기기 건설주?…증권사들이 꼽은 유망주는",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEAs2-ewHe9gXjxX-6lLbhy0PbDliq3qtr2jZW-E8YAkDzQ9xH19ZfdIzHCJXrzzlpUpB8a9ZeZ-FTH7YoAfGljWSeX1cXsOCn0ZT-wAALOo2d-sHKF2lDOtDbQBxg4S0bK2IIoZMLzQpc="
+    },
+    {
+      "title": "[증시전망] 코스피 6,000선 회복 뒤 다시 흔들…11월 첫 주, 미국 선거·AI 실적·고용이 변수 |",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpweX61HuRETYi-Bh-RitfCOdZdQcDdq9Pm-iE23Ec4nJUNwYEXI5WnXUfZCZUJPNisW2Zrr_GdC-NoZo_Ru56bvpWwtk49NswFZ7M5CM0t6ReR82GGb_iCPtlo2zCZvc9dkXs8mAFM9BV7zE2IzDUer-Lm2rPGsEPOPU="
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhfsmljMcs7wVNCIvy1HlRGKBNseA5mBy-ejRTThNUiPWIUEKbsZtWqr9-YULTORhWFjBFIAwZt25wUaYdVJg--DK0TnFNnaeqShVdG1DuwLheUmvRh8r14nuD7NKyNWUH9kbB4oByyEXQYBVVGgMvrvNQkTiedbRBTA=="
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "AI/반도체 (하락 테마)",
+      "description": "미국 시장의 AI 및 반도체 섹터 폭락이 국내 증시의 핵심 하방 압력으로 작용하고 있습니다. 삼성전자, SK하이닉스 등 대형주를 중심으로 외국인 매도세가 강하게 나타나고 있으며, 관련 부품 및 장비주 또한 동반 하락세를 면치 못하고 있습니다. 단기적으로는 이러한 하락 압력이 지속될 것으로 예상됩니다. 다만, 일부에서는 과도한 낙폭에 따른 저가 매수 기회로 인식하는 움직임도 관찰되나, 전반적인 투자 심리는 위축된 상태입니다.",
+      "catalyst": "미국 중간선거 이후 AI 데이터센터 규제 강화 우려 및 전력 소비 증가 부담, 해외 헤지펀드 연말 차익 실현, 주요 반도체 기업 실적 전망 하향 및 공장 건설 중단 소식",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "전일 거래대금 최상위, 미국 반도체 지수 급락에 따른 직접적인 영향으로 9.03% 하락 기록, 국내 증시 하락 주도.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "전일 거래대금 최상위, 외국인 6일 연속 순매도, 미국 반도체 지수 급락에 따른 직접적인 영향으로 11.71% 하락 기록.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "삼성전기",
+          "code": "009150",
+          "reason": "전일 거래대금 상위, 외국인 6일 연속 순매도, IT 하드웨어 및 부품 섹터 전반의 약세 반영으로 13.77% 하락 기록.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "낙폭 과대 저가 매수 / 개별 모멘텀",
+      "description": "시장 전체가 급락하는 가운데, 낙폭이 과도하다고 판단되는 일부 종목이나 특정 호재를 가진 개별 기업에 대한 단기적인 저가 매수세가 유입될 수 있습니다. 특히 전일 실적 발표와 함께 주주환원 정책을 발표한 카카오와 같이 시장의 불안정성 속에서도 펀더멘털 개선이 확인되는 종목들이 주목받을 가능성이 있습니다. 또한, 장중 실시간 수급에서 급등세를 보이는 일부 중소형주들은 개별적인 모멘텀에 의해 움직이는 것으로 보입니다.",
+      "catalyst": "극심한 시장 공포 심리(VIX 28.18, CNN Fear & Greed 19.9)에 따른 과도한 주가 하락 이후 저가 매수 심리 유입 및 일부 기업의 긍정적인 실적 발표 및 주주환원 정책",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "우리금융지주",
+          "code": "316140",
+          "reason": "시장 전반의 하락 속에서도 기관 11일 연속 순매수를 기록하며 상대적 방어적 성격이 부각되고 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "카카오",
+          "code": "035720",
+          "reason": "전일 3분기 역대급 실적 발표 및 1,500억원 자사주 소각 결정으로 인한 강력한 개별 모멘텀으로 장중 10% 이상 상승.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "대명에너지",
+          "code": "389260",
+          "reason": "전일 시장 약세 속에서도 4.46% 상승을 기록하며 개별 모멘텀이 주목됩니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "자동차",
+      "description": "부총리의 자동차 산업 현장 방문 및 지원 의지 표명으로 정부 정책적 관심이 부각되고 있습니다. 전일 현대차의 시장 대비 강한 상승세가 단기적인 모멘텀을 형성할 수 있습니다.",
+      "catalyst": "부총리 자동차 산업 지원 의지 표명 및 대형주 수급 개선",
+      "confidence": "보통",
+      "target_period": "2~3일",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "현대차",
+          "code": "005380",
+          "reason": "전일 코스피 +3.35% 상승, 거래대금 3,094억원. 기관의 순매수가 확인되며 시장 대비 강한 상승을 기록했습니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "전력기기/전력 인프라",
+      "description": "증권사의 11월 유망 업종 권고와 인프라 투자 및 안정적인 수요 기반이 전력기기/전력 인프라 섹터에 긍정적으로 작용할 것입니다. 시장 변동성 속에서 상대적으로 방어적 성격을 가질 수 있습니다.",
+      "catalyst": "증권사 유망 업종 권고 및 인프라 투자 기대감",
+      "confidence": "보통",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "LG에너지솔루션",
+          "code": "373220",
+          "reason": "전일 코스닥 -2.54% 하락했으나, 기관이 2일 연속 순매수를 기록했습니다. (2차전지 성격도 있으나, 전력 인프라 밸류체인 연관성도 고려)",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "대명에너지",
+          "code": "389260",
+          "reason": "전일 코스닥 +2.62% 상승, 거래대금 1,456억원. 기관의 순매수가 확인되었습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "HD현대에너지솔루션",
+          "code": "322000",
+          "reason": "전일 코스닥 +1.58% 상승, 거래대금 750억원. 기관의 순매수가 확인되었습니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "AI/소프트웨어",
+      "description": "AI 기술 발전 기대감과 '의료데이터 국가 AI 인프라' 포럼 등 차별화된 AI 적용 분야가 부각될 수 있습니다. NAVER의 강력한 개별 모멘텀 또한 단기적으로 긍정적인 영향을 미칠 것입니다. 다만, 미국발 AI/반도체 규제 우려는 전반적인 AI/반도체 섹터에 부정적입니다.",
+      "catalyst": "AI 기술 발전 기대 및 차별화된 AI 적용 분야 부각",
+      "confidence": "보통",
+      "target_period": "7일 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "NAVER",
+          "code": "035420",
+          "reason": "전일 코스피 +7.73% 상승, 거래대금 2,654억원. 외국인과 기관의 강력한 동반 순매수가 유입되었으며, 외국인은 2일 연속 순매수를 기록했습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "에스피소프트",
+          "code": "443670",
+          "reason": "Agent 2 분석에서 과거 대장주로서의 안정적인 성과를 기록한 점이 부각되었습니다.",
+          "data_verified": false
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "바이오/제약",
+      "description": "신약 개발 및 의료 AI 분야의 지속적인 기술 발전과 고령화 사회 진입에 따른 헬스케어 수요 증가는 바이오/제약 섹터의 중장기적인 성장 동력으로 작용할 것입니다. 다만, 현재의 거시경제 환경과 규제 불확실성을 고려할 때 추가적인 시장 안정화와 펀더멘털 확인이 필요합니다.",
+      "catalyst": "신약 개발 및 의료 AI 기술 발전, 고령화 사회 진입",
+      "confidence": "보통",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "셀트리온",
+          "code": "068270",
+          "reason": "신약 개발 및 바이오시밀러 시장 확대의 선두 주자이며, 의료 AI 접목 가능성도 높습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "SK바이오팜",
+          "code": "326030",
+          "reason": "혁신 신약 개발 역량을 보유하고 있으며, 중장기적인 성장 잠재력이 높습니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "전력기기/전력 인프라",
+      "description": "에너지 전환 정책 가속화와 글로벌 인프라 투자 확대는 전력기기/전력 인프라 섹터의 장기적인 성장을 견인할 것입니다. 안정적인 수요 기반과 친환경 에너지 전환의 핵심 역할을 수행할 것으로 기대됩니다.",
+      "catalyst": "에너지 전환 정책 가속화 및 글로벌 인프라 투자 확대",
+      "confidence": "보통",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "HD현대에너지솔루션",
+          "code": "322000",
+          "reason": "태양광 등 신재생에너지 솔루션 제공으로 에너지 전환 시대의 핵심 역할을 수행할 것으로 기대됩니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "대명에너지",
+          "code": "389260",
+          "reason": "신재생에너지 발전 사업을 영위하며, 정부의 친환경 에너지 정책 수혜가 예상됩니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "AI/소프트웨어",
+      "description": "인공지능 기술의 본질적인 발전과 다양한 산업 분야로의 확산은 AI/소프트웨어 섹터의 장기적인 성장 동력입니다. 클라우드, 빅데이터 등 연관 기술 발전도 긍정적입니다. 다만, 현재의 규제 불확실성과 거시경제 환경을 주시해야 합니다.",
+      "catalyst": "AI 기술의 본질적인 발전 및 산업 전반으로의 확산",
+      "confidence": "보통",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "NAVER",
+          "code": "035420",
+          "reason": "국내 대표 AI 및 소프트웨어 기업으로, 다양한 AI 서비스 개발 및 플랫폼 경쟁력을 보유하고 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "카카오",
+          "code": "035720",
+          "reason": "AI 기술을 기반으로 한 다양한 서비스 확장을 통해 장기적인 성장 동력을 확보하고 있습니다.",
+          "data_verified": false
+        }
+      ]
+    }
+  ]
+}
