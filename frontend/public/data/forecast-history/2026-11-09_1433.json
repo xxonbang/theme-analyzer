@@ -1,0 +1,202 @@
+{
+  "forecast_date": "2026년 11월 09일",
+  "generated_at": "2026-11-09T14:33:29.580643+09:00",
+  "market_context": "전일 미국 반도체 지수의 강한 반등과 국내 증시의 낙폭 과대에 따른 저가 매수세 유입 기대감이 형성되었습니다. AI 산업의 장기적 성장 가능성은 유효하나, 미국 중간선거 이후 규제 우려가 단기적 불확실성으로 작용하고 있습니다.",
+  "us_market_summary": "미국 반도체 지수(SOXX)가 4.21% 급등하며 강한 반등세를 보였고, 나스닥 종합지수는 1.09% 상승하는 등 기술주 전반의 회복세가 나타났습니다. 주요 반도체 기업인 AMD(+11.04%), 마이크론(+5.12%), 엔비디아(+2.78%) 등이 상승을 주도했습니다.",
+  "news_sources": [
+    {
+      "title": "11월 9일 코스피 주가 전망, 5000선 반등할까? 삼성전자·SK하이닉스 매수 전 확인하세요 > 뉴스",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGReX67jXHIjm6UXrWbmfR8nY5z93OY8eHGi_3twm43LmAt0e_FhAG6Sb78ZB1ORh6Dm9OASHd6zxTe2FqyQ6EChZJKNR3925ZPXn1nTd44CA41kgzpbPuip4bPvl5lsp1PItRMDU32WjldjCAwH6Ti3n_5b__M3KeA8FpIgAwUDydsZA=="
+    },
+    {
+      "title": "11% 추락한 코스피, 바닥 찍었나…11일 오전에 쏠리는 눈 [주간 증시 전망]",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbi1861u_5H6J3B0tAtMQZuA9LIwx8fHyQgxQae6Rra4iPLCd77N8nQE5ZvNsk9AzQp6ddiZsLXueEDBiw92TaB5TfA0g52n_mmBe3ZRJx1n-pmZFJE5ziOtAxd5RauNlI-jA="
+    },
+    {
+      "title": "[11.9(월) 월요일 장 전망] 주말 종합 · 이번 주 시장 관전 포인트",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1ssfNxYhJYoVs29uskhYl4dqXrLPAV4h7_CwYmMG6HMP6nNEWrK8E04sEdVL6Kk-lolx1QtMaGco0TxF5noPhTFwigSJ-M_K8y6j3clGg-fXOBHNk1kuMMw71oJFI4ZAVhbx-wnBPYQ_7rFAX_9ibpcQUBK_P8Wp645G-Hi8="
+    },
+    {
+      "title": "theconnectmoney.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX-R9nVTyd4TA8JG3E78XpzF5ZKt-tC16BM9YrLiOvkP8Xs52xlFwA5Lep87aGU-tseyEl9E_tP67P0xOd47pd8nnO5SHI3l5D72zs456dsZ64_1PhVW-jR_zo8M57au0RjRWlct2UOUvHd3x4LA=="
+    },
+    {
+      "title": "[KFT 모닝 브리프] 2026.11.09 — 오늘 꼭 알아야 할 국내외 경제뉴스",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFH6_8sojmrk6fIkeMZRvn9hg6ZRmu1JYokzAocr6oKaAiWj3ZaeCziQzrWUEUfJ2Q9oNgUxDxNFOL4c187P0uovQAkaZy34-9V8KrTMwB5Uf0wXWSaGr6psNnEDithvm973pc4W-LHD0MaUKfr9KP6I0aAjcOBLHIuraDW3_q9Gsk="
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfnT_6sX1crGKtR387iXDQau6nAJpLo1WmE8YzwjtvTxGmUOGPSeJLIHVT-9NHHV15NlCNikRf_aAX71HL9yz54NXp77GWXgXW7GrDvBaDCvPkT1ZWNjgRlu8Yo9o4At3bJqJu7AoTO5HNFBCWPH-9495R_KVoFs9iQg=="
+    },
+    {
+      "title": "[미리보는 증시재료] 美 물가·AI 투자 지속성 시험대…반도체 향방 주목",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHei-M4Ggu7VSGTslfRSh_nWcfP6Tyc6ynoZ3FQA_megKzsDY7072fCtCju3fXx2Zc1E6vqU_HZXHVSJ5BXI3_oO3PRF0ymUOJh6AUG9bfXGNxUw43ttYB5gpAoQpdXpxOg9J6u90o-_xc="
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiePRuG-xUg9anr-EsbI6FIRc3BIei6zQ2T7D5Fi3gnPAvyqAO4sck2YtH3Kge-uDsK1XTELNdr7kCHodZxAdk8vWLJdrGHXsu56fitX4b9DzJ1DEqgQlSxj1aRjyto3egu5Gn2mT802fFAwVgGRDeup5OMaiMg9oQ7g=="
+    },
+    {
+      "title": "[한주간 주요 경제·암호화폐 일정] 美 10월 소비자물가지수 外",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuZT7bFf4W7qEm4jW9QWH5k5OzZdz__rqHO3voHh_n_hWBz38sBYghhim8sEfaHETxjutHIbS2Qp4MIIcG2ZvZnb1YVFtDPNeRkYF6dRUiQSBrD-P9AjwDVnLE-Bh7oqY-qw=="
+    },
+    {
+      "title": "코어위브 실적, AI주 방향타…인플레이션 지표에도 촉각[이번주 美 증시는]",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8uvHmBscHgODQGAnBxaktk7mm2nb-_D08G7-VqfSecnXLfPVLDkRSR_QlanF_tQPpCZu8iyX153V7Sc0tKlnM-6Ew-5IpI3w96n_TKsHuDqB48IEy31kjOZk1na_WxH3hTy3YXkjL095OXNYuVyz1Oy1jyg=="
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "반도체",
+      "description": "지난주 미국 중간선거 이후 AI 산업 규제 우려로 급락했던 미국 반도체 지수(SOXX)가 전일 4.21% 급등하며 강한 반등세를 보였고, 국내 증시의 낙폭 과대에 따른 저가 매수세 유입 기대감이 커지고 있습니다.",
+      "catalyst": "미국 반도체 지수(SOXX) 4.21% 급등 및 주요 반도체 기업 강세",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "전일 코스피 거래대금 1위(35,267억원)를 기록하며 2.74% 상승했고, 기관이 4일 연속 순매수하며 수급이 뒷받침되고 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "전일 코스피 거래대금 2위(25,402억원)를 기록하며 1.85% 상승했고, 기관이 순매수하며 지수 반등의 중요한 축을 담당할 것으로 예상됩니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "주성엔지니어링",
+          "code": "036930",
+          "reason": "전일 10.54%의 높은 상승률과 1,803억원의 거래대금을 기록했으며, 기관이 2일 연속 순매수했습니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "AI/소프트웨어",
+      "description": "미국 나스닥 종합지수가 1.09% 상승하는 등 기술주 전반의 회복세가 나타났으며, AI 산업의 장기적인 성장 가능성은 여전히 유효하다는 인식이 존재합니다.",
+      "catalyst": "미국 기술주 회복세 및 AI 산업 장기 성장 가능성",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "NAVER",
+          "code": "035420",
+          "reason": "전일 외국인과 기관이 각각 4일, 3일 연속 순매수하며 안정적인 수급을 보여주었습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "루닛",
+          "code": "328130",
+          "reason": "전일 7.90% 상승했으며, 외국인 2일 연속, 기관 11일 연속 순매수하며 매우 강한 수급을 보였습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "에스피소프트",
+          "code": "443670",
+          "reason": "전일 12.80%의 높은 상승률을 기록하며 AI/소프트웨어 테마 내에서 강한 모멘텀을 보여주었습니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "반도체/AI (글로벌 이벤트 연동)",
+      "description": "이번 주에는 AI 산업의 핵심 기업들의 실적 발표가 예정되어 있으며, 이들 기업의 실적은 AI 반도체 수요와 직결되므로 국내 반도체 기업들의 실적 기대감에 큰 영향을 미칠 것입니다.",
+      "catalyst": "코어위브(CoreWeave) 및 엔비디아 3분기 실적 발표",
+      "confidence": "높음",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "NAVER",
+          "code": "035420",
+          "reason": "AI 플랫폼 및 서비스 기업으로서 글로벌 AI 기술 발전과 기업 실적에 대한 기대감이 지속될 수 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "엔비디아 및 코어위브 실적에 따른 AI 반도체(HBM) 수요 기대감의 직접적인 수혜주입니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "SK하이닉스와 유사하게 AI 반도체 및 파운드리 부문의 글로벌 동향에 민감하게 반응할 것입니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "인플레이션/금리 방향 민감주 (거시 경제 지표 영향)",
+      "description": "이번 주에는 글로벌 금융시장의 향방을 결정할 중요한 거시 경제 지표 발표가 집중되어 있습니다. 미국 10월 소비자물가지수(CPI) 및 생산자물가지수(PPI) 발표는 연방준비제도(Fed)의 금리 인하 기대와 국채 금리 방향에 결정적인 영향을 미칠 것입니다.",
+      "catalyst": "미국 10월 CPI 및 PPI 발표, FOMC 의사록 공개",
+      "confidence": "높음",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "KB금융",
+          "code": "105560",
+          "reason": "예상보다 높은 물가 지표가 발표되어 추가 금리 인상 우려가 커질 경우 금융주가 수혜를 받을 수 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "우리금융지주",
+          "code": "316140",
+          "reason": "예상보다 높은 물가 지표가 발표되어 추가 금리 인상 우려가 커질 경우 금융주가 수혜를 받을 수 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "물가 둔화가 확인될 경우 금리 안정 기대감으로 성장주인 반도체/기술주가 반등할 가능성이 높습니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "AI 산업 성장 (핵심 기술 및 인프라)",
+      "description": "AI 기술 발전은 거스를 수 없는 구조적인 추세이며, 이를 뒷받침하는 데이터센터 인프라 투자와 AI 반도체 수요는 지속적으로 증가할 것입니다. 정부의 딥테크 사업화 페스티벌 등 AI 산업 지원 정책도 장기적인 성장에 기여할 것입니다.",
+      "catalyst": "AI 기술 발전 및 데이터센터 인프라 투자 지속",
+      "confidence": "높음",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "NAVER",
+          "code": "035420",
+          "reason": "초대규모 AI 모델 개발 및 AI 플랫폼, 서비스 분야에서 국내외 경쟁력을 강화하며 AI 산업의 소프트웨어 및 서비스 측면을 이끌어갈 것입니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "AI 반도체(HBM) 시장의 핵심 플레이어로서 AI 기술 발전의 가장 큰 수혜주 중 하나입니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "AI 반도체(HBM) 및 파운드리 기술을 선도하며 AI 시대의 핵심 인프라 제공자로서 장기적인 성장이 기대됩니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ]
+}
