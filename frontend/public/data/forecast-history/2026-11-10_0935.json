@@ -1,0 +1,154 @@
+{
+  "forecast_date": "2026년 11월 10일",
+  "generated_at": "2026-11-10T09:35:04.654523+09:00",
+  "market_context": "전일 미국 증시의 기술주 및 반도체 섹터의 강력한 반등과 국제유가 급락이 국내 증시에 긍정적인 영향을 미칠 것으로 예상됩니다. 다만, 미국 CPI 발표를 앞둔 경계감과 외국인 매도세 지속 가능성은 변동성을 야기할 수 있습니다.",
+  "us_market_summary": "뉴욕 증시 3대 지수 일제히 강세 마감: 다우존스 +2.15%, S&P500 +2.35%, 나스닥 +2.74%. 필라델피아 반도체 지수 6.85% 급등하며 주요 반도체 관련주가 강세를 보였고, 국제유가는 4.38% 급락했습니다.",
+  "news_sources": [
+    {
+      "title": "뉴욕증시, AI주 급락 충격 딛고 반등…엔비디아만 4%대 급락",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFO7xxB9yFf3pwsk4ctnNht2AbSMhH32atRGHwmZx_dqRz6MBqmfMCBNx4sooMlfbxkYbxPr4Tj3JWhBrnsxLMWTvGEsKy9YciCUD69lcJRzH04ogBxaKhXfedpMYE-hYWIWTkMXsM12-h0"
+    },
+    {
+      "title": "뉴욕증시, 기술주 반등에 다우 1100p↑·나스닥 2.7%↑…엔비디아는 4% 넘게 급락",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWbhk6MINnPZUyZyLJoiQQsrO0B5-tPZIgiQwA5KOR7ZIGm4gHqqEEfCEZTZTt4b0F1wdsEXFXIO9d2SjhT3fjKsQdCmsWHc5ZefV9U32ciMdJCXytIZbcZRJZR3krNNd0wz3a0xXZ1JdsJw=="
+    },
+    {
+      "title": "[한국증시 전망] 코스피 5,000선서 반격 나설까…삼성전자·SK하이닉스 반등과 미국 CPI가 가른다 | 김명수 기자",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXkv0rD96-4Jwq3YG0yPHpNuZyXU1PKiVp1C5i4PBO3CLSzgW__kl74WTOeoHadKaOq7Xw9vlxR39hE8LZajYUPkafwgHH-zPId0J5zhbtqDkgxriEzz4xEhypKRLpTsPyRumttMvCzU2K_uKXNSxRSoJbo9us6yYzYQo="
+    },
+    {
+      "title": "미 반도체 반등 성공, 한국에도 볕 들까",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgQMcRklflT0s6UczTtNDNTZZcnzDbo-v-8MKhe7JHeAZu0NOusj4-BuBW6xCN3zcCYNtySmSv7coBajfm3KRIdQVvvvzb2EQlboV4VsulKRk5yhkvQBkQzTNFxICNJq2WgihNoFR8ZBBmFigX_ibAPxUnP5lFRrOC0SyKtNTyDUUZoxZeyp9SgYMKb_4u"
+    },
+    {
+      "title": "11% 추락한 코스피, 바닥 찍었나…11일 오전에 쏠리는 눈 [주간 증시 전망]",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqaWygh1vK8hNX4aB-B89F325H8b3J16hbIdstbu9YcF6brbfKRNsj0b5TRGgdqWrai6brQpIuJM2LAm3JZXn5MTrY6tErvuFyfjTJrhmyYQZ6H7FHeTOfi1mylKJIJ-eGo3g="
+    },
+    {
+      "title": "theconnectmoney.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcMTFudPOZs32-1NvkeriNHR6XG-Z5FjqBYPOfh7qElXCFCbIh6jvH3THcJein2ZBpjKpgohWD9k5nyZ9_J7fBMNwTcMtQFF5NWYOUdMS2B1GlDHFlaIbIji-ItCJ-KJu7ZUTfD1PMqJrV0xE6RA=="
+    },
+    {
+      "title": "토스증권",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlb9Hq-wQKQOh5_vuFj8UP6SyX-QlRQlDfPZ2eFUdJxvhdLSIxFja-MOXs5F1FQGkh53vHox2WfwIjvVYC55ta-65y4XIsBrauRYTS2OICPU7vc3aAP19EtsIYTtos"
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGw-EUxEJ3zgUj8nSzpEPhr_-C9aZn9zA__jcj-u6qr4TYQaqiirVgHruLWUvTlfy7Jxy1tgvxgooZ69Fwgn-IHxA_QI9Lk4FBLduKK1wpqgtFzFupHEUrIKRoxnVeqfkoPtUFoRgVOeAr0L4QJsVfeckYQiAbicg3vtQ=="
+    },
+    {
+      "title": "‘빚투 청산’ 막으려 대출 담보비율 의무 면제한 정부",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjdfV1XDLLLEcPcpWY7dwjuRNoWb0v7BPvPmzEuXlx38WxwkiW4bbA_YdYngoGvs-W8w_XiKEfwtXApUYrMKG-pSm-PIMdnfaZhuUNSAmtSGF21-d2JrC0zKropysR6k_BkcIio-DMdn4h2zwL-RM3EIlHsi8ULSVDtiLfW4rfzeV6iyd_pw=="
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "반도체/AI",
+      "description": "전일 미국 뉴욕 증시에서 필라델피아 반도체 지수가 6.85% 급등하고, S&P500과 나스닥 지수도 각각 2.35%, 2.74% 상승하며 기술주 전반의 강세를 보였습니다. 특히 SK하이닉스 ADR이 5.53% 상승하는 등 주요 반도체 관련주들이 큰 폭으로 올라 국내 반도체 및 AI 관련 기업들의 투자 심리 개선에 직접적인 영향을 미칠 것으로 예상됩니다.",
+      "catalyst": "미국 필라델피아 반도체 지수 6.85% 급등 및 주요 반도체주 강세",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "주성엔지니어링",
+          "code": "036930",
+          "reason": "전일 코스피에서 7.00% 상승하며 거래대금 상위권(2,447억원)을 기록했고, 외국인과 기관이 동반 순매수하며 수급이 매우 긍정적입니다. 반도체 장비 관련주로서 미국 반도체 시장 강세의 직접적인 수혜가 예상됩니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "HPSP",
+          "code": "403870",
+          "reason": "전일 코스닥에서 2.55% 상승했으며, 기관이 271,994주 순매수하며 강한 매수세를 보였습니다. 고압 수소 어닐링 장비 전문 기업으로 반도체 전공정 핵심 기술을 보유하고 있어 반도체 업황 개선 시 수혜가 기대됩니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "전일 국내 시장 거래대금 1위(48,861억원)를 기록했으며, 미국 증시에서 SK하이닉스 ADR이 5.53% 급등하며 국내 반도체 대장주로서의 강한 모멘텀을 확보했습니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "운송 (항공/해운)",
+      "description": "전일 국제유가(WTI)가 미국과 이란 간 전쟁 확대 우려 완화 및 협상 기대감에 4.38% 급락했습니다. 이는 유류비 비중이 높은 항공 및 해운 업종의 비용 부담을 크게 줄여 실적 개선 기대감을 높일 수 있습니다.",
+      "catalyst": "국제유가(WTI) 4.38% 급락",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "대한항공우",
+          "code": "003495",
+          "reason": "장중 실시간 수급에서 +29.87%의 급등세를 보이며 유가 하락에 대한 시장의 즉각적인 반응을 나타냈습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "한진칼",
+          "code": "180640",
+          "reason": "전일 코스피에서 7.34% 상승하며 거래대금 상위권(1,637억원)을 기록했고, 기관 순매수가 유입되었습니다. 대한항공의 지주사로서 유가 하락에 따른 항공 업황 개선의 대표적인 수혜주로 꼽힙니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "원자력 발전/전력설비",
+      "description": "11월 12일(목) 서울청사에서 장관 주재 체코 원전사업 점검회의가 개최될 예정으로, 국내 원전 관련 기업들의 수주 기대감을 높일 수 있습니다. AI 데이터센터 구축 등으로 인한 전력 수요 증가도 전력설비 확충에 대한 기대감을 지속시킬 것입니다.",
+      "catalyst": "11월 12일 체코 원전사업 점검회의 개최, AI 데이터센터 구축에 따른 전력 수요 증가",
+      "confidence": "보통",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "두산에너빌리티",
+          "code": "034020",
+          "reason": "외국인 순매수(+73,471주)가 유입되었습니다. (국내 원자력 발전 및 에너지 설비 대표 기업으로 체코 원전 수주 기대감의 핵심 수혜주)",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "KBI메탈",
+          "code": "024840",
+          "reason": "외국인 순매수(+1,356주)가 유입되었습니다. (전력 인프라 관련 사업을 영위하며 전력설비 테마의 대표성을 가짐)",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "AI/반도체/소프트웨어 및 기술주 (지속 성장)",
+      "description": "AI 기술 발전은 산업 전반의 패러다임을 변화시키며, 딥테크 기술 상용화는 장기적인 성장 동력을 제공할 것입니다. 한국의 반도체 및 소프트웨어 기업들은 글로벌 AI 산업 성장의 핵심 축으로서 지속적인 수혜가 예상됩니다.",
+      "catalyst": "AI 기술 발전 및 딥테크 기술 상용화, 글로벌 AI 산업 성장",
+      "confidence": "높음",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "기관 순매수(+1,510,027주)가 유입되었습니다. (국내 시가총액 1위 기업이자 글로벌 AI 반도체 및 파운드리 경쟁력을 보유한 기업으로, 장기적인 AI 산업 성장의 최대 수혜주)",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "NAVER",
+          "code": "035420",
+          "reason": "기관이 3일 연속 순매수(+163,748주)를 기록했습니다. (국내 대표 AI/플랫폼 기업으로 AI 기술 개발 및 서비스 확장 가능성이 높아 장기적인 성장 기대)",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "고대역폭 메모리(HBM) 등 AI 반도체 핵심 기술력을 보유하고 있어 장기적인 AI 산업 성장의 핵심 수혜주.",
+          "data_verified": false
+        }
+      ]
+    }
+  ]
+}
