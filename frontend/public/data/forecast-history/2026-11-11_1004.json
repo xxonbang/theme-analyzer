@@ -1,0 +1,323 @@
+{
+  "forecast_date": "2026년 11월 11일",
+  "generated_at": "2026-11-11T10:04:19.469182+09:00",
+  "market_context": "오늘 국내 주식시장은 전일 미국 증시의 하락 마감과 예상치를 웃돈 미국 소비자물가지수(CPI) 발표에 따른 금리 인상 우려로 혼조세가 예상됩니다. 특히 성장주에 대한 부담이 가중될 수 있는 환경입니다.",
+  "us_market_summary": "전일 미국 증시는 전반적인 기술주 하락과 예상치를 웃돈 CPI 발표로 금리 인상 우려가 커지며 혼조세로 마감했습니다. AMD, 브로드컴 등 일부 반도체 종목은 상승했습니다.",
+  "news_sources": [
+    {
+      "title": "seoultopnews.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbcn7Eb-vFkFUll7UEG411A6azV0nU72VW5rWyHPWySIT-8pX8uCx7yoBJmHdpt1xRkkJwQ_gBRhCRBd3s7E2IEZY5kLrC4xb1IBNi07Nz1YeCJUYZTZLqhbejlxHxEycdDFFflVE2W8NgIDAEath3ycjZJ36l7ZqS"
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcuJDHd1sUoR2jIZWNQwp6EFbh6B4AEvEa314X5KL1MjdvMhrFNZcvuiMX1eDV6qKji_kq7kHLXWULwWkZbDYjdDPvOkQyd-lb_JVsdpfIt2x_s4sW9HZSdROyuS6oISeJcPpzMU6EaMfPypVGNGxactsuRZ6pJgRDRg=="
+    },
+    {
+      "title": "[뉴욕 마켓 브리핑] (11일)",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtwo4OT5lVT9no7Q6rNCWVMbdRXh_9YuiXZMMxnYpsJnVCWfpsZYqN_SGTNek1qomd0-VnQc5fK_T_FN73ux4ffGRQai1-5LetNY8yGcQs6hRqE6sv-siuKooRCVbwJ12b7jQ55w_hxI4Z7dDcXbF6YbT4OJG8sS8uw5k="
+    },
+    {
+      "title": "뉴욕증시, 연준 '빅스텝' 우려·엔비디아 급락에 하락 마감",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkid-yPmUizQfRd4BYYUWD00P_fKMX5Y9VrYM6TACQ-FnyQAqhPHw9XA4LutXlG_5GfmWR1pQrq6t3YCfKCgPLO-22jb1yIXJVnH6OZFt7qS7o5NbkqHgM3CkWTzgknJBcfacJqYSlUmUwgg=="
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUBiboYvU2aqBgG-80LSEHwZZB47Rmi8_QoWIONkAaUlstvyQZ9Dcpife373h7bVwthR6ynVzdvGzJrCIpdmX9SzU0781PoJPcvo2DFWH9d4ah0CPX5ULkcJ8biZKYwigFP6HAbG60M_KzCWO2NAfIZhAE758oSicJiA=="
+    },
+    {
+      "title": "미국증시 하락 마감…CPI 충격에 나스닥 0.74%↓·엔비디아 5.47% 급락, 브로드컴은 상승 | 김명수 기자",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2jSk43_j4S16TNY0OBr64gS97vJj386iwc9M1IoMpncTW_2e5Iy16FePUYxuDLdA4fhAzUhhQevXhmt1c-JcHeavq6BQEGlVC6XlIaklHg_FUur7dTHzEi7B68RV-d-4JwqGTh2mkspln1WounHErFKVXv2AzzX2839M="
+    },
+    {
+      "title": "upkoreanews.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOSWfAijIkMK8yVpaQf63pjNxrxxz_wQndH6KZXb9LUmfdYIXXmfI_S9_E8gJ5BxImugXbmxiB-Vh2ByUf4MdP6llUsWxBd1KyfmY5BAIXlW_obMr0UUMsVFqdW7iZ6LlodcI_TrLkwqE8HSSQsF3DpILMxK_TdPw="
+    },
+    {
+      "title": "11% 추락한 코스피, 바닥 찍었나…11일 오전에 쏠리는 눈 [주간 증시 전망]",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe6-r9ptaS_R2F2QkXh6_h9LS_eWEgDi_VnJ_ezeXU5z8uMg8j-pXybrtIboHxiiCJMg-IeghmzM7dEo20ytuznpMzxa2xI9v2wxDU2d1FFWRHP-pcngnIQ0rxEeYf-oZCYWE="
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqVXt_tTIH1qKFjMYntAeQHE9pybAEYk2GCyeNIjMb9FuZriaSbAxpDb74JW5kdtKvE7iOdT1pJylQ4QcLPN_1CX6ds1CNQFKZrLA7C7HKYA_wcQvCnAkAW-yNI5XwGKMfot5Y24UOWhBrJgYCY1gSyIulr1_NC7ewlw=="
+    },
+    {
+      "title": "국내증시 전망, 美 반도체 급반등…코스피 5000선 반격 시험대 | 김명수 기자",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFafUOJHPosC4MPy221Lm2xdl7c50zITojotCHFPUrTAKsTeyDO_yResmnj0n_PCdIfZgDu6DWLTZjHeDRybWOLK11yVeSdxa236C-nqkvL2xwDKmt1z125YMR7tV_jfSt49B590WHrnDZ_RQLRF1aL_3Ig3LvJs6ZAf6U="
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "AI/반도체",
+      "description": "전일 미국 증시에서 전반적인 기술주 하락에도 불구하고 AMD, 브로드컴 등 일부 반도체 종목이 상승하며 AI 관련 반도체 수요의 견조함을 시사했습니다. KDI 경제전망에서 AI 인프라 투자 관련 부문이 양호한 성장을 지속할 것으로 언급되었고, AI 클라우드 업체 코어위브의 예상치를 상회하는 매출 발표도 기대감을 높이고 있습니다. 엔비디아 CEO 관련 이슈는 개별 악재로 판단됩니다. 전일 국내 시장에서는 SK하이닉스, 주성엔지니어링, HPSP 등 주요 반도체 관련주들이 외국인 순매수와 함께 강세를 보였으며, 안랩, NHN 등 AI/소프트웨어 관련주도 높은 상승률을 기록했습니다. 장중 실시간 수급에서도 이들 종목에 대한 외국인 매수세가 확인되었습니다.",
+      "catalyst": "미국 일부 반도체 종목 강세, KDI AI 인프라 투자 전망, 코어위브 매출 호조, 국내 반도체/AI주 외국인 순매수",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "주성엔지니어링",
+          "code": "036930",
+          "reason": "전일 +7.62% 상승, 외국인 순매수, 장중 실시간 수급에서도 외국인 매수세 유입 확인. 반도체 장비 관련주로 AI 반도체 수요 증가 수혜 기대.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "HPSP",
+          "code": "403870",
+          "reason": "전일 +4.39% 상승, 외국인 순매수, 장중 실시간 수급에서도 외국인 매수세 유입 확인. 고압 수소 어닐링 장비 전문 기업으로 AI 반도체 고성능화에 따른 수혜 기대.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "안랩",
+          "code": "053800",
+          "reason": "전일 +12.01% 상승, AI/보안 소프트웨어 테마 대장주. 전일 외국인 매도세가 있었으나, 장중 실시간 수급에서 여전히 높은 상승률을 기록하며 테마 모멘텀 유지.",
+          "data_verified": true
+        }
+      ],
+      "confidence_note": "최근 적중률 0.0%로 하향 보정"
+    },
+    {
+      "theme_name": "2차전지/전력설비",
+      "description": "글로벌 전기차 시장 성장과 함께 2차전지 소재 및 전력 인프라 구축 관련 기업에 대한 지속적인 관심이 유효합니다. CNBC 뉴스에서 GE Vernova(전력 인프라 관련 기업)에 대한 언급이 있었던 점도 주목할 만합니다. 전일 시장에서 엘앤에프, KBI메탈 등 2차전지/전력설비 관련주들이 외국인 매수세를 보였고, 장중 실시간 수급에서도 LS머트리얼즈가 외국인 매수와 함께 상승했습니다.",
+      "catalyst": "글로벌 전기차 시장 성장, GE Vernova 언급, 국내 2차전지/전력설비주 외국인 매수세",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "LS머트리얼즈",
+          "code": "417200",
+          "reason": "장중 실시간 수급에서 외국인 매수와 함께 +4.89% 상승. 울트라커패시터 및 알루미늄 사업을 영위하며 2차전지 및 전력설비 관련 모멘텀 보유.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "KBI메탈",
+          "code": "024840",
+          "reason": "전일 외국인 순매수. 전력 인프라 구축 관련 수혜 기대.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "엘앤에프",
+          "code": "066970",
+          "reason": "전일 외국인 순매수. 2차전지 양극재 기업으로, 글로벌 전기차 시장 성장에 따른 중장기 성장 기대.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "AI/소프트웨어",
+      "description": "과기정통부의 AI 및 딥테크 관련 정책 일정, 글로벌 AI 산업 성장 기대감은 단기적으로 테마의 모멘텀을 유지시킬 것입니다.",
+      "catalyst": "과기정통부 AI 및 딥테크 관련 정책 일정, 글로벌 AI 산업 성장 기대감",
+      "confidence": "높음",
+      "target_period": "수일~수주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "NAVER",
+          "code": "035420",
+          "reason": "단기 모멘텀 지속 예상.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "에스피소프트",
+          "code": "443670",
+          "reason": "단기 모멘텀 지속 예상.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "SK스퀘어",
+          "code": "402340",
+          "reason": "단기 모멘텀 지속 예상.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "2차전지/전력설비",
+      "description": "LFP 양극재, 전력망 구축 등 구체적인 성장 동력과 수급 강세는 단기적인 시장 변동성을 상쇄하며 테마의 지속 가능성을 높일 것입니다.",
+      "catalyst": "LFP 양극재, 전력망 구축 등 구체적인 성장 동력 및 수급 강세",
+      "confidence": "높음",
+      "target_period": "수일~수주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성SDI",
+          "code": "006400",
+          "reason": "단기 모멘텀 지속 예상.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "엘앤에프",
+          "code": "066970",
+          "reason": "단기 모멘텀 지속 예상.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "LG에너지솔루션",
+          "code": "373220",
+          "reason": "단기 모멘텀 지속 예상.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "반도체",
+      "description": "AI 인프라 투자 수요는 여전히 견조하여, 금리 인상 우려가 완화되거나 개별 기업의 긍정적인 뉴스가 있을 경우 언제든 반등할 수 있는 잠재력을 가집니다. 다만, 당분간은 옥석 가리기가 진행될 수 있습니다.",
+      "catalyst": "AI 인프라 투자 수요 견조, 금리 인상 우려 완화 또는 개별 기업 긍정적 뉴스",
+      "confidence": "보통",
+      "target_period": "수일~수주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "단기 모멘텀 지속 예상.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "단기 모멘텀 지속 예상.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "주성엔지니어링",
+          "code": "036930",
+          "reason": "단기 모멘텀 지속 예상.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "바이오/제약",
+      "description": "코로나19 재확산 우려와 같은 단기적인 이슈로 인해 제한적인 관심이 유입될 수 있으나, 과거 예측 실패율이 높았다는 점과 혼조된 수급으로 인해 지속적인 강세를 기대하기는 어렵습니다.",
+      "catalyst": "코로나19 재확산 우려",
+      "confidence": "낮음",
+      "target_period": "수일~수주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "루닛",
+          "code": "328130",
+          "reason": "단기적인 이슈로 인한 제한적 관심.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "JW신약",
+          "code": "067290",
+          "reason": "단기적인 이슈로 인한 제한적 관심.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "셀트리온",
+          "code": "068270",
+          "reason": "단기적인 이슈로 인한 제한적 관심.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "AI/소프트웨어",
+      "description": "인공지능 기술의 발전과 산업 전반으로의 확산은 거스를 수 없는 흐름이며, 딥테크 및 AI 인프라 투자는 장기적인 성장 동력으로 작용할 것입니다.",
+      "catalyst": "인공지능 기술 발전 및 산업 확산, 딥테크 및 AI 인프라 투자",
+      "confidence": "높음",
+      "target_period": "수개월~수년",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "NAVER",
+          "code": "035420",
+          "reason": "장기 성장 동력 보유.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "에스피소프트",
+          "code": "443670",
+          "reason": "장기 성장 동력 보유.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "SK스퀘어",
+          "code": "402340",
+          "reason": "장기 성장 동력 보유.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "2차전지/전력설비",
+      "description": "전기차 전환 가속화, 에너지 저장 시스템(ESS) 확대, 노후 전력망 교체 및 신재생에너지 연계 등은 장기적인 메가트렌드입니다.",
+      "catalyst": "전기차 전환 가속화, ESS 확대, 전력망 교체 및 신재생에너지 연계",
+      "confidence": "높음",
+      "target_period": "수개월~수년",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성SDI",
+          "code": "006400",
+          "reason": "장기 성장 동력 보유.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "엘앤에프",
+          "code": "066970",
+          "reason": "장기 성장 동력 보유.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "LG에너지솔루션",
+          "code": "373220",
+          "reason": "장기 성장 동력 보유.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "반도체",
+      "description": "AI, 자율주행, 데이터센터 등 첨단 산업의 핵심 인프라로서 반도체 산업의 중요성은 장기적으로 지속될 것입니다. 기술력과 시장 점유율을 갖춘 기업들은 꾸준히 성장할 것입니다.",
+      "catalyst": "AI, 자율주행, 데이터센터 등 첨단 산업의 핵심 인프라",
+      "confidence": "높음",
+      "target_period": "수개월~수년",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "장기 성장 동력 보유.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "장기 성장 동력 보유.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "주성엔지니어링",
+          "code": "036930",
+          "reason": "장기 성장 동력 보유.",
+          "data_verified": true
+        }
+      ]
+    }
+  ]
+}
