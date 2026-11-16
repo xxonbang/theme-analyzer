@@ -1,0 +1,176 @@
+{
+  "forecast_date": "2026년 11월 16일",
+  "generated_at": "2026-11-16T10:05:44.341565+09:00",
+  "market_context": "전일 미국 시장은 기술주 약세와 중동 지정학적 리스크 고조로 전반적인 하락세를 보였으며, 이는 한국 시장에도 부담으로 작용할 것으로 예상됩니다. 다만, 에너지, 금융, 헬스케어 섹터는 강세를 보였습니다.",
+  "us_market_summary": "S&P500은 -0.40%, NASDAQ은 -0.91% 하락하며 전반적인 약세를 보였습니다. 반도체(-3.67%)와 기술주(-2.01%)가 크게 하락한 반면, 에너지(+0.98%), 금융(+0.81%), 헬스케어(+0.54%) 섹터는 강세를 나타냈습니다.",
+  "news_sources": [
+    {
+      "title": "Stocks Have Risen a Year After Every Midterm Since 1950. Here’s What That Does and Doesn’t Tell You.",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMRXwjsrT5CCzxIyjCxkVudB6V_QQlWi2ZcQST5YcwbjViu85foMvhqhOGA0WYSDbQ4vvisffzZQtXBaiG8SfswgjSzEWvN453SSLuaJOnQpJ0Q2AOGgPhG5YZSKOlwFYIaaWBhPn6Gpn6I0BWa4rKNzNSG9v9Ulc4wQaC9srECFStcX26Mjs3-6dVP-nxNnhedb3V6LpnCB9EgRXqiqjPY0Zfg0aIflTWRbjVuGcJnHt2e3GzAmn0lNk="
+    },
+    {
+      "title": "tradingkey.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJYazI6LGw1Spfl4vrD-Bz-HAGtCO8BbX3DzAGOH1coesmcrr9ErlXr_7jPF8JOnK2Zx_IJxuTeZ23lkllPOTRcIgw3k_0dk216OXio_q-jdXuZqESbc5lwgpR76_zs3VQwKI40deco1fwW7LSlQ09F0GdyTgaWZ-aMdzmMICgpoAIKp8dmOgNIwWuqgusskROISPgGDUjr5zdChhrHiBzZvdT0kQJbT-TvpHGaMRli7r3uT_dM2A_QI-C0y_rh74gsTnza5psfgNqHSvAenT4hCow"
+    },
+    {
+      "title": "증시 운명 가를 격동의 한 주 시작된다 [월가 업&다운]",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGns7NrA9gAgWIVhV8ZjewQloqii4_BBAVJbyosnKwev8p2sCIluR6aAljact3K0xe9gEMfq66b2Suy4Z8pyJFSzzo-g6ZP2nJPQy1ZguuWYgBu1-ftG3K8XIffv_og6eEpLkh4cj0u0qs="
+    },
+    {
+      "title": "tradingkey.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_ENm0FsanTKSWnifEOmZBnpDX5DqO0ucYfuu7g835KoGpTE30AyGVwx2OMdEXKG92b8-smaqsSKxdOK71QP7uzwXSTzSGb5yFriMerWWem_oweSpibXmKIF3o0eGlvlSIZXP79ZguOHxTaqCVxKgYQBSLJE_OZeAZLBE6GqOkfO_oTOAyjUU4qI7QUCy4crkF9xeGL-zI4vf_Wq8AJoawzssTFAEqu4mYMZr9JwGTj_uc25IoHIA-IaKaVL7FfYM2CxXJmf2_M6XrhVnikYTR"
+    },
+    {
+      "title": "[뉴욕 주간전망] 엔비디아 실적·앤트로픽 상장 등 주목",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9q6kHpvzJKocZPFtAbJsmSUYrt9n-rLGfIUBeYvZgo_K-JjXgecBzfDbHaOZk9ewAkiL42PDJGnGvc_G63cWPj2d6f72YLX7XGlnO0dL8Ir9F1TvFO1YlaJ755asPzUjEBIPcfIyc7GlJ0MmPHerSi2yRnpIQ0-JXCg=="
+    },
+    {
+      "title": "theconnectmoney.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgf-Il8SCMK9jACO6NwGpqxkA8ERuVURfWi24KKTACAX4E6s_tJgsvwLwTVmKGvdf6kobMAT84Dz3p-0PlSpKHtpzNCHcGr5vrwqPXJ3-z9SX2n-oAsxwU3lQqjc_UKRjKQ-RsQnreWmTZyrK2dQ=="
+    },
+    {
+      "title": "Access Denied",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUKb4Vzqzru5Cg71WsTnF-zvWE7mAxt1sGCcLNR6X_052qE3Oz9QPKIWNayzSsETcQk3Ktv2tTsTe48n7RIw4bNLuci_sxbSjjhe0ecbMuLYgHK1w8zXIg5S2326uWfMxE_NVuMPphqdsUbjaEt1pS_uo1qRIu81BlumREBQ3txcuvDykIPYbfFzAIlCOTx9A="
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "에너지/방산",
+      "description": "중동 지역의 지정학적 리스크 고조(예멘 후티 반군 미사일 공격, 이란 바레인 공격, 호르무즈 해협 긴장, 유조선 피격 등)로 인해 국제 유가 변동성 확대 및 방산 수요 증가 기대감이 커지고 있습니다. 미국 시장에서 에너지 섹터(XLE)가 강세를 보인 점도 긍정적입니다.",
+      "catalyst": "중동 지정학적 리스크 고조",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "한화에어로스페이스",
+          "code": "012450",
+          "reason": "중동 지정학적 리스크는 유가 및 방산 산업에 직접적인 영향을 미치는 강력한 촉매이며, 국내 대표 방산 기업으로 수혜가 예상됩니다.",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "흥구석유",
+          "code": "024060",
+          "reason": "중동 지정학적 리스크는 유가 및 방산 산업에 직접적인 영향을 미치는 강력한 촉매이며, 국제 유가와 연동되는 대표적인 정유/유류 관련주입니다.",
+          "data_verified": false
+        },
+        {
+          "priority": 3,
+          "name": "중앙에너비스",
+          "code": "000440",
+          "reason": "중동 지정학적 리스크는 유가 및 방산 산업에 직접적인 영향을 미치는 강력한 촉매이며, 국제 유가와 연동되는 대표적인 정유/유류 관련주입니다.",
+          "data_verified": false
+        }
+      ]
+    },
+    {
+      "theme_name": "AI/소프트웨어/로봇",
+      "description": "인공지능 기술의 지속적인 발전 기대감과 AI 기반 솔루션 및 로봇 디바이스 시장 성장이 예상됩니다. 미국 시장의 기술주 약세와 엔비디아 리더십 위기 소식은 단기적인 변동성을 유발할 수 있으나, 국내 시장에서 지니언스, NAVER, 피앤에스로보틱스 등 관련 종목들의 외국인 매수세가 확인되어 투자 심리는 여전히 살아있습니다.",
+      "catalyst": "AI 기술 발전 기대감 및 관련 기업 수급 개선",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "지니언스",
+          "code": "263860",
+          "reason": "전일 한국 시장에서 외국인 순매수와 함께 강세를 보인 종목으로, 보안/소프트웨어 분야에서 AI 테마의 핵심 축을 담당하고 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "피앤에스로보틱스",
+          "code": "460940",
+          "reason": "전일 급등 및 외국인 순매수를 기록한 로봇 관련주로, AI/로봇 테마의 핵심 축을 담당하고 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "NAVER",
+          "code": "035420",
+          "reason": "전일 외국인 순매수를 기록한 IT 플랫폼/AI 관련 기업으로, AI 기술 발전에 대한 기대감이 유효합니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "반도체",
+      "description": "미국 필라델피아 반도체 지수가 3.67% 급락했으며, 엔비디아 젠슨 황 CEO 사임 소식과 AI 개발 둔화 우려, 연준의 추가 금리 인상 가능성 등 복합적인 악재가 작용했습니다. 이번 주 예정된 엔비디아 3분기 실적 발표(17일)와 AI 기업 앤트로픽 IPO(19일)는 AI 관련주의 변동성을 크게 확대시킬 주요 이벤트입니다. 국내 반도체 대형주에 집중된 신용융자 잔고도 시장 하락 시 추가 매도 압력으로 작용할 수 있습니다.",
+      "catalyst": "미국 필라델피아 반도체 지수 급락, 엔비디아 실적 발표(17일), 앤트로픽 IPO(19일)",
+      "confidence": "높음",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "전일 외국인 대량 매도(-38만주)로 하락 마감하며, 미국 반도체 섹터 약세의 직접적인 영향을 받았습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "전일 기관 대량 매도(-31만주)로 하락 마감하며, 시장 전반의 투자 심리 위축을 반영했습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "삼성전기",
+          "code": "009150",
+          "reason": "전일 외국인과 기관의 동반 매도로 하락 마감하며, 반도체 관련 부품주의 약세를 보였습니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "금융",
+      "description": "반도체 테마에서 빠져나온 자금의 순환매 가능성이 제기되고 있습니다. 11월 18일 한국은행의 2026년 3분기 가계신용(잠정) 발표와 11월 26일 한국은행 금융통화위원회 기준금리 결정 등 주요 매크로 경제 일정이 예정되어 있어 시장의 유동성과 투자 심리에 영향을 미칠 것입니다. 미국 금융 섹터가 소폭 상승한 점도 긍정적입니다.",
+      "catalyst": "한국은행 2026년 3분기 가계신용 발표(11/18), 한국은행 금융통화위원회 기준금리 결정(11/26)",
+      "confidence": "보통",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "우리금융지주",
+          "code": "316140",
+          "reason": "전일 코스닥 시장에서 +2.69% 상승하며 외국인과 기관의 동반 순매수가 유입되어 금융주 중 긍정적인 수급을 보였습니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "2차전지, 자동차, 제약/바이오",
+      "description": "증권사들은 2027년 하반기 이후 반도체 이익 증가세 둔화 시 한국 증시의 지수 방향을 가를 후속 업종으로 2차전지, 자동차, 제약/바이오를 제시했습니다. 이는 각 산업의 장기적인 성장 잠재력(글로벌 전기차 시장 성장, 고령화 및 신약 개발 수요 증가 등)에 기반한 전망입니다.",
+      "catalyst": "2027년 하반기 이후 반도체 이익 증가세 둔화 시 한국 증시의 지수 방향을 가를 후속 업종으로 부상",
+      "confidence": "높음",
+      "target_period": "2027년 이후",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성SDI",
+          "code": "006400",
+          "reason": "2차전지 섹터의 장기 성장 잠재력과 시장 대표성.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "현대차",
+          "code": "005380",
+          "reason": "자동차 섹터의 장기 성장 잠재력과 시장 대표성.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "삼성바이오로직스",
+          "code": "207940",
+          "reason": "제약/바이오 섹터의 장기 성장 잠재력과 시장 대표성.",
+          "data_verified": true
+        }
+      ]
+    }
+  ]
+}
