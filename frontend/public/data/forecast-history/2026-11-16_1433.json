@@ -1,0 +1,147 @@
+{
+  "forecast_date": "2026년 11월 16일",
+  "generated_at": "2026-11-16T14:32:59.413420+09:00",
+  "market_context": "2026년 11월 16일 장 개장 전, 전일 미국 증시는 AI 관련 기술주와 반도체 섹터의 약세로 하락했으며, 이는 국내 증시에도 영향을 미쳐 반도체 대형주를 중심으로 하락 압력을 받고 있습니다. 엔비디아 실적 발표를 앞두고 관망세가 짙은 상황입니다.",
+  "us_market_summary": "S&P500은 -0.40% 하락, NASDAQ은 -0.91% 하락, 필라델피아 반도체 지수는 -3.4% 하락했습니다. 엔비디아, AMD 등 AI 관련 기술주 및 반도체 기업들이 약세를 보였으나, 다우존스30산업평균지수는 방어주 지지에 힘입어 0.1% 상승했습니다.",
+  "news_sources": [
+    {
+      "title": "Stocks Have Risen a Year After Every Midterm Since 1950. Here’s What That Does and Doesn’t Tell You.",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMRXwjsrT5CCzxIyjCxkVudB6V_QQlWi2ZcQST5YcwbjViu85foMvhqhOGA0WYSDbQ4vvisffzZQtXBaiG8SfswgjSzEWvN453SSLuaJOnQpJ0Q2AOGgPhG5YZSKOlwFYIaaWBhPn6Gpn6I0BWa4rKNzNSG9v9Ulc4wQaC9srECFStcX26Mjs3-6dVP-nxNnhedb3V6LpnCB9EgRXqiqjPY0Zfg0aIflTWRbjVuGcJnHt2e3GzAmn0lNk="
+    },
+    {
+      "title": "tradingkey.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJYazI6LGw1Spfl4vrD-Bz-HAGtCO8BbX3DzAGOH1coesmcrr9ErlXr_7jPF8JOnK2Zx_IJxuTeZ23lkllPOTRcIgw3k_0dk216OXio_q-jdXuZqESbc5lwgpR76_zs3VQwKI40deco1fwW7LSlQ09F0GdyTgaWZ-aMdzmMICgpoAIKp8dmOgNIwWuqgusskROISPgGDUjr5zdChhrHiBzZvdT0kQJbT-TvpHGaMRli7r3uT_dM2A_QI-C0y_rh74gsTnza5psfgNqHSvAenT4hCow"
+    },
+    {
+      "title": "증시 운명 가를 격동의 한 주 시작된다 [월가 업&다운]",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGns7NrA9gAgWIVhV8ZjewQloqii4_BBAVJbyosnKwev8p2sCIluR6aAljact3K0xe9gEMfq66b2Suy4Z8pyJFSzzo-g6ZP2nJPQy1ZguuWYgBu1-ftG3K8XIffv_og6eEpLkh4cj0u0qs="
+    },
+    {
+      "title": "tradingkey.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_ENm0FsanTKSWnifEOmZBnpDX5DqO0ucYfuu7g835KoGpTE30AyGVwx2OMdEXKG92b8-smaqsSKxdOK71QP7uzwXSTzSGb5yFriMerWWem_oweSpibXmKIF3o0eGlvlSIZXP79ZguOHxTaqCVxKgYQBSLJE_OZeAZLBE6GqOkfO_oTOAyjUU4qI7QUCy4crkF9xeGL-zI4vf_Wq8AJoawzssTFAEqu4mYMZr9JwGTj_uc25IoHIA-IaKaVL7FfYM2CxXJmf2_M6XrhVnikYTR"
+    },
+    {
+      "title": "[뉴욕 주간전망] 엔비디아 실적·앤트로픽 상장 등 주목",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9q6kHpvzJKocZPFtAbJsmSUYrt9n-rLGfIUBeYvZgo_K-JjXgecBzfDbHaOZk9ewAkiL42PDJGnGvc_G63cWPj2d6f72YLX7XGlnO0dL8Ir9F1TvFO1YlaJ755asPzUjEBIPcfIyc7GlJ0MmPHerSi2yRnpIQ0-JXCg=="
+    },
+    {
+      "title": "theconnectmoney.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgf-Il8SCMK9jACO6NwGpqxkA8ERuVURfWi24KKTACAX4E6s_tJgsvwLwTVmKGvdf6kobMAT84Dz3p-0PlSpKHtpzNCHcGr5vrwqPXJ3-z9SX2n-oAsxwU3lQqjc_UKRjKQ-RsQnreWmTZyrK2dQ=="
+    },
+    {
+      "title": "Access Denied",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUKb4Vzqzru5Cg71WsTnF-zvWE7mAxt1sGCcLNR6X_052qE3Oz9QPKIWNayzSsETcQk3Ktv2tTsTe48n7RIw4bNLuci_sxbSjjhe0ecbMuLYgHK1w8zXIg5S2326uWfMxE_NVuMPphqdsUbjaEt1pS_uo1qRIu81BlumREBQ3txcuvDykIPYbfFzAIlCOTx9A="
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "전력 인프라/전력기기",
+      "description": "NH투자증권은 2027년 주식시장 전망 보고서에서 AI 연산 수요 증가에 따른 전력 공급 부족 현상을 지적하며, AI 산업의 병목 현상이 전력 및 전력망으로 이동할 것으로 예상했습니다. 이에 따라 데이터센터 및 전력기기 관련 기업들이 수혜를 볼 것으로 전망했습니다. 이는 AI 성장이라는 메가트렌드와 직접적으로 연결되어 장기적인 성장 동력을 확보하고 있습니다.",
+      "catalyst": "NH투자증권의 AI 산업 병목 현상(전력/전력망) 이동 및 전력기기 수혜 전망",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "LS ELECTRIC",
+          "code": "000680",
+          "reason": "국내 대표 전력기기 및 전력 인프라 구축 기업으로, AI 데이터센터 확장에 따른 전력 수요 증가의 직접적인 수혜가 예상됩니다. 전일 거래대금 TOP10에는 없으나, 테마의 핵심 종목으로 장기적인 관점에서 기관 및 외국인 수급 유입 가능성이 높습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "HD현대일렉트릭",
+          "code": "267260",
+          "reason": "변압기 등 전력 설비 분야에서 강점을 가진 기업으로, AI 인프라 구축에 필수적인 전력망 고도화에 따른 수주 증가가 기대됩니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "효성중공업",
+          "code": "269860",
+          "reason": "중공업 분야의 전력 시스템 및 건설 사업을 영위하며, 전력 인프라 투자 확대 시 수혜가 예상되는 기업입니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "반도체",
+      "description": "미국 필라델피아 반도체 지수가 3.67% 급락했으며, 엔비디아 젠슨 황 CEO 사임 소식과 AI 개발 둔화 우려, 연준의 추가 금리 인상 가능성 등 복합적인 악재가 작용했습니다. 이번 주 예정된 엔비디아 3분기 실적 발표(17일)와 AI 기업 앤트로픽 IPO(19일)는 AI 관련주의 변동성을 크게 확대시킬 주요 이벤트입니다. 국내 반도체 대형주에 집중된 신용융자 잔고도 시장 하락 시 추가 매도 압력으로 작용할 수 있습니다.",
+      "catalyst": "미국 필라델피아 반도체 지수 급락, 엔비디아 실적 발표(17일), 앤트로픽 IPO(19일)",
+      "confidence": "높음",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "전일 외국인 대량 매도(-38만주)로 하락 마감하며, 미국 반도체 섹터 약세의 직접적인 영향을 받았습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "전일 기관 대량 매도(-31만주)로 하락 마감하며, 시장 전반의 투자 심리 위축을 반영했습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "삼성전기",
+          "code": "009150",
+          "reason": "전일 외국인과 기관의 동반 매도로 하락 마감하며, 반도체 관련 부품주의 약세를 보였습니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "금융",
+      "description": "반도체 테마에서 빠져나온 자금의 순환매 가능성이 제기되고 있습니다. 11월 18일 한국은행의 2026년 3분기 가계신용(잠정) 발표와 11월 26일 한국은행 금융통화위원회 기준금리 결정 등 주요 매크로 경제 일정이 예정되어 있어 시장의 유동성과 투자 심리에 영향을 미칠 것입니다. 미국 금융 섹터가 소폭 상승한 점도 긍정적입니다.",
+      "catalyst": "한국은행 2026년 3분기 가계신용 발표(11/18), 한국은행 금융통화위원회 기준금리 결정(11/26)",
+      "confidence": "보통",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "우리금융지주",
+          "code": "316140",
+          "reason": "전일 코스닥 시장에서 +2.69% 상승하며 외국인과 기관의 동반 순매수가 유입되어 금융주 중 긍정적인 수급을 보였습니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "2차전지, 자동차, 제약/바이오",
+      "description": "증권사들은 2027년 하반기 이후 반도체 이익 증가세 둔화 시 한국 증시의 지수 방향을 가를 후속 업종으로 2차전지, 자동차, 제약/바이오를 제시했습니다. 이는 각 산업의 장기적인 성장 잠재력(글로벌 전기차 시장 성장, 고령화 및 신약 개발 수요 증가 등)에 기반한 전망입니다.",
+      "catalyst": "2027년 하반기 이후 반도체 이익 증가세 둔화 시 한국 증시의 지수 방향을 가를 후속 업종으로 부상",
+      "confidence": "높음",
+      "target_period": "2027년 이후",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성SDI",
+          "code": "006400",
+          "reason": "2차전지 섹터의 장기 성장 잠재력과 시장 대표성.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "현대차",
+          "code": "005380",
+          "reason": "자동차 섹터의 장기 성장 잠재력과 시장 대표성.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "삼성바이오로직스",
+          "code": "207940",
+          "reason": "제약/바이오 섹터의 장기 성장 잠재력과 시장 대표성.",
+          "data_verified": true
+        }
+      ]
+    }
+  ]
+}
