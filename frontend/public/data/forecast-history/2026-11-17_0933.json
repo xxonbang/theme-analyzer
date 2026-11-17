@@ -1,0 +1,243 @@
+{
+  "forecast_date": "2026년 11월 17일",
+  "generated_at": "2026-11-17T09:33:06.597204+09:00",
+  "market_context": "전일 미국 증시는 기술주와 반도체 섹터의 급락 속에 전반적인 약세를 보였으며, 이는 국내 증시에도 부정적인 영향을 미칠 것으로 예상됩니다. 특히 AI 관련 규제 우려 뉴스는 기술 성장주에 대한 투자 심리를 위축시킬 수 있습니다. 다만, 특정 개별 종목의 수급 개선과 방산, 바이오 등 특정 섹터의 개별 이슈는 시장의 하방 압력을 일부 상쇄할 가능성이 있습니다.",
+  "us_market_summary": "다우존스 1.41%↓, S&P500 1.92%↓, 나스닥 2.49%↓로 주요 지수 모두 하락 마감했습니다. 반도체 섹터가 필라델피아 반도체 지수 5.28% 급락을 기록하며 가장 큰 약세를 보였고, 헬스케어 섹터는 존슨앤드존슨의 바이오 기업 인수 소식에 강세를 나타냈습니다.",
+  "news_sources": [
+    {
+      "title": "[속보]미국증시  나스닥 1.42% 급락…다우·S&P500 동반 하락, 엔비디아 실적 앞두고 기술주 압박",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2dy7Y1iHFqgatGsiMQI1dLfC0g8cRhpF1BZe743xkXMDE7pHcnpVhJsRl4dwgxnC3tU3uUHPELgVJOvXJgwFK4FyamvbtPew15IPwHw-8k-TWKXUxezNnL4YLGK0dn4d1Uaam9N5cYYeFX_hr0WTWiDLbKw=="
+    },
+    {
+      "title": "tradingkey.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH43IPPs4a1rMVsnFtoOnQkHbYHk0EWGHpnDkUHhCPWDrR3UNkHkLWt8DnOCCe9Uc9HCET3toMOTPt6UjdbAxQfpwzHA_aBPrjppaTfNtDZO3j4AFICaDR6nW-6nzgIUXrAlnweh3reE3eZazVWZZnv9_upRhdRw0PmM8l-Z4M6oHEMbWi5cSKXe8rNcP4Asg=="
+    },
+    {
+      "title": "뉴욕증시 개장 전 특징주...엔비디아·항공주↓ VS 테이크투·존슨앤드존슨↑",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGx04Zx7VGXtJvQZ8G4KUSaMIhv0sreFfRQDU5fPBgyEUy2frbOB5a8o1Z2WNe3T_kQJGe3M6cWvD-ELD3bJE9sTK1D7qoC69AE8Lfxc-eVP9ehfukE1b86cXF0LyRfn_h9e_-Og5GQNDD1sQ=="
+    },
+    {
+      "title": "theconnectmoney.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4u9q6Ux6K4I2lDhxaezipNzGXuZSOpWH1YW0JLbYqDDqAH6MrDuL6_obC_WSfGZNvsWKyiuc1pZT4DKjUV2yS3X4htqTRQrSgExK1xT9Ws-7xWiRejuP7DXBx6J3ddwjtXI827BlTWw7LVNKuNQ=="
+    },
+    {
+      "title": "[속보] 엔비디아 162달러선, 일본 닛케이 6만선 붕괴까지 반도체주 충격 확산",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6te51NH-G_NoSiySjMawyO3l50GY0ioslolWTD7vV0I90ALMn4e4oYHaxetDFsqBI9GHH3jYQxPGge3syWzTnrxtgPHEXyYHqB8dgh3bGLQzo-AMYLVRyz0wNoKKQEccXw9C0_jE-s97u2Fyebuh6qNKpDw=="
+    },
+    {
+      "title": "[1116마감체크] 코스피 지수, 외국인·기관 순매도 속 3거래일 연속 하락 마감",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVVAcICblBEJl-bStvvIdOjfL1cc5rplOCxTBzB5J0Kr9eodzplkjzEG3BFmtnDSFAbvUTp9sKiioBvVPkyA32oQ81k92msEF4NJXU3B3Y7E4z6ByW877YaeCR3i244srcjRPpRj7ugLr3DOedeS8yp6W_19VY0yTvZ9jkq9Y="
+    },
+    {
+      "title": "모건스탠리 &quot;코스피 1만 이상 지속 가능…이익 개선·개혁 전제&quot;",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgQ2tuF8xlBHrea4ppe0N5-C_TeIvNyGa3jfj7yLLxKWstMr8kkHdKxT2QDtgouE6kSFL_DSH6P6Px1MRZdfmwssmjkfjjbDNFrcbDhLY2_2mlRoJV-aSO8cjl3SvJ_8Ed_Q=="
+    },
+    {
+      "title": "investing.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFur4s-XQ8PRgemwiJJ3pRdFl0yIhUZ0cHK_HWk4FxgA-9_cO_Xon8JJwYFobZPYJgwKfiB3MXGysnaZz_f6zBbmUSV_cn8v6mjEEE9TzgGzZ3hdmgA69DQWYrvXXBrR8ASD1G1ATuzTukUji1RfGVxnaAjXmzIHfGTGw=="
+    },
+    {
+      "title": "tradingkey.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOQyZIcWB241z7fY1JH8emqtp8LDP3KkJ3enn_93gA26VckLRyIm_sGT7c8-cmgV7bZX6W7vB1KaDEBMbGBLJEr1DabrCForq2wWcZ_FWJBYblg4UuI5BNWgRbboFndi5sD0QlkVUk6WvqQdluPQAp0qKrpNIfN8LpsOsbtHAL1lrai8MSZDbC46hH0N6JSldG09qLfs4Q8UX9t93pROujHY7FNadguqC97QKWeZeHnwDjlr0-tWiOxaZ0bhhZFp6h"
+    },
+    {
+      "title": "TISTORY",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLx258AbQeqh49TWZMHfsRrx9wjjrj4yHFyI2zgLUxicvdPmnjVgjgTAdjn_nnoTiJeeJe9IZhin5m9mJHPbtMu2tbbTGCca1eC6ICkgQ40HqigxP-gkxFdopJlZqUhkxEsjBNcj_ednHUks_CslVeEbwadTMGQGYVUtkbu-wqlvSsvyyDPCrAcvgPz_FJaQUFnFVrWmCJ3rFJ00pgaYH5-5M_RZDmy59-1osy-dk0c6J-kw0zqACV5kXfuECn2wTxkL1saC35vxQuZwtbgPC14prGuocUAW9-Zqic_E4ETRRqtVN0-OcAoOSh-84uXGjCYLlxgcJdWSAr_NDcuxj5TU8="
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0klW0Apz2uYIxd1lzIiES3wGZeYWbad7BprhLKkxtKsIaJL-dHf5coviVt3NPErE1PcVm--Fh4HT4qh_ZncLzeAdEnzB86ZnhmPs0iSi91MjF-jXcssQ7dp8__yAkFvyV4YjezucRwwrJ_UjShyr-s1XgMUIZsy7cjw=="
+    },
+    {
+      "title": "ktb.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCYmusO4rMG6zjBEZLJ8SIw-bv5MPMgbLl1AE18M-DFK2aSWvAf1fSsRED47L2Q4zFxJtT8WnAZXL1IkULwGGjqig3h8id3S3t-puvVR62mCjdRokkejQrAXhayIiIOxYf06sTsSxp5qJ1AyLLTjjwWDzeS5MMeCGUP76pvzzucXfe0D2763D5ohZvonof6op0y3mqwOw4Xls4zW0C7UHk_qNuh2_s5k-wZMzDfdo="
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "AI/반도체 하방 압력 지속",
+      "description": "미국 증시의 기술주 및 반도체 섹터 급락(필라델피아 반도체 지수 5.28%↓), 엔비디아 CEO 거취 불확실성, 미국의 대중국 AI 반도체 규제 강화, AI 가속기 수요 전망 하향 등의 악재로 국내 반도체 대형주 및 소부장의 외국인/기관 동반 순매도가 심화되며 시장 하방 압력이 지속될 것으로 예상됩니다.",
+      "catalyst": "미국 반도체 지수 급락 및 AI 관련 악재 심화",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "전일 코스피 거래대금 2위 (31,460억원), 등락률 -4.51%. 외국인 대규모 순매도. 시장 하방 압력의 핵심 지표.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "전일 코스피 거래대금 1위 (47,049억원), 등락률 -7.40%. 외국인 3일 연속, 기관 연속 순매도. 시장 하방 압력의 핵심 지표.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "주성엔지니어링",
+          "code": "036930",
+          "reason": "전일 코스피 거래대금 상위 (2,383억원), 등락률 -11.30%. 외국인 3일 연속, 기관 2일 연속 순매도. 반도체 소부장 대표주로서 섹터 약세 반영.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "개별 바이오/제약 모멘텀",
+      "description": "존슨앤드존슨의 바이오 기업 인수 소식 등 글로벌 제약 바이오 섹터의 M&A 모멘텀과 국내 개별 종목의 임상, 신약 개발, 기술수출 등 구체적인 이슈에 따른 수급 유입 가능성이 있습니다.",
+      "catalyst": "글로벌 제약 바이오 섹터 M&A 모멘텀",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "아리바이오랩",
+          "code": "261780",
+          "reason": "장중 실시간 수급에서 외국인 +23.8만주, 기관 +0.2만주 동반 순매수, 등락률 +25.16% 기록. 개별 종목의 강한 수급 모멘텀.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "JW신약",
+          "code": "067290",
+          "reason": "과거 바이오/제약 테마 대장주로서 안정적인 모의투자 성과 기록. 전일 외국인/기관 동반 순매수. (단, 8/31 데이터이므로 현재 거래대금 확인 필요)",
+          "data_verified": false
+        }
+      ]
+    },
+    {
+      "theme_name": "금융주 (상대적 안정성 및 기관 수급)",
+      "description": "시장 불확실성 확대 속에서 배당 매력 및 상대적 안정성이 부각되며 기관의 방어적 매수세가 유입될 가능성이 있습니다.",
+      "catalyst": "시장 불확실성 속 배당 매력 및 안정성 부각",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "KB금융",
+          "code": "105560",
+          "reason": "전일 외국인 순매도에도 기관 2일 연속 순매수, 등락률 +1.19%.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "우리금융지주",
+          "code": "316140",
+          "reason": "전일 외국인 순매도에도 기관 2일 연속 순매수, 등락률 +1.54%.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "반도체/AI (하드웨어/대형주)",
+      "description": "미국 증시의 기술주 및 반도체 섹터 급락과 엔비디아 젠슨 황 CEO 사임 여파, 그리고 11월 17일 예정된 엔비디아 분기 실적 발표에 대한 경계감이 강합니다. 한국 시장은 미국 반도체 섹터와 높은 상관관계를 가지므로, 주요 반도체 기업 및 관련 장비/소재 기업들에 대한 투자 심리가 크게 위축될 것입니다.",
+      "catalyst": "미국 증시 기술주 및 반도체 섹터 급락, 엔비디아 젠슨 황 CEO 사임 여파, 엔비디아 분기 실적 발표 경계감",
+      "confidence": "높음",
+      "target_period": "7일 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "전일 -4.51% 하락, 외국인(-309만주) 대규모 매도.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "전일 -7.40% 하락, 외국인(-17.7만주) 및 기관(-68.7만주) 양매도.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "삼성전기",
+          "code": "009150",
+          "reason": "전일 -8.07% 하락, 외국인(-12.7만주) 및 기관(-10.2만주) 양매도.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "2차전지 (대형주)",
+      "description": "기술주 전반에 대한 위험 회피 심리가 확산되면서 2차전지 대형주 역시 동반 하락세를 보였습니다. 외국인과 기관의 지속적인 매도세는 해당 섹터에 추가적인 하방 압력을 가할 것으로 보입니다.",
+      "catalyst": "기술주 전반에 대한 위험 회피 심리 확산, 외국인과 기관의 지속적인 매도세",
+      "confidence": "높음",
+      "target_period": "7일 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성SDI",
+          "code": "006400",
+          "reason": "전일 -2.41% 하락, 외국인(-11.1만주) 및 기관(-6만주) 양매도.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "LG에너지솔루션",
+          "code": "373220",
+          "reason": "전일 -1.69% 하락, 기관이 3일 연속 매도.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "에너지",
+      "description": "중동 수출 회복 전망에 따른 국제 유가 하락세는 에너지 관련 기업들에게 부정적인 영향을 미칠 것으로 예상됩니다.",
+      "catalyst": "중동 수출 회복 전망에 따른 국제 유가 하락세",
+      "confidence": "보통",
+      "target_period": "7일 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "S-Oil",
+          "code": "010950",
+          "reason": "국제 유가 하락세에 직접적인 영향을 받을 수 있습니다.",
+          "data_verified": false
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "건설 및 인프라",
+      "description": "모건스탠리는 한국 증시가 코스피 1만 이상도 지속 가능하다고 장기적인 긍정적 전망을 내놓았으며, 2027년 본격적인 턴어라운드 및 대규모 프로젝트 수주 기대감이 건설 섹터에 긍정적으로 작용할 것으로 예상됩니다.",
+      "catalyst": "모건스탠리의 한국 증시 장기 긍정적 전망, 2027년 턴어라운드 및 대규모 프로젝트 수주 기대감",
+      "confidence": "보통",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성E&A",
+          "code": "028050",
+          "reason": "전일 +0.15% 상승했으며, 기관이 10일 연속 순매수하며 견조한 수급을 보였습니다. 플랜트 건설 분야의 강점을 바탕으로 장기적인 성장 기대감이 있습니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "반도체/AI (장기 성장)",
+      "description": "단기적인 불확실성에도 불구하고, 모건스탠리는 한국 시장이 AI, 국방비 증가, 재생에너지 등 글로벌 핵심 테마에 대한 노출도가 높은 고베타 시장으로 평가했습니다. 특히 정부의 'K온디바이스 AI반도체 프로젝트 로드맵' 발표와 같은 정책 지원은 장기적으로 한국 반도체/AI 산업의 경쟁력 강화에 기여할 것입니다.",
+      "catalyst": "모건스탠리의 한국 시장 고베타 평가, 정부의 'K온디바이스 AI반도체 프로젝트 로드맵' 발표",
+      "confidence": "보통",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "정부 정책 지원 및 장기적인 AI 산업 성장에 대한 노출도가 높습니다.",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "정부 정책 지원 및 장기적인 AI 산업 성장에 대한 노출도가 높습니다.",
+          "data_verified": false
+        }
+      ]
+    }
+  ]
+}
