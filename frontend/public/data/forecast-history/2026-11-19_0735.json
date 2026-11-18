@@ -1,0 +1,213 @@
+{
+  "forecast_date": "2026년 11월 19일",
+  "generated_at": "2026-11-19T07:35:19.997432+09:00",
+  "market_context": "현재 한국 주식시장은 '극도의 공포' 수준의 투자 심리와 높은 불확실성에 직면해 있으며, 미국 증시의 혼조세와 연준의 추가 긴축 우려, 국내 반도체 업황에 대한 엇갈린 전망이 변동성을 확대시키고 있습니다. 이러한 환경에서는 특정 모멘텀이 강하거나 안정적인 수익을 추구할 수 있는 테마에만 제한적인 수급이 집중될 가능성이 높습니다.",
+  "us_market_summary": "미국 증시는 S&P500이 5거래일 연속 하락하는 등 혼조세를 보였으나, 나스닥 및 필라델피아 반도체 지수는 소폭 상승했으며 AMD가 급등했습니다.",
+  "news_sources": [
+    {
+      "title": "Access Denied",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiDrmJmCUZIREz1jZsv0ygY64mL-rN8B9H8AhI8xvvcwzNkRfrEBkaT_tOUI9NcteszBJBdmCEmwr43KC_ubL_83CCoA8yKgVWBxe6EhzXsf9ilAESqIopulByg9aA01AQLLnAsjrZLDfst_Ci21Cym04c"
+    },
+    {
+      "title": "[속보]뉴욕증시 혼조 마감…다우 561포인트 급락, 나스닥 반등에도 S&P500 5거래일 연속 하락",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpWWl1mBicYQB-ph3VzVbiuJuqUQBB6pOVnxS0v9dnpewyEPSxtJhj-5HnYdjMSY5rIm8lknnMlCDqCe3FajWR3EQYwydkZaqPxGlTmCagnZouqn-7j3GDA4Asklfwtnot3CulF6YRYcx7123syswlyy5MiQ=="
+    },
+    {
+      "title": "뉴욕증시, 연준 매파 기조에 혼조 마감…다우 1.11%↓",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFe9pcwVsI_9XfpcMYDUYPGlH2Uf4_roIp0oDc_9lTIIllJiTYRmvLKgiUq8r3wtM5frFpo5g3xE1OeRvoRegQA7_2tpc5QRkdEKibVg55OEIQNPDmfETgyXU-POY8NhODVftuctdp7tGmSNQ=="
+    },
+    {
+      "title": "뉴욕증시, 엔비디아 호실적 속 혼조 출발",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-pexjHpTPCz3S1DPIbnhzFNhCgK3OnTPje6OjABZS87mYo0EsDCEknhAuwNOf2EplIeA99N8i9lYY5PGpbMgIne_xMjPNgNWJtQX88uQBZ52e9cnRvVVsKF0r1xRWgnbV0CPXsyLAg-LN"
+    },
+    {
+      "title": "엔비디아 호실적에도 S&amp;P500 닷새째 하락… 다우 561포인트 밀려",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVB2Imhu1I4M-tajhKCeXGFl4nS_4YbwPMPJsD1Bm7EyqJ8M1tFP1TAi9L9BMAIjppAeFY1h8ACIUEF-saPunJqtYg2bY2ND3BeZUsZB4ilZ5Rssu92uMSFiafHEhyiDHII9eJ7GxL6Y_I_zCgav8b8of_wJf8YTJDVFKcV194sq5uNlbUf5nAoA60AQ=="
+    },
+    {
+      "title": "[KFT 모닝 브리프] 2026.11.19 — 오늘 꼭 알아야 할 국내외 경제뉴스",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKuL3Fo5TBKPOsB9vPjjQ05tRvbATaLRHdf6LQ57AJ1b0XOweYKbDaZlT130m1BH3YOYkxljXEyBL1Io1x1HUGRuvF0-MPqdxZE7FgzZVDnNVqhiXukCo2mTLjeVmv3Ub_g6bvIgu2liHLlqkP-vt_i0BImldm0EErbBRrTWVRwdE="
+    },
+    {
+      "title": "금융지주가 전망한 연말 증시…&quot;기술적 반등 그칠 가능성&quot;",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWi5qmJOeCb8GGqKaYiGKTuFprjQyURChJsPKyTi76JDN5-aH20I2ch3G0qcAwputNL-yA_aRtK_xpINuK6GjzAu9L-KTElX5u6dmeo9AaB0VUw_MUpd5p4sEMPqWQ9RdYymbqk11psSDv"
+    },
+    {
+      "title": "youtube.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxcFU8AKqyn6M05nu3-s3V0tIdqkpcFT4rMr48NMket4lnMnWO76ROG1l7MQ48f2DdECruXuM297I6m2oSmM-HQPYgu0B1cNQDiGpeH9DTrLgK5ZFYy4OZzwi7-gW8mKHLKWcLfBM="
+    },
+    {
+      "title": "upkoreanews.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFl431PGYc3QsoWsK2xgQ2jBZ56ajJjZ8cJ_jMyp2cbVE2Y_BY6Mnw_K2yuYisBRq235KkZrMQsaZQyPY_szrfiulLaFeLQ7yFyMEC8N1BmJXL94sJTBzC8W9MrohE9Qr8WgSh2yW0wpGgIBRQM327l7dymWupAnM4="
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "AI (인프라/하드웨어 중심)",
+      "description": "미국 나스닥 및 필라델피아 반도체 지수 소폭 상승, AMD 급등, AI 스타트업 앤트로픽의 나스닥 상장 예정 등 AI 산업 전반에 대한 기대감이 여전하며, 특히 AI 인프라 구축에 필수적인 반도체 및 관련 하드웨어 섹터에 대한 관심이 높습니다. 엔비디아의 경영 불확실성과 AI 투자 비용 부담 우려로 순수 AI 소프트웨어보다는 인프라 관련주로 수급이 집중될 가능성이 큽니다.",
+      "catalyst": "미국 나스닥 및 필라델피아 반도체 지수 소폭 상승, AMD 급등, AI 스타트업 앤트로픽의 나스닥 상장 예정",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "원익홀딩스",
+          "code": "030530",
+          "reason": "전일 +11.09% 급등, 거래대금 3,489억원, 외국인/기관 양매수, 기관 9일 연속 매수. (AI 인프라 관련 강력한 수급 및 모멘텀)",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "전일 +5.56% 상승, 거래대금 39,717억원, 기관 2일 연속 매수. (AI 반도체 대표주, 기관 수급 유입)",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "HPSP",
+          "code": "403870",
+          "reason": "전일 +6.39% 상승, 거래대금 451억원, 기관 9일 연속 매수. (AI 반도체 장비 관련주, 기관 수급 유입)",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "주주환원 / 배당주",
+      "description": "국내 금융지주들의 연말 배당주 중심 차별화 장세 전망과 모건스탠리의 한국 증시 주주 환원 정책 개선 및 지배구조 개선 가능성 긍정 평가로, 시장의 '극도의 공포' 심리가 지속되는 상황에서 안정적인 수익을 기대할 수 있는 테마로 투자자들의 관심이 집중될 것입니다.",
+      "catalyst": "국내 금융지주들의 연말 배당주 중심 차별화 장세 전망, 모건스탠리의 한국 증시 주주 환원 정책 개선 긍정 평가",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "우리금융지주",
+          "code": "316140",
+          "reason": "전일 기관 4일 연속 매수. (금융지주 대표주, 연말 배당 매력 및 기관 수급)",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "SK",
+          "code": "034730",
+          "reason": "지주사 대표주, 모건스탠리 언급 그룹사, 지배구조 개선 및 주주환원 기대감",
+          "data_verified": false
+        },
+        {
+          "priority": 3,
+          "name": "KT",
+          "code": "020260",
+          "reason": "통신주 대표주, 안정적인 실적과 고배당 매력",
+          "data_verified": false
+        }
+      ]
+    },
+    {
+      "theme_name": "지정학적 리스크 관련 테마",
+      "description": "오늘(11월 19일) 미·중·러 3자 정상회담 및 APEC 정상회의 개최, 이스라엘-가자 및 미국-이란 등 글로벌 지정학적 긴장 지속으로 국제 정세의 불안정성이 지속될 경우 관련 테마가 단기적으로 부각될 수 있습니다.",
+      "catalyst": "미·중·러 3자 정상회담 및 APEC 정상회의 개최, 글로벌 지정학적 긴장 지속",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "한화에어로스페이스",
+          "code": "012450",
+          "reason": "방산 대표주, 글로벌 정세 불안 시 부각 가능성",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "한국항공우주",
+          "code": "047810",
+          "reason": "방산 대표주, 글로벌 정세 불안 시 부각 가능성",
+          "data_verified": false
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "2차전지 / 전력설비 (특히 전력설비 중심)",
+      "description": "글로벌 전기차 시장 성장세 지속 및 전력 인프라 구축에 대한 투자 확대가 예상됩니다. 미국 시장의 에너지 섹터 약세와 WTI 유가 급락은 전통 에너지에 대한 우려를 반영하지만, 전력 인프라 현대화 및 신재생에너지 관련 투자는 지속될 전망입니다. 2차전지 대형주들의 수급 이탈과 글로벌 경기 둔화 우려가 상존하지만, 전력 인프라 구축이라는 명확한 성장 모멘텀을 가진 전력설비 섹터는 상대적으로 강세를 보일 수 있습니다.",
+      "catalyst": "글로벌 전기차 시장 성장세 지속 및 전력 인프라 구축 투자 확대",
+      "confidence": "보통",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "KBI메탈",
+          "code": "024840",
+          "reason": "전력설비 관련주, 전일 외국인/기관 양매수, '정배열 수급동반 과열:주의' 신호",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "HD현대일렉트릭",
+          "code": "267260",
+          "reason": "전력기기 대표주, 전력 인프라 투자 확대 수혜 기대",
+          "data_verified": false
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "AI (인프라/하드웨어 중심)",
+      "description": "AI 기술 발전의 가속화 및 AI 인프라 투자 확대는 장기적인 메가트렌드입니다. 단기적인 변동성은 있겠지만, AI 기술 혁신과 그에 따른 인프라 수요 증가는 장기적으로 반도체 및 관련 하드웨어 산업의 성장을 견인할 핵심 동력이 될 것입니다.",
+      "catalyst": "AI 기술 발전 가속화 및 AI 인프라 투자 확대",
+      "confidence": "높음",
+      "target_period": "1개월 이상",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "고대역폭 메모리(HBM) 등 AI 반도체 핵심 기업",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "종합 반도체 기업, AI 반도체 및 파운드리 경쟁력",
+          "data_verified": false
+        },
+        {
+          "priority": 3,
+          "name": "HPSP",
+          "code": "403870",
+          "reason": "고압 수소 어닐링 장비 독점 기술 보유, AI 반도체 공정 필수 장비",
+          "data_verified": false
+        }
+      ]
+    },
+    {
+      "theme_name": "주주환원 / 지배구조 개선",
+      "description": "모건스탠리가 한국 증시의 기업 수익성 및 주주 환원 정책 개선을 통해 코스피 1만 시대를 전망한 점은 장기적인 관점에서 긍정적입니다. 한국 기업들의 주주 친화 정책 강화와 지배구조 개선은 장기적으로 국내 증시의 저평가 해소에 기여할 중요한 요소가 될 것입니다.",
+      "catalyst": "모건스탠리의 한국 증시 주주 환원 정책 개선 및 지배구조 개선 가능성 긍정 평가",
+      "confidence": "높음",
+      "target_period": "1개월 이상",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "현대차",
+          "code": "005380",
+          "reason": "모건스탠리 언급 그룹사, 주주환원 정책 강화 기대",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "SK",
+          "code": "034730",
+          "reason": "지주사 대표주, 그룹 전반의 지배구조 개선 및 주주환원 기대감",
+          "data_verified": false
+        },
+        {
+          "priority": 3,
+          "name": "한화",
+          "code": "000880",
+          "reason": "모건스탠리 언급 그룹사, 지배구조 개선 및 사업 재편 기대",
+          "data_verified": false
+        }
+      ]
+    }
+  ]
+}
