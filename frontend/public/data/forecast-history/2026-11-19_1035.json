@@ -1,0 +1,242 @@
+{
+  "forecast_date": "2026년 11월 19일",
+  "generated_at": "2026-11-19T10:35:01.124710+09:00",
+  "market_context": "2026년 11월 19일 장 개장 전, 전일 시장 데이터와 실시간 뉴스를 기반으로 대한민국 주식시장의 유망 테마를 분석한 결과입니다. 국내 증시는 기관 매수세에 힘입어 코스피와 코스닥 모두 반등했으나, 외국인 매도세는 지속되었습니다.",
+  "us_market_summary": "미국 증시는 나스닥이 상승하며 기술주 강세를 보였으나, 다우와 S&P500은 하락하며 혼조세를 나타냈습니다. 특히 연방준비제도(Fed)의 매파적 기조와 인공지능(AI) 인프라 투자에 대한 인플레이션 우려가 시장 전반의 부담으로 작용했습니다.",
+  "news_sources": [
+    {
+      "title": "Access Denied",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiDrmJmCUZIREz1jZsv0ygY64mL-rN8B9H8AhI8xvvcwzNkRfrEBkaT_tOUI9NcteszBJBdmCEmwr43KC_ubL_83CCoA8yKgVWBxe6EhzXsf9ilAESqIopulByg9aA01AQLLnAsjrZLDfst_Ci21Cym04c"
+    },
+    {
+      "title": "[속보]뉴욕증시 혼조 마감…다우 561포인트 급락, 나스닥 반등에도 S&P500 5거래일 연속 하락",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpWWl1mBicYQB-ph3VzVbiuJuqUQBB6pOVnxS0v9dnpewyEPSxtJhj-5HnYdjMSY5rIm8lknnMlCDqCe3FajWR3EQYwydkZaqPxGlTmCagnZouqn-7j3GDA4Asklfwtnot3CulF6YRYcx7123syswlyy5MiQ=="
+    },
+    {
+      "title": "뉴욕증시, 연준 매파 기조에 혼조 마감…다우 1.11%↓",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFe9pcwVsI_9XfpcMYDUYPGlH2Uf4_roIp0oDc_9lTIIllJiTYRmvLKgiUq8r3wtM5frFpo5g3xE1OeRvoRegQA7_2tpc5QRkdEKibVg55OEIQNPDmfETgyXU-POY8NhODVftuctdp7tGmSNQ=="
+    },
+    {
+      "title": "뉴욕증시, 엔비디아 호실적 속 혼조 출발",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-pexjHpTPCz3S1DPIbnhzFNhCgK3OnTPje6OjABZS87mYo0EsDCEknhAuwNOf2EplIeA99N8i9lYY5PGpbMgIne_xMjPNgNWJtQX88uQBZ52e9cnRvVVsKF0r1xRWgnbV0CPXsyLAg-LN"
+    },
+    {
+      "title": "엔비디아 호실적에도 S&amp;P500 닷새째 하락… 다우 561포인트 밀려",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVB2Imhu1I4M-tajhKCeXGFl4nS_4YbwPMPJsD1Bm7EyqJ8M1tFP1TAi9L9BMAIjppAeFY1h8ACIUEF-saPunJqtYg2bY2ND3BeZUsZB4ilZ5Rssu92uMSFiafHEhyiDHII9eJ7GxL6Y_I_zCgav8b8of_wJf8YTJDVFKcV194sq5uNlbUf5nAoA60AQ=="
+    },
+    {
+      "title": "[KFT 모닝 브리프] 2026.11.19 — 오늘 꼭 알아야 할 국내외 경제뉴스",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKuL3Fo5TBKPOsB9vPjjQ05tRvbATaLRHdf6LQ57AJ1b0XOweYKbDaZlT130m1BH3YOYkxljXEyBL1Io1x1HUGRuvF0-MPqdxZE7FgzZVDnNVqhiXukCo2mTLjeVmv3Ub_g6bvIgu2liHLlqkP-vt_i0BImldm0EErbBRrTWVRwdE="
+    },
+    {
+      "title": "금융지주가 전망한 연말 증시…&quot;기술적 반등 그칠 가능성&quot;",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWi5qmJOeCb8GGqKaYiGKTuFprjQyURChJsPKyTi76JDN5-aH20I2ch3G0qcAwputNL-yA_aRtK_xpINuK6GjzAu9L-KTElX5u6dmeo9AaB0VUw_MUpd5p4sEMPqWQ9RdYymbqk11psSDv"
+    },
+    {
+      "title": "youtube.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxcFU8AKqyn6M05nu3-s3V0tIdqkpcFT4rMr48NMket4lnMnWO76ROG1l7MQ48f2DdECruXuM297I6m2oSmM-HQPYgu0B1cNQDiGpeH9DTrLgK5ZFYy4OZzwi7-gW8mKHLKWcLfBM="
+    },
+    {
+      "title": "upkoreanews.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFl431PGYc3QsoWsK2xgQ2jBZ56ajJjZ8cJ_jMyp2cbVE2Y_BY6Mnw_K2yuYisBRq235KkZrMQsaZQyPY_szrfiulLaFeLQ7yFyMEC8N1BmJXL94sJTBzC8W9MrohE9Qr8WgSh2yW0wpGgIBRQM327l7dymWupAnM4="
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "AI/반도체",
+      "description": "미국 기술주 강세와 국내 기관 매수세가 지속될 가능성이 높아 단기적인 상승 모멘텀이 예상됩니다.",
+      "catalyst": "미국 나스닥 지수 상승 및 국내 기관의 반도체 대형주 매수세 집중",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "원익홀딩스",
+          "code": "030530",
+          "reason": "전일 코스피 등락률 +11.09%, 거래대금 3,489억원으로 상위권이며 외국인(+332,782주) 및 기관(+303,912주) 동반 순매수가 강하게 유입되었습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "전일 코스피 등락률 +5.56%, 거래대금 39,717억원으로 최상위권이며 기관 순매수(+38,048주)가 돋보였습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "전일 코스피 등락률 +2.94%, 거래대금 33,785억원으로 최상위권이며 기관 순매수(+1,125,152주)가 강했습니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "로봇",
+      "description": "전일 및 장중의 강력한 수급과 모멘텀이 이어지며 강세를 보일 가능성이 높습니다.",
+      "catalyst": "주요 로봇 관련주들의 외국인 및 기관 동반 순매수와 급등세",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "레인보우로보틱스",
+          "code": "277810",
+          "reason": "장중 실시간 수급에서 외국인(+1.7만주) 및 기관(+1.1만주) 동반 순매수와 +19.91%의 높은 상승률을 기록했습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "로보티즈",
+          "code": "108490",
+          "reason": "장중 실시간 수급에서 외국인(+4.4만주) 및 기관(+0.6만주) 동반 순매수와 +13.48%의 상승률을 기록했습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "피앤에스로보틱스",
+          "code": "460940",
+          "reason": "장중 실시간 수급에서 외국인(+6.2만주) 순매수와 +14.61%의 상승률을 기록했습니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "콘텐츠/엔터테인먼트",
+      "description": "장중 강한 모멘텀을 보였던 종목들을 중심으로 단기적인 상승세가 이어질 수 있습니다.",
+      "catalyst": "장중 에이스토리, 스튜디오드래곤 등 콘텐츠 관련주 급등 전환 및 하이브의 외국인/기관 동반 매수세",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "하이브",
+          "code": "352820",
+          "reason": "전일 코스닥 등락률 +14.66%, 거래대금 1,053억원으로 외국인(+23,548주) 및 기관(+81,736주) 동반 순매수가 강하게 유입되었습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "에이스토리",
+          "code": "241840",
+          "reason": "장중 모멘텀 변화에서 급등 전환(+30.0%p)을 보였습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "스튜디오드래곤",
+          "code": "253450",
+          "reason": "장중 모멘텀 변화에서 급등 전환(+30.0%p)을 보였습니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "바이오/제약",
+      "description": "장중 강력한 개별 모멘텀을 보인 종목을 중심으로 단기적인 상승세가 나타날 수 있습니다.",
+      "catalyst": "장중 아리바이오랩, 삼진제약 등 일부 바이오/제약 종목들의 외국인 순매수와 급등세",
+      "confidence": "낮음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼진제약",
+          "code": "005500",
+          "reason": "장중 실시간 수급에서 외국인(+8.5만주) 순매수와 +23.38%의 상승률을 기록했습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "아리바이오랩",
+          "code": "261780",
+          "reason": "장중 실시간 수급에서 외국인(+77.9만주) 순매수와 +29.98%의 높은 상승률을 기록했습니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "2차전지 / 전력설비 (특히 전력설비 중심)",
+      "description": "글로벌 전기차 시장 성장세 지속 및 전력 인프라 구축에 대한 투자 확대가 예상됩니다. 미국 시장의 에너지 섹터 약세와 WTI 유가 급락은 전통 에너지에 대한 우려를 반영하지만, 전력 인프라 현대화 및 신재생에너지 관련 투자는 지속될 전망입니다. 2차전지 대형주들의 수급 이탈과 글로벌 경기 둔화 우려가 상존하지만, 전력 인프라 구축이라는 명확한 성장 모멘텀을 가진 전력설비 섹터는 상대적으로 강세를 보일 수 있습니다.",
+      "catalyst": "글로벌 전기차 시장 성장세 지속 및 전력 인프라 구축 투자 확대",
+      "confidence": "보통",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "KBI메탈",
+          "code": "024840",
+          "reason": "전력설비 관련주, 전일 외국인/기관 양매수, '정배열 수급동반 과열:주의' 신호",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "HD현대일렉트릭",
+          "code": "267260",
+          "reason": "전력기기 대표주, 전력 인프라 투자 확대 수혜 기대",
+          "data_verified": false
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "AI (인프라/하드웨어 중심)",
+      "description": "AI 기술 발전의 가속화 및 AI 인프라 투자 확대는 장기적인 메가트렌드입니다. 단기적인 변동성은 있겠지만, AI 기술 혁신과 그에 따른 인프라 수요 증가는 장기적으로 반도체 및 관련 하드웨어 산업의 성장을 견인할 핵심 동력이 될 것입니다.",
+      "catalyst": "AI 기술 발전 가속화 및 AI 인프라 투자 확대",
+      "confidence": "높음",
+      "target_period": "1개월 이상",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "고대역폭 메모리(HBM) 등 AI 반도체 핵심 기업",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "종합 반도체 기업, AI 반도체 및 파운드리 경쟁력",
+          "data_verified": false
+        },
+        {
+          "priority": 3,
+          "name": "HPSP",
+          "code": "403870",
+          "reason": "고압 수소 어닐링 장비 독점 기술 보유, AI 반도체 공정 필수 장비",
+          "data_verified": false
+        }
+      ]
+    },
+    {
+      "theme_name": "주주환원 / 지배구조 개선",
+      "description": "모건스탠리가 한국 증시의 기업 수익성 및 주주 환원 정책 개선을 통해 코스피 1만 시대를 전망한 점은 장기적인 관점에서 긍정적입니다. 한국 기업들의 주주 친화 정책 강화와 지배구조 개선은 장기적으로 국내 증시의 저평가 해소에 기여할 중요한 요소가 될 것입니다.",
+      "catalyst": "모건스탠리의 한국 증시 주주 환원 정책 개선 및 지배구조 개선 가능성 긍정 평가",
+      "confidence": "높음",
+      "target_period": "1개월 이상",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "현대차",
+          "code": "005380",
+          "reason": "모건스탠리 언급 그룹사, 주주환원 정책 강화 기대",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "SK",
+          "code": "034730",
+          "reason": "지주사 대표주, 그룹 전반의 지배구조 개선 및 주주환원 기대감",
+          "data_verified": false
+        },
+        {
+          "priority": 3,
+          "name": "한화",
+          "code": "000880",
+          "reason": "모건스탠리 언급 그룹사, 지배구조 개선 및 사업 재편 기대",
+          "data_verified": false
+        }
+      ]
+    }
+  ]
+}
