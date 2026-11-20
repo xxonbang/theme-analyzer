@@ -1,0 +1,236 @@
+{
+  "forecast_date": "2026년 11월 20일",
+  "generated_at": "2026-11-20T14:33:29.179294+09:00",
+  "market_context": "오늘은 2026년 11월 20일 장 개장 전입니다. 전일 미국 증시의 기술주 하락과 AI 수익성 우려, AMD 대중 규제 의혹 등으로 인해 국내 증시에도 상당한 하방 압력이 예상됩니다. 시장 심리는 '극도의 공포' 수준을 나타내고 있어 전반적인 투자 심리가 위축된 상황입니다.",
+  "us_market_summary": "전일 미국 증시는 AI 기업 앤트로픽의 성공적인 IPO에도 불구하고 AI 산업의 수익성에 대한 의구심과 AMD의 대중(對中) 수출 규제 위반 의혹이 제기되며 기술주 전반이 급락했습니다. 이는 국내 증시의 AI 및 반도체 관련 종목에 단기적으로 강한 하방 압력으로 작용할 것입니다.",
+  "news_sources": [
+    {
+      "title": "앤트로픽 상장에도 뉴욕증시 2%대 급락…다우 50,000선 붕괴(종합)",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4TedRVnVZcIuYrgyngMJKl4RMd-Bf5iVqsaGB2-d2Q85-GeyDcvxZAgxrljkI2r-bblOmc3FyprMgR4irN0iabV320_wVWKPXGz2p9B0cxfWA8OpUMl4EUEnDu_zb2WyhTNGZ5p0Vw54J"
+    },
+    {
+      "title": "앤스로픽 상장하자 기존 기술주 팔아치웠다…美증시 급락｜동아일보",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW3qiGiDriqf6zqsHGjmqMS_N2prqi0WCs7KRRyz3c6O8Ibk7uSTKEmCkv6PwymEYOxPeOBeCLd_z2JVBP9p6t5ytwoHhRBeEarbDbXc1y_f3oPwWlpiEo62mWBCiw6Sw7n501dmUNLVIFU6JAn5m7UNG6Jij3n9nN2t7K"
+    },
+    {
+      "title": "앤트로픽 상장에도 뉴욕증시 2%대 급락…다우 50,000선 아래로",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXG5wOAZlF7htzokLHHqT1CG_2MbHrpn6b4kSQ74aG5lYv-Wg_0-t2p_gA0PFXPtHXv1ZU8DTc8AXiJ2yfGyrcoEldbj4Z-pjW2ZIRfPVJJygvVmqVxEqZIEvEP5dnszzoavFduODvVCub"
+    },
+    {
+      "title": "seoultopnews.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBG7zh1gNTxW-EAY54RXiVgDyH8-0MtHSiAJ9dRoR5qA-8dwAuNhwnYqsRsniVQSbPRJKXudeXRwiB9tv77go9UTjJAYS7KCnwt7YbGXcEUxyRsolZSl2ekVNGw1nov8Yilt_44F95R6X69_VwbveJMzmY73H5IgFG"
+    },
+    {
+      "title": "뉴욕증시, 앤스로픽 상장에도 급락 마감…다우 5만 선 하회",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrZoLo80Dvbxz52ktHq_1W9Tyd4pBglbvAPkDb3M8GvInL52JRv4JBmcOPKPaJO3usVETnMzjpQmzWj_vqACa39Xvbp3yGEwYIuT0_SbkhO7K3wyedvkyGiEH93rrUCOe3YktdYameCp8Pzw=="
+    },
+    {
+      "title": "upkoreanews.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVZ6UdsVgQ8ezIDujO4gJyQeSF3lq6ASP2cbslmd1rD3DcjptJKI7ssbrisb_myIIhzbJkuPdxdDap_1-fNSYhqFm4Juy66ZTaWEVVg6BhlyMUayvbKBRqGesbGmI98BOvHDzTG4f7BTxvQv5CxebJ4GZb_BOrYKE="
+    },
+    {
+      "title": "코스피 1.39% 상승... 中 ‘한한령’ 완화 기대감에 엔터·콘텐츠주 폭등",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8gn7F3SR2JCfuLwPCQxvQb2APktNjlAN-7IMcy-MhfrebD2IEyQY7g1v89W0czG8g9COx5aYfvahkoDd-AJEHcxFyliXuOHU0G0j4stVFKBwqFWPuWd2RTrxkoqvByOwLdWYs4JhQBrWsHYonFq-39MC3hxq9S-svGvFUB1UCHJ2LVwrWng=="
+    },
+    {
+      "title": "Just a moment...",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJPdtwt6D2nggbTt04-AGUVPBd5WYRq2tFRcw6RNy6PqCKyUzRo7VqchQmPprmvDR9f4gKk-twpZWotp6qJtSGUwezXkzF1jzxzY4fqKIGUrEvWYTEWfjF6POoKpXyk8Kz8cH-yUs="
+    },
+    {
+      "title": "2025년 11월 20일 한국 증시 개장 전 시황: 글로벌 매크로 환경 및 한국 증시 심층 전략 리포트",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGifptDyteeytibloRx56gWgTR0ahPQd9E2Qyt_uLkkSgy8N9AT8kfnt7cGIvtNZ-vjVb1LzpNovO5hGRwJKDtXrYDW2dkCmjdBZau9HayCSBrKjI-K-FlWtCB_Lcb_FDLX_WDC9mn2eq4MohKw0-OOZRK5H9A4LMeRyUekgeeg9Y183YygIYYJselJcIcv67J0oIQCT2kEN3lyRnCayCRXRjOdppMJZEseioVzdkOpv7nTrGAbCKuqEpDPWXKj4Tmj9xOBj7BNdyoVA1hhqyWJyg7pGHPAFVOJP110F6Rjq07Hg2f65Vv84HJMkFxKs4hJA7e3lBofalu4xn_lEVw9G1rtffyHYtvZp9oAjd6RUccKLteJU1nvMyE-Udh-FOcgV08lKAEwCLGGBBnObc5qhafZC4D6BZcFzZ5Ns_21PM5w_8vXK4_b0wC5855zQj6-xu8MLBCHTjKejc7BioxqdWJAh7GcB4b3ywgO4-36cJMfpiuAceMKB9mK6-4EbVAgKufnSedAuj2NWb7qPd6i82OTb9fSzAGNweDC"
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "AI/소프트웨어 및 반도체",
+      "description": "전일 미국 증시의 AI 수익성 우려와 AMD의 대중 규제 의혹으로 인한 기술주 급락이 국내 증시의 AI 및 반도체 관련 종목에 강한 하방 압력으로 작용할 것으로 예상됩니다. 특히 반도체 대형주들의 약세가 두드러질 것으로 보입니다.",
+      "catalyst": "미국발 AI 수익성 우려 및 AMD 대중 규제 의혹",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "전일 코스피 거래대금 1위였으며, 외국인/기관 동반 순매도에도 불구하고 국내 반도체 대표주로서 시장 하락 시 기술적 반등 가능성이 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "전일 코스피 거래대금 2위였으며, 외국인/기관 동반 순매도에도 불구하고 국내 반도체 대장주로서 단기 낙폭 과대에 따른 저가 매수세 유입을 기대할 수 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "에스피소프트",
+          "code": "443670",
+          "reason": "AI/소프트웨어 테마의 전일 대장주였으며, '최근 대장주 실적 피드백'에서 종가 평균 +30.9%로 '안정' 평가를 받았습니다. 단기 시장 악재 속에서도 AI 관련 기술력에 대한 기대감은 유지될 수 있습니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "에너지/정유",
+      "description": "중동 지역의 지정학적 리스크 고조, 특히 후티 반군의 리야드 공격 소식은 국제 유가 공급에 대한 우려를 증폭시키며 유가 상승 압력으로 작용하고 있습니다. 이에 따라 에너지/정유 관련주들이 주목받을 수 있습니다.",
+      "catalyst": "중동 지정학적 리스크 고조 및 유가 상승 압력",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "흥구석유",
+          "code": "024060",
+          "reason": "유가 변동에 민감하게 반응하는 종목으로, 단기적인 테마성 움직임 가능성이 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "S-Oil",
+          "code": "010950",
+          "reason": "국내 대표 정유주로, 유가 상승 시 실적 개선 기대감이 있습니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "가상자산/블록체인",
+      "description": "11월 20일 금융감독원이 가상자산사업자 CISO(정보보호최고책임자) 간담회를 개최할 예정입니다. 이는 가상자산 시장의 제도화 및 규제 환경 변화에 대한 기대감을 형성하며 관련 테마에 대한 단기적인 관심을 유발할 수 있습니다.",
+      "catalyst": "금융감독원 가상자산사업자 CISO 간담회 개최",
+      "confidence": "낮음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "우리기술투자",
+          "code": "041190",
+          "reason": "두나무(업비트 운영사) 지분을 보유한 대표적인 가상자산 관련 투자사입니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "비덴트",
+          "code": "121800",
+          "reason": "빗썸 관련주로 알려져 있으며, 가상자산 시장 이슈 발생 시 주목받는 경향이 있습니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "중국 소비재/엔터테인먼트 (한한령 완화 기대감)",
+      "description": "중국의 '한한령(한류 제한령)' 완화 기대감이 확산되며, 한중 정상회담을 통한 K팝 공연 재개 및 중국 내 한국 제품 소비 증가에 대한 긍정적인 전망이 반영되고 있습니다. 전일 미국 증시 급락에도 불구하고 국내 증시에서 상대적 강세를 보이며 시장의 하락을 일부 방어할 수 있는 테마로 주목됩니다.",
+      "catalyst": "한한령 완화 기대감 및 한중 정상회담 통한 K팝 공연 재개 전망",
+      "confidence": "높음",
+      "target_period": "2~3일",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "하이브",
+          "code": "352820",
+          "reason": "외국인 2일 연속, 기관 7일 연속 동반 순매수. 엔터테인먼트 대장주로서 한한령 완화의 직접적인 수혜 기대감이 높습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "달바글로벌",
+          "code": "483650",
+          "reason": "외국인 4일 연속, 기관 동반 순매수. 화장품/중국 소비재 대표 종목으로 수급이 매우 긍정적입니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "에스엠",
+          "code": "041510",
+          "reason": "기관 3일 연속 순매수. 외국인 매도세가 있었으나, 기관의 강한 매수세와 테마 대표성을 고려할 때 단기 관심이 유효합니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "전력/통신 인프라",
+      "description": "'글로벌 전기차 시장 성장' 및 'LFP 양극재, 전력망 밸류체인 구축'과 같은 2차전지/전력설비 테마의 높은 모멘텀이 부각되고 있습니다. 특히 전력 및 통신 인프라 관련 테마는 최근 7일간 꾸준히 시장의 관심을 받고 있으며, 미국 시장의 기술주 약세와는 다르게 개별적인 성장 동력을 가지고 있습니다.",
+      "catalyst": "글로벌 전기차 시장 성장 및 LFP 양극재, 전력망 밸류체인 구축 모멘텀",
+      "confidence": "보통",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "대한광통신",
+          "code": "010170",
+          "reason": "외국인 2일 연속, 기관 2일 연속 동반 순매수. 광통신/5G 인프라 대표 종목으로 수급이 매우 강력합니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "KBI메탈",
+          "code": "024840",
+          "reason": "외국인 순매수 유입. 2차전지/전력설비 관련 종목으로 높은 모멘텀과 안정적인 과거 성과를 보였습니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "기업 밸류업 프로그램 및 한국 르네상스",
+      "description": "모건스탠리가 '한국 르네상스'를 전망하며 코스피 1만선 가능성을 제시한 보고서(11/11)와 한국 기업들의 배당 및 자사주 매입 확대 등 지배구조 개선 노력이 긍정적으로 평가받고 있습니다. 국내 증시 밸류업 프로그램의 성과 기대감은 단기적인 매크로 악재를 상쇄하고 한국 증시의 장기적인 재평가를 이끌 구조적 요인으로 작용할 것입니다.",
+      "catalyst": "모건스탠리 '한국 르네상스' 보고서 및 기업 밸류업 프로그램 성과 기대감",
+      "confidence": "높음",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "우리금융지주",
+          "code": "316140",
+          "reason": "기관 5일 연속 순매수. 대표적인 저PBR 금융주로 밸류업 프로그램의 직접적인 수혜가 기대됩니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "원익홀딩스",
+          "code": "030530",
+          "reason": "기관 10일 연속 순매수. 지주사로서 지배구조 개선 및 주주환원 기대감을 보유하고 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "현대자동차",
+          "code": "005380",
+          "reason": "모건스탠리 보고서에 지배구조 개선 흐름을 보이는 기업으로 언급되었으며, 대표적인 저PBR 대형주입니다.",
+          "data_verified": false
+        }
+      ]
+    },
+    {
+      "theme_name": "AI/반도체",
+      "description": "인공지능(AI) 투자 확대에 따른 반도체 등 첨단 제조업의 이익 증가가 장기적인 성장 동력으로 작용할 것입니다. AI 기술 발전은 광범위한 산업에 영향을 미치며 시장의 꾸준한 관심을 받을 것으로 예상됩니다.",
+      "catalyst": "AI 투자 확대 및 반도체 등 첨단 제조업 이익 증가",
+      "confidence": "보통",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "HPSP",
+          "code": "403870",
+          "reason": "고압 수소 어닐링 장비 독점 기업으로 AI 반도체 수혜주로 꼽히며, 기관 2일 연속 순매수가 관찰되었습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "국내 반도체 산업의 핵심 기업이자 AI 반도체 선두 주자입니다.",
+          "data_verified": false
+        },
+        {
+          "priority": 3,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "글로벌 반도체 및 AI 기술 투자 확대의 핵심 기업입니다.",
+          "data_verified": false
+        }
+      ]
+    }
+  ]
+}
