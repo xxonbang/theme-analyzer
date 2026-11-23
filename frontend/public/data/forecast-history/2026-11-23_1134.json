@@ -1,0 +1,257 @@
+{
+  "forecast_date": "2026년 11월 23일",
+  "generated_at": "2026-11-23T11:34:50.998284+09:00",
+  "market_context": "오늘은 2026년 11월 23일 장 개장 전이며, 전일 미국 증시의 AI/반도체 섹터 폭락과 전반적인 투매 현상으로 인해 글로벌 시장의 극심한 위험 회피 심리가 한국 증시에도 하락 압력으로 작용할 것으로 예상됩니다. 다만 정부의 증권시장안정펀드 가동 준비와 불법 공매도 특별 감시 등의 시장 안정화 대책이 심리적 지지선 역할을 할 수 있을지 주목됩니다.",
+  "us_market_summary": "전일 미국 증시는 AI/반도체 섹터의 폭락을 필두로 전반적인 투매 현상이 나타나며 S&P500, 나스닥, 다우지수 모두 조정 국면에 진입했습니다. 특히 필라델피아 반도체 지수는 10% 이상 급락했으며, 엔비디아의 회계 조사 및 AI 수익성 우려가 주요 하락 요인으로 작용했습니다. VIX 공포지수는 35.89를 기록하며 극도의 공포 심리를 반영했습니다.",
+  "news_sources": [
+    {
+      "title": "美 반도체 10% 급락…외인 15조 이탈에 국내증시 비상",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKD42TWOebIXJpUI9RxyzvC8PLsV4MIvOztcJYASU0_heWD5e68Me_tWaLHfzTWHGBnR7VpL8pA8JYQoXk31vjYxe5SE9dtOJsVYzumBP-r26hYUlwAYAT4IlSvSAudVOoQd3iEt3uPw=="
+    },
+    {
+      "title": "[11.23(월) 월요일 장 전망] 주말 종합 · 이번 주 시장 관전 포인트",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQrJ2IVNI9YTnwEG9Y7fmKxK4YJoKfDw28cp7HuTv6vJXehMvjyE8lu7stgOdOnAg9rjhdFQnlzlJiTmmr5NOgk87GtU5pQASwAQMhGfkyDpLEmFO0E3cn-p9hKpy0AfFqjm5ZEpSGdWfgaOjN1TsJLMiVMoxBW3RD8EQRBA=="
+    },
+    {
+      "title": "주말 美증시도 ‘패닉 투매’... 韓 “월요일 개장이 두렵다”",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8Nhdptcdd6svmA6zqxMa5xxhGtmguKqI_b2vJOpsBxcqQKD-vwjv4HlYWG3QlHFYmZpGrPkrsrE3NyX7Ard6NaKTheWC5PQ6Zmm_Nm5EbnyO2x-ht7LxfaeXQRQPIK8ZycC7OnkV5v2g2bRUH3d5n_sBOleMtYnL_GZ6mcsZSxYb-Xxivb4cIwUaIC3Q="
+    },
+    {
+      "title": "속절없이 무너진 AI주, 단기 반등 경계해야…PCE 인플레·서버업체 실적[이번주 美 증시는]",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHX4LsCcYN-acZgvCCHzyIpeKJqi-Ra8eawMGPs8RQt728tuj9n0BgFUE3-g2LU3Mc9l7M2naPyCUtx9AAPU5Taabng2Axwr-QD24iGi46vzRw7EdoQciNF_MIpLlXGmV0TTZyDg_F22YQANZFDB-swU7fc"
+    },
+    {
+      "title": "[미리보는 증시재료] 美 PCE·한은 금통위 앞둔 증시...코스피 5000선 회복 '주목'",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiFr9eJ_dPSL3BeqFmRTwuMezOoY6He-7aTC-RV7k7MpyIVUkejdvHsohWO-X8DYs4gmkn7GeYSSoFYFwI-JwJu8yaTve0aRV5xUTWg1X-G2_kSYhNpL4xOfvmWRMRZ6-xTxO_-uM0_Q=="
+    },
+    {
+      "title": "theconnectmoney.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3ZtPSVC9jhqU9VisM0CZStAcAKa3Thk5PsLuI1k_j6wuO6crinTRvIil8g6LsFx0U7g9KaUMg-PKCYg0HUcSC3rjLCbS_6uxaiEGudlx6LrMJE1J3bfGQzhW_G2zI1sk3CAetiyuy9y2SYwAG"
+    },
+    {
+      "title": "&quot;코스피, 역사적 저평가 영역&quot; vs &quot;美 증시 급락에 거래 위축&quot;[주간증시전망]",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF0CMZhjhmR44yz9YHA8qwnn3uUzl308g15WXG7szGlQ8ozmvtjDeOPwuCWbpiKx7QjaHUG1gTgg2IWCTWl6xe4Wx_-R9fdKkoib-y_bN2KU2LzsvrF38Ej4RVbi1qaDMrdtnIP3moYgqtW_1Q1uSBj"
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTNHEj2nhD1qDflAfMq39tNI7i6j_FCsSfQ3GHGgvZ-ZFtu-VNE7D4MRiJjLBh-BiXzjaTVyM7XBf70Yfo8bVVEQBLODBPjKtg0iJ1v3RyaznJU_dRjiqWzcYexILVGfiPqNSWpEdxeC-WHCcw45hPxpYhf-phY8KO"
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYG0lYLcK1QeLWHkMLK-0DAJn78YBz0JVSOLHVhN4bj7xqKfmBemiCifj_uEJ-As5THwCokujLm0pXFgZPlvHgKKelluuzBsYMBWTMnMGQZY0Tsi64Ymnp8MUZhfpa_9bp9dmhszTbRMwGtdT-iCNlrfrv_m98zcIQ"
+    },
+    {
+      "title": "증시는 폭락했는데, 연준은 금리 올린다?[11/23~27 투자캘린더]｜Global Money Club",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEzUBbkOxIz2QzPcHqnKlx1KC2yYS6m7Pdz4rqdhM7TPrtVEsMiq5qu_4Dbhl_2gDLmBzkZI5lkqthO0zS32zFBgIEx2UWj311fXfXwLHOGTWNSsGUvvtZOsB9WS1_fk9WyGeu7D-v27U="
+    },
+    {
+      "title": "The Korea Daily",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5a6C-DE9xfmK9VHwxCsOAiqf46g1vMhCvzNlKKAwlgvHEWNW7gRt62TKLnJl56MWxnNr81We7scdC-kBbzw6nVZo_ed5aqyq_-pV-Cr0g48cXCd1vShU65ypBByudWDN-515GCMP43RJiqVRWrg=="
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHu0hr8LXqbTeq2xgm1fDMRMlIwJbS9uLpCMzbpEf3mJyvMePkUQI4OOqHm10gMioLQOVaN0P1hr74Rk6VCldG10Gel93ntPbKugQj5ajfg-Ypj78FGb6RIJFPwC_e7YQg3iwt4r7Lofc_QxRmWZ0RzMNb3XLjjyK5"
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "로봇/자동화",
+      "description": "글로벌 인공지능(AI) 및 로봇 산업의 구조적 성장 기대감은 여전하며, 국내 로봇 관련 기업들의 개별적인 강세가 시장의 위험 회피 심리 속에서도 돋보였습니다. 정부의 AI 혁신 및 공공기관 AI 전환 노력 또한 간접적인 긍정 요인으로 작용할 수 있습니다.",
+      "catalyst": "글로벌 AI 및 로봇 산업 성장 기대감 지속 및 국내 로봇 기업 개별 강세",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "휴림로봇",
+          "code": "090710",
+          "reason": "전일 장중 실시간 수급 데이터에서 외국인 30.7만주, 기관 1.3만주 동반 순매수와 함께 +27.73%의 급등세를 기록하며 시장의 강한 관심을 확인했습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "휴림에이텍",
+          "code": "078590",
+          "reason": "전일 장중 +29.81%의 급등세를 기록하며 로봇/자동화 테마 내에서 강한 상승 흐름을 보였습니다. 외국인 소폭 순매수가 확인되었습니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "바이오/제약 (혁신 신약 및 GLP-1 관련)",
+      "description": "전반적인 시장 약세에도 불구하고 바이오/제약 섹터 내 개별 기업들의 긍정적인 소식이 부각되고 있습니다. 한미약품의 비만 치료제 '에페' 모멘텀 지속과 알테오젠의 독일 '키트루다SC' 판매금지 가처분 취소 소식은 해당 기업들의 실적 기대감을 높이고 있습니다. GLP-1 약물 시장의 변화는 장기적인 트렌드로 자리 잡을 가능성이 있습니다.",
+      "catalyst": "한미약품 비만 치료제 모멘텀 및 알테오젠 소식 등 개별 기업 호재 부각",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "애드바이오텍",
+          "code": "179530",
+          "reason": "전일 장중 실시간 수급 데이터에서 외국인 3.2만주 순매수와 함께 +29.81%의 상한가에 가까운 급등세를 기록했습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "코오롱티슈진",
+          "code": "950160",
+          "reason": "전일 장중 외국인 0.9만주 순매수와 함께 +10.99%의 상승률을 기록했습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "한미약품",
+          "code": "128940",
+          "reason": "비만 치료제 '에페'의 지속적인 모멘텀이 증권가에서 헬스케어 업종 선전의 근거로 언급되었습니다. 전일 거래대금/수급 데이터는 미흡하나, 테마 대표성이 높습니다.",
+          "data_verified": false
+        }
+      ],
+      "confidence_note": "최근 적중률 20.0%로 하향 보정"
+    },
+    {
+      "theme_name": "사이버보안/IT 보안",
+      "description": "최근 미국에서 발생한 항공 교통, 마이크로소프트 365, 일부 은행 거래 등 광범위한 기술 장애와 FBI 데이터베이스 해킹 사건은 사이버보안의 중요성을 다시 한번 부각시키고 있습니다. 미국 국가정보국(DNI) 국장의 '앞으로의 어려움' 경고는 IT 인프라 보안 강화의 시급성을 강조합니다.",
+      "catalyst": "미국 내 광범위한 기술 장애 및 FBI 데이터베이스 해킹 사건 발생",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "지슨",
+          "code": "446840",
+          "reason": "전일 장중 기관 1.4만주 순매수와 함께 +9.56%의 상승률을 기록하며 보안 관련 테마에 대한 시장의 관심을 보여주었습니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "방어주 (은행)",
+      "description": "글로벌 증시의 극심한 공포 심리와 전반적인 위험 회피 분위기 속에서, 투자자들은 상대적으로 안정적인 방어적 자산으로 눈을 돌릴 가능성이 높습니다. 특히 국내 은행 업종은 배당 매력을 바탕으로 위험 회피 심리 강화 속에서도 비교적 선전할 것으로 전망되었습니다.",
+      "catalyst": "글로벌 증시 공포 심리 및 위험 회피 분위기 확산",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "우리금융지주",
+          "code": "316140",
+          "reason": "전일 거래대금 상위 종목 중 기관 1.5만주 순매수를 기록하며 방어주로서의 매력이 부각되었습니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "변동성 극대화 및 금리 민감 섹터",
+      "description": "미국 10월 PCE 물가지수 발표(25일)와 한국은행 기준금리 결정(26일) 등 주요 경제 지표 발표를 앞두고 시장의 변동성이 극대화될 것입니다. 결과에 따라 시장의 방향성이 크게 바뀔 수 있으며, 금리 민감 섹터에 직접적인 영향을 미칠 것입니다.",
+      "catalyst": "미국 PCE 물가지수 발표, 한국은행 기준금리 결정",
+      "confidence": "높음",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "우리금융지주",
+          "code": "316140",
+          "reason": "한국은행 기준금리 결정에 따른 금리 인상 시 수혜 기대.",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "KB금융",
+          "code": "105560",
+          "reason": "대표적인 금융주로 금리 변동에 민감하게 반응.",
+          "data_verified": false
+        },
+        {
+          "priority": 3,
+          "name": "신한지주",
+          "code": "055550",
+          "reason": "주요 금융지주사로 금리 관련 이벤트에 영향.",
+          "data_verified": false
+        }
+      ]
+    },
+    {
+      "theme_name": "정부 정책 수혜주",
+      "description": "정부의 증안펀드 가동 준비는 시장의 급락을 방어하려는 의지를 보여주지만, 실제 자금 투입 여부와 규모에 따라 단기적인 심리 안정 효과는 제한적일 수 있습니다. 정책 효과에 대한 기대감으로 관련주가 주목받을 수 있습니다.",
+      "catalyst": "정부 증안펀드 가동 준비",
+      "confidence": "보통",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "한국증권금융",
+          "code": "034030",
+          "reason": "증안펀드와 직간접적으로 연관될 수 있는 금융 공기업.",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "미래에셋증권",
+          "code": "006800",
+          "reason": "증안펀드 조성 및 운영 과정에서 역할이 기대될 수 있는 대형 증권사.",
+          "data_verified": false
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "기술주 반등 모색",
+      "description": "현재의 극심한 투매는 단기적인 낙폭 과대에 따른 기술적 반등을 모색할 수 있는 기회를 제공할 수 있습니다. 그러나 AI 산업의 투자 수익성 및 자금 조달에 대한 근본적인 우려가 해소되지 않는 한 추세적인 상승 전환은 어려울 수 있습니다. 향후 매크로 지표 확인 및 연준의 긴축 완화 시그널이 확인될 경우 글로벌 증시의 위험 선호 심리가 점진적으로 회복될 수 있습니다.",
+      "catalyst": "낙폭 과대에 따른 기술적 반등, 매크로 지표 개선 및 연준 긴축 완화 시그널",
+      "confidence": "보통",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "글로벌 기술주 심리 회복 시 가장 먼저 반등을 시도할 국내 대표 기술주.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "메모리 반도체 업황 개선 및 기술주 반등 시 수혜 기대.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "네이버",
+          "code": "035420",
+          "reason": "국내 대표 인터넷 플랫폼 및 AI 관련 기술주로 시장 심리 회복 시 반등 기대.",
+          "data_verified": false
+        }
+      ]
+    },
+    {
+      "theme_name": "저평가 가치주 재평가",
+      "description": "코스피의 밸류에이션 부담이 낮아진 만큼, 견조한 실적을 유지하는 기업이나 저평가된 가치주에 대한 재평가 시도가 있을 수 있습니다. 시장이 안정화되면 투자자들은 실적과 펀더멘털에 기반한 종목을 찾을 것입니다.",
+      "catalyst": "코스피 밸류에이션 부담 완화, 견조한 실적 기업 부각",
+      "confidence": "보통",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "현대차",
+          "code": "005380",
+          "reason": "견조한 실적을 바탕으로 밸류에이션 매력이 부각될 수 있는 대표 가치주.",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "POSCO홀딩스",
+          "code": "005490",
+          "reason": "철강 및 2차전지 소재 등 다양한 사업을 영위하며 저평가 매력이 부각될 수 있는 가치주.",
+          "data_verified": false
+        },
+        {
+          "priority": 3,
+          "name": "KT&G",
+          "code": "033780",
+          "reason": "경기 방어적 성격과 안정적인 배당 매력을 가진 저평가 가치주.",
+          "data_verified": false
+        }
+      ]
+    }
+  ]
+}
