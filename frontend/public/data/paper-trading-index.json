@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-11-20 15:43:22",
+  "updated_at": "2026-11-23 15:42:59",
   "entries": [
+    {
+      "date": "2026-11-23",
+      "filename": "2026-11-23.json",
+      "total_profit_rate": -1.61,
+      "stock_count": 4
+    },
     {
       "date": "2026-11-20",
       "filename": "2026-11-20.json",
@@ -119,24 +125,6 @@
       "date": "2026-10-26",
       "filename": "2026-10-26.json",
       "total_profit_rate": -3.37,
-      "stock_count": 4
-    },
-    {
-      "date": "2026-10-23",
-      "filename": "2026-10-23.json",
-      "total_profit_rate": 1.16,
-      "stock_count": 4
-    },
-    {
-      "date": "2026-10-22",
-      "filename": "2026-10-22.json",
-      "total_profit_rate": -3.08,
-      "stock_count": 4
-    },
-    {
-      "date": "2026-10-21",
-      "filename": "2026-10-21.json",
-      "total_profit_rate": -1.07,
       "stock_count": 4
     }
   ]
