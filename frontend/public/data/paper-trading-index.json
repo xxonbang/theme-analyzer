@@ -1,6 +1,12 @@
 {
-  "updated_at": "2026-11-23 15:42:59",
+  "updated_at": "2026-11-24 15:43:56",
   "entries": [
+    {
+      "date": "2026-11-24",
+      "filename": "2026-11-24.json",
+      "total_profit_rate": -0.68,
+      "stock_count": 4
+    },
     {
       "date": "2026-11-23",
       "filename": "2026-11-23.json",
