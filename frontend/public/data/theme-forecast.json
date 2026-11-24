@@ -1,227 +1,244 @@
 {
-  "forecast_date": "2026년 11월 24일",
-  "generated_at": "2026-11-24T14:33:42.530124+09:00",
-  "market_context": "2026년 11월 24일 장 개장 전 기준, 전일 미국 증시의 기술주 및 반도체 섹터 급반등과 엔비디아 CEO 젠슨 황의 복귀 소식이 국내 증시에 강력한 긍정적 모멘텀으로 작용할 것으로 예상됩니다. 국내에서는 금융당국의 가상자산 및 핀테크 관련 정책 논의가 예정되어 있어 관련 테마의 단기적 부각이 기대됩니다.",
-  "us_market_summary": "11월 23일 뉴욕 증시는 나스닥 종합지수 6.51% 급등, S&P 500 지수 4.73% 상승, 필라델피아 반도체 지수 14.03% 폭등을 기록하며 기술주와 반도체 섹터가 강세를 보였습니다. 엔비디아 주가는 젠슨 황 CEO 복귀 소식에 31.48% 급등했습니다.",
+  "forecast_date": "2026년 11월 25일",
+  "generated_at": "2026-11-25T07:36:07.507511+09:00",
+  "market_context": "현재 한국 주식시장은 VIX 공포지수 26.36(불안) 및 CNN Fear & Greed Index 17.4(극도의 공포)로, 높은 변동성과 극심한 위험 회피 심리가 지배하고 있습니다. 전일 미국 시장의 영향으로 금일 단기 조정 압력이 예상되며, 명확한 성장 동력을 가진 테마와 방어적 성격의 테마에 대한 관심이 높아질 것으로 판단됩니다.",
+  "us_market_summary": "전일 미국 증시는 반도체/기술주가 하락하고 헬스케어 및 방어 섹터가 강세를 보이며 혼조세로 마감했습니다.",
   "news_sources": [
     {
-      "title": "뉴욕증시, 상승세로 마감…나스닥 6.51%↑",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgcOVidnny-D969ZNhuhXyMK6BAPC5vBwNeWd2guC7SEFQs3hjEMeAXH7kuODIxEyWtadRSsHa3G8ljrLTAsF67GW32FMlqO77P98w5b4LZveo5HhNJP-PtBzvfFvab6oN"
+      "title": "뉴욕증시, 혼조세로 마감…나스닥 1.48%↓",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCHAed6Xynt3Qq3llu1BsR6Ak-pgnk_54CLZUkjZA3WDXcDAGDGVEHWbAWK5NGtUOZybydoIiCyQupRAKXvkP-ZnQP5Pzt33y39Q591oWO1CLxv28HNkEUSo9l5Th2-vzYnw=="
     },
     {
-      "title": "[속보] 뉴욕증시, 나스닥 6%대 급등 마감…엔비디아 31.5%↑",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6GBCMSTyOwj641_z9rKEYBjaQF2gMvidY-wy6Z8WOjIOP1LsQJyWk2SlI65enMm0liuXoMr5m1XhyYmmnW6QDKSjiz39FG-x-WSb1nOFlD6PYO-BYPudL2nllTlnW9BdK9W6M7nRhxws="
+      "title": "엔비디아 31% 폭등 하루 만에 6% 급락…뉴욕증시, 혼조세로 마감｜동아일보",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbl4Y5lcDZWWadcfCrI_1vnTsD3yD3m66cbF1JpiRC4_BYp2fdQbh-qZ37-yzX8E1hS-Mwlhe14bqFM1kjgsXWZknmd626wEunPPZ1aU56Z7H4K7kk2byfjWjq1Abrlh_x0WX1wPpGRmHAGYuxarxDk7PiWkJYL-zpPbm9"
     },
     {
-      "title": "theconnectmoney.com",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGd32TADCrOhwbenCWEkOmjaSZV8wYRRqmhV67bmQ906KMdcVfmtpEnCaq_0fmAm3pHKxo9FEGMcsN8Mjowlw86s3sVGDOFQjVGYcjb80DPGsRsaF0J8KYpKlEvMJdnBJmsyAY-H9yv7W2n1yux"
+      "title": "뉴욕증시, 엔비디아 급등 후 차익실현에 혼조…나스닥 1.5%↓",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGROdaZhb7_L12NUesnJAWjyxNjR-5mWKULFa76gM-0SFCCN0rjjmBeEBZzqi6RaSbpjTinnAvqesXw7e48PIDp9atk6ozJRxPIW1y2fmjYm6sgyy1V_7qSf0-AUfWneY5u7DuSFpiauR3d"
     },
     {
-      "title": "[종합] 뉴욕증시, 젠슨 황 복귀에 폭등 마감…나스닥 6.5%↑·엔비디아 31.5%↑",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk6AsrW7R71OrrwHhkDjqfvYsPWrn5Uht9y0uHVUo8MRox_UxW8A1D8e_7gL22jytfF9MLuZzcih9jd6B_ESdDkVZQF4xgp3nXdSgfn00CZecBuZqtAthfglaP_9TXDAvMLgh7hrLaGCtx"
+      "title": "seoulfn.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9jzRg1jOezj_y--jkVdJ2Vwbhl3xFXIShltfOZqhuHZ0q60tI5_7YgWps66oDXCauFmkLxxLYuArDApjkjQp64Zy1m6kmd-7x_J2XPmxl6ZYNQXqT0I50hhBvXQXF0xYz7t47fj8OsLoo5rfnvQ702u7yn_U="
     },
     {
-      "title": "donga.com",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjq4DcGfMuj8Ixc7eNWRO8B5_BDjSoFQCpCTxXkw1qHdN7ZhJeh3nCDSjahw0mDUOTQ7rAmHDb_dqE50z-RhJg-7mhiUUJSpjdzY4IFYHG5vTdPU_jkF_btK8ZuMMmct-dbU7eTJLHQiH7rU6NKX6MLbQP4I-GuBTYtwI="
+      "title": "foeconomy.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8JLRj6YKI94C2WadH5RRGNdC_DhGFqm6CFFv5qDieu9zNgLbECTBmiBdJaG1hFd9O0Vk2O03rng88-8k2O4XtLMJzytZMQzyCuVbcID08n5DrQKnntAevaxRuWhhAemmXdrPjIYy-0wEpzP3l"
     },
     {
-      "title": "주식 시장 하락, 금리 상승에…소비 심리 두 달 연속 ‘뚝’",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFH5TcTTr5kw8_XoNkoqFVahZFqUqiWPgm-eO4H3TrN1JponYm72rxpjuvxQR6A58t3OLGqquWMLdoevMOmtsLSSTt7RKDkupsWQRB23J27sP_uwVMd_KQnaGU1OFL3RmCAG75qfEJrgWWULP8eT8gnR1kLiOFomS4M3AOm271nvoH7P8TSbO89zUi26USJGQ=="
+      "title": "[뉴욕 마켓 브리핑](25일)",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPb9FwooWI6eUVbXXJzp2cUrsvoUCPApMZ2WL8o48-ZCDHJRUR2iY-xRxxtH1-X2PVP7SfQQzZi2mrzpio5ueFSgpzMIrjQ-b2_G6JXhjiucVjXSK1G6P3adY_Ueywkv5w1TWOJQCoGXQIGW5Vz2-40M1VEZfEdjmm2Vs="
     },
     {
-      "title": "증시 불안에 소비심리 냉각…두달 연속 하락",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSEH83wmn_nyG2M7_tnOKagQY7xxbGx7HCrdZV9QqnhHw5ISfU5Z4VSL3izKRjw-T0OlSHuyDlfqfDKdj5SzOC7HzK3KxpT-ntBURaCfsaNV96ER8apn5gIW-Wf5Zohssdc9sQCppTOigenRzdM_rdMX1OOaqQfqvuZA=="
+      "title": "주식 시장 하락, 금리 상승에 소비 심리 두 달 연속 내려가",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHVMeSz9B4nXsYyvlocQCI_2s7v6VS9eBC64qbeaGYceqPpR7pzW4KnB6Lsrc56uI_qJI209AGLeawp3Ci1mLPuKSBaB3oN-xtEzbhA582J17ajCwQQQc2g-mByXInpuGVBfv64g_OW6_t2fdZHy2CSyX8eM_CXLmh0anjImNmluEqSuzK-V8VQTbOaDJIFg=="
     },
     {
-      "title": "증시 조정·금리 상승에 11월 소비심리 두 달째 하락…집값 전망도 약화",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYhC6VUsFrXJKdffU4ySFBFdaFQC7xzFM3e0k1zFWB_l1GAyHvC_Ipy8yo0RkSvuubNaeEFg0TRskwLcvlLG1g1I2h1xhXymIIXfNLSXsLa4vER9__7ARdy2KP1eLhVzQWTxL-cxXfsdjz"
+      "title": "bizjoongang.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtyjjq4JnwWf-DDqqYL5v8GbVDIuf-J1sIsRbcpaloXckZqAshl3KiuG0ZfonbWCSmN46z9ZQMyW50Mju6uDVC0eW2l4de39Z8hMzbNY7BfuSDjtwWNIBLtQbtIRB7kbyS4nzGeymmluaW0pkds3NAu8DpieEGQvyU"
     },
     {
-      "title": "소비자심리지수 또 하락‥&quot;증시조정·금리상승에 비관적 전망&quot;",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcXxh4yuoOSC7uzMxVL8N2qYzGHS2RRItPxsU_KTKCh0WwQycKwGq_C3nJaatopi4AEcN29r2KerhYE8K5lK3AqbX-MMqwTB3GzH2X_C_l6F2Lg32CjQaJ4pCoSfUknde08lLduAIACb-UWKQx8EdCVbMAQkJl5ZmT1HPw"
+      "title": "daily25news.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYJw8q1c6miKcKaDqcNB-2k5BQYIA8Jh9B7xO_Ick41fAj2lQhtZwjB_QgQP2MuTWPI5hyu6Pg-ywfDVQpo3KbAKEE6hXvmspe_23XAfADX83sd3r6qyav9Yc7dSRxX8LHbxkkUuzLraRgwt4UEJ9gmoWl_VeX"
     },
     {
-      "title": "증시 조정·대출금리 상승에 소비심리 두 달째 하락 … 주택가격 전망도 꺾여",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIaWdJKwbmt7S_Ya3y5Q802X0OEscmrbhybyxhN3D-9wclRiuK-1Pw5bTBCLyulU295cSwfciSps1743va5gfE1A-1cY740RrREuK7FSQFFnyrqkWz7iqqjzRu3IhDYskTAOkjIPh5YunihbXmj7X3w6aL3tawDArWb4TIP88DGgQ="
+      "title": "&#039;AI 황제&#039; 단 한명에 흔들린 K반도체株",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3bqg_DnXKh9EwNtPDRDY3KfS_eDAOEQoEPJArX9mJSaevgS6gXvvy6BKWiyT4E-N06pKZrU70IvWPKLNzHM5m3HD4oSKEAehptSZ7itDxeatwUgAN2vmA3-Le2Pb11IZDdmikCVGYj8LVD-VpFw7hJrC8"
     },
     {
-      "title": "einfomax.co.kr",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqarOc-hpAvca8sH23GJfvxeXkxe-Lr0uwJFijGufbKNh1eap2sZS8GdKr91hs1gTttk9-p88CEoJUyRaNTW076Q_VeY0O-2ab0qWBk8qkxJu6Q_ooh7vWAzOtThKQb_BgFaZ4rwKLuXbvncylQOo5SYQ55SqQ2YWe"
+      "title": "[KFT 모닝 브리프] 2026.11.25 — 오늘 꼭 알아야 할 국내외 경제뉴스",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMEPSil5fSwFxDrowbFpM2nz8Ca8ceSCxrWoAMF2AMkoe7oJZbElLjuGDBgHBFtgnnxnSUuHAjUcBBfhBc4BTarfvo9cLDtRYA43Vqv5nLoFSVb6on0Wf8jzmcwh9JQYuFUCz-T6voO54vk4TEuyt26HTaLTm6qrrN5RTQ7t2VJA=="
     },
     {
-      "title": "[이번주 한국은행 및 금융위·금감원 일정]",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9eIYVElhol620LpjO4l8Ads7pofpZ8RVf0hLeyYB_hxWqRuBJcj4y_qA4I2F9KHFw8-tdWmL-2WtGMHwW1C79qWEkVx6itqK99p5i4iE7h2_n1DgN4qDfetrgb0J7DX0O8SqMvMkkGN8g2-FXDwtwWRVBvhjw0BumYw=="
+      "title": "젠슨 황 복귀에 환호한 증시, 하루 만에 꺾일까",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2e2LdxyAlDdM7DlOX7-QPf76Iz6-1zAgFY_sfpmS_8VuB9viPui23cIu7RS7vS7NU3wkgMl3iRObXjSPvvta0_LF5zc5maQmOXIwmLB1YsJIWWbXKRdM-fGzNWZ274HqtVCVq2ONKYbxSGYm2aKJiigTeVPTJ8XB_Za_HI6KvhvzRAMLHEW_vrarFFlBtXCYo4bDLzjZkw7H5CF8u818EE9SO4LJKx-2R3voDBKah9VF9AGm6DgpL1LdEmblg_Nz9fHgoI9cZmU9jLZHcTVRL_Fi_QeYRmEhIFpomQfsBC6aOkY3mm8cuRQIxKDeV"
     },
     {
-      "title": "[한주간 주요 경제·암호화폐 일정] 금융위 디지털자산법 정부안 공개 外",
-      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoniP2EfUWt-hR2vwKvu5QzfNYhL0Q68K9xoDxjMy47rMP0lXzqR4zm2kUdibHOd5jpI0X8IXiMbbHhF-Ob7UCFCEgT-kLzGqQErJ-t4DALVYAU8jYMU-HPeTvvFWtwxxG"
+      "title": "[1125주요일정] 美 3분기 GDP 수정치 발표 예정 등",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8aFOu2ADLdw6lKdDTNq7pngN6HEVPa7RM1IhJgx10LFTJgWcmfH8IyJqmg4bwYIm00mtLwGXUwl1DgKUUpDGT8ihn-_wXIwznWEwlOTf9976OejsxldYwkm01pJT2rjebRtxDEWeBWMvtsoQ4e57Fxji1v9cCMo_KEo5yPQ=="
+    },
+    {
+      "title": "이코노미스트 - [오늘의 삼전닉스] SK하이닉스 &#039;105만vs280만&#039; 극과 극, 어디를 믿어야 하나요?",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmT8CfPP2FbsqijyN_twFy03nmovoTUTVCq4faFYVNSsXDwCIokMUX3Gm4vLqpS0C93TaCt_9L4L8KJP_bZavT-hdpjou1a4ng4N-8JGxDS3Cz7j2rN8sE8VaL6SOOnnIPYFPh-07eyhJ62yFopQ=="
     }
   ],
   "today": [
     {
-      "theme_name": "반도체/AI",
-      "description": "11월 23일 미국 증시에서 나스닥이 6.51%, 필라델피아 반도체 지수가 14.03% 급등하며 기술주와 반도체 섹터가 폭발적인 상승을 기록했습니다. 특히 엔비디아 CEO 젠슨 황의 복귀 소식에 엔비디아 주가가 31.48% 폭등하며 AI 반도체 산업 전반에 대한 투자 심리가 크게 개선되었습니다. 이는 국내 반도체 및 AI 관련 기업들에게 강력한 긍정적 모멘텀으로 작용할 것입니다. 또한, 11월 1일~20일 국내 반도체 수출이 전년 동기 대비 294.4% 급증하며 전체 수출의 약 절반을 차지하는 등 펀더멘털도 견고합니다. 삼성전자의 메모리 반도체 생산능력이 2027년부터 2029년까지 대부분 고객사와 계약이 완료되었다는 소식도 긍정적입니다.",
-      "catalyst": "미국 기술주/반도체 급반등 및 엔비디아 CEO 젠슨 황 복귀 소식",
+      "theme_name": "AI/반도체/로봇",
+      "description": "전일 미국 증시에서 반도체/AI 관련주들이 차익실현 매물로 하락했으나, 한국 증시의 대형 반도체주는 강세를 보였습니다. AI 인프라 투자 지속 가능성에 대한 우려와 장기적 성장 기대가 공존하며, AI 기술 발전과 연계된 로봇 및 AI 디바이스에 대한 꾸준한 관심이 이어지고 있습니다.",
+      "catalyst": "AI 인프라 투자 지속 및 AI 기술 발전 연계 로봇/AI 디바이스 관심",
       "confidence": "높음",
       "leader_stocks": [
         {
           "priority": 1,
           "name": "삼성전자",
           "code": "005930",
-          "reason": "전일 코스피 거래대금 상위(22,352억원)를 기록했으며, 외국인과 기관이 각각 1,131,000주, 625,000주를 동반 순매수했습니다. 국내 반도체 산업의 대표 기업으로, 미국발 AI 및 반도체 훈풍의 직접적인 수혜가 예상됩니다.",
-          "data_verified": true
-        },
-        {
-          "priority": 2,
-          "name": "HPSP",
-          "code": "403870",
-          "reason": "전일 코스닥에서 11.56% 상승했으며, 외국인(231,000주)과 기관(107,000주)의 동반 순매수, 특히 기관은 5일 연속 순매수했습니다. 고압 수소 어닐링 장비 제조사로, 비메모리 반도체 공정의 핵심 장비 기업으로서 AI 반도체 수요 증가에 따른 실적 기대감이 높습니다.",
-          "data_verified": true
-        },
-        {
-          "priority": 3,
-          "name": "SK하이닉스",
-          "code": "000660",
-          "reason": "전일 코스피 거래대금 1위(29,111억원)를 기록했으며, 기관이 35,000주를 순매수했습니다. HBM(고대역폭 메모리) 등 고성능 메모리 시장의 선두 주자로서 AI 반도체 수요 증가의 핵심 수혜주입니다.",
-          "data_verified": true
-        }
-      ]
-    },
-    {
-      "theme_name": "로봇/AI 디바이스",
-      "description": "글로벌 AI 기술 발전과 AI 반도체 시장의 활성화는 AI 기반 로봇 및 디바이스 시장의 성장을 가속화할 것입니다. AI 테마가 확산되면서 로봇 산업에 대한 관심 또한 자연스럽게 증가하고 있습니다.",
-      "catalyst": "AI 기술 발전 및 AI 반도체 시장 활성화에 따른 로봇 산업 성장 가속화",
-      "confidence": "높음",
-      "leader_stocks": [
-        {
-          "priority": 1,
-          "name": "휴림로봇",
-          "code": "090710",
-          "reason": "전일 코스피에서 29.90% 급등하며 높은 거래대금(1,505억원)을 기록했고, 외국인(350,000주)과 기관(4,000주)이 동반 순매수했습니다. AI 기반 로봇 시장 확대의 대표적인 수혜주로 부각되고 있습니다.",
+          "reason": "전일 거래대금 2위, 외국인/기관 동반 순매수 (기관 2일 연속).",
           "data_verified": true
         },
         {
           "priority": 2,
           "name": "로보티즈",
           "code": "108490",
-          "reason": "전일 코스피에서 20.33% 상승했으며, 거래대금(1,636억원)과 함께 외국인(31,000주)과 기관(38,000주)의 동반 순매수가 확인되었습니다. 로봇 솔루션 및 로봇 부품 전문 기업으로서 AI 로봇 시장 성장의 핵심 종목입니다.",
+          "reason": "전일 거래대금 상위, 외국인/기관 동반 순매수 (기관 2일 연속), AI 연관 로봇주.",
           "data_verified": true
         },
         {
           "priority": 3,
-          "name": "삼현",
-          "code": "437730",
-          "reason": "전일 코스닥에서 18.74% 상승했으며, 외국인(32,000주)과 기관(97,000주)이 동반 순매수, 특히 기관은 5일 연속 순매수했습니다. 로봇 모션 제어 솔루션 및 부품 전문 기업으로, 로봇 산업 성장에 따른 핵심 부품 수요 증가 기대감이 높습니다.",
+          "name": "HPSP",
+          "code": "403870",
+          "reason": "전일 코스닥 거래대금 상위, 외국인/기관 동반 순매수 (기관 5일 연속), 고성장 반도체 장비주.",
           "data_verified": true
         }
       ]
     },
     {
-      "theme_name": "가상자산",
-      "description": "오늘(11월 24일) 금융위원회에서 가상자산위원회를 개최하여 디지털자산법 입법 추진방안을 논의할 예정입니다. 이는 가상자산 시장의 제도권 편입 및 규제 명확화에 대한 기대를 높여 관련 종목에 단기적인 모멘텀을 제공할 것입니다.",
-      "catalyst": "금융위원회 가상자산위원회 개최 및 디지털자산법 논의",
+      "theme_name": "헬스케어/바이오",
+      "description": "전반적인 시장 불안정 속에서 방어적 성격이 부각되고 있으며, 전일 미국 헬스케어 섹터가 상대적 강세(+2.95%)를 보였습니다. 코로나19 재확산 우려 및 개별 기업의 실적 개선과 신약 개발 기대감이 복합적으로 작용하고 있습니다.",
+      "catalyst": "미국 헬스케어 섹터 강세 및 코로나19 재확산 우려",
       "confidence": "보통",
-      "leader_stocks": [
-        {
-          "priority": 1,
-          "name": "우리기술투자",
-          "code": "041190",
-          "reason": "국내 대표 가상자산 거래소 업비트 운영사인 두나무의 지분을 보유하고 있어 가상자산 테마의 대표적인 수혜주로 꼽힙니다.",
-          "data_verified": false
-        },
-        {
-          "priority": 2,
-          "name": "비덴트",
-          "code": "121800",
-          "reason": "또 다른 주요 가상자산 거래소인 빗썸코리아의 지분을 보유하고 있어 가상자산 시장의 정책 변화에 민감하게 반응할 수 있는 종목입니다.",
-          "data_verified": false
-        }
-      ]
-    }
-  ],
-  "short_term": [
-    {
-      "theme_name": "2차전지/전력설비",
-      "description": "글로벌 전기차 시장 성장과 LFP 양극재, 전력망 밸류체인 구축 기대감이 지속되고 있으며, 미국 기술주 전반의 위험선호 회복이 2차전지 관련주에도 간접적인 긍정적 영향을 미칠 수 있습니다.",
-      "catalyst": "글로벌 전기차 시장 성장 기대 및 미국 기술주 위험선호 회복",
-      "confidence": "보통",
-      "target_period": "2~3일",
-      "leader_stocks": [
-        {
-          "priority": 1,
-          "name": "삼성SDI",
-          "code": "006400",
-          "reason": "전일 외국인 2일 연속 순매수 및 기관 매수가 확인되어 대형주 중 비교적 안정적인 수급을 보입니다.",
-          "data_verified": true
-        },
-        {
-          "priority": 2,
-          "name": "엘앤에프",
-          "code": "066970",
-          "reason": "2차전지 핵심 소재 기업으로, 전일 외국인 매도와 기관 매수가 엇갈렸으며 '과열:주의' 신호가 있습니다.",
-          "data_verified": true
-        },
-        {
-          "priority": 3,
-          "name": "KBI메탈",
-          "code": "024840",
-          "reason": "전일 외국인 순매수가 확인되었으나, '과열:주의' 신호가 있어 단기 변동성에 유의해야 합니다.",
-          "data_verified": true
-        }
-      ]
-    },
-    {
-      "theme_name": "바이오/제약",
-      "description": "전반적인 시장 약세 속에서도 개별 기업의 실적 개선과 신사업 기대감, 그리고 미국 헬스케어 섹터의 소폭 상승이 단기적인 모멘텀을 제공합니다. 다만, 과거 테마 적중률이 낮다는 점은 유의해야 합니다.",
-      "catalyst": "개별 기업 실적 개선 및 신사업 기대감, 미국 헬스케어 섹터 상승",
-      "confidence": "보통",
-      "target_period": "이번주",
       "leader_stocks": [
         {
           "priority": 1,
           "name": "JW신약",
           "code": "067290",
-          "reason": "전일 외국인과 기관의 양매수와 함께 '정배열 수급동반 골든크로스' 신호가 발생하여 가장 강력한 수급 및 기술적 지표를 보였습니다.",
+          "reason": "외국인/기관 동반 매수, 정배열 수급동반 골든크로스 신호.",
           "data_verified": true
         },
         {
           "priority": 2,
           "name": "신풍제약",
           "code": "019170",
-          "reason": "전일 외국인과 기관의 매수세가 있었으나 '수급동반 과열:경고' 신호가 발생하여 단기 급등에 따른 조정 가능성에 유의해야 합니다.",
+          "reason": "외국인/기관 동반 매수, 수급동반 과열:경고 신호 (투자 시 주의 필요).",
           "data_verified": true
         }
       ]
     },
     {
-      "theme_name": "전력 인프라/변압기",
-      "description": "AI 기술 발전과 데이터센터 확대로 인한 전력 수요 증가 기대감이 커지면서, 전력 인프라 관련 기업들이 간접적인 수혜를 받을 것으로 예상됩니다.",
-      "catalyst": "AI 기술 발전 및 데이터센터 확대로 인한 전력 수요 증가 기대",
+      "theme_name": "2차전지/전력설비",
+      "description": "글로벌 전기차 시장의 성장과 함께 LFP 양극재 및 전력망 밸류체인 구축에 대한 기대감이 반영되고 있습니다. 특히 AI 서버 및 데이터센터 구축에 필요한 전력 인프라 수요 증가가 새로운 성장 동력으로 작용하고 있습니다.",
+      "catalyst": "글로벌 전기차 시장 성장 및 AI 데이터센터 전력 인프라 수요 증가",
       "confidence": "보통",
-      "target_period": "7일 이내",
       "leader_stocks": [
         {
           "priority": 1,
-          "name": "HD현대일렉트릭",
-          "code": "267260",
-          "reason": "전력기기 분야의 선두 기업으로, AI발 전력 수요 증가의 직접적인 수혜가 기대됩니다.",
+          "name": "삼성SDI",
+          "code": "006400",
+          "reason": "전일 거래대금 상위, 외국인/기관 동반 순매수 (외인 3일, 기관 2일 연속).",
           "data_verified": true
         },
         {
           "priority": 2,
-          "name": "제룡전기",
-          "code": "033100",
-          "reason": "변압기 및 전력기기 제조업체로, 전력 인프라 확충에 따른 수혜가 예상됩니다.",
+          "name": "엘앤에프",
+          "code": "066970",
+          "reason": "외국인/기관 동반 매수, 수급동반 과열:주의 신호 (투자 시 주의 필요).",
           "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "LG에너지솔루션",
+          "code": "373220",
+          "reason": "전일 거래대금 상위, 기관 순매수 (2일 연속).",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "방어주/가치주 (금융 포함)",
+      "description": "시장의 극심한 공포 심리로 인해 투자자들의 위험 회피 성향이 강해지면서 안정적인 수익을 기대할 수 있는 방어적 성격의 업종에 대한 관심이 증대되고 있습니다. 또한, 11월 26일 한국은행 금융통화위원회에서 기준금리 인상 가능성이 높게 점쳐지면서 금융주에 긍정적인 영향을 미칠 수 있습니다.",
+      "catalyst": "시장 공포 심리 증대 및 한국은행 금통위 기준금리 인상 가능성",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "현대차",
+          "code": "005380",
+          "reason": "외국인/기관 동반 순매수 (외인 6일, 기관 2일 연속), 대형 가치주.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "우리금융지주",
+          "code": "316140",
+          "reason": "기관 순매수 (8일 연속), 금리 인상 수혜 기대.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "LG전자",
+          "code": "066570",
+          "reason": "기관 순매수 (3일 연속), 대형 가치주.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "핀테크/블록체인/가상화폐",
+      "description": "'코리아 핀테크 위크 2026'이 11월 25일부터 27일까지 개최되어 핀테크, 블록체인, 가상화폐 관련 기술 및 산업에 대한 단기적인 관심을 높일 수 있습니다. 디지털 자산 관련 법안 논의 등 정책적 움직임도 주목됩니다.",
+      "catalyst": "'코리아 핀테크 위크 2026' 개최 (11/25~27)",
+      "confidence": "보통",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "우리기술투자",
+          "code": "041190",
+          "reason": "가상자산 거래소 업비트 운영사 두나무의 지분 투자사.",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "카카오뱅크",
+          "code": "323410",
+          "reason": "국내 대표 핀테크 기업.",
+          "data_verified": false
+        },
+        {
+          "priority": 3,
+          "name": "갤럭시아머니트리",
+          "code": "094480",
+          "reason": "블록체인 기반 간편결제 및 디지털 자산 관련 사업.",
+          "data_verified": false
+        }
+      ]
+    },
+    {
+      "theme_name": "스마트건설/AI",
+      "description": "'스마트건설·안전·AI 엑스포'가 11월 25일부터 27일까지 개최되어 스마트건설 기술, 안전 솔루션, AI 기반 건설 기술 등에 대한 시장의 관심을 집중시킬 수 있는 단기적인 이벤트입니다.",
+      "catalyst": "'스마트건설·안전·AI 엑스포' 개최 (11/25~27)",
+      "confidence": "보통",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "현대건설",
+          "code": "000720",
+          "reason": "국내 대형 건설사로 스마트건설 기술 도입 및 투자 활발.",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "삼성물산",
+          "code": "028260",
+          "reason": "건설 부문에서 스마트건설 및 모듈러 건축 기술 개발.",
+          "data_verified": false
+        },
+        {
+          "priority": 3,
+          "name": "포스코DX",
+          "code": "022100",
+          "reason": "스마트팩토리 및 AI 기반 산업 솔루션 제공.",
+          "data_verified": false
         }
       ]
     }
   ],
   "long_term": [
     {
-      "theme_name": "AI/반도체",
-      "description": "4차 산업혁명 시대의 핵심 동력으로서 AI 기술 발전과 반도체 산업의 구조적 성장은 장기적으로 지속될 것입니다. 오늘 및 단기 테마로 분류되었으나, 본질적으로 장기적인 성장 동력을 내포하고 있습니다.",
-      "catalyst": "4차 산업혁명, AI 기술 발전, 반도체 산업 구조적 성장",
+      "theme_name": "AI/반도체 (지속 성장)",
+      "description": "인공지능 기술 발전은 거스를 수 없는 글로벌 메가 트렌드이며, AI 인프라 구축을 위한 반도체 수요는 장기적으로 지속될 것입니다. 특히 HBM(고대역폭 메모리), AI 서버 등 고성장 분야의 투자는 꾸준히 이어질 전망입니다.",
+      "catalyst": "글로벌 AI 기술 발전 및 AI 인프라 구축을 위한 반도체 수요 지속",
       "confidence": "높음",
       "target_period": "1개월 이내",
       "leader_stocks": [
@@ -229,22 +246,29 @@
           "priority": 1,
           "name": "삼성전자",
           "code": "005930",
-          "reason": "글로벌 반도체 시장의 선두 주자로서 AI 시대의 핵심 수혜주입니다.",
-          "data_verified": true
+          "reason": "글로벌 반도체 선두주자, AI 반도체 및 HBM 투자 확대.",
+          "data_verified": false
         },
         {
           "priority": 2,
+          "name": "한미반도체",
+          "code": "042700",
+          "reason": "HBM 생산에 필수적인 TC 본더 등 핵심 장비 공급 기업.",
+          "data_verified": false
+        },
+        {
+          "priority": 3,
           "name": "SK하이닉스",
           "code": "000660",
-          "reason": "고대역폭 메모리(HBM) 등 AI 반도체 시장을 선도하며 장기적인 성장 동력을 확보하고 있습니다.",
-          "data_verified": true
+          "reason": "HBM 시장을 선도하는 핵심 기업.",
+          "data_verified": false
         }
       ]
     },
     {
-      "theme_name": "2차전지/전력설비",
-      "description": "에너지 전환이라는 거대한 흐름 속에서 전기차 시장 성장과 전력 인프라 확충은 장기적인 메가트렌드입니다. 단기적인 시장 변동성에도 불구하고 산업의 구조적 성장은 지속될 것으로 판단됩니다.",
-      "catalyst": "에너지 전환, 전기차 시장 성장, 전력 인프라 확충",
+      "theme_name": "2차전지/전력설비 (구조적 성장)",
+      "description": "글로벌 전기차 시장은 단기적인 성장 둔화 우려에도 불구하고 장기적인 관점에서 구조적인 성장이 기대됩니다. LFP 양극재 등 기술 발전과 함께 AI 데이터센터 확충에 따른 전력 인프라 수요 급증은 이 테마의 새로운 성장 동력이 될 것입니다.",
+      "catalyst": "글로벌 전기차 시장 구조적 성장 및 AI 데이터센터 전력 인프라 수요 급증",
       "confidence": "보통",
       "target_period": "1개월 이내",
       "leader_stocks": [
@@ -252,18 +276,54 @@
           "priority": 1,
           "name": "삼성SDI",
           "code": "006400",
-          "reason": "글로벌 배터리 시장의 주요 플레이어로서 장기적인 성장 잠재력을 보유하고 있습니다.",
-          "data_verified": true
+          "reason": "2차전지 및 차세대 전고체 배터리 기술 개발 선도.",
+          "data_verified": false
         },
         {
           "priority": 2,
           "name": "LG에너지솔루션",
           "code": "373220",
-          "reason": "전기차 배터리 시장의 선두 기업으로, 글로벌 생산 능력 확대를 통해 장기 성장을 추구합니다.",
+          "reason": "글로벌 2차전지 시장 선두 기업.",
+          "data_verified": false
+        },
+        {
+          "priority": 3,
+          "name": "HD현대일렉트릭",
+          "code": "267260",
+          "reason": "AI 데이터센터 확충에 따른 전력설비 및 변압기 수요 증가의 핵심 수혜주.",
           "data_verified": false
         }
-      ],
-      "confidence_note": "최근 적중률 25.0%로 하향 보정"
+      ]
+    },
+    {
+      "theme_name": "금융 (금리 인상 수혜 및 안정성)",
+      "description": "한국은행의 지속적인 기준금리 인상 가능성 및 고금리 장기화 전망은 금융주에 긍정적인 영향을 미칠 수 있습니다. 또한, 시장 불안정 시 상대적으로 안정적인 배당 수익과 견조한 실적을 기대할 수 있어 방어적 성격의 투자처로 부각될 수 있습니다.",
+      "catalyst": "한국은행 기준금리 인상 가능성 및 고금리 장기화 전망",
+      "confidence": "보통",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "KB금융",
+          "code": "105560",
+          "reason": "국내 대표 금융지주사로 안정적인 실적 및 배당 매력.",
+          "data_verified": false
+        },
+        {
+          "priority": 2,
+          "name": "우리금융지주",
+          "code": "316140",
+          "reason": "기관 순매수 강세, 금리 인상 수혜 기대.",
+          "data_verified": false
+        },
+        {
+          "priority": 3,
+          "name": "신한지주",
+          "code": "055550",
+          "reason": "국내 대표 금융지주사로 포트폴리오 다각화 및 안정성.",
+          "data_verified": false
+        }
+      ]
     }
   ]
 }
