@@ -1,0 +1,287 @@
+{
+  "forecast_date": "2026년 11월 26일",
+  "generated_at": "2026-11-26T13:07:45.577838+09:00",
+  "market_context": "전일 한국 증시는 AI 관련 기술주 투매와 미국발 관세 부과 우려, 국내 금리 인상 압력 등으로 코스피가 6% 이상 급락하며 불안정한 모습을 보였습니다. 미국 증시 또한 AI 기술주가 하락했으나, 장 후반 저가 매수세 유입과 구경제 종목으로의 자금 이동으로 혼조세로 마감했습니다. 오늘은 한국은행의 기준금리 인상 결정과 전일 급락에 따른 저가 매수세 유입으로 국내 증시의 반등 시도가 예상됩니다.",
+  "us_market_summary": "S&P500 지수는 0.25% 하락한 7,182.78을 기록했고, 나스닥 종합지수는 0.62% 하락한 23,585.80에 마감했습니다. 다우존스30산업평균지수는 0.33% 상승한 50,182.95를 기록하며 혼조세를 보였습니다. AI 관련 기술주가 하락세를 이끌었으나, 에너지 및 금융 섹터는 상승했습니다.",
+  "news_sources": [
+    {
+      "title": "뉴욕증시, 추수감사절 휴장 전날 AI株 투매로 혼조 마감",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQu7fA0k-tovte1WibdGZrATUlKB76LqJdaJVmlWbUrvRXJMe_7h99HEoi90ZidI5Kh8L-GMPsBrsqcn_edwnRTYy-XFSA4fLZHF5LMmAohT-xm8qZAjjdIeu70yV4Dfy31Oe33zUpfCHYnoZ3kDi4NQwiCL6H"
+    },
+    {
+      "title": "AI 투자 불안에 극심한 변동장…나스닥 0.6% 하락",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE23eW15jan494N52spPIEmhhOVMU84XzC7a7t7iMyKQ2pmvogk1tfIW7tvdMvlgPTpboU7KAF8zeS8PluRw1aqQw0r2TXL2dHPPzY6e9z2gCJ19Pa7pQUKAX4GQf5Il1fcJjTiFHvWJow="
+    },
+    {
+      "title": "뉴욕증시, AI 투자 불안에 또 롤러코스터…나스닥 0.6%↓(종합)",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhyB-NnkZ0a9zwVe7-VSDJH-c_JJay7l9eYeckmimXF1ZE04m-8BktFtfx767hYOGxM3MWMZ1bOEzuCME9iJaj8sTdcpg7L6-JnDxTfOLB5wHJ7uQU12pMqpxLiuumGylVU0ve9IfzlGyY"
+    },
+    {
+      "title": "메모리 전망 꺾이고 긴축 경계감까지…K-증시 긴장",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3QSSRJVNYOtzl-p07n74lvk6bRLf0I95ZDvpYR7wql8oJ5ycAbfMM0is5DBWa25ETCtsXru6jcWrLS76bqQY4WI2mURMfAcwpVrJK5dT1IrgnTShGKExaroX_m4m1C1dJzLm4MrhtIp8m0k_NOYTpP-oX1w=="
+    },
+    {
+      "title": "증시 급랭에도…한은 금통위 점도표 예상 ‘금리 추가 인상’에 무게",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGb04HuogR7MNB-Wj6ROZ5LyATHV-Q4vEVrLXK3D8P_jTMVI9woM0EM4akUZvG-uQjWnYLcDbkjGmojSN_LSO_bHwsOwuLT78Mz8xnxrEux1S9QuPC9kRjnfvy1fUbezjIBje8eqx8snSGcf-1IOGU-PxatMozfloDEhw8="
+    },
+    {
+      "title": "[11월 4주차] 금주 국내외 경제 전망",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGgVJR4KCb3AZerGfrE3l5lBBTfTf3ecdz2Tg_Az0OSR1BnHWBn0HqTeE6fp-Mk3pOdqhpak5hW6Lhloyz0IR7z8USqGVcDSodYoQbM7WS46ANyu_tFet8gGYSxczSqmrte3cFJtOzpHif-OTd9Ha7nKi3EvjhCw=="
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvoubCajsrUoWYP0b1S98NINvMqP68npdfkkBpy4QPhOQuaehCq4m2M9KToXXoWYoQCoqXZ3-rxAZyVyDpO9lZcrqGFWSK6Ph2s0pJVjI5eWmw0MidTodmD7uIhz-AqkTDnsDjXAKjSBjaJXe9nBOpP3o8D2LXGa7zAg=="
+    },
+    {
+      "title": "[한주간 주요 경제·암호화폐 일정] 금융위 디지털자산법 정부안 공개 外",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpoXaQ039S93vBTeBAiC__VXhYN_qYGpjrVIxxiHGt3v3NTjLIp_D3hjZVMh6jwz-pz5lBoIvY9dH7OGP4nrSoNZDkG8YDhfUQYjGmb7aXg7BIMIk_lmjKQKEG9sGkHK8S7A=="
+    },
+    {
+      "title": "investing.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBhKN6XnzTbcy-SmKa-AVov3iF9u_K2uZ10M6Vt_jTYgvxAoWjHh5w7q66GskQFCiJi4ILuj3QziXUFAOEnXgebEA4AAEEQHrdnjRL2FFznNAFR8g9B40UxgjB1PTqNQXwW4ltgR0="
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "방산/에너지",
+      "description": "중동 지역의 지정학적 불안정 심화와 러시아-우크라이나 전쟁 지속으로 국제 유가가 급등하고, 이는 에너지 안보 및 글로벌 방산 산업에 대한 관심을 높일 것으로 예상됩니다.",
+      "catalyst": "예멘 후티 반군의 사우디 정유시설 공격 소식 및 국제 유가 급등, 러시아군의 키이우 미사일 공격 [cite: 7, Global Market News]",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "하나에어로스페이스",
+          "code": "271160",
+          "reason": "장중 실시간 수급에서 외국인 대량 순매수 (+8.5만주) 및 급등 (+30.00%) 기록. 방산 대장주로서 지정학적 리스크 부각 시 수혜 기대. [cite: 장중 실시간 수급]",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "한국항공우주",
+          "code": "047810",
+          "reason": "국내 대표 방산주로, 지정학적 리스크 고조 시 매수세 유입 가능성. (전일 거래대금/수급 데이터 미확인)",
+          "data_verified": false
+        },
+        {
+          "priority": 3,
+          "name": "중앙에너비스",
+          "code": "004440",
+          "reason": "국제 유가 급등 시 대표적인 정유/에너지 관련주로 부각. (전일 거래대금/수급 데이터 미확인)",
+          "data_verified": false
+        }
+      ]
+    },
+    {
+      "theme_name": "금융",
+      "description": "한국은행 금융통화위원회가 기준금리를 3.00%에서 3.25%로 인상하면서 은행 등 금융권의 수익성 개선 기대감이 커지고 있습니다.",
+      "catalyst": "한국은행 기준금리 0.25%p 인상 결정",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "KB금융",
+          "code": "105560",
+          "reason": "국내 대표 금융지주사로 금리 인상에 따른 직접적인 수혜 기대. (전일 외국인/기관 순매도 기록했으나, 금리 인상이라는 강력한 촉매로 오늘 수급 변화 가능성 높음) [cite: 전일 거래대금 TOP10 + 수급]",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "신한지주",
+          "code": "055550",
+          "reason": "KB금융과 함께 국내 금융권 대장주로 금리 인상 수혜 예상. (전일 약세 기록했으나, 금리 인상 촉매로 오늘 수급 변화 가능성 높음)",
+          "data_verified": false
+        },
+        {
+          "priority": 3,
+          "name": "미래에셋벤처투자",
+          "code": "100790",
+          "reason": "전일 급등하며 시장 관심 받았으며, 증안펀드 논의 등 자본시장 안정화 기대감에 수혜 가능성. (전일 외국인 순매도) [cite: 전일 거래대금 TOP10 + 수급]",
+          "data_verified": true
+        }
+      ],
+      "confidence_note": "최근 적중률 0.0%로 하향 보정"
+    },
+    {
+      "theme_name": "AI/반도체 (단기 반등)",
+      "description": "미국 증시에서 AI 관련 기술주 투매가 있었으나, 장 후반 낙폭을 만회하고 국내 증시에서는 전일 급락에 따른 저가 매수세 유입으로 반도체 대형주가 반등을 시도하고 있습니다.",
+      "catalyst": "전일 미국 증시 AI 기술주 낙폭 축소 및 국내 반도체 대형주 저가 매수세 유입",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "전일 거래대금 최상위 종목 중 하나이며 외국인/기관 동반 순매수 기록 [cite: 전일 거래대금 TOP10 + 수급]. 오늘 장 초반 3.88% 강세.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "전일 거래대금 상위 종목 중 하나이며 외국인/기관 동반 순매수 기록 [cite: 전일 거래대금 TOP10 + 수급]. 오늘 장 초반 2.28% 상승.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "삼성전기",
+          "code": "009150",
+          "reason": "전일 거래대금 상위 종목 중 하나이며 외국인/기관 동반 순매수 기록 [cite: 전일 거래대금 TOP10 + 수급]. 오늘 장 초반 5.43% 강세.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "바이오/헬스케어",
+      "description": "12월에 예정된 미국 혈액학회(ASH)와 미국 뇌전증학회(AES) 등 주요 국제 학회 일정을 앞두고 국내 바이오 기업들의 신약 개발 및 기술 수출에 대한 기대감이 높아지고 있습니다.",
+      "catalyst": "12월 미국 혈액학회(ASH) 및 미국 뇌전증학회(AES) 개최 예정",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "루닛",
+          "code": "328130",
+          "reason": "전일 외국인/기관 동반 순매수 기록하며 강세 [cite: 전일 거래대금 TOP10 + 수급]. AI 기반 의료 솔루션 관련주로 학회 기대감에 수혜 가능성.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "디앤디파마텍",
+          "code": "347850",
+          "reason": "전일 외국인/기관 동반 순매수 기록하며 강세 [cite: 전일 거래대금 TOP10 + 수급]. 신약 개발 관련주로 학회 기대감에 수혜 가능성.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "올릭스",
+          "code": "226950",
+          "reason": "장중 실시간 수급에서 기관 순매수 포착 [cite: 장중 실시간 수급]. RNAi 치료제 개발 기업으로 학회 관련 기대감.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "바이오/제약 (선별적 강세 및 불확실성)",
+      "description": "시장 전반의 약세 속에서 코로나19 재확산 우려라는 내러티브와 일부 종목의 견조한 수급이 단기적인 모멘텀을 제공할 수 있습니다. JW신약은 외국인/기관 동반 매수가 유입되었으며, 루닛 또한 기관 순매수가 관찰되었습니다.",
+      "catalyst": "코로나19 재확산 우려, 개별 기업 실적 개선 및 신사업 기대감.",
+      "confidence": "보통",
+      "target_period": "2~3일",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "JW신약",
+          "code": "067290",
+          "reason": "외국인/기관 동반 순매수, 정배열 수급동반 골든크로스 신호.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "루닛",
+          "code": "328130",
+          "reason": "전일 기관 순매수 유입, AI 의료 관련주로 테마 내 선방.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "신풍제약",
+          "code": "019170",
+          "reason": "기관 순매수 유입, '과열:경고' 상태로 주의 필요.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "부동산/건설, 고부채 기업, 소비재 (하락 예상)",
+      "description": "한국은행의 기준금리 인상은 시중 금리 상승으로 이어져 기업의 자금 조달 비용 증가 및 가계의 대출 부담을 가중시킵니다. 이는 소비 심리 위축과 내수 경기 둔화로 이어질 수 있으며, 특히 고부채 기업이나 부동산/건설 관련 테마에 부정적인 영향을 미칠 수 있습니다.",
+      "catalyst": "한국은행 기준금리 인상.",
+      "confidence": "보통",
+      "target_period": "이번주",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "현대건설",
+          "code": "000720",
+          "reason": "국내 대표 건설사, 금리 인상 및 부동산 시장 위축 우려.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "GS건설",
+          "code": "006360",
+          "reason": "국내 대표 건설사, 금리 인상 및 부동산 시장 위축 우려.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "롯데쇼핑",
+          "code": "023530",
+          "reason": "대표 소비재 기업, 소비 심리 위축 우려.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "수출주 전반 (자동차, 철강, 화학 등) (하락 예상)",
+      "description": "도널드 트럼프 미 행정부의 신규 관세 부과 예고는 한국의 수출 기업들에게 직접적인 비용 부담을 가중시키고, 글로벌 무역 불확실성을 높여 수출 의존도가 높은 한국 경제 전반에 부정적인 영향을 미칠 수 있습니다. 이는 특히 자동차, 철강, 화학 등 주요 수출 산업에 장기적인 실적 악영향을 미칠 것으로 예상됩니다.",
+      "catalyst": "도널드 트럼프 행정부의 신규 관세 부과 예고.",
+      "confidence": "보통",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "현대차",
+          "code": "005380",
+          "reason": "국내 대표 수출 기업, 관세 영향 우려.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "POSCO홀딩스",
+          "code": "005490",
+          "reason": "국내 대표 철강 기업, 관세 영향 우려.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "LG화학",
+          "code": "051910",
+          "reason": "국내 대표 화학 기업, 관세 영향 우려.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "가상자산 및 블록체인 관련 기술/서비스 (불확실성)",
+      "description": "디지털자산법 정부안 공개는 국내 가상자산 시장의 제도화 및 규제 방향성을 제시하는 중요한 이벤트입니다. 이는 관련 산업에 명확한 가이드라인을 제공하여 불확실성을 해소하거나, 새로운 사업 기회를 창출할 수 있습니다.",
+      "catalyst": "디지털자산법 정부안 공개.",
+      "confidence": "낮음",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "우리기술투자",
+          "code": "041190",
+          "reason": "가상자산 관련 투자 이력 보유.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "위메이드",
+          "code": "112040",
+          "reason": "블록체인 게임 및 플랫폼 사업 영위.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "카카오",
+          "code": "035720",
+          "reason": "블록체인 기술 개발 및 서비스 연관성.",
+          "data_verified": true
+        }
+      ]
+    }
+  ]
+}
