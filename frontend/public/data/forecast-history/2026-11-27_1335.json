@@ -1,0 +1,265 @@
+{
+  "forecast_date": "2026년 11월 27일",
+  "generated_at": "2026-11-27T13:35:11.874812+09:00",
+  "market_context": "2026년 11월 27일 한국 주식시장은 글로벌 위험 회피 심리 속에서도 특정 성장 섹터와 방어적 성격의 테마에 대한 관심이 집중될 것으로 예상됩니다. 중동발 지정학적 리스크 고조로 인한 유가 상승과 안전자산 선호 심리가 강화되는 가운데, 국내에서는 반도체 및 AI 관련 기술주와 로봇 산업의 강한 수급 모멘텀이 확인되었습니다.",
+  "us_market_summary": "미국 증시는 S&P500 (-0.25%), NASDAQ (-0.62%) 등 주요 지수 및 기술주 섹터가 하락 마감하며 전반적인 투자 심리 위축을 시사했습니다. 반면 에너지(+0.74%) 및 금융(+0.71%) 섹터는 상대적 강세를 보였으며, WTI 유가(+2.47%)와 금 가격(+3.53%)이 크게 상승했습니다.",
+  "news_sources": [
+    {
+      "title": "Attention Required!",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBe88dwhEm97Ro-AM5b4WEpyTnfkGMYI9c3kXzzxA72bafbigJwteMDnEwBBRw36XTckAZnKNPMtEb0CQUKQtKvZg7a6YtUMKdlyr_9Iu7CDDCeHLsUOWBVeTiGkAInZ4rgUgeZUzv7SOfRxf6AswW48gCXa_shDFthmWmWWteMDCCOgmExtryhCjYt0lrhroWJ1NIbmVKy9gUPdEIcwN0pVw7MOq-sChEXFaKterNAgFIRcYq-ZB1NGkPhYXUeg-ryZqgPZavdaGoeEpLJX8OXsmuQWxZT4e8N4oTgDnBvM_7-PD60R45NqDj981tXFJfRXrl3RpDm6HReBdefDxhP5s4r9rc1avi0IVttXNxSrJA5rI0jLoSNA=="
+    },
+    {
+      "title": "einfomax.co.kr",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGk1-8a7SdP4yRMNXYRJuRVmW05RXIGlzGl8Ca-vA4a_krjKgnaANWyVmRxU_pw1FOegVcx-RCPqi1ml93ekiqoNlk8vtVoHOmKApo_AWv3F2sZB9x3gnJFOceMW0EnPxfJMBiRLY6hVSImMVTKu3BcVJCRlP4Kcfy4cw=="
+    },
+    {
+      "title": "[美증시] 오늘 추수감사절 전면 휴장…내일은 단축거래",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4BXV33FdFaFj9qILl8QNaii_oJZraYkN4w8-pBWyPoLsFZqD-NJgke-_uITgbcONcYP-pWaiCXyx-8sCBIKxc1Ebxm1fBhD11UzYhoLQ6zw2kVEciefNrtJB5zO-4LX2wf25r9A=="
+    },
+    {
+      "title": "美 금융시장 26일 '추수감사절'로 휴장…27일은 조기폐장",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5LBsM0fqKEHnsv_-MIQSgiBQ_t8Lh1-q8W8RmHE1O8W3kU_FDWa7mQArEZZ2h2rJ6cMuu9VoBJ3_CJR1dIPNNtYL3Ya7dW16By4O6giLqtRKzCe1-83WwvIQQdSlUOPwGgBgF"
+    },
+    {
+      "title": "미국증시 휴장일, 추수감사절로 휴장…27일 개장시간과 28일 새벽 3시 조기 폐장 확인하세요 > 뉴스",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpqokViT6_FpHFp0jWvzUQzBK97aTdmWIjurTQ4iFAG81_YlDwbh6c5SiWIlLcKNTdr7v-LSlo6DUwl1n3dB5KUshnxItj24JFy7tb0ptpQPGcPV8fhBqvPZL8Emfrgpax73kfXlCY-jnwGKZTSX-GmabGKZOwmbLKfv4TTKaT9CRPNg=="
+    },
+    {
+      "title": "증시는 폭락했는데, 연준은 금리 올린다?[11/23~27 투자캘린더]｜Global Money Club",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0d8N_iInTg9T29WmtgDt06jn0ApU0jT2rjqysoh8KVXUJKzVRwT0QuqGgKL3k9f0oMIxMwLcBERmT81RHmDx7cs6Rjskpydw23al5uCwR0RcAz5CpM80iJ5DZOQn7tP2WNshKRTs63Rc4"
+    },
+    {
+      "title": "[미국 증시] 美 주식 11월 26일 휴장일, 왜?…뉴욕증시 언제 재개되나",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcnwA2wzu8Cn3zEH1WBIjhMDykFMbrWjQO17yWWRIPP26pQoGE6g3HQbr_M_6gIxeCf3p6m3p4fCnIPzWMhL_WoeMeyhvIkQr9eQX_5-TW6MKtEGkS96sWPTcRl8PzUN6ju4FqgpSP53FAItp6mFaLMMQWMQ=="
+    },
+    {
+      "title": "AI 불안 속 美 증시 혼조 마감…관세·긴축 부담 여전",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMIVMNQR27Gr5iLznNuPtLowHR4f1x_FNCBVERZUMGr9ENyWE5zk1P-QyCwUpcKKzWX73unDcpRgpZWi7Q_f4UHAjnr7UUTMwmfUWPBMLuUl9F9Oi1a3mys8qxR8hPYbcJzY3-Z15-ShIwKFn7FGQaWYBlmFSkD13FrHbK"
+    },
+    {
+      "title": "[GAM] 애브비 300달러 돌파 ① 린버크 FDA 백반증 승인에 신고가 행진",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFL7ZnITO4pn_T4s4Lsk4SjveNBBgHuuZGzN6Le4iPMjaoRJ-5pDR9aqwMCJ-3MBJYCOb0dwTZxOgGCXOIuSEiHzxXtwONo0A6CShiwjYn1TxUUwBdSAkCLBpzfIgqY2vnjiwMi_jylJVc="
+    },
+    {
+      "title": "One moment, please...",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHamog2VkQErqgv1QeGZlDrQO7l-hO4k7SsNpkICFbD-G9J_6M4CkZ-z7KyP6YiBF-ZMrv6ii7oHhO6n9FuF9UpxBmDcRrJ45UsxCI_ECfltoDszy1UChGFSYs_Yg8dMZH0p0gnE9O0xLZSk-kxqf7SDGtn_xeI4OKKUJBMRA=="
+    },
+    {
+      "title": "[KFT 모닝 브리프] 2026.11.27 — 오늘 꼭 알아야 할 국내외 경제뉴스",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGK7koqPm7YJfK7KVP6BPpZRs6xGhLBD4nBSuinz4Z0boTbE39h9X3ru-gw8SfUktZ5qzU7QjTN1AG7aNV1VTq2fWIiWUtBDyZaIk35KkdBmRS0jhg6UuvJC4biS_GLk-3q9yG9Y8oBRVVmYv0s7hq6HQ1PaGbAW1F-Y4nJ_7lP6w=="
+    },
+    {
+      "title": "bae-min.com",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwHanz17sZ4MIoCBKx1IeQMMmZ5siyNT2KBSHFemCVC4v6eRxw0sugz1nifX0QfayQtCWHYAiwOGu2SrWgxQMUAYelG7_6eNCNhNF2Rq37jTEYJ6PgwZt87o4591qpRJqlwrmUpV8YKeVKvt4EAsduZ7cZByxQq_mR4kTunB-8SNGwVhr2XpVN8iMLDoLLwfzxBCl5Nd-AUT5Cnw4E_PxSokErdCt3Z7LC2bNCbkxxF_dnNdRnZgZPD9pExYh0ZxRFoc4Ce9W-OOBPz7Wd6kOBzuhPaz6kHvqvz2Koxpr-orNFnQVMYYrHz_SCjMrObBl_WZxLIgpTLM7q2qqWeZ9pLKSy4ZXMDu4iS9uFN-lpv2ok6Tg37wBNmj2KeDsafEN3g3A_QkBGjkFQuMh-cTMHl3oB1TpMI9GpJS_BJ0_OGxrz4Fg2GgZOA5irte5_MycpT8hagDalQB6n0CZmD5GnJD68vLZQao6onK0ypCvNChb2aA55_GrGQsI25QMzgMM2p-UTLgv3qssXN54Ji6Nkp3KjQsrxSctF06lvm629XOcU8a6numkjplYme0OOALCThslR13w="
+    },
+    {
+      "title": "[아침 경제 브리핑] 11월 27일…한은 금리 인상·성장률 상향·홈플러스 휴업 外 : 경제 : 재경일보",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEX82jvR_4N_0WKrvv57k2e5iommoMHlXYqmh5QisBnnTeHYEHvWBWLBRL7AN0sN31zuFgyIz4LG4SbhNwf7rLvwkKH96TueWR8jyV5sKIwTZF2Wq58PDPF0jveMDCF"
+    },
+    {
+      "title": "“내년 성장률 2.9→4.1%” 한은, 전망치 대폭 올려｜동아일보",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH6TMGS6d6G_hUCqPpMg5SpYg-ZnMj5KCl334l46ymRTVDtok5UzUTPGOgGiIfp0EI1dYWXYuJHEi7yuxAM_iM01xuReVGL_XLP_XwdcaS23W-9-mjQwZB3NNfiG8f-SRj1h10gROzvHpHFN78j_9s8bYueUyUf96kX7RVBX4="
+    },
+    {
+      "title": "Just a moment...",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-HFBEYUJ04qzujpxm4zHEi71inPVF-cLVuU9mnb63XK8aTIoH0yeGRvi65oLsIQ8BlliAoT5S76u-1vF5h00t96cjegH9C0jMTU1UB_J3c9FRvFKKPWHS-lc7aTfxYuKU8Dk="
+    },
+    {
+      "title": "[리포트 브리핑]SK텔레콤, '2027년 전망' 목표가 140,000원",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9dIHsH-nH-9Mcm8eG1b9fgkejNdCB8bvP2BVEMXLT66X49ZLKCiLosgqcT3lexsCeyuK4zA6TtYkGaj1Pim_GGwkKNXUMiGAoCJ85S7wus9QX2bfT6toCee9vBrP_PFiEY-MeGEscr6w="
+    },
+    {
+      "title": "증안펀드 10.7조→20조 이상 확대 검토…출자 협의 증권사에 NH證 추가-인베스트조선",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYjeaw2MNa6rCXni4xvyw1InHQG6Yp3YEVNzBkb5q-Cr3cH359zW2UHaEpxAz-w3RrZ5cU5TvW9xpGevt4hSFw5T-dzCfhOU78XFWBoHec6lV9uwH0OYyfDVcaaBUWEE-UZq39jqyhMU1DDsbJt5_Y3JorXSJ99p_5FwcqUVMp8IeC4ZBauCmr"
+    },
+    {
+      "title": "2026년 12월 경제일정｜미국 금리·고용·물가와 연말정산",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqp4JW1AWWJ93QZtI8eZBQkFt9RLIRNIM-2oKEkJ-zSCpTaxSxbhuBd6W6dJ088lfOG-4BmXtV2v6skk0yN2XEnHetBkvMBKz8qktPfswGhdN2qFTr9uLGf-Kvww1K_HWtWA2Kd3wIbLCQaPkWyycbiVxK"
+    },
+    {
+      "title": "2026년 12월 증시 일정 · 캘린더",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvEmq9DnIJttJWjvTiPz9mx_qJJ9hybLaQIUz4fPqX8BMNEvgILZMtckSiW_bkuHMQV1bjoEoZhnfmt9m05IoUAnDde_IpAM0VOfKMnJSml1zx_qILPwtFWnpa5P61mw=="
+    },
+    {
+      "title": "역대 최대 규모 '컴업(COMEUP) 2026'의 시작을 알리다 - 보도자료 | 브리핑룸 | 대한민국 정책브리핑",
+      "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_04V0hexA59hLb9V-t9UQZJMt8Hpn2FePDaETChQ9pfhV2SGJNqx_fak6Kt2cIBZv3YXQnMXT_cJR9fBYcJF7K4TaQ-aDD7Patfwuf9BVsD42k76c8iNEucvamAK2T8c4tf7l59k53ghgXAz4b1eYQYGyz0WxvrPadEDM-nWFizQepRPAnKM1CTwqZzL0ARUCFDo85A=="
+    }
+  ],
+  "today": [
+    {
+      "theme_name": "반도체 및 AI (인공지능)",
+      "description": "글로벌 AI 기술 발전 가속화 및 AI 반도체 수요 증가, 국내 주요 반도체 기업들의 실적 개선 기대감, 전일 미국 증시 기술주 약세 속에서도 국내 반도체 대형주 및 장비주에 대한 외국인/기관의 강한 순매수 유입으로 이 테마가 오늘 부각될 것으로 예상됩니다.",
+      "catalyst": "AI 반도체 수요 증가 및 국내 반도체 기업 실적 개선 기대감",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "전일 코스피 거래대금 2위 및 외국인/기관 동반 순매수를 기록했습니다. 종합 반도체 기업으로서 AI 시대의 핵심 인프라 제공자 역할을 할 것으로 예상됩니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "주성엔지니어링",
+          "code": "036930",
+          "reason": "전일 코스피 등락률 +12.39%를 기록하며 높은 상승세를 보였고, 외국인/기관 동반 2일 연속 순매수가 확인되었습니다. 반도체 장비 국산화 및 기술력으로 AI 반도체 투자 확대의 수혜를 받을 것으로 기대됩니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "전일 코스피 거래대금 최상위 및 외국인 2일 연속 순매수를 기록하며 시장의 강력한 관심을 받았습니다. AI 반도체 핵심인 HBM 시장의 선두 주자로서 지속적인 성장 모멘텀이 기대됩니다.",
+          "data_verified": true
+        }
+      ],
+      "confidence_note": "최근 적중률 33.3%로 하향 보정"
+    },
+    {
+      "theme_name": "로봇",
+      "description": "산업 자동화 및 로봇 기술의 다양한 산업 분야 적용 확대 기대감, 정부의 로봇 산업 육성 정책 지속, 전일 국내 시장에서 로봇 관련주들의 높은 상승률과 기관 매수세 집중으로 이 테마가 오늘 부각될 것으로 예상됩니다.",
+      "catalyst": "산업 자동화 및 로봇 기술 적용 확대, 정부 정책 지원",
+      "confidence": "높음",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "로보티즈",
+          "code": "108490",
+          "reason": "전일 코스피 등락률 +6.77%를 기록했으며, 외국인/기관 동반 순매수 및 기관 5일 연속 순매수가 확인되었습니다. 서비스 로봇 및 로봇 부품 기술력을 바탕으로 시장의 관심을 받을 것으로 예상됩니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "레인보우로보틱스",
+          "code": "277810",
+          "reason": "전일 코스피 등락률 +10.71%를 기록하며 높은 상승세를 보였고, 기관 11일 연속 순매수가 확인되었습니다. 국내 협동 로봇 시장의 선두 주자로서 지속적인 성장이 기대됩니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "클로봇",
+          "code": "466100",
+          "reason": "전일 코스닥 등락률 +26.85%로 급등했으며, 기관 5일 연속 순매수가 확인되었습니다. 로봇 통합 솔루션 제공 기업으로, 다양한 산업 분야에서의 로봇 도입 확대 수혜가 기대됩니다.",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "바이오/제약",
+      "description": "전반적인 시장 불안정성 속에서 개별 기업의 임상 진행, 신약 개발 기대감 또는 실적 개선 기대감에 따른 기관 매수세 유입으로 이 테마가 오늘 부각될 것으로 예상됩니다.",
+      "catalyst": "개별 기업 임상 진행 및 신약 개발 기대감, 기관 매수세 유입",
+      "confidence": "보통",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "SK바이오팜",
+          "code": "326030",
+          "reason": "전일 코스닥 등락률 +9.06%를 기록했으며, 외국인/기관 동반 순매수 및 기관 11일 연속 순매수가 확인되었습니다. 중추신경계 신약 개발에 대한 기대감이 지속될 수 있습니다.",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "디앤디파마텍",
+          "code": "347850",
+          "reason": "전일 코스닥 등락률 +14.68%를 기록하며 높은 상승세를 보였고, 기관 4일 연속 순매수가 확인되었습니다. 비만 및 대사질환 치료제 개발에 대한 기대감이 유효합니다.",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "short_term": [
+    {
+      "theme_name": "배당주",
+      "description": "12월은 연말 배당 시즌을 앞두고 배당주에 대한 관심이 높아지는 시기입니다. 12월 30일이 2026년 마지막 거래일이자 배당 기준일이므로, 안정적인 배당 수익을 기대할 수 있는 기업들에 대한 매력이 부각될 것입니다. 시장의 불확실성이 높은 상황에서 배당주는 방어적 투자처로 주목받을 수 있습니다.",
+      "catalyst": "연말 배당 시즌 도래 및 배당 기준일 임박",
+      "confidence": "높음",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "대규모 배당 지급 계획",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "KB금융",
+          "code": "105560",
+          "reason": "고배당 정책을 유지하는 금융 대장주",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "reason": "대규모 주주환원 계획 (배당 포함 가능성)",
+          "data_verified": true
+        }
+      ]
+    },
+    {
+      "theme_name": "기술 성장주 (스타트업/벤처 투자 관련)",
+      "description": "12월 9일부터 11일까지 개최되는 '컴업(COMEUP) 2026'은 글로벌 스타트업 축제로, 스타트업 생태계 활성화 및 벤처 투자 관련 테마에 긍정적인 영향을 줄 수 있습니다. 특히 AI, 반도체, 로봇 등 첨단 기술 분야 스타트업들이 주목받으며 관련 투자사나 기술 협력 기업들이 수혜를 입을 가능성이 있습니다.",
+      "catalyst": "글로벌 스타트업 축제 '컴업 2026' 개최",
+      "confidence": "보통",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "미래에셋벤처투자",
+          "code": "100790",
+          "reason": "벤처캐피탈 대표주",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "SBI인베스트먼트",
+          "code": "019550",
+          "reason": "벤처캐피탈 대표주",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "에이티넘인베스트",
+          "code": "021080",
+          "reason": "벤처캐피탈 대표주",
+          "data_verified": true
+        }
+      ]
+    }
+  ],
+  "long_term": [
+    {
+      "theme_name": "거시경제 민감주",
+      "description": "12월 초 발표될 미국 11월 고용보고서, 12월 10일 미국 연방공개시장위원회(FOMC) 금리 결정 및 11월 소비자물가지수(CPI) 발표는 글로벌 유동성 및 금리 향방에 결정적인 영향을 미칠 것입니다. 인플레이션과 긴축 기조가 강화될 경우 성장주나 부채 부담이 큰 기업들은 부정적인 영향을, 물가 안정 시그널이 나타나면 금리 인상 속도 조절 기대감에 성장주가 반등할 여지가 있습니다.",
+      "catalyst": "미국 고용보고서, CPI, FOMC 금리 결정 발표",
+      "confidence": "높음",
+      "target_period": "1개월 이내",
+      "leader_stocks": [
+        {
+          "priority": 1,
+          "name": "KB금융",
+          "code": "105560",
+          "reason": "금리 인상 수혜주로 꼽히는 은행 대표주",
+          "data_verified": true
+        },
+        {
+          "priority": 2,
+          "name": "삼성전자",
+          "code": "005930",
+          "reason": "글로벌 경기 및 금리 변동에 민감한 대표 성장주",
+          "data_verified": true
+        },
+        {
+          "priority": 3,
+          "name": "삼성생명",
+          "code": "032830",
+          "reason": "금리 인상 수혜주로 꼽히는 보험 대표주",
+          "data_verified": true
+        }
+      ]
+    }
+  ]
+}
